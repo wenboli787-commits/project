@@ -1,0 +1,6 @@
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+PyYAML>=6.0
+# Optional only for --simulator mujoco with FK, joint limits, or inverse dynamics:
+# mujoco>=3.0

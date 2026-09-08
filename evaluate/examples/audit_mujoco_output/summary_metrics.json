@@ -1,0 +1,440 @@
+{
+  "run": {
+    "simulator": "mujoco",
+    "robot_model": "D:\\GMR_WORK\\GMR\\assets\\unitree_g1\\g1_mocap_29dof.xml",
+    "reference_path": "D:\\GMR_WORK\\ubisoft-laforge-animation-dataset\\lafan1\\extracted\\dance1_subject2.bvh",
+    "mapping_path": "D:\\GMR_WORK\\GMR\\evaluate\\config\\eval_mapping_template.yaml",
+    "candidate_paths": {
+      "Direct Mapping": "D:\\GMR_WORK\\GMR\\outputs\\direct_mapping\\dance1_subject2_unitree_g1_direct_mapping.pkl",
+      "Basic IK": "D:\\GMR_WORK\\GMR\\outputs\\direct_mapping\\dance1_subject2_unitree_g1_direct_mapping.pkl",
+      "GMR / Constrained IK": "D:\\GMR_WORK\\GMR\\outputs\\direct_mapping\\dance1_subject2_unitree_g1_direct_mapping.pkl"
+    },
+    "resample": false
+  },
+  "alignment": {
+    "Direct Mapping": {
+      "reference_fps": 30.000300003000028,
+      "candidate_fps": 30.0,
+      "resampled": false,
+      "trimmed": true,
+      "fps_mismatch_without_resampling": true,
+      "evaluated_frames": 100,
+      "normalization": {
+        "scale": 1.0,
+        "root_aligned": true,
+        "heading_aligned": false,
+        "scale_warning": "unavailable: no usable height landmarks"
+      }
+    },
+    "Basic IK": {
+      "reference_fps": 30.000300003000028,
+      "candidate_fps": 30.0,
+      "resampled": false,
+      "trimmed": true,
+      "fps_mismatch_without_resampling": true,
+      "evaluated_frames": 100,
+      "normalization": {
+        "scale": 1.0,
+        "root_aligned": true,
+        "heading_aligned": false,
+        "scale_warning": "unavailable: no usable height landmarks"
+      }
+    },
+    "GMR / Constrained IK": {
+      "reference_fps": 30.000300003000028,
+      "candidate_fps": 30.0,
+      "resampled": false,
+      "trimmed": true,
+      "fps_mismatch_without_resampling": true,
+      "evaluated_frames": 100,
+      "normalization": {
+        "scale": 1.0,
+        "root_aligned": true,
+        "heading_aligned": false,
+        "scale_warning": "unavailable: no usable height landmarks"
+      }
+    }
+  },
+  "warnings": [
+    "dance1_subject2_unitree_g1_direct_mapping: configured foot bodies were not found in the MuJoCo model; exact contacts skipped.",
+    "dance1_subject2_unitree_g1_direct_mapping: no torque/ctrl or dof_vel; inverse-dynamics effort is unavailable.",
+    "dance1_subject2_unitree_g1_direct_mapping: configured foot bodies were not found in the MuJoCo model; exact contacts skipped.",
+    "dance1_subject2_unitree_g1_direct_mapping: no torque/ctrl or dof_vel; inverse-dynamics effort is unavailable.",
+    "dance1_subject2_unitree_g1_direct_mapping: configured foot bodies were not found in the MuJoCo model; exact contacts skipped.",
+    "dance1_subject2_unitree_g1_direct_mapping: no torque/ctrl or dof_vel; inverse-dynamics effort is unavailable."
+  ],
+  "methods": {
+    "Direct Mapping": {
+      "end_effector_position_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable",
+        "aggregate_mean": "unavailable"
+      },
+      "root_trajectory_error": "unavailable",
+      "rotation_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "velocity_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "contact": {
+        "foot_contact_accuracy": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        },
+        "foot_sliding": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        },
+        "ground_penetration": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable",
+          "aggregate": "unavailable"
+        }
+      },
+      "joint_limit_violation": {
+        "violation_frame_ratio": 0.0,
+        "violation_value_ratio": 0.0,
+        "per_joint_violation_count": {
+          "dof_0": 0,
+          "dof_1": 0,
+          "dof_2": 0,
+          "dof_3": 0,
+          "dof_4": 0,
+          "dof_5": 0,
+          "dof_6": 0,
+          "dof_7": 0,
+          "dof_8": 0,
+          "dof_9": 0,
+          "dof_10": 0,
+          "dof_11": 0,
+          "dof_12": 0,
+          "dof_13": 0,
+          "dof_14": 0,
+          "dof_15": 0,
+          "dof_16": 0,
+          "dof_17": 0,
+          "dof_18": 0,
+          "dof_19": 0,
+          "dof_20": 0,
+          "dof_21": 0,
+          "dof_22": 0,
+          "dof_23": 0,
+          "dof_24": 0,
+          "dof_25": 0,
+          "dof_26": 0,
+          "dof_27": 0,
+          "dof_28": 0
+        },
+        "max_violation_amount": 0.0,
+        "mean_violation_amount": 0.0
+      },
+      "smoothness": {
+        "dof": {
+          "mean_joint_velocity": 0.04159079323286272,
+          "max_joint_velocity": 0.2914408326944766,
+          "mean_joint_acceleration": 0.3595314504117911,
+          "max_joint_acceleration": 3.1421026357546142,
+          "mean_jerk": 6.696928497372064,
+          "max_jerk": 60.635757086906786
+        },
+        "end_effectors": {
+          "root": {
+            "mean_velocity": 0.044563378857799686,
+            "max_velocity": 0.12959801897858966,
+            "mean_acceleration": 0.1334775807677666,
+            "max_acceleration": 0.35125848376787827,
+            "mean_jerk": 0.9780416608935635,
+            "max_jerk": 2.519544041509003
+          },
+          "head": "unavailable",
+          "left_hand": "unavailable",
+          "right_hand": "unavailable",
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        }
+      },
+      "stability": {
+        "fall_detected": false,
+        "fall_frame": null,
+        "survival_time_s": 3.3333333333333335,
+        "fall_rate": 0.0,
+        "min_base_height": 0.80173908548521,
+        "max_torso_tilt_deg": "unavailable"
+      },
+      "effort_energy": "unavailable",
+      "tracking_error": "unavailable",
+      "locomotion_task_success": {
+        "root_displacement": 0.09092695360503107,
+        "travel_distance": 0.14474028552049253,
+        "average_speed": 0.04386069258196744,
+        "heading_error_deg": 101.84562776965792,
+        "moved_forward": false,
+        "fell": false,
+        "success_flag": false
+      }
+    },
+    "Basic IK": {
+      "end_effector_position_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable",
+        "aggregate_mean": "unavailable"
+      },
+      "root_trajectory_error": "unavailable",
+      "rotation_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "velocity_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "contact": {
+        "foot_contact_accuracy": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        },
+        "foot_sliding": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        },
+        "ground_penetration": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable",
+          "aggregate": "unavailable"
+        }
+      },
+      "joint_limit_violation": {
+        "violation_frame_ratio": 0.0,
+        "violation_value_ratio": 0.0,
+        "per_joint_violation_count": {
+          "dof_0": 0,
+          "dof_1": 0,
+          "dof_2": 0,
+          "dof_3": 0,
+          "dof_4": 0,
+          "dof_5": 0,
+          "dof_6": 0,
+          "dof_7": 0,
+          "dof_8": 0,
+          "dof_9": 0,
+          "dof_10": 0,
+          "dof_11": 0,
+          "dof_12": 0,
+          "dof_13": 0,
+          "dof_14": 0,
+          "dof_15": 0,
+          "dof_16": 0,
+          "dof_17": 0,
+          "dof_18": 0,
+          "dof_19": 0,
+          "dof_20": 0,
+          "dof_21": 0,
+          "dof_22": 0,
+          "dof_23": 0,
+          "dof_24": 0,
+          "dof_25": 0,
+          "dof_26": 0,
+          "dof_27": 0,
+          "dof_28": 0
+        },
+        "max_violation_amount": 0.0,
+        "mean_violation_amount": 0.0
+      },
+      "smoothness": {
+        "dof": {
+          "mean_joint_velocity": 0.04159079323286272,
+          "max_joint_velocity": 0.2914408326944766,
+          "mean_joint_acceleration": 0.3595314504117911,
+          "max_joint_acceleration": 3.1421026357546142,
+          "mean_jerk": 6.696928497372064,
+          "max_jerk": 60.635757086906786
+        },
+        "end_effectors": {
+          "root": {
+            "mean_velocity": 0.044563378857799686,
+            "max_velocity": 0.12959801897858966,
+            "mean_acceleration": 0.1334775807677666,
+            "max_acceleration": 0.35125848376787827,
+            "mean_jerk": 0.9780416608935635,
+            "max_jerk": 2.519544041509003
+          },
+          "head": "unavailable",
+          "left_hand": "unavailable",
+          "right_hand": "unavailable",
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        }
+      },
+      "stability": {
+        "fall_detected": false,
+        "fall_frame": null,
+        "survival_time_s": 3.3333333333333335,
+        "fall_rate": 0.0,
+        "min_base_height": 0.80173908548521,
+        "max_torso_tilt_deg": "unavailable"
+      },
+      "effort_energy": "unavailable",
+      "tracking_error": "unavailable",
+      "locomotion_task_success": {
+        "root_displacement": 0.09092695360503107,
+        "travel_distance": 0.14474028552049253,
+        "average_speed": 0.04386069258196744,
+        "heading_error_deg": 101.84562776965792,
+        "moved_forward": false,
+        "fell": false,
+        "success_flag": false
+      }
+    },
+    "GMR / Constrained IK": {
+      "end_effector_position_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable",
+        "aggregate_mean": "unavailable"
+      },
+      "root_trajectory_error": "unavailable",
+      "rotation_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "velocity_error": {
+        "root": "unavailable",
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "contact": {
+        "foot_contact_accuracy": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        },
+        "foot_sliding": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        },
+        "ground_penetration": {
+          "left_foot": "unavailable",
+          "right_foot": "unavailable",
+          "aggregate": "unavailable"
+        }
+      },
+      "joint_limit_violation": {
+        "violation_frame_ratio": 0.0,
+        "violation_value_ratio": 0.0,
+        "per_joint_violation_count": {
+          "dof_0": 0,
+          "dof_1": 0,
+          "dof_2": 0,
+          "dof_3": 0,
+          "dof_4": 0,
+          "dof_5": 0,
+          "dof_6": 0,
+          "dof_7": 0,
+          "dof_8": 0,
+          "dof_9": 0,
+          "dof_10": 0,
+          "dof_11": 0,
+          "dof_12": 0,
+          "dof_13": 0,
+          "dof_14": 0,
+          "dof_15": 0,
+          "dof_16": 0,
+          "dof_17": 0,
+          "dof_18": 0,
+          "dof_19": 0,
+          "dof_20": 0,
+          "dof_21": 0,
+          "dof_22": 0,
+          "dof_23": 0,
+          "dof_24": 0,
+          "dof_25": 0,
+          "dof_26": 0,
+          "dof_27": 0,
+          "dof_28": 0
+        },
+        "max_violation_amount": 0.0,
+        "mean_violation_amount": 0.0
+      },
+      "smoothness": {
+        "dof": {
+          "mean_joint_velocity": 0.04159079323286272,
+          "max_joint_velocity": 0.2914408326944766,
+          "mean_joint_acceleration": 0.3595314504117911,
+          "max_joint_acceleration": 3.1421026357546142,
+          "mean_jerk": 6.696928497372064,
+          "max_jerk": 60.635757086906786
+        },
+        "end_effectors": {
+          "root": {
+            "mean_velocity": 0.044563378857799686,
+            "max_velocity": 0.12959801897858966,
+            "mean_acceleration": 0.1334775807677666,
+            "max_acceleration": 0.35125848376787827,
+            "mean_jerk": 0.9780416608935635,
+            "max_jerk": 2.519544041509003
+          },
+          "head": "unavailable",
+          "left_hand": "unavailable",
+          "right_hand": "unavailable",
+          "left_foot": "unavailable",
+          "right_foot": "unavailable"
+        }
+      },
+      "stability": {
+        "fall_detected": false,
+        "fall_frame": null,
+        "survival_time_s": 3.3333333333333335,
+        "fall_rate": 0.0,
+        "min_base_height": 0.80173908548521,
+        "max_torso_tilt_deg": "unavailable"
+      },
+      "effort_energy": "unavailable",
+      "tracking_error": "unavailable",
+      "locomotion_task_success": {
+        "root_displacement": 0.09092695360503107,
+        "travel_distance": 0.14474028552049253,
+        "average_speed": 0.04386069258196744,
+        "heading_error_deg": 101.84562776965792,
+        "moved_forward": false,
+        "fell": false,
+        "success_flag": false
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+# Copy this file per robot/action and replace every body/joint name with names
+# from your own MJCF, USD export, or offline log. Canonical quaternions are wxyz.
+simulator:
+  type: "offline"  # mujoco, isaac, offline
+
+robot:
+  model_path: "path/to/model.xml_or_model.usd"
+  root_body: "pelvis"
+  torso_body: "torso"
+  head_body: "head"
+  left_hand_body: "left_hand"
+  right_hand_body: "right_hand"
+  left_foot_body: "left_foot"
+  right_foot_body: "right_foot"
+
+reference:
+  root_joint: "pelvis"
+  head_joint: "head"
+  left_hand_joint: "left_wrist"
+  right_hand_joint: "right_wrist"
+  left_foot_joint: "left_ankle"
+  right_foot_joint: "right_ankle"
+
+# Input quaternions in the existing GMR pkl, Isaac logs and common exports are
+# usually xyzw. They are converted to canonical wxyz as they enter the tool.
+input:
+  fps: 30.0
+  quaternion_order: "xyzw"  # xyzw or wxyz
+  # For a bare .npy array: auto treats [T,J,3] as reference landmarks and
+  # [T,D] as dof_pos. Set dof_pos or joint_positions_ref to remove ambiguity.
+  array_type: "auto"
+  # joint_names_ref: ["pelvis", "head", "left_wrist", "right_wrist"]
+
+isaac:
+  expected_keys:
+    root_state: "root_state"
+    dof_pos: "dof_pos"
+    dof_vel: "dof_vel"
+    rigid_body_state: "rigid_body_state"
+    contact_forces: "contact_forces"
+    torques: "torques"
+    actions: "actions"
+    body_names: "body_names"
+    dof_names: "dof_names"
+  # Optional for offline Isaac logs when limits are not embedded in the file:
+  # dof_limits:
+  #   lower: [-1.0, -1.0]
+  #   upper: [ 1.0,  1.0]
+
+mujoco:
+  expected_keys:
+    qpos: "qpos"
+    qvel: "qvel"
+    ctrl: "ctrl"
+
+offline:
+  expected_keys:
+    root_pos: "root_pos"
+    root_quat: "root_quat"
+    body_positions: "body_positions"
+    body_quats: "body_quats"
+    dof_pos: "dof_pos"
+    dof_vel: "dof_vel"
+    foot_contacts: "foot_contacts"
+
+thresholds:
+  ground_height: 0.0
+  foot_contact_height: 0.05
+  foot_contact_velocity: 0.2
+  foot_contact_force: 5.0
+  foot_sliding_velocity: 0.15
+  fall_base_height: 0.45
+  fall_torso_tilt_deg: 60.0
+  min_forward_displacement: 0.3
+  max_allowed_foot_sliding: 0.25
+  max_allowed_joint_limit_violation_ratio: 0.05
+  max_allowed_ground_penetration: 0.03
+
+metrics:
+  compute_pose_similarity: true
+  compute_end_effector_error: true
+  compute_root_error: true
+  compute_rotation_error: true
+  compute_velocity_error: true
+  compute_contact_metrics: true
+  compute_joint_limit_violation: true
+  compute_smoothness: true
+  compute_stability: true
+  compute_energy: true
+  compute_tracking_error: true
+  compute_task_success: true
+
+normalization:
+  enable_scale_normalization: true
+  scale_by: "height"  # height, leg_length, none
+  align_root_at_first_frame: true
+  align_heading_at_first_frame: true
+
+temporal:
+  # false: first clip all motions to the shortest frame count.
+  # true: interpolate candidates to reference FPS, then clip if needed.
+  resample_to_reference_fps: false

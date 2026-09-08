@@ -1,0 +1,5 @@
+loop_rate_limiters
+scipy
+rich
+tqdm
+imageio[ffmpeg]

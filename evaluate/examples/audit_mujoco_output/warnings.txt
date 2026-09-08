@@ -1,0 +1,6 @@
+dance1_subject2_unitree_g1_direct_mapping: configured foot bodies were not found in the MuJoCo model; exact contacts skipped.
+dance1_subject2_unitree_g1_direct_mapping: no torque/ctrl or dof_vel; inverse-dynamics effort is unavailable.
+dance1_subject2_unitree_g1_direct_mapping: configured foot bodies were not found in the MuJoCo model; exact contacts skipped.
+dance1_subject2_unitree_g1_direct_mapping: no torque/ctrl or dof_vel; inverse-dynamics effort is unavailable.
+dance1_subject2_unitree_g1_direct_mapping: configured foot bodies were not found in the MuJoCo model; exact contacts skipped.
+dance1_subject2_unitree_g1_direct_mapping: no torque/ctrl or dof_vel; inverse-dynamics effort is unavailable.

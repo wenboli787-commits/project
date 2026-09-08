@@ -1,0 +1,869 @@
+{
+  "run": {
+    "simulator": "offline",
+    "robot_model": null,
+    "reference_path": "D:\\GMR_WORK\\GMR\\evaluate\\examples\\dummy_data\\dummy_reference_motion.npz",
+    "mapping_path": "D:\\GMR_WORK\\GMR\\evaluate\\config\\eval_mapping_template.yaml",
+    "candidate_paths": {
+      "Direct Mapping": "D:\\GMR_WORK\\GMR\\evaluate\\examples\\dummy_data\\dummy_direct_mapping_result.npz",
+      "Basic IK": "D:\\GMR_WORK\\GMR\\evaluate\\examples\\dummy_data\\dummy_basic_ik_result.npz",
+      "GMR / Constrained IK": "D:\\GMR_WORK\\GMR\\evaluate\\examples\\dummy_data\\dummy_gmr_result.npz"
+    },
+    "resample": false
+  },
+  "alignment": {
+    "Direct Mapping": {
+      "reference_fps": 30.0,
+      "candidate_fps": 30.0,
+      "resampled": false,
+      "trimmed": false,
+      "evaluated_frames": 180,
+      "normalization": {
+        "scale": 1.0245104341919553,
+        "root_aligned": true,
+        "heading_aligned": true
+      }
+    },
+    "Basic IK": {
+      "reference_fps": 30.0,
+      "candidate_fps": 30.0,
+      "resampled": false,
+      "trimmed": false,
+      "evaluated_frames": 180,
+      "normalization": {
+        "scale": 1.001814284071615,
+        "root_aligned": true,
+        "heading_aligned": true
+      }
+    },
+    "GMR / Constrained IK": {
+      "reference_fps": 30.0,
+      "candidate_fps": 30.0,
+      "resampled": false,
+      "trimmed": false,
+      "evaluated_frames": 180,
+      "normalization": {
+        "scale": 1.0014555533339113,
+        "root_aligned": true,
+        "heading_aligned": true
+      }
+    }
+  },
+  "warnings": [],
+  "methods": {
+    "Direct Mapping": {
+      "end_effector_position_error": {
+        "root": {
+          "mean": 0.11327675800760739,
+          "max": 0.19090267800268504,
+          "min": 0.0
+        },
+        "head": {
+          "mean": 0.18050160917505428,
+          "max": 0.3552753054807189,
+          "min": 0.029746803543327514
+        },
+        "left_hand": {
+          "mean": 0.19431940088601862,
+          "max": 0.4742435862052864,
+          "min": 0.026307540259036755
+        },
+        "right_hand": {
+          "mean": 0.19647368412357902,
+          "max": 0.4222251042766095,
+          "min": 0.04177067360057424
+        },
+        "left_foot": {
+          "mean": 0.195822532624414,
+          "max": 0.3674550237534176,
+          "min": 0.019049883394469894
+        },
+        "right_foot": {
+          "mean": 0.20114864868975263,
+          "max": 0.43363441945023046,
+          "min": 0.012519997798962328
+        },
+        "aggregate_mean": 0.18025710558440433
+      },
+      "root_trajectory_error": {
+        "position": {
+          "mean": 0.11327675800760739,
+          "max": 0.19090267800268504,
+          "min": 0.0
+        },
+        "xy": {
+          "mean": 0.11128443164362008,
+          "max": 0.1907132340535631,
+          "min": 0.0
+        },
+        "height": {
+          "mean": 0.016516342126553705,
+          "max": 0.053942506715622174,
+          "min": 0.0
+        },
+        "orientation": {
+          "mean": 0.0,
+          "max": 0.0,
+          "min": 0.0,
+          "mean_degrees": 0.0,
+          "max_degrees": 0.0
+        },
+        "velocity": {
+          "mean": 0.6922818886690907,
+          "max": 2.0583483939015967,
+          "min": 0.10510490738291767
+        }
+      },
+      "rotation_error": {
+        "root": {
+          "mean": 0.0,
+          "max": 0.0,
+          "min": 0.0,
+          "mean_degrees": 0.0,
+          "max_degrees": 0.0
+        },
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "velocity_error": {
+        "root": {
+          "mean": 0.6922818886690907,
+          "max": 2.0583483939015967,
+          "min": 0.10510490738291767
+        },
+        "head": {
+          "mean": 3.1246954757972514,
+          "max": 6.012136644847056,
+          "min": 0.5309814011335299
+        },
+        "left_hand": {
+          "mean": 3.5167573352792134,
+          "max": 8.656558253093285,
+          "min": 0.24908706750107495
+        },
+        "right_hand": {
+          "mean": 3.426420695819925,
+          "max": 8.399305565916105,
+          "min": 0.5969367770749245
+        },
+        "left_foot": {
+          "mean": 3.5928095047057393,
+          "max": 13.041835371202312,
+          "min": 0.5128194179917103
+        },
+        "right_foot": {
+          "mean": 3.4063545872675567,
+          "max": 7.017221377543885,
+          "min": 0.7529592184126637
+        }
+      },
+      "contact": {
+        "foot_contact_accuracy": {
+          "left_foot": {
+            "accuracy": 0.6333333333333333,
+            "precision": 0.6736842105263158,
+            "recall": 0.6464646464646465,
+            "f1": 0.6597938144329898,
+            "mismatch_rate": 0.36666666666666664,
+            "reference_source": "logged_contact",
+            "robot_source": "logged_contact"
+          },
+          "right_foot": {
+            "accuracy": 0.6666666666666666,
+            "precision": 0.7415730337078652,
+            "recall": 0.6407766990291263,
+            "f1": 0.6875,
+            "mismatch_rate": 0.3333333333333333,
+            "reference_source": "logged_contact",
+            "robot_source": "logged_contact"
+          }
+        },
+        "foot_sliding": {
+          "left_foot": {
+            "mean_sliding_speed": 2.655555087121281,
+            "max_sliding_speed": 6.595680126605328,
+            "sliding_frame_ratio": 0.5277777777777778,
+            "contact_source": "logged_contact"
+          },
+          "right_foot": {
+            "mean_sliding_speed": 2.890271520019025,
+            "max_sliding_speed": 6.514112025248349,
+            "sliding_frame_ratio": 0.49444444444444446,
+            "contact_source": "logged_contact"
+          }
+        },
+        "ground_penetration": {
+          "left_foot": {
+            "min_height": -0.24552627587762627,
+            "max_penetration_depth": 0.24552627587762627,
+            "penetration_frame_ratio": 0.37777777777777777
+          },
+          "right_foot": {
+            "min_height": -0.2795171218548817,
+            "max_penetration_depth": 0.2795171218548817,
+            "penetration_frame_ratio": 0.34444444444444444
+          },
+          "aggregate": {
+            "min_foot_height": -0.2795171218548817,
+            "max_penetration_depth": 0.2795171218548817,
+            "penetration_frame_ratio": 0.6055555555555555
+          }
+        }
+      },
+      "joint_limit_violation": {
+        "violation_frame_ratio": 0.6055555555555555,
+        "violation_value_ratio": 0.050462962962962966,
+        "per_joint_violation_count": {
+          "joint_0": 109,
+          "joint_1": 0,
+          "joint_2": 0,
+          "joint_3": 0,
+          "joint_4": 0,
+          "joint_5": 0,
+          "joint_6": 0,
+          "joint_7": 0,
+          "joint_8": 0,
+          "joint_9": 0,
+          "joint_10": 0,
+          "joint_11": 0
+        },
+        "max_violation_amount": 0.5499965891862925,
+        "mean_violation_amount": 0.35875241985613926
+      },
+      "smoothness": {
+        "dof": {
+          "mean_joint_velocity": 1.6328356135284428,
+          "max_joint_velocity": 4.673020107703807,
+          "mean_joint_acceleration": 13.26507703817365,
+          "max_joint_acceleration": 54.59260071567737,
+          "mean_jerk": 120.95404742397862,
+          "max_jerk": 637.7580563274089
+        },
+        "end_effectors": {
+          "root": {
+            "mean_velocity": 0.9974226471491273,
+            "max_velocity": 1.9820352360385336,
+            "mean_acceleration": 18.08974834134269,
+            "max_acceleration": 44.30498531490392,
+            "mean_jerk": 491.5983519608424,
+            "max_jerk": 1148.1496801279925
+          },
+          "head": {
+            "mean_velocity": 3.198872624060194,
+            "max_velocity": 6.133120680019679,
+            "mean_acceleration": 80.20143467267086,
+            "max_acceleration": 169.0052228119637,
+            "mean_jerk": 2145.706039556969,
+            "max_jerk": 4406.832821003785
+          },
+          "left_hand": {
+            "mean_velocity": 3.7547008728780473,
+            "max_velocity": 10.504789041745516,
+            "mean_acceleration": 94.57121079006131,
+            "max_acceleration": 313.69228509955576,
+            "mean_jerk": 2578.024056757671,
+            "max_jerk": 6357.343096403455
+          },
+          "right_hand": {
+            "mean_velocity": 3.6425058114640967,
+            "max_velocity": 8.706171308038375,
+            "mean_acceleration": 89.18195785051437,
+            "max_acceleration": 207.74347456697137,
+            "mean_jerk": 2419.9896111493094,
+            "max_jerk": 5743.468690570074
+          },
+          "left_foot": {
+            "mean_velocity": 3.7453196178167194,
+            "max_velocity": 13.60189016708527,
+            "mean_acceleration": 94.30431160859496,
+            "max_acceleration": 252.3489484318953,
+            "mean_jerk": 2560.9984840524953,
+            "max_jerk": 5456.595576005168
+          },
+          "right_foot": {
+            "mean_velocity": 3.537185205202176,
+            "max_velocity": 7.333443709871412,
+            "mean_acceleration": 86.42523611393267,
+            "max_acceleration": 184.00735202107924,
+            "mean_jerk": 2316.1561389533076,
+            "max_jerk": 4769.508418977657
+          }
+        }
+      },
+      "stability": {
+        "fall_detected": false,
+        "fall_frame": null,
+        "survival_time_s": 6.0,
+        "fall_rate": 0.0,
+        "min_base_height": 0.7744194702188933,
+        "max_torso_tilt_deg": 0.0
+      },
+      "effort_energy": {
+        "mean_abs_torque": 3.2667152300442766,
+        "max_abs_torque": 9.400982188466783,
+        "mean_abs_power": 100.79429688850651,
+        "energy_proxy": 604.7657813310391
+      },
+      "tracking_error": "unavailable",
+      "locomotion_task_success": {
+        "root_displacement": 4.468224291883534,
+        "travel_distance": 7.728802862914741,
+        "average_speed": 1.2953300887566606,
+        "heading_error_deg": 0.5346106158404845,
+        "moved_forward": true,
+        "fell": false,
+        "success_flag": true
+      }
+    },
+    "Basic IK": {
+      "end_effector_position_error": {
+        "root": {
+          "mean": 0.016553933824142792,
+          "max": 0.04260251072476635,
+          "min": 0.0
+        },
+        "head": {
+          "mean": 0.08411395539441534,
+          "max": 0.21011740113386065,
+          "min": 0.006293535091681126
+        },
+        "left_hand": {
+          "mean": 0.0798626525111207,
+          "max": 0.16417026243035854,
+          "min": 0.013806360634418171
+        },
+        "right_hand": {
+          "mean": 0.07956958729612865,
+          "max": 0.18861278868358408,
+          "min": 0.00967954364666694
+        },
+        "left_foot": {
+          "mean": 0.07995619176614582,
+          "max": 0.19746519598736498,
+          "min": 0.018077828239986844
+        },
+        "right_foot": {
+          "mean": 0.08000370907418025,
+          "max": 0.16628625289566806,
+          "min": 0.00868835774227995
+        },
+        "aggregate_mean": 0.07001000497768893
+      },
+      "root_trajectory_error": {
+        "position": {
+          "mean": 0.016553933824142792,
+          "max": 0.04260251072476635,
+          "min": 0.0
+        },
+        "xy": {
+          "mean": 0.013934513854356019,
+          "max": 0.042525539059362724,
+          "min": 0.0
+        },
+        "height": {
+          "mean": 0.007260826950882514,
+          "max": 0.02811067425494107,
+          "min": 0.0
+        },
+        "orientation": {
+          "mean": 0.0,
+          "max": 0.0,
+          "min": 0.0,
+          "mean_degrees": 0.0,
+          "max_degrees": 0.0
+        },
+        "velocity": {
+          "mean": 0.30420005263486727,
+          "max": 0.682618541284725,
+          "min": 0.05226503997751802
+        }
+      },
+      "rotation_error": {
+        "root": {
+          "mean": 0.0,
+          "max": 0.0,
+          "min": 0.0,
+          "mean_degrees": 0.0,
+          "max_degrees": 0.0
+        },
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "velocity_error": {
+        "root": {
+          "mean": 0.30420005263486727,
+          "max": 0.682618541284725,
+          "min": 0.05226503997751802
+        },
+        "head": {
+          "mean": 1.8153350757969362,
+          "max": 4.141693212003293,
+          "min": 0.2679706209419702
+        },
+        "left_hand": {
+          "mean": 1.626866748451784,
+          "max": 4.793711078509688,
+          "min": 0.27167063675413167
+        },
+        "right_hand": {
+          "mean": 1.7363029046492866,
+          "max": 5.61910858513231,
+          "min": 0.2477532102508006
+        },
+        "left_foot": {
+          "mean": 1.6870674473465275,
+          "max": 4.317156837014213,
+          "min": 0.2657708350865751
+        },
+        "right_foot": {
+          "mean": 1.6985833414246752,
+          "max": 6.275670819419362,
+          "min": 0.2623330209259867
+        }
+      },
+      "contact": {
+        "foot_contact_accuracy": {
+          "left_foot": {
+            "accuracy": 0.7722222222222223,
+            "precision": 0.8222222222222222,
+            "recall": 0.7474747474747475,
+            "f1": 0.783068783068783,
+            "mismatch_rate": 0.22777777777777777,
+            "reference_source": "logged_contact",
+            "robot_source": "logged_contact"
+          },
+          "right_foot": {
+            "accuracy": 0.7388888888888889,
+            "precision": 0.7916666666666666,
+            "recall": 0.7378640776699029,
+            "f1": 0.7638190954773869,
+            "mismatch_rate": 0.2611111111111111,
+            "reference_source": "logged_contact",
+            "robot_source": "logged_contact"
+          }
+        },
+        "foot_sliding": {
+          "left_foot": {
+            "mean_sliding_speed": 1.570583886820313,
+            "max_sliding_speed": 4.375377826642684,
+            "sliding_frame_ratio": 0.5,
+            "contact_source": "logged_contact"
+          },
+          "right_foot": {
+            "mean_sliding_speed": 1.520252932303003,
+            "max_sliding_speed": 4.020232161101012,
+            "sliding_frame_ratio": 0.5222222222222223,
+            "contact_source": "logged_contact"
+          }
+        },
+        "ground_penetration": {
+          "left_foot": {
+            "min_height": -0.12942017900330788,
+            "max_penetration_depth": 0.12942017900330788,
+            "penetration_frame_ratio": 0.29444444444444445
+          },
+          "right_foot": {
+            "min_height": -0.13689100487697015,
+            "max_penetration_depth": 0.13689100487697015,
+            "penetration_frame_ratio": 0.2833333333333333
+          },
+          "aggregate": {
+            "min_foot_height": -0.13689100487697015,
+            "max_penetration_depth": 0.13689100487697015,
+            "penetration_frame_ratio": 0.5111111111111111
+          }
+        }
+      },
+      "joint_limit_violation": {
+        "violation_frame_ratio": 0.0,
+        "violation_value_ratio": 0.0,
+        "per_joint_violation_count": {
+          "joint_0": 0,
+          "joint_1": 0,
+          "joint_2": 0,
+          "joint_3": 0,
+          "joint_4": 0,
+          "joint_5": 0,
+          "joint_6": 0,
+          "joint_7": 0,
+          "joint_8": 0,
+          "joint_9": 0,
+          "joint_10": 0,
+          "joint_11": 0
+        },
+        "max_violation_amount": 0.0,
+        "mean_violation_amount": 0.0
+      },
+      "smoothness": {
+        "dof": {
+          "mean_joint_velocity": 1.6328356135284428,
+          "max_joint_velocity": 4.673020107703807,
+          "mean_joint_acceleration": 13.26507703817365,
+          "max_joint_acceleration": 54.59260071567737,
+          "mean_jerk": 120.95404742397862,
+          "max_jerk": 637.7580563274089
+        },
+        "end_effectors": {
+          "root": {
+            "mean_velocity": 0.8007582911342241,
+            "max_velocity": 1.268823979129436,
+            "mean_acceleration": 7.849559190719447,
+            "max_acceleration": 19.379735363766503,
+            "mean_jerk": 213.03980004713856,
+            "max_jerk": 444.2801920606097
+          },
+          "head": {
+            "mean_velocity": 1.9305181180353637,
+            "max_velocity": 4.552673666601889,
+            "mean_acceleration": 47.12414813351449,
+            "max_acceleration": 113.26545128444191,
+            "mean_jerk": 1272.8847451109407,
+            "max_jerk": 3304.61834995962
+          },
+          "left_hand": {
+            "mean_velocity": 2.090907636071132,
+            "max_velocity": 5.231918794476424,
+            "mean_acceleration": 42.12670044974676,
+            "max_acceleration": 88.33301748494651,
+            "mean_jerk": 1118.6373164029785,
+            "max_jerk": 2241.0773298822946
+          },
+          "right_hand": {
+            "mean_velocity": 2.149120497192592,
+            "max_velocity": 6.742462743669012,
+            "mean_acceleration": 46.14230475756312,
+            "max_acceleration": 159.19949219226572,
+            "mean_jerk": 1214.1516244898748,
+            "max_jerk": 3054.1937079212494
+          },
+          "left_foot": {
+            "mean_velocity": 1.9222730628289715,
+            "max_velocity": 4.637285053680339,
+            "mean_acceleration": 44.28866776212735,
+            "max_acceleration": 136.51416831350585,
+            "mean_jerk": 1196.1825186230744,
+            "max_jerk": 2740.754707738402
+          },
+          "right_foot": {
+            "mean_velocity": 1.8999460883220163,
+            "max_velocity": 6.128862035717752,
+            "mean_acceleration": 44.89209121149411,
+            "max_acceleration": 148.78630002795424,
+            "mean_jerk": 1201.7145373758692,
+            "max_jerk": 2818.376838787177
+          }
+        }
+      },
+      "stability": {
+        "fall_detected": false,
+        "fall_frame": null,
+        "survival_time_s": 6.0,
+        "fall_rate": 0.0,
+        "min_base_height": 0.7948324028917948,
+        "max_torso_tilt_deg": 0.0
+      },
+      "effort_energy": {
+        "mean_abs_torque": 3.2656724096689023,
+        "max_abs_torque": 9.372815120870701,
+        "mean_abs_power": 100.7575980186492,
+        "energy_proxy": 604.5455881118953
+      },
+      "tracking_error": "unavailable",
+      "locomotion_task_success": {
+        "root_displacement": 4.468834311377785,
+        "travel_distance": 5.1281595340971196,
+        "average_speed": 0.8594680783402994,
+        "heading_error_deg": 0.12935599713822019,
+        "moved_forward": true,
+        "fell": false,
+        "success_flag": true
+      }
+    },
+    "GMR / Constrained IK": {
+      "end_effector_position_error": {
+        "root": {
+          "mean": 0.009098126179900438,
+          "max": 0.016495733686936447,
+          "min": 0.0
+        },
+        "head": {
+          "mean": 0.028985058577514412,
+          "max": 0.06314769453811656,
+          "min": 0.002783969937397199
+        },
+        "left_hand": {
+          "mean": 0.029358437228811537,
+          "max": 0.061761536388089906,
+          "min": 0.006055435362331758
+        },
+        "right_hand": {
+          "mean": 0.03054175098294654,
+          "max": 0.07432046079659958,
+          "min": 0.002619411962279749
+        },
+        "left_foot": {
+          "mean": 0.028705306240029208,
+          "max": 0.07559329599111934,
+          "min": 0.0008927471321230783
+        },
+        "right_foot": {
+          "mean": 0.029132429862536773,
+          "max": 0.07044303399514698,
+          "min": 0.004671339809104949
+        },
+        "aggregate_mean": 0.025970184845289818
+      },
+      "root_trajectory_error": {
+        "position": {
+          "mean": 0.009098126179900438,
+          "max": 0.016495733686936447,
+          "min": 0.0
+        },
+        "xy": {
+          "mean": 0.007341314146970987,
+          "max": 0.0163157912804317,
+          "min": 0.0
+        },
+        "height": {
+          "mean": 0.004441446041611162,
+          "max": 0.014424804706352878,
+          "min": 0.0
+        },
+        "orientation": {
+          "mean": 0.0,
+          "max": 0.0,
+          "min": 0.0,
+          "mean_degrees": 0.0,
+          "max_degrees": 0.0
+        },
+        "velocity": {
+          "mean": 0.11783953140928041,
+          "max": 0.2882375612125267,
+          "min": 0.011171203656505932
+        }
+      },
+      "rotation_error": {
+        "root": {
+          "mean": 0.0,
+          "max": 0.0,
+          "min": 0.0,
+          "mean_degrees": 0.0,
+          "max_degrees": 0.0
+        },
+        "head": "unavailable",
+        "left_hand": "unavailable",
+        "right_hand": "unavailable",
+        "left_foot": "unavailable",
+        "right_foot": "unavailable"
+      },
+      "velocity_error": {
+        "root": {
+          "mean": 0.11783953140928041,
+          "max": 0.2882375612125267,
+          "min": 0.011171203656505932
+        },
+        "head": {
+          "mean": 0.5984068088452539,
+          "max": 1.4397275633474107,
+          "min": 0.12446832541296932
+        },
+        "left_hand": {
+          "mean": 0.6261897334352989,
+          "max": 1.4089828818635335,
+          "min": 0.12200386852216681
+        },
+        "right_hand": {
+          "mean": 0.6653929835712767,
+          "max": 1.9443036459208694,
+          "min": 0.18380086122764222
+        },
+        "left_foot": {
+          "mean": 0.6180232002271543,
+          "max": 1.4304661435549988,
+          "min": 0.054728144964068824
+        },
+        "right_foot": {
+          "mean": 0.6152595967259422,
+          "max": 2.116504021131702,
+          "min": 0.13731006615686978
+        }
+      },
+      "contact": {
+        "foot_contact_accuracy": {
+          "left_foot": {
+            "accuracy": 0.9277777777777778,
+            "precision": 0.8981481481481481,
+            "recall": 0.9797979797979798,
+            "f1": 0.9371980676328502,
+            "mismatch_rate": 0.07222222222222222,
+            "reference_source": "logged_contact",
+            "robot_source": "logged_contact"
+          },
+          "right_foot": {
+            "accuracy": 0.9444444444444444,
+            "precision": 0.918918918918919,
+            "recall": 0.9902912621359223,
+            "f1": 0.9532710280373833,
+            "mismatch_rate": 0.05555555555555555,
+            "reference_source": "logged_contact",
+            "robot_source": "logged_contact"
+          }
+        },
+        "foot_sliding": {
+          "left_foot": {
+            "mean_sliding_speed": 0.9126048034813993,
+            "max_sliding_speed": 2.520766231446989,
+            "sliding_frame_ratio": 0.5888888888888889,
+            "contact_source": "logged_contact"
+          },
+          "right_foot": {
+            "mean_sliding_speed": 0.9227245373612679,
+            "max_sliding_speed": 2.3753920066236858,
+            "sliding_frame_ratio": 0.6,
+            "contact_source": "logged_contact"
+          }
+        },
+        "ground_penetration": {
+          "left_foot": {
+            "min_height": -0.04130413577987516,
+            "max_penetration_depth": 0.04130413577987516,
+            "penetration_frame_ratio": 0.25
+          },
+          "right_foot": {
+            "min_height": -0.04742494919121102,
+            "max_penetration_depth": 0.04742494919121102,
+            "penetration_frame_ratio": 0.32222222222222224
+          },
+          "aggregate": {
+            "min_foot_height": -0.04742494919121102,
+            "max_penetration_depth": 0.04742494919121102,
+            "penetration_frame_ratio": 0.5277777777777778
+          }
+        }
+      },
+      "joint_limit_violation": {
+        "violation_frame_ratio": 0.0,
+        "violation_value_ratio": 0.0,
+        "per_joint_violation_count": {
+          "joint_0": 0,
+          "joint_1": 0,
+          "joint_2": 0,
+          "joint_3": 0,
+          "joint_4": 0,
+          "joint_5": 0,
+          "joint_6": 0,
+          "joint_7": 0,
+          "joint_8": 0,
+          "joint_9": 0,
+          "joint_10": 0,
+          "joint_11": 0
+        },
+        "max_violation_amount": 0.0,
+        "mean_violation_amount": 0.0
+      },
+      "smoothness": {
+        "dof": {
+          "mean_joint_velocity": 1.6328356135284428,
+          "max_joint_velocity": 4.673020107703807,
+          "mean_joint_acceleration": 13.26507703817365,
+          "max_joint_acceleration": 54.59260071567737,
+          "mean_jerk": 120.95404742397862,
+          "max_jerk": 637.7580563274089
+        },
+        "end_effectors": {
+          "root": {
+            "mean_velocity": 0.7624140419202762,
+            "max_velocity": 1.0386478325275328,
+            "mean_acceleration": 3.121508607601777,
+            "max_acceleration": 8.303525480112107,
+            "mean_jerk": 82.77807255548524,
+            "max_jerk": 238.09002256777012
+          },
+          "head": {
+            "mean_velocity": 0.933655790272249,
+            "max_velocity": 2.008238841458975,
+            "mean_acceleration": 15.542699273545567,
+            "max_acceleration": 37.32085263856572,
+            "mean_jerk": 422.41895583237033,
+            "max_jerk": 1113.2720047233558
+          },
+          "left_hand": {
+            "mean_velocity": 1.4673947916269994,
+            "max_velocity": 2.888471896584239,
+            "mean_acceleration": 18.35401117806489,
+            "max_acceleration": 44.59690127558596,
+            "mean_jerk": 451.9426292814219,
+            "max_jerk": 1063.7250432500255
+          },
+          "right_hand": {
+            "mean_velocity": 1.46378425411033,
+            "max_velocity": 2.69904409955521,
+            "mean_acceleration": 19.234072892636675,
+            "max_acceleration": 42.50127410521856,
+            "mean_jerk": 475.8276471934168,
+            "max_jerk": 1027.2733935469269
+          },
+          "left_foot": {
+            "mean_velocity": 1.0940787516533397,
+            "max_velocity": 3.059358608313344,
+            "mean_acceleration": 17.331299740933147,
+            "max_acceleration": 36.911139380708114,
+            "mean_jerk": 457.39717056884916,
+            "max_jerk": 941.000632517219
+          },
+          "right_foot": {
+            "mean_velocity": 1.075167053759054,
+            "max_velocity": 2.3994865649818506,
+            "mean_acceleration": 17.316995621493678,
+            "max_acceleration": 69.44380111203697,
+            "mean_jerk": 450.36840983400697,
+            "max_jerk": 1302.0127106843481
+          }
+        }
+      },
+      "stability": {
+        "fall_detected": false,
+        "fall_frame": null,
+        "survival_time_s": 6.0,
+        "fall_rate": 0.0,
+        "min_base_height": 0.8099841911765564,
+        "max_torso_tilt_deg": 0.0
+      },
+      "effort_energy": {
+        "mean_abs_torque": 3.2634868466889704,
+        "max_abs_torque": 9.402395010702563,
+        "mean_abs_power": 100.7477816560165,
+        "energy_proxy": 604.486689936099
+      },
+      "tracking_error": {
+        "dof_pos": {
+          "mean": 0.05105026220234775,
+          "max": 0.08098085619076507,
+          "min": 0.027299321017109322
+        },
+        "dof_vel": {
+          "mean": 1.1076971262924622,
+          "max": 2.9398569059031474,
+          "min": 0.5919349457780734
+        },
+        "body_position": "unavailable",
+        "end_effector_position": "unavailable"
+      },
+      "locomotion_task_success": {
+        "root_displacement": 4.476112083104821,
+        "travel_distance": 4.594684413757637,
+        "average_speed": 0.770058840294576,
+        "heading_error_deg": 0.08924650100739293,
+        "moved_forward": true,
+        "fell": false,
+        "success_flag": true
+      }
+    }
+  }
+}
