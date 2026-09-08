@@ -1,0 +1,105 @@
+{
+  "original_motion_root": "D:/GMR_WORK/use mode",
+  "output_dir": "D:/GMR_WORK/GMR/outputs/final results/re",
+  "robot_xml": "D:/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml",
+  "target_fps": 30.0,
+  "motion_id_regex": "^([0-9]+_[0-9]+)",
+  "methods": {
+    "Direct Mapping": {
+      "pkl_root": "D:/GMR_WORK/GMR/outputs/final results/pkl direct",
+      "seed_policy": "no_gmr_seed"
+    },
+    "Basic IK": {
+      "pkl_root": "D:/GMR_WORK/GMR/outputs/final results/pkl Basic IK",
+      "seed_policy": "no_gmr_seed"
+    },
+    "GMR": {
+      "pkl_root": "D:/GMR_WORK/GMR/outputs/final results/pkl gmr",
+      "seed_policy": "native_gmr"
+    }
+  },
+  "source_reference": {
+    "pkl_root": "D:/GMR_WORK/GMR/outputs/final results/pkl direct",
+    "description": "Use source_body_pos/source_body_names stored in the Direct Mapping PKL as the shared SMPL-X source keypoint reference. These are source human FK fields, not robot method outputs."
+  },
+  "semantic_keypoints": {
+    "pelvis": {
+      "human": ["pelvis"],
+      "robot": ["pelvis"]
+    },
+    "head": {
+      "human": ["head"],
+      "robot": ["head_link", "head_mocap", "head"]
+    },
+    "left_hand": {
+      "human": ["left_hand", "left_wrist"],
+      "robot": ["left_rubber_hand", "left_wrist_yaw_link", "left_hand"]
+    },
+    "right_hand": {
+      "human": ["right_hand", "right_wrist"],
+      "robot": ["right_rubber_hand", "right_wrist_yaw_link", "right_hand"]
+    },
+    "left_foot": {
+      "human": ["left_foot", "left_ankle"],
+      "robot": ["left_toe_link", "left_ankle_roll_link", "left_foot"]
+    },
+    "right_foot": {
+      "human": ["right_foot", "right_ankle"],
+      "robot": ["right_toe_link", "right_ankle_roll_link", "right_foot"]
+    },
+    "left_knee": {
+      "human": ["left_knee"],
+      "robot": ["left_knee_link", "left_knee"]
+    },
+    "right_knee": {
+      "human": ["right_knee"],
+      "robot": ["right_knee_link", "right_knee"]
+    },
+    "left_elbow": {
+      "human": ["left_elbow"],
+      "robot": ["left_elbow_link", "left_elbow"]
+    },
+    "right_elbow": {
+      "human": ["right_elbow"],
+      "robot": ["right_elbow_link", "right_elbow"]
+    }
+  },
+  "bones": [
+    ["pelvis", "head"],
+    ["pelvis", "left_knee"],
+    ["left_knee", "left_foot"],
+    ["pelvis", "right_knee"],
+    ["right_knee", "right_foot"],
+    ["head", "left_elbow"],
+    ["left_elbow", "left_hand"],
+    ["head", "right_elbow"],
+    ["right_elbow", "right_hand"]
+  ],
+  "end_effectors": ["left_hand", "right_hand", "left_foot", "right_foot"],
+  "thresholds": {
+    "floor_height_m": 0.0,
+    "foot_contact_height_m": 0.04,
+    "foot_contact_speed_mps": 0.35,
+    "skating_velocity_threshold_mps": 0.05,
+    "severe_penetration_m": 0.08,
+    "joint_limit_margin_rad": 0.0,
+    "max_joint_limit_violation_frames": 0,
+    "max_self_collision_frames": 20,
+    "min_base_height_m": 0.45,
+    "fall_base_height_m": 0.35,
+    "fall_tilt_deg": 45.0,
+    "max_base_height_std_m": 0.25,
+    "max_base_roll_pitch_std_deg": 25.0,
+    "max_missing_fraction_for_complete_motion": 0.0
+  },
+  "self_collision": {
+    "exclude_ground_geoms": ["floor", "ground", "plane"],
+    "exclude_body_pairs": [],
+    "use_pkl_contact_fallback_when_mujoco_unavailable": true
+  },
+  "notes": [
+    "Similarity metrics use root-relative, initial-yaw-aligned, scale-normalized semantic keypoints.",
+    "The fixed scale for a motion is robot_leg_length_from_xml / human_leg_length_from_source_reference and is shared by all methods.",
+    "kinematic_success_rate is not dynamic tracking success."
+  ]
+}

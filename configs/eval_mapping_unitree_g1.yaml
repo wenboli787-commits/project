@@ -1,0 +1,168 @@
+# Evaluation config for human motion -> Unitree G1 retargeting quality.
+
+original_dir: "/mnt/d/GMR_WORK/final use mode"
+output_dir: "/mnt/d/GMR_WORK/GMR/outputs/evaluation_results"
+robot_xml: "/mnt/d/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml"
+
+methods:
+  Direct Mapping:
+    dir: "/mnt/d/GMR_WORK/GMR/outputs/final product/pkl direct"
+  Basic IK:
+    dir: "/mnt/d/GMR_WORK/GMR/outputs/final product/pkl ik"
+    fallback_dirs:
+      - "/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK"
+  GMR:
+    dir: "/mnt/d/GMR_WORK/GMR/outputs/final product/pkl"
+
+video_dirs:
+  - "/mnt/d/GMR_WORK/GMR/outputs/final product/videos direct"
+  - "/mnt/d/GMR_WORK/GMR/outputs/final product/videos Basic IK"
+  - "/mnt/d/GMR_WORK/GMR/outputs/final product/videos"
+
+name_regex: "^([0-9]+_[0-9]+)"
+default_fps: 30.0
+target_fps: 30.0
+sync_mode: "resample"
+pkl_quaternion_order: "xyzw"
+human_quaternion_order: "wxyz"
+bvh_unit_scale: 0.01
+floor_height: 0.0
+use_all_bodies_for_penetration: true
+
+compare_keypoints:
+  - pelvis
+  - torso
+  - head
+  - left_hand
+  - right_hand
+  - left_knee
+  - right_knee
+  - left_foot
+  - right_foot
+
+human_keypoint_names:
+  - pelvis
+  - left_hip
+  - right_hip
+  - spine1
+  - left_knee
+  - right_knee
+  - spine2
+  - left_foot
+  - right_foot
+  - torso
+  - left_toe
+  - right_toe
+  - neck
+  - left_shoulder
+  - right_shoulder
+  - head
+  - left_elbow
+  - right_elbow
+  - left_hand
+  - right_hand
+
+human_canonical_offsets_m:
+  pelvis: [0.0, 0.0, 0.0]
+  torso: [0.0, 0.0, 0.45]
+  head: [0.0, 0.0, 0.85]
+  left_shoulder: [0.0, 0.18, 0.55]
+  right_shoulder: [0.0, -0.18, 0.55]
+  left_elbow: [0.0, 0.42, 0.35]
+  right_elbow: [0.0, -0.42, 0.35]
+  left_hand: [0.0, 0.62, 0.18]
+  right_hand: [0.0, -0.62, 0.18]
+  left_knee: [0.0, 0.10, -0.45]
+  right_knee: [0.0, -0.10, -0.45]
+  left_foot: [0.08, 0.10, -0.90]
+  right_foot: [0.08, -0.10, -0.90]
+
+robot_bodies:
+  root: ["pelvis"]
+  pelvis: ["pelvis"]
+  torso: ["torso_link", "waist_yaw_link"]
+  head: ["head_mocap", "head_link"]
+  left_hand: ["left_rubber_hand", "left_wrist_yaw_link", "left_hand_palm_link"]
+  right_hand: ["right_rubber_hand", "right_wrist_yaw_link", "right_hand_palm_link"]
+  left_knee: ["left_knee_link"]
+  right_knee: ["right_knee_link"]
+  left_foot: ["left_foot", "left_toe_link", "left_ankle_roll_link"]
+  right_foot: ["right_foot", "right_toe_link", "right_ankle_roll_link"]
+  left_elbow: ["left_elbow_link"]
+  right_elbow: ["right_elbow_link"]
+  left_shoulder: ["left_shoulder_pitch_link"]
+  right_shoulder: ["right_shoulder_pitch_link"]
+
+left_foot_body: "left_foot"
+right_foot_body: "right_foot"
+root_body: "pelvis"
+
+joint_names:
+  - left_hip_pitch_joint
+  - left_hip_roll_joint
+  - left_hip_yaw_joint
+  - left_knee_joint
+  - left_ankle_pitch_joint
+  - left_ankle_roll_joint
+  - right_hip_pitch_joint
+  - right_hip_roll_joint
+  - right_hip_yaw_joint
+  - right_knee_joint
+  - right_ankle_pitch_joint
+  - right_ankle_roll_joint
+  - waist_yaw_joint
+  - waist_roll_joint
+  - waist_pitch_joint
+  - left_shoulder_pitch_joint
+  - left_shoulder_roll_joint
+  - left_shoulder_yaw_joint
+  - left_elbow_joint
+  - left_wrist_roll_joint
+  - left_wrist_pitch_joint
+  - left_wrist_yaw_joint
+  - right_shoulder_pitch_joint
+  - right_shoulder_roll_joint
+  - right_shoulder_yaw_joint
+  - right_elbow_joint
+  - right_wrist_roll_joint
+  - right_wrist_pitch_joint
+  - right_wrist_yaw_joint
+
+alignment:
+  initial_root: true
+  initial_heading: true
+  scale: true
+
+success_thresholds:
+  min_completion_fraction: 0.9
+  min_root_height_m: 0.45
+  max_abs_roll_pitch_deg: 60.0
+  max_ground_penetration_m: 0.08
+  max_self_collision_count: 20
+
+thresholds:
+  foot_contact_height_m: 0.04
+  foot_sliding_velocity_mps: 0.10
+  sudden_jump_abs_velocity: 30.0
+  sudden_jump_std_factor: 3.0
+
+bone_segments:
+  - [pelvis, left_knee]
+  - [left_knee, left_foot]
+  - [pelvis, right_knee]
+  - [right_knee, right_foot]
+  - [left_shoulder, left_elbow]
+  - [left_elbow, left_hand]
+  - [right_shoulder, right_elbow]
+  - [right_elbow, right_hand]
+  - [pelvis, torso]
+  - [torso, head]
+
+overall_score_weights:
+  success: 0.25
+  root_relative_error: 0.20
+  global_error: 0.15
+  foot_sliding: 0.15
+  ground_penetration: 0.10
+  sudden_jumps: 0.10
+  self_collision: 0.05

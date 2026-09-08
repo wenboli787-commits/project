@@ -1,0 +1,24 @@
+# Local environments and caches
+.venv/
+**/.venv/
+**/.conda-envs/
+__pycache__/
+*.pyc
+.idea/
+
+# Temporary/generated data
+tmp/
+**/tmp/
+outputs/
+
+# Nested repositories and dataset/model archives
+**/.git/
+*.zip
+*.npz
+*.pkl
+*.dll
+
+# Files larger than GitHub's 100 MB limit
+*.pt
+*.pth
+*.bin

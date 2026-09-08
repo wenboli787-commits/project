@@ -1,0 +1,13 @@
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+PyYAML>=6.0
+scipy>=1.9
+
+# Optional for robot FK / joint limits from XML:
+# mujoco>=3.1
+
+# Optional for full SMPL-X/AMASS keypoint extraction:
+# smplx>=0.1.28
+# torch>=2.0
+

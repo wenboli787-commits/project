@@ -1,0 +1,32 @@
+cd /mnt/d/GMR_WORK/mjlab
+
+export WANDB_ENTITY=wenboli787-university-of-glasgow
+export MUJOCO_GL=egl
+
+uv run train Mjlab-Tracking-Flat-Unitree-G1 \
+  --registry-name "wenboli787-university-of-glasgow-org/wandb-registry-motions/135_04_poses_unitree_g1_gmr_optimised:latest" \
+  --env.scene.num-envs 4096 \
+  --agent.max-iterations 1000 \
+  --video False \
+  2>&1 | tee train_135_04_poses_unitree_g1_gmr_optimised.log
+
+
+
+cd /mnt/d/GMR_WORK/mjlab
+
+bash experiments/reward_ablation/scripts/train_single_ablation.sh \
+  --ablation no_action_rate \
+  --registry-name "wenboli787-university-of-glasgow-org/wandb-registry-motions/05_04_gmr:latest" \
+  --seed 42 \
+  --max-iterations 1000 \
+  --num-envs 4096 \
+  --save-interval 500
+
+
+bash experiments/reward_ablation/scripts/train_all_ablations.sh \
+  --registry-name "$MOTION_ARTIFACT" \
+  --ablations "no_global_root,no_body_pose,no_velocity,no_action_rate,no_joint_limit,no_self_collision" \
+  --seeds "42" \
+  --max-iterations 1000 \
+  --num-envs 4096 \
+  --save-interval 500

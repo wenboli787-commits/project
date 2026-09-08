@@ -1,0 +1,75 @@
+original_motion_root: "D:/GMR_WORK/final use mode"
+
+methods:
+  direct_mapping:
+    pkl_root: "D:/GMR_WORK/GMR/outputs/direct_mapping_batch/pkl"
+  basic_ik:
+    pkl_root: "D:/GMR_WORK/GMR/outputs/basic_ik_batch/pkl"
+  gmr:
+    pkl_root: "D:/GMR_WORK/GMR/outputs/final product/pkl"
+
+robot:
+  mujoco_xml: "D:/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml"
+  ground_height: 0.0
+  root_body: "pelvis"
+  pelvis_body: "pelvis"
+  torso_body: "torso_link"
+  head_body: ["head_link", "head"]
+  left_hand_body: ["left_rubber_hand", "left_wrist_yaw_link", "left_hand"]
+  right_hand_body: ["right_rubber_hand", "right_wrist_yaw_link", "right_hand"]
+  left_foot_body: ["left_toe_link", "left_ankle_roll_link", "left_foot"]
+  right_foot_body: ["right_toe_link", "right_ankle_roll_link", "right_foot"]
+  left_knee_body: ["left_knee_link", "left_knee"]
+  right_knee_body: ["right_knee_link", "right_knee"]
+  left_elbow_body: ["left_elbow_link", "left_elbow"]
+  right_elbow_body: ["right_elbow_link", "right_elbow"]
+
+output_dir: "D:/GMR_WORK/retarget_eval_toolkit/outputs"
+
+evaluation:
+  target_fps: 30
+  align_root_translation: true
+  align_initial_yaw: true
+  normalize_scale: true
+  compare_keypoints:
+    - pelvis
+    - head
+    - left_hand
+    - right_hand
+    - left_foot
+    - right_foot
+    - left_knee
+    - right_knee
+    - left_elbow
+    - right_elbow
+
+contact:
+  contact_threshold: 0.05
+  sliding_threshold: 0.02
+
+stability:
+  fall_root_height: 0.35
+  fall_tilt_deg: 45.0
+  max_penetration_for_success: 0.08
+  min_completion_fraction: 0.9
+
+smoothness:
+  frame_jump_threshold: 0.5
+
+score_weights:
+  similarity: 0.25
+  kinematic_feasibility: 0.15
+  physical_feasibility: 0.10
+  contact_quality: 0.20
+  stability: 0.20
+  smoothness: 0.10
+
+# GMR/direct/basic scripts in this workspace save `root_rot` as xyzw.
+pkl_quaternion_order: "xyzw"
+root_quat_order: "wxyz"
+npz_quaternion_order: "wxyz"
+
+# Optional: set this if SMPL-X body models are installed and you want full
+# keypoints from AMASS/SMPL-X NPZ files instead of root-only reference metrics.
+smplx_body_model_path: ""
+
