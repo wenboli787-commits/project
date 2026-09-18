@@ -1,0 +1,7001 @@
+﻿Configuration,_step,Mean episode length
+Full,0,8.24
+Full,1,8.23
+Full,2,7.52
+Full,3,8.5
+Full,4,7.86
+Full,5,7.55
+Full,6,7.76
+Full,7,8.3
+Full,8,8.31
+Full,9,7.31
+Full,10,8.07
+Full,11,8.53
+Full,12,7.29
+Full,13,7.55
+Full,14,7.47
+Full,15,7.23
+Full,16,7.05
+Full,17,8.38
+Full,18,6.8
+Full,19,6.7
+Full,20,7.63
+Full,21,6.58
+Full,22,6.65
+Full,23,7.05
+Full,24,6.35
+Full,25,6.79
+Full,26,6.22
+Full,27,6.37
+Full,28,6.88
+Full,29,6.32
+Full,30,6.98
+Full,31,6.43
+Full,32,6.95
+Full,33,6.2
+Full,34,6.41
+Full,35,6.15
+Full,36,6.42
+Full,37,6.39
+Full,38,6.1
+Full,39,6.43
+Full,40,6.11
+Full,41,6.28
+Full,42,6.45
+Full,43,6.29
+Full,44,6.23
+Full,45,6.42
+Full,46,6.56
+Full,47,6.73
+Full,48,6.27
+Full,49,6.4
+Full,50,6.39
+Full,51,6.41
+Full,52,6.16
+Full,53,6.64
+Full,54,6.2
+Full,55,6.38
+Full,56,6.44
+Full,57,6.58
+Full,58,6.45
+Full,59,6.72
+Full,60,7.1
+Full,61,6.31
+Full,62,6.4
+Full,63,6.44
+Full,64,6.9
+Full,65,6.96
+Full,66,6.8
+Full,67,6.51
+Full,68,6.81
+Full,69,6.75
+Full,70,6.69
+Full,71,6.8
+Full,72,6.99
+Full,73,6.84
+Full,74,6.64
+Full,75,6.78
+Full,76,7.06
+Full,77,6.78
+Full,78,7.05
+Full,79,7.06
+Full,80,7.66
+Full,81,7.53
+Full,82,7.46
+Full,83,7.81
+Full,84,7.84
+Full,85,6.91
+Full,86,7.75
+Full,87,7.64
+Full,88,7.19
+Full,89,7.73
+Full,90,7.37
+Full,91,7.88
+Full,92,7.62
+Full,93,8.67
+Full,94,8.23
+Full,95,7.57
+Full,96,8.1
+Full,97,8.43
+Full,98,8.37
+Full,99,8.38
+Full,100,8.81
+Full,101,8.68
+Full,102,8.89
+Full,103,8.96
+Full,104,8.46
+Full,105,9.62
+Full,106,9.96
+Full,107,9.71
+Full,108,9.52
+Full,109,9.88
+Full,110,9.82
+Full,111,11.64
+Full,112,9.97
+Full,113,10.15
+Full,114,10.72
+Full,115,10.55
+Full,116,12.07
+Full,117,11.62
+Full,118,11.06
+Full,119,11.29
+Full,120,12.96
+Full,121,11.91
+Full,122,11.83
+Full,123,12.46
+Full,124,14.09
+Full,125,13.3
+Full,126,13.74
+Full,127,13.34
+Full,128,14.81
+Full,129,13.6
+Full,130,15.46
+Full,131,14.48
+Full,132,14.85
+Full,133,15.31
+Full,134,15.72
+Full,135,15.72
+Full,136,16.4
+Full,137,16.38
+Full,138,19.12
+Full,139,17.8
+Full,140,17.43
+Full,141,17.98
+Full,142,19.49
+Full,143,19.08
+Full,144,19.93
+Full,145,20.03
+Full,146,20.63
+Full,147,20.81
+Full,148,21.38
+Full,149,20.67
+Full,150,21.12
+Full,151,22.04
+Full,152,22.22
+Full,153,22.22
+Full,154,22.86
+Full,155,22.36
+Full,156,22.05
+Full,157,23.58
+Full,158,25.25
+Full,159,24.96
+Full,160,24.45
+Full,161,22.98
+Full,162,24.74
+Full,163,28.29
+Full,164,25.49
+Full,165,27.9
+Full,166,27.87
+Full,167,30.25
+Full,168,26.86
+Full,169,27.27
+Full,170,28.17
+Full,171,27.95
+Full,172,29.1
+Full,173,29.42
+Full,174,27.54
+Full,175,27.91
+Full,176,28.92
+Full,177,29.34
+Full,178,26.84
+Full,179,28.76
+Full,180,30.3
+Full,181,27.82
+Full,182,32.99
+Full,183,29.33
+Full,184,28.87
+Full,185,29.95
+Full,186,29.2
+Full,187,29.73
+Full,188,30.77
+Full,189,33.92
+Full,190,30.66
+Full,191,32.43
+Full,192,31.09
+Full,193,35.32
+Full,194,34.0
+Full,195,34.64
+Full,196,33.61
+Full,197,31.32
+Full,198,36.11
+Full,199,31.62
+Full,200,37.07
+Full,201,33.72
+Full,202,34.23
+Full,203,33.07
+Full,204,33.32
+Full,205,33.28
+Full,206,37.38
+Full,207,35.54
+Full,208,37.84
+Full,209,36.33
+Full,210,36.83
+Full,211,37.15
+Full,212,35.05
+Full,213,34.64
+Full,214,33.95
+Full,215,34.53
+Full,216,37.84
+Full,217,40.06
+Full,218,35.43
+Full,219,37.52
+Full,220,36.65
+Full,221,38.94
+Full,222,33.29
+Full,223,38.03
+Full,224,38.14
+Full,225,39.14
+Full,226,33.6
+Full,227,39.63
+Full,228,33.02
+Full,229,38.97
+Full,230,37.86
+Full,231,38.73
+Full,232,37.94
+Full,233,37.76
+Full,234,37.81
+Full,235,39.79
+Full,236,37.46
+Full,237,38.56
+Full,238,36.17
+Full,239,38.61
+Full,240,39.44
+Full,241,36.55
+Full,242,36.48
+Full,243,36.34
+Full,244,42.16
+Full,245,41.34
+Full,246,38.63
+Full,247,39.55
+Full,248,41.33
+Full,249,41.97
+Full,250,38.16
+Full,251,36.93
+Full,252,38.15
+Full,253,36.29
+Full,254,39.7
+Full,255,38.47
+Full,256,38.91
+Full,257,40.38
+Full,258,38.87
+Full,259,40.4
+Full,260,38.27
+Full,261,41.76
+Full,262,38.7
+Full,263,40.28
+Full,264,41.72
+Full,265,40.49
+Full,266,39.09
+Full,267,41.55
+Full,268,43.2
+Full,269,42.02
+Full,270,39.63
+Full,271,36.78
+Full,272,38.61
+Full,273,37.12
+Full,274,43.14
+Full,275,40.85
+Full,276,42.84
+Full,277,42.2
+Full,278,40.55
+Full,279,40.75
+Full,280,41.29
+Full,281,39.41
+Full,282,40.97
+Full,283,43.73
+Full,284,39.76
+Full,285,43.51
+Full,286,42.82
+Full,287,40.96
+Full,288,40.31
+Full,289,40.89
+Full,290,43.61
+Full,291,41.45
+Full,292,40.62
+Full,293,42.15
+Full,294,40.29
+Full,295,41.04
+Full,296,41.77
+Full,297,40.06
+Full,298,40.26
+Full,299,41.53
+Full,300,42.05
+Full,301,40.28
+Full,302,41.9
+Full,303,43.16
+Full,304,43.63
+Full,305,41.59
+Full,306,38.85
+Full,307,42.57
+Full,308,44.41
+Full,309,42.25
+Full,310,40.47
+Full,311,42.19
+Full,312,43.56
+Full,313,42.1
+Full,314,43.0
+Full,315,45.46
+Full,316,43.78
+Full,317,41.42
+Full,318,44.69
+Full,319,43.24
+Full,320,43.0
+Full,321,44.54
+Full,322,43.29
+Full,323,38.83
+Full,324,41.84
+Full,325,42.2
+Full,326,44.09
+Full,327,41.97
+Full,328,44.44
+Full,329,42.99
+Full,330,43.13
+Full,331,43.51
+Full,332,44.83
+Full,333,41.51
+Full,334,41.95
+Full,335,46.99
+Full,336,48.94
+Full,337,46.82
+Full,338,45.69
+Full,339,44.39
+Full,340,45.39
+Full,341,44.7
+Full,342,46.84
+Full,343,44.23
+Full,344,46.3
+Full,345,40.15
+Full,346,47.02
+Full,347,45.52
+Full,348,42.37
+Full,349,47.93
+Full,350,45.75
+Full,351,43.98
+Full,352,43.89
+Full,353,50.39
+Full,354,43.3
+Full,355,44.63
+Full,356,42.12
+Full,357,46.94
+Full,358,46.58
+Full,359,46.09
+Full,360,45.55
+Full,361,46.45
+Full,362,45.84
+Full,363,46.16
+Full,364,46.67
+Full,365,44.37
+Full,366,48.29
+Full,367,51.87
+Full,368,46.97
+Full,369,41.55
+Full,370,46.99
+Full,371,46.74
+Full,372,48.28
+Full,373,44.62
+Full,374,44.16
+Full,375,47.99
+Full,376,48.32
+Full,377,42.65
+Full,378,45.92
+Full,379,44.55
+Full,380,45.68
+Full,381,48.29
+Full,382,49.01
+Full,383,45.7
+Full,384,44.61
+Full,385,47.53
+Full,386,48.11
+Full,387,46.26
+Full,388,43.17
+Full,389,49.1
+Full,390,46.86
+Full,391,50.53
+Full,392,50.03
+Full,393,45.88
+Full,394,47.72
+Full,395,46.64
+Full,396,48.3
+Full,397,48.16
+Full,398,45.62
+Full,399,47.41
+Full,400,47.59
+Full,401,48.96
+Full,402,48.27
+Full,403,47.27
+Full,404,49.22
+Full,405,53.14
+Full,406,47.0
+Full,407,52.79
+Full,408,52.22
+Full,409,49.65
+Full,410,42.92
+Full,411,53.8
+Full,412,46.51
+Full,413,46.76
+Full,414,47.85
+Full,415,50.83
+Full,416,47.02
+Full,417,51.31
+Full,418,53.68
+Full,419,52.55
+Full,420,47.75
+Full,421,56.23
+Full,422,51.17
+Full,423,51.22
+Full,424,57.15
+Full,425,53.96
+Full,426,48.53
+Full,427,51.02
+Full,428,56.65
+Full,429,47.12
+Full,430,53.9
+Full,431,53.85
+Full,432,53.21
+Full,433,51.75
+Full,434,55.71
+Full,435,50.91
+Full,436,55.18
+Full,437,46.21
+Full,438,49.93
+Full,439,49.0
+Full,440,45.01
+Full,441,46.69
+Full,442,49.77
+Full,443,50.67
+Full,444,55.01
+Full,445,53.29
+Full,446,52.94
+Full,447,52.6
+Full,448,54.17
+Full,449,52.59
+Full,450,52.01
+Full,451,51.13
+Full,452,50.52
+Full,453,53.42
+Full,454,53.26
+Full,455,53.15
+Full,456,51.72
+Full,457,53.47
+Full,458,56.3
+Full,459,51.0
+Full,460,57.68
+Full,461,59.21
+Full,462,53.11
+Full,463,56.8
+Full,464,53.01
+Full,465,53.74
+Full,466,53.47
+Full,467,51.9
+Full,468,53.48
+Full,469,60.24
+Full,470,52.17
+Full,471,51.13
+Full,472,57.95
+Full,473,56.78
+Full,474,54.17
+Full,475,57.77
+Full,476,60.43
+Full,477,57.45
+Full,478,53.05
+Full,479,59.38
+Full,480,60.17
+Full,481,57.41
+Full,482,55.65
+Full,483,63.23
+Full,484,57.09
+Full,485,58.18
+Full,486,59.75
+Full,487,55.95
+Full,488,58.9
+Full,489,59.31
+Full,490,62.27
+Full,491,65.03
+Full,492,62.59
+Full,493,59.3
+Full,494,62.6
+Full,495,54.96
+Full,496,57.05
+Full,497,64.81
+Full,498,62.11
+Full,499,61.03
+Full,500,64.48
+Full,501,56.38
+Full,502,57.59
+Full,503,63.78
+Full,504,61.51
+Full,505,58.38
+Full,506,66.73
+Full,507,61.51
+Full,508,61.85
+Full,509,54.63
+Full,510,62.52
+Full,511,65.36
+Full,512,60.96
+Full,513,63.06
+Full,514,64.25
+Full,515,55.85
+Full,516,67.37
+Full,517,65.0
+Full,518,66.31
+Full,519,67.81
+Full,520,61.37
+Full,521,67.31
+Full,522,60.14
+Full,523,70.35
+Full,524,62.87
+Full,525,66.75
+Full,526,66.17
+Full,527,60.42
+Full,528,62.89
+Full,529,60.17
+Full,530,65.18
+Full,531,71.52
+Full,532,71.42
+Full,533,62.2
+Full,534,72.0
+Full,535,75.32
+Full,536,68.03
+Full,537,66.77
+Full,538,71.97
+Full,539,66.46
+Full,540,70.78
+Full,541,66.37
+Full,542,67.29
+Full,543,67.34
+Full,544,64.63
+Full,545,76.6
+Full,546,74.94
+Full,547,67.87
+Full,548,72.19
+Full,549,79.67
+Full,550,73.58
+Full,551,67.46
+Full,552,68.08
+Full,553,61.01
+Full,554,77.94
+Full,555,65.77
+Full,556,68.47
+Full,557,83.12
+Full,558,79.34
+Full,559,72.94
+Full,560,68.17
+Full,561,67.86
+Full,562,63.37
+Full,563,70.09
+Full,564,77.47
+Full,565,79.24
+Full,566,82.07
+Full,567,77.22
+Full,568,81.96
+Full,569,85.94
+Full,570,74.03
+Full,571,81.31
+Full,572,68.9
+Full,573,83.65
+Full,574,87.72
+Full,575,77.92
+Full,576,80.98
+Full,577,79.61
+Full,578,84.8
+Full,579,79.53
+Full,580,82.88
+Full,581,84.15
+Full,582,80.66
+Full,583,77.15
+Full,584,99.3
+Full,585,95.88
+Full,586,97.51
+Full,587,88.45
+Full,588,100.13
+Full,589,75.42
+Full,590,76.61
+Full,591,91.8
+Full,592,85.16
+Full,593,91.97
+Full,594,85.24
+Full,595,77.91
+Full,596,78.88
+Full,597,79.95
+Full,598,95.86
+Full,599,83.76
+Full,600,90.35
+Full,601,83.98
+Full,602,98.27
+Full,603,92.73
+Full,604,94.84
+Full,605,89.28
+Full,606,96.66
+Full,607,83.01
+Full,608,106.36
+Full,609,109.2
+Full,610,116.42
+Full,611,102.58
+Full,612,90.46
+Full,613,101.57
+Full,614,113.98
+Full,615,117.05
+Full,616,101.68
+Full,617,93.27
+Full,618,108.19
+Full,619,106.95
+Full,620,100.9
+Full,621,109.44
+Full,622,107.62
+Full,623,102.97
+Full,624,110.47
+Full,625,106.03
+Full,626,99.01
+Full,627,112.11
+Full,628,114.2
+Full,629,105.68
+Full,630,109.45
+Full,631,113.78
+Full,632,126.25
+Full,633,114.58
+Full,634,115.21
+Full,635,107.15
+Full,636,108.44
+Full,637,112.6
+Full,638,124.88
+Full,639,117.7
+Full,640,117.12
+Full,641,128.93
+Full,642,118.67
+Full,643,109.23
+Full,644,122.71
+Full,645,94.31
+Full,646,124.83
+Full,647,133.18
+Full,648,127.88
+Full,649,109.74
+Full,650,105.17
+Full,651,117.32
+Full,652,118.94
+Full,653,118.8
+Full,654,129.65
+Full,655,132.79
+Full,656,155.6
+Full,657,122.74
+Full,658,126.4
+Full,659,136.96
+Full,660,108.91
+Full,661,120.57
+Full,662,137.73
+Full,663,159.65
+Full,664,142.01
+Full,665,120.78
+Full,666,139.52
+Full,667,121.44
+Full,668,116.92
+Full,669,141.11
+Full,670,119.69
+Full,671,130.0
+Full,672,135.06
+Full,673,132.76
+Full,674,126.72
+Full,675,142.28
+Full,676,139.34
+Full,677,154.17
+Full,678,130.13
+Full,679,134.92
+Full,680,140.32
+Full,681,129.59
+Full,682,135.64
+Full,683,129.93
+Full,684,134.45
+Full,685,147.31
+Full,686,122.31
+Full,687,156.09
+Full,688,140.1
+Full,689,171.74
+Full,690,184.23
+Full,691,126.06
+Full,692,145.55
+Full,693,161.71
+Full,694,148.98
+Full,695,144.04
+Full,696,140.17
+Full,697,162.43
+Full,698,163.05
+Full,699,149.99
+Full,700,147.61
+Full,701,142.69
+Full,702,169.7
+Full,703,155.42
+Full,704,183.61
+Full,705,154.33
+Full,706,154.15
+Full,707,140.16
+Full,708,151.22
+Full,709,140.89
+Full,710,137.8
+Full,711,142.49
+Full,712,158.28
+Full,713,165.09
+Full,714,160.45
+Full,715,159.45
+Full,716,171.44
+Full,717,161.29
+Full,718,167.59
+Full,719,153.22
+Full,720,169.31
+Full,721,152.33
+Full,722,147.26
+Full,723,163.37
+Full,724,152.1
+Full,725,144.86
+Full,726,161.91
+Full,727,168.39
+Full,728,168.55
+Full,729,163.97
+Full,730,161.12
+Full,731,162.24
+Full,732,156.95
+Full,733,158.58
+Full,734,159.37
+Full,735,174.44
+Full,736,168.56
+Full,737,151.13
+Full,738,150.8
+Full,739,160.89
+Full,740,172.66
+Full,741,169.87
+Full,742,181.31
+Full,743,178.88
+Full,744,183.97
+Full,745,153.85
+Full,746,152.03
+Full,747,152.66
+Full,748,181.31
+Full,749,159.78
+Full,750,189.4
+Full,751,189.72
+Full,752,153.71
+Full,753,182.71
+Full,754,168.58
+Full,755,170.2
+Full,756,196.86
+Full,757,172.41
+Full,758,158.57
+Full,759,200.34
+Full,760,197.99
+Full,761,161.41
+Full,762,209.17
+Full,763,186.06
+Full,764,209.43
+Full,765,155.46
+Full,766,160.83
+Full,767,184.92
+Full,768,198.17
+Full,769,177.94
+Full,770,186.88
+Full,771,209.43
+Full,772,179.86
+Full,773,164.2
+Full,774,194.88
+Full,775,177.83
+Full,776,169.05
+Full,777,223.64
+Full,778,178.65
+Full,779,175.62
+Full,780,200.45
+Full,781,196.85
+Full,782,188.12
+Full,783,191.62
+Full,784,198.71
+Full,785,177.74
+Full,786,175.39
+Full,787,189.12
+Full,788,208.48
+Full,789,234.27
+Full,790,182.66
+Full,791,186.85
+Full,792,217.49
+Full,793,201.6
+Full,794,198.86
+Full,795,176.22
+Full,796,188.49
+Full,797,223.79
+Full,798,168.12
+Full,799,223.22
+Full,800,188.41
+Full,801,168.6
+Full,802,190.16
+Full,803,210.89
+Full,804,196.08
+Full,805,197.94
+Full,806,200.88
+Full,807,213.92
+Full,808,179.0
+Full,809,196.63
+Full,810,174.4
+Full,811,184.72
+Full,812,190.22
+Full,813,199.86
+Full,814,238.5
+Full,815,213.42
+Full,816,212.09
+Full,817,194.9
+Full,818,198.85
+Full,819,218.63
+Full,820,206.45
+Full,821,186.26
+Full,822,206.45
+Full,823,197.7
+Full,824,206.98
+Full,825,178.25
+Full,826,209.22
+Full,827,182.08
+Full,828,208.02
+Full,829,193.4
+Full,830,204.03
+Full,831,206.12
+Full,832,216.85
+Full,833,216.21
+Full,834,182.15
+Full,835,223.84
+Full,836,208.66
+Full,837,187.06
+Full,838,173.59
+Full,839,209.1
+Full,840,207.7
+Full,841,204.79
+Full,842,219.22
+Full,843,217.08
+Full,844,192.63
+Full,845,214.61
+Full,846,206.07
+Full,847,229.52
+Full,848,185.82
+Full,849,198.83
+Full,850,196.07
+Full,851,195.15
+Full,852,212.61
+Full,853,184.15
+Full,854,222.13
+Full,855,194.91
+Full,856,215.7
+Full,857,221.1
+Full,858,207.55
+Full,859,220.99
+Full,860,198.32
+Full,861,192.72
+Full,862,187.96
+Full,863,222.23
+Full,864,201.01
+Full,865,171.71
+Full,866,192.26
+Full,867,186.27
+Full,868,195.75
+Full,869,208.33
+Full,870,210.52
+Full,871,208.64
+Full,872,215.07
+Full,873,190.78
+Full,874,207.77
+Full,875,228.29
+Full,876,207.92
+Full,877,224.06
+Full,878,216.84
+Full,879,242.37
+Full,880,207.41
+Full,881,211.67
+Full,882,186.51
+Full,883,220.92
+Full,884,203.37
+Full,885,192.66
+Full,886,232.65
+Full,887,248.54
+Full,888,218.18
+Full,889,198.82
+Full,890,239.15
+Full,891,230.12
+Full,892,245.37
+Full,893,227.48
+Full,894,217.4
+Full,895,210.87
+Full,896,211.84
+Full,897,257.65
+Full,898,208.76
+Full,899,193.74
+Full,900,179.11
+Full,901,175.44
+Full,902,203.41
+Full,903,230.41
+Full,904,181.03
+Full,905,213.43
+Full,906,231.58
+Full,907,194.59
+Full,908,212.25
+Full,909,191.85
+Full,910,237.88
+Full,911,246.12
+Full,912,202.5
+Full,913,200.34
+Full,914,244.52
+Full,915,233.75
+Full,916,232.07
+Full,917,209.76
+Full,918,238.77
+Full,919,219.1
+Full,920,229.93
+Full,921,205.52
+Full,922,230.26
+Full,923,201.86
+Full,924,226.72
+Full,925,210.24
+Full,926,204.01
+Full,927,228.99
+Full,928,196.78
+Full,929,241.23
+Full,930,234.28
+Full,931,252.91
+Full,932,215.95
+Full,933,205.4
+Full,934,219.96
+Full,935,240.48
+Full,936,217.47
+Full,937,221.98
+Full,938,236.06
+Full,939,217.34
+Full,940,213.28
+Full,941,226.24
+Full,942,168.79
+Full,943,218.09
+Full,944,222.8
+Full,945,213.26
+Full,946,207.8
+Full,947,231.99
+Full,948,198.89
+Full,949,219.93
+Full,950,215.01
+Full,951,210.75
+Full,952,243.53
+Full,953,220.78
+Full,954,218.35
+Full,955,236.02
+Full,956,255.04
+Full,957,214.64
+Full,958,245.08
+Full,959,195.65
+Full,960,223.85
+Full,961,210.61
+Full,962,195.14
+Full,963,200.75
+Full,964,221.96
+Full,965,214.63
+Full,966,256.66
+Full,967,208.73
+Full,968,253.99
+Full,969,228.2
+Full,970,225.09
+Full,971,198.59
+Full,972,221.47
+Full,973,225.26
+Full,974,216.82
+Full,975,243.27
+Full,976,206.04
+Full,977,225.2
+Full,978,206.05
+Full,979,202.85
+Full,980,227.23
+Full,981,209.17
+Full,982,213.54
+Full,983,230.27
+Full,984,255.85
+Full,985,237.12
+Full,986,225.59
+Full,987,220.76
+Full,988,243.84
+Full,989,215.49
+Full,990,232.04
+Full,991,223.61
+Full,992,188.74
+Full,993,245.46
+Full,994,221.22
+Full,995,220.65
+Full,996,206.34
+Full,997,249.46
+Full,998,253.04
+Full,999,207.96
+No global root,0,8.25
+No global root,1,8.33
+No global root,2,7.94
+No global root,3,7.77
+No global root,4,8.03
+No global root,5,8.58
+No global root,6,7.57
+No global root,7,7.28
+No global root,8,8.41
+No global root,9,7.29
+No global root,10,7.42
+No global root,11,7.43
+No global root,12,6.88
+No global root,13,8.06
+No global root,14,7.25
+No global root,15,7.49
+No global root,16,7.15
+No global root,17,7.43
+No global root,18,7.27
+No global root,19,6.98
+No global root,20,6.56
+No global root,21,6.34
+No global root,22,6.85
+No global root,23,7.17
+No global root,24,6.43
+No global root,25,6.39
+No global root,26,6.37
+No global root,27,6.17
+No global root,28,6.74
+No global root,29,5.98
+No global root,30,6.87
+No global root,31,5.99
+No global root,32,6.08
+No global root,33,6.28
+No global root,34,6.39
+No global root,35,6.16
+No global root,36,6.32
+No global root,37,6.14
+No global root,38,6.52
+No global root,39,6.38
+No global root,40,6.4
+No global root,41,6.24
+No global root,42,6.09
+No global root,43,5.99
+No global root,44,6.11
+No global root,45,6.51
+No global root,46,6.44
+No global root,47,6.39
+No global root,48,5.99
+No global root,49,5.7
+No global root,50,5.84
+No global root,51,5.93
+No global root,52,6.1
+No global root,53,6.11
+No global root,54,5.98
+No global root,55,6.08
+No global root,56,5.83
+No global root,57,6.15
+No global root,58,5.86
+No global root,59,6.08
+No global root,60,6.34
+No global root,61,6.0
+No global root,62,5.89
+No global root,63,6.21
+No global root,64,5.98
+No global root,65,6.45
+No global root,66,6.18
+No global root,67,6.06
+No global root,68,6.07
+No global root,69,6.24
+No global root,70,5.93
+No global root,71,6.16
+No global root,72,6.1
+No global root,73,5.71
+No global root,74,6.08
+No global root,75,6.15
+No global root,76,5.91
+No global root,77,5.94
+No global root,78,6.5
+No global root,79,6.07
+No global root,80,6.37
+No global root,81,6.14
+No global root,82,5.98
+No global root,83,6.16
+No global root,84,6.19
+No global root,85,6.45
+No global root,86,6.37
+No global root,87,5.96
+No global root,88,6.34
+No global root,89,6.87
+No global root,90,6.14
+No global root,91,6.3
+No global root,92,6.1
+No global root,93,6.0
+No global root,94,6.44
+No global root,95,6.92
+No global root,96,6.56
+No global root,97,6.47
+No global root,98,6.18
+No global root,99,6.34
+No global root,100,6.5
+No global root,101,6.16
+No global root,102,6.94
+No global root,103,6.92
+No global root,104,6.7
+No global root,105,6.77
+No global root,106,6.57
+No global root,107,6.73
+No global root,108,6.75
+No global root,109,6.53
+No global root,110,6.65
+No global root,111,7.09
+No global root,112,6.79
+No global root,113,6.82
+No global root,114,6.76
+No global root,115,7.01
+No global root,116,6.56
+No global root,117,8.1
+No global root,118,7.1
+No global root,119,7.21
+No global root,120,7.17
+No global root,121,7.12
+No global root,122,7.08
+No global root,123,7.19
+No global root,124,7.3
+No global root,125,7.48
+No global root,126,7.08
+No global root,127,7.63
+No global root,128,7.71
+No global root,129,8.29
+No global root,130,7.64
+No global root,131,8.29
+No global root,132,8.26
+No global root,133,7.86
+No global root,134,8.55
+No global root,135,8.38
+No global root,136,8.83
+No global root,137,8.47
+No global root,138,8.6
+No global root,139,8.81
+No global root,140,8.92
+No global root,141,8.92
+No global root,142,9.11
+No global root,143,9.04
+No global root,144,9.8
+No global root,145,9.64
+No global root,146,9.5
+No global root,147,8.91
+No global root,148,10.79
+No global root,149,10.28
+No global root,150,10.71
+No global root,151,10.24
+No global root,152,10.86
+No global root,153,12.2
+No global root,154,10.98
+No global root,155,11.63
+No global root,156,12.42
+No global root,157,12.13
+No global root,158,12.07
+No global root,159,13.06
+No global root,160,12.74
+No global root,161,13.55
+No global root,162,15.5
+No global root,163,14.26
+No global root,164,14.91
+No global root,165,15.5
+No global root,166,15.76
+No global root,167,15.68
+No global root,168,17.01
+No global root,169,19.26
+No global root,170,18.72
+No global root,171,20.04
+No global root,172,17.3
+No global root,173,17.98
+No global root,174,19.4
+No global root,175,18.42
+No global root,176,19.5
+No global root,177,18.94
+No global root,178,22.09
+No global root,179,20.61
+No global root,180,19.6
+No global root,181,18.95
+No global root,182,20.78
+No global root,183,21.76
+No global root,184,21.23
+No global root,185,22.57
+No global root,186,22.47
+No global root,187,23.01
+No global root,188,24.1
+No global root,189,23.08
+No global root,190,21.93
+No global root,191,22.01
+No global root,192,24.16
+No global root,193,24.25
+No global root,194,22.43
+No global root,195,26.93
+No global root,196,23.23
+No global root,197,23.66
+No global root,198,24.67
+No global root,199,24.7
+No global root,200,24.2
+No global root,201,26.46
+No global root,202,24.42
+No global root,203,25.01
+No global root,204,23.51
+No global root,205,27.18
+No global root,206,27.26
+No global root,207,27.33
+No global root,208,28.69
+No global root,209,28.77
+No global root,210,25.8
+No global root,211,25.15
+No global root,212,26.78
+No global root,213,27.38
+No global root,214,30.42
+No global root,215,28.29
+No global root,216,27.38
+No global root,217,29.2
+No global root,218,29.18
+No global root,219,27.71
+No global root,220,26.93
+No global root,221,27.46
+No global root,222,27.87
+No global root,223,25.17
+No global root,224,28.5
+No global root,225,29.48
+No global root,226,27.76
+No global root,227,30.59
+No global root,228,28.66
+No global root,229,30.36
+No global root,230,32.14
+No global root,231,29.8
+No global root,232,28.66
+No global root,233,26.85
+No global root,234,28.41
+No global root,235,29.9
+No global root,236,27.08
+No global root,237,26.93
+No global root,238,29.01
+No global root,239,27.87
+No global root,240,30.42
+No global root,241,30.9
+No global root,242,30.86
+No global root,243,26.93
+No global root,244,30.94
+No global root,245,33.35
+No global root,246,31.85
+No global root,247,29.65
+No global root,248,31.74
+No global root,249,29.14
+No global root,250,32.1
+No global root,251,29.15
+No global root,252,29.8
+No global root,253,28.52
+No global root,254,32.66
+No global root,255,29.72
+No global root,256,34.68
+No global root,257,29.92
+No global root,258,34.73
+No global root,259,33.71
+No global root,260,31.29
+No global root,261,28.73
+No global root,262,31.85
+No global root,263,31.6
+No global root,264,30.04
+No global root,265,35.62
+No global root,266,32.55
+No global root,267,35.0
+No global root,268,31.53
+No global root,269,33.2
+No global root,270,33.47
+No global root,271,34.52
+No global root,272,33.01
+No global root,273,38.51
+No global root,274,35.78
+No global root,275,32.2
+No global root,276,36.23
+No global root,277,35.53
+No global root,278,34.46
+No global root,279,31.68
+No global root,280,33.23
+No global root,281,35.78
+No global root,282,38.59
+No global root,283,35.02
+No global root,284,34.14
+No global root,285,33.68
+No global root,286,35.32
+No global root,287,35.92
+No global root,288,36.42
+No global root,289,37.51
+No global root,290,34.46
+No global root,291,37.01
+No global root,292,35.21
+No global root,293,37.23
+No global root,294,36.99
+No global root,295,34.56
+No global root,296,36.79
+No global root,297,37.8
+No global root,298,38.02
+No global root,299,38.31
+No global root,300,35.69
+No global root,301,32.57
+No global root,302,36.79
+No global root,303,35.47
+No global root,304,34.61
+No global root,305,38.97
+No global root,306,37.31
+No global root,307,37.7
+No global root,308,32.35
+No global root,309,33.7
+No global root,310,34.42
+No global root,311,34.39
+No global root,312,36.27
+No global root,313,37.73
+No global root,314,36.72
+No global root,315,37.43
+No global root,316,38.1
+No global root,317,33.68
+No global root,318,35.42
+No global root,319,38.15
+No global root,320,37.24
+No global root,321,35.5
+No global root,322,39.02
+No global root,323,36.69
+No global root,324,35.93
+No global root,325,36.79
+No global root,326,39.96
+No global root,327,34.75
+No global root,328,38.58
+No global root,329,37.16
+No global root,330,35.22
+No global root,331,33.65
+No global root,332,38.01
+No global root,333,37.52
+No global root,334,33.11
+No global root,335,36.63
+No global root,336,33.39
+No global root,337,37.38
+No global root,338,36.27
+No global root,339,35.94
+No global root,340,36.17
+No global root,341,36.04
+No global root,342,37.91
+No global root,343,37.22
+No global root,344,34.92
+No global root,345,37.16
+No global root,346,32.62
+No global root,347,35.81
+No global root,348,37.07
+No global root,349,36.75
+No global root,350,40.96
+No global root,351,33.16
+No global root,352,38.96
+No global root,353,36.43
+No global root,354,34.61
+No global root,355,37.21
+No global root,356,33.82
+No global root,357,31.75
+No global root,358,34.57
+No global root,359,37.05
+No global root,360,40.43
+No global root,361,34.87
+No global root,362,34.99
+No global root,363,34.65
+No global root,364,37.19
+No global root,365,36.19
+No global root,366,36.24
+No global root,367,35.38
+No global root,368,36.33
+No global root,369,37.34
+No global root,370,35.05
+No global root,371,40.06
+No global root,372,38.62
+No global root,373,36.09
+No global root,374,35.81
+No global root,375,38.4
+No global root,376,37.01
+No global root,377,39.32
+No global root,378,39.83
+No global root,379,36.58
+No global root,380,37.21
+No global root,381,37.18
+No global root,382,38.7
+No global root,383,38.5
+No global root,384,39.89
+No global root,385,36.31
+No global root,386,36.53
+No global root,387,40.15
+No global root,388,33.98
+No global root,389,36.26
+No global root,390,39.3
+No global root,391,39.5
+No global root,392,39.75
+No global root,393,36.17
+No global root,394,36.55
+No global root,395,39.75
+No global root,396,36.5
+No global root,397,36.54
+No global root,398,41.94
+No global root,399,40.37
+No global root,400,42.56
+No global root,401,40.62
+No global root,402,42.97
+No global root,403,40.43
+No global root,404,36.28
+No global root,405,38.96
+No global root,406,37.43
+No global root,407,43.55
+No global root,408,39.81
+No global root,409,44.31
+No global root,410,44.01
+No global root,411,43.63
+No global root,412,38.9
+No global root,413,39.3
+No global root,414,42.14
+No global root,415,36.88
+No global root,416,40.07
+No global root,417,43.25
+No global root,418,43.62
+No global root,419,42.77
+No global root,420,44.36
+No global root,421,35.67
+No global root,422,43.41
+No global root,423,41.41
+No global root,424,42.17
+No global root,425,41.17
+No global root,426,40.65
+No global root,427,42.47
+No global root,428,42.62
+No global root,429,42.59
+No global root,430,41.26
+No global root,431,41.62
+No global root,432,44.73
+No global root,433,42.58
+No global root,434,44.15
+No global root,435,42.4
+No global root,436,42.69
+No global root,437,44.32
+No global root,438,40.31
+No global root,439,41.48
+No global root,440,43.27
+No global root,441,45.15
+No global root,442,45.97
+No global root,443,45.8
+No global root,444,42.78
+No global root,445,43.23
+No global root,446,42.9
+No global root,447,43.43
+No global root,448,44.34
+No global root,449,47.56
+No global root,450,41.72
+No global root,451,42.35
+No global root,452,49.74
+No global root,453,44.24
+No global root,454,50.3
+No global root,455,45.06
+No global root,456,45.07
+No global root,457,44.3
+No global root,458,48.98
+No global root,459,47.06
+No global root,460,46.45
+No global root,461,41.41
+No global root,462,47.74
+No global root,463,47.23
+No global root,464,46.28
+No global root,465,51.05
+No global root,466,46.33
+No global root,467,43.88
+No global root,468,42.37
+No global root,469,46.06
+No global root,470,44.89
+No global root,471,44.34
+No global root,472,45.06
+No global root,473,46.61
+No global root,474,43.54
+No global root,475,46.03
+No global root,476,47.28
+No global root,477,46.34
+No global root,478,45.39
+No global root,479,45.38
+No global root,480,50.86
+No global root,481,43.5
+No global root,482,44.84
+No global root,483,43.66
+No global root,484,47.03
+No global root,485,49.09
+No global root,486,49.52
+No global root,487,50.03
+No global root,488,53.29
+No global root,489,45.94
+No global root,490,50.05
+No global root,491,56.83
+No global root,492,51.74
+No global root,493,48.6
+No global root,494,53.15
+No global root,495,54.92
+No global root,496,45.22
+No global root,497,50.37
+No global root,498,51.47
+No global root,499,47.66
+No global root,500,49.66
+No global root,501,50.23
+No global root,502,50.91
+No global root,503,51.06
+No global root,504,50.13
+No global root,505,50.9
+No global root,506,50.7
+No global root,507,61.02
+No global root,508,55.23
+No global root,509,52.61
+No global root,510,52.76
+No global root,511,54.39
+No global root,512,48.43
+No global root,513,51.26
+No global root,514,54.72
+No global root,515,46.97
+No global root,516,56.38
+No global root,517,53.05
+No global root,518,51.41
+No global root,519,56.27
+No global root,520,51.82
+No global root,521,56.13
+No global root,522,50.7
+No global root,523,58.02
+No global root,524,56.39
+No global root,525,55.2
+No global root,526,50.39
+No global root,527,52.26
+No global root,528,53.0
+No global root,529,56.68
+No global root,530,52.44
+No global root,531,54.0
+No global root,532,56.16
+No global root,533,57.76
+No global root,534,60.31
+No global root,535,57.5
+No global root,536,58.39
+No global root,537,59.72
+No global root,538,57.67
+No global root,539,55.38
+No global root,540,50.42
+No global root,541,50.42
+No global root,542,57.5
+No global root,543,56.86
+No global root,544,56.77
+No global root,545,59.46
+No global root,546,63.77
+No global root,547,57.85
+No global root,548,59.61
+No global root,549,61.06
+No global root,550,62.34
+No global root,551,59.4
+No global root,552,61.67
+No global root,553,57.28
+No global root,554,56.56
+No global root,555,66.9
+No global root,556,61.18
+No global root,557,60.77
+No global root,558,64.46
+No global root,559,60.95
+No global root,560,66.43
+No global root,561,60.23
+No global root,562,56.98
+No global root,563,57.41
+No global root,564,67.44
+No global root,565,61.14
+No global root,566,60.58
+No global root,567,56.77
+No global root,568,63.71
+No global root,569,58.63
+No global root,570,60.39
+No global root,571,59.9
+No global root,572,73.24
+No global root,573,65.93
+No global root,574,62.64
+No global root,575,59.66
+No global root,576,56.66
+No global root,577,58.98
+No global root,578,65.16
+No global root,579,60.52
+No global root,580,59.71
+No global root,581,67.77
+No global root,582,63.78
+No global root,583,65.46
+No global root,584,62.9
+No global root,585,70.66
+No global root,586,58.29
+No global root,587,65.68
+No global root,588,66.27
+No global root,589,65.93
+No global root,590,69.88
+No global root,591,66.56
+No global root,592,61.5
+No global root,593,65.1
+No global root,594,67.09
+No global root,595,69.5
+No global root,596,66.67
+No global root,597,56.89
+No global root,598,63.5
+No global root,599,66.9
+No global root,600,57.32
+No global root,601,78.53
+No global root,602,63.31
+No global root,603,80.41
+No global root,604,71.55
+No global root,605,72.98
+No global root,606,76.92
+No global root,607,71.89
+No global root,608,72.45
+No global root,609,81.44
+No global root,610,66.25
+No global root,611,75.61
+No global root,612,77.81
+No global root,613,71.7
+No global root,614,70.74
+No global root,615,69.78
+No global root,616,69.34
+No global root,617,79.46
+No global root,618,74.64
+No global root,619,75.55
+No global root,620,72.5
+No global root,621,81.72
+No global root,622,77.46
+No global root,623,71.13
+No global root,624,68.97
+No global root,625,74.66
+No global root,626,77.67
+No global root,627,72.07
+No global root,628,73.92
+No global root,629,80.77
+No global root,630,78.32
+No global root,631,78.02
+No global root,632,76.83
+No global root,633,76.67
+No global root,634,75.94
+No global root,635,72.39
+No global root,636,80.63
+No global root,637,81.47
+No global root,638,78.85
+No global root,639,86.96
+No global root,640,97.32
+No global root,641,74.2
+No global root,642,79.38
+No global root,643,79.79
+No global root,644,81.22
+No global root,645,80.23
+No global root,646,78.68
+No global root,647,86.6
+No global root,648,79.17
+No global root,649,76.48
+No global root,650,87.47
+No global root,651,82.68
+No global root,652,75.87
+No global root,653,84.93
+No global root,654,93.75
+No global root,655,82.95
+No global root,656,76.77
+No global root,657,88.58
+No global root,658,71.27
+No global root,659,91.28
+No global root,660,88.11
+No global root,661,91.87
+No global root,662,93.71
+No global root,663,96.89
+No global root,664,96.88
+No global root,665,83.02
+No global root,666,86.64
+No global root,667,96.17
+No global root,668,96.24
+No global root,669,98.03
+No global root,670,88.06
+No global root,671,87.4
+No global root,672,94.12
+No global root,673,85.03
+No global root,674,93.5
+No global root,675,85.95
+No global root,676,80.83
+No global root,677,82.2
+No global root,678,107.99
+No global root,679,89.55
+No global root,680,92.14
+No global root,681,77.58
+No global root,682,92.1
+No global root,683,92.37
+No global root,684,81.88
+No global root,685,94.97
+No global root,686,82.08
+No global root,687,87.12
+No global root,688,91.0
+No global root,689,92.17
+No global root,690,95.73
+No global root,691,91.06
+No global root,692,101.99
+No global root,693,100.1
+No global root,694,97.74
+No global root,695,99.81
+No global root,696,100.38
+No global root,697,89.23
+No global root,698,95.09
+No global root,699,106.89
+No global root,700,105.18
+No global root,701,84.61
+No global root,702,106.16
+No global root,703,98.01
+No global root,704,102.86
+No global root,705,95.81
+No global root,706,87.02
+No global root,707,87.11
+No global root,708,106.78
+No global root,709,98.84
+No global root,710,98.3
+No global root,711,108.88
+No global root,712,94.31
+No global root,713,106.59
+No global root,714,109.43
+No global root,715,104.79
+No global root,716,111.13
+No global root,717,102.35
+No global root,718,120.47
+No global root,719,102.38
+No global root,720,119.18
+No global root,721,115.24
+No global root,722,118.27
+No global root,723,104.9
+No global root,724,111.12
+No global root,725,130.53
+No global root,726,120.87
+No global root,727,104.26
+No global root,728,120.16
+No global root,729,106.28
+No global root,730,102.98
+No global root,731,96.09
+No global root,732,112.0
+No global root,733,110.71
+No global root,734,130.97
+No global root,735,117.27
+No global root,736,115.77
+No global root,737,98.71
+No global root,738,101.55
+No global root,739,108.91
+No global root,740,117.72
+No global root,741,113.57
+No global root,742,114.05
+No global root,743,130.49
+No global root,744,111.74
+No global root,745,116.92
+No global root,746,131.48
+No global root,747,107.59
+No global root,748,126.26
+No global root,749,95.68
+No global root,750,123.25
+No global root,751,108.7
+No global root,752,106.17
+No global root,753,134.56
+No global root,754,117.1
+No global root,755,138.1
+No global root,756,114.75
+No global root,757,127.25
+No global root,758,136.0
+No global root,759,121.11
+No global root,760,117.43
+No global root,761,120.13
+No global root,762,137.77
+No global root,763,99.06
+No global root,764,120.38
+No global root,765,135.63
+No global root,766,138.67
+No global root,767,134.2
+No global root,768,127.18
+No global root,769,125.35
+No global root,770,135.99
+No global root,771,114.1
+No global root,772,130.6
+No global root,773,135.31
+No global root,774,112.69
+No global root,775,138.72
+No global root,776,117.73
+No global root,777,143.81
+No global root,778,120.55
+No global root,779,114.37
+No global root,780,142.16
+No global root,781,132.97
+No global root,782,130.9
+No global root,783,134.64
+No global root,784,135.54
+No global root,785,110.95
+No global root,786,132.93
+No global root,787,135.85
+No global root,788,118.48
+No global root,789,146.92
+No global root,790,137.39
+No global root,791,151.11
+No global root,792,141.3
+No global root,793,137.48
+No global root,794,136.64
+No global root,795,117.94
+No global root,796,116.61
+No global root,797,144.8
+No global root,798,129.37
+No global root,799,143.71
+No global root,800,138.26
+No global root,801,140.03
+No global root,802,160.37
+No global root,803,120.25
+No global root,804,136.54
+No global root,805,151.46
+No global root,806,133.27
+No global root,807,159.26
+No global root,808,145.32
+No global root,809,150.37
+No global root,810,148.66
+No global root,811,133.86
+No global root,812,148.43
+No global root,813,131.38
+No global root,814,150.84
+No global root,815,146.19
+No global root,816,173.93
+No global root,817,150.07
+No global root,818,143.08
+No global root,819,128.57
+No global root,820,147.71
+No global root,821,159.71
+No global root,822,150.21
+No global root,823,150.06
+No global root,824,124.99
+No global root,825,128.44
+No global root,826,149.41
+No global root,827,153.28
+No global root,828,126.21
+No global root,829,134.71
+No global root,830,137.87
+No global root,831,149.21
+No global root,832,137.83
+No global root,833,140.82
+No global root,834,146.37
+No global root,835,152.99
+No global root,836,118.1
+No global root,837,121.71
+No global root,838,145.72
+No global root,839,156.49
+No global root,840,165.37
+No global root,841,160.76
+No global root,842,158.65
+No global root,843,144.69
+No global root,844,144.55
+No global root,845,171.3
+No global root,846,159.13
+No global root,847,132.18
+No global root,848,148.48
+No global root,849,141.45
+No global root,850,155.1
+No global root,851,143.35
+No global root,852,137.15
+No global root,853,157.77
+No global root,854,160.21
+No global root,855,162.34
+No global root,856,154.88
+No global root,857,130.69
+No global root,858,155.37
+No global root,859,132.78
+No global root,860,176.5
+No global root,861,171.79
+No global root,862,167.07
+No global root,863,132.73
+No global root,864,158.91
+No global root,865,149.38
+No global root,866,138.04
+No global root,867,158.4
+No global root,868,153.78
+No global root,869,177.11
+No global root,870,147.69
+No global root,871,153.19
+No global root,872,150.33
+No global root,873,171.04
+No global root,874,166.02
+No global root,875,149.56
+No global root,876,169.66
+No global root,877,155.2
+No global root,878,129.62
+No global root,879,154.5
+No global root,880,192.5
+No global root,881,164.42
+No global root,882,165.76
+No global root,883,162.66
+No global root,884,170.05
+No global root,885,175.35
+No global root,886,141.05
+No global root,887,149.66
+No global root,888,189.23
+No global root,889,172.91
+No global root,890,157.3
+No global root,891,153.71
+No global root,892,132.01
+No global root,893,194.89
+No global root,894,139.41
+No global root,895,160.13
+No global root,896,175.33
+No global root,897,162.31
+No global root,898,175.3
+No global root,899,188.63
+No global root,900,181.65
+No global root,901,193.42
+No global root,902,167.54
+No global root,903,176.28
+No global root,904,150.34
+No global root,905,182.61
+No global root,906,172.46
+No global root,907,154.63
+No global root,908,173.39
+No global root,909,164.57
+No global root,910,167.76
+No global root,911,160.48
+No global root,912,176.08
+No global root,913,185.85
+No global root,914,161.99
+No global root,915,172.22
+No global root,916,158.4
+No global root,917,149.67
+No global root,918,185.45
+No global root,919,171.61
+No global root,920,157.99
+No global root,921,197.68
+No global root,922,171.27
+No global root,923,163.27
+No global root,924,178.41
+No global root,925,154.54
+No global root,926,183.45
+No global root,927,185.21
+No global root,928,191.02
+No global root,929,191.95
+No global root,930,180.42
+No global root,931,182.32
+No global root,932,185.77
+No global root,933,175.89
+No global root,934,197.58
+No global root,935,193.9
+No global root,936,168.24
+No global root,937,175.36
+No global root,938,170.37
+No global root,939,175.94
+No global root,940,183.4
+No global root,941,167.61
+No global root,942,186.64
+No global root,943,188.97
+No global root,944,167.46
+No global root,945,181.9
+No global root,946,193.83
+No global root,947,194.74
+No global root,948,199.23
+No global root,949,188.48
+No global root,950,199.32
+No global root,951,184.03
+No global root,952,161.79
+No global root,953,179.86
+No global root,954,176.0
+No global root,955,178.61
+No global root,956,179.52
+No global root,957,189.71
+No global root,958,209.46
+No global root,959,164.67
+No global root,960,198.73
+No global root,961,163.58
+No global root,962,174.13
+No global root,963,186.61
+No global root,964,195.06
+No global root,965,183.96
+No global root,966,190.68
+No global root,967,173.04
+No global root,968,186.31
+No global root,969,197.04
+No global root,970,236.11
+No global root,971,190.19
+No global root,972,178.91
+No global root,973,185.21
+No global root,974,199.45
+No global root,975,189.38
+No global root,976,208.13
+No global root,977,193.24
+No global root,978,184.34
+No global root,979,184.54
+No global root,980,192.73
+No global root,981,195.27
+No global root,982,195.82
+No global root,983,169.2
+No global root,984,185.12
+No global root,985,195.26
+No global root,986,194.08
+No global root,987,188.92
+No global root,988,188.84
+No global root,989,172.81
+No global root,990,188.1
+No global root,991,179.89
+No global root,992,163.04
+No global root,993,196.33
+No global root,994,181.12
+No global root,995,223.7
+No global root,996,203.32
+No global root,997,192.33
+No global root,998,151.23
+No global root,999,213.93
+No body pose,0,8.24
+No body pose,1,9.13
+No body pose,2,7.74
+No body pose,3,7.58
+No body pose,4,8.18
+No body pose,5,9.27
+No body pose,6,7.68
+No body pose,7,8.32
+No body pose,8,7.69
+No body pose,9,7.95
+No body pose,10,7.56
+No body pose,11,7.88
+No body pose,12,8.27
+No body pose,13,8.05
+No body pose,14,7.74
+No body pose,15,6.99
+No body pose,16,6.28
+No body pose,17,7.47
+No body pose,18,6.12
+No body pose,19,6.87
+No body pose,20,6.98
+No body pose,21,6.64
+No body pose,22,6.46
+No body pose,23,7.19
+No body pose,24,6.33
+No body pose,25,6.73
+No body pose,26,6.68
+No body pose,27,6.65
+No body pose,28,6.49
+No body pose,29,6.46
+No body pose,30,5.88
+No body pose,31,6.15
+No body pose,32,6.32
+No body pose,33,6.1
+No body pose,34,6.51
+No body pose,35,6.19
+No body pose,36,6.36
+No body pose,37,6.25
+No body pose,38,6.13
+No body pose,39,5.91
+No body pose,40,6.39
+No body pose,41,6.43
+No body pose,42,6.29
+No body pose,43,6.2
+No body pose,44,6.16
+No body pose,45,6.29
+No body pose,46,6.1
+No body pose,47,6.27
+No body pose,48,6.12
+No body pose,49,6.28
+No body pose,50,6.15
+No body pose,51,5.98
+No body pose,52,6.19
+No body pose,53,5.61
+No body pose,54,6.08
+No body pose,55,5.75
+No body pose,56,5.74
+No body pose,57,5.98
+No body pose,58,5.57
+No body pose,59,5.87
+No body pose,60,5.92
+No body pose,61,6.29
+No body pose,62,5.99
+No body pose,63,6.02
+No body pose,64,5.85
+No body pose,65,6.27
+No body pose,66,6.03
+No body pose,67,5.98
+No body pose,68,5.83
+No body pose,69,6.41
+No body pose,70,6.19
+No body pose,71,5.92
+No body pose,72,5.99
+No body pose,73,6.09
+No body pose,74,6.18
+No body pose,75,5.91
+No body pose,76,6.1
+No body pose,77,6.11
+No body pose,78,6.05
+No body pose,79,6.23
+No body pose,80,6.12
+No body pose,81,6.02
+No body pose,82,6.06
+No body pose,83,6.41
+No body pose,84,6.23
+No body pose,85,6.06
+No body pose,86,6.18
+No body pose,87,6.15
+No body pose,88,5.95
+No body pose,89,6.02
+No body pose,90,5.92
+No body pose,91,6.22
+No body pose,92,6.15
+No body pose,93,6.21
+No body pose,94,5.96
+No body pose,95,6.18
+No body pose,96,6.22
+No body pose,97,6.23
+No body pose,98,6.25
+No body pose,99,6.06
+No body pose,100,6.42
+No body pose,101,6.48
+No body pose,102,6.12
+No body pose,103,6.27
+No body pose,104,6.16
+No body pose,105,6.24
+No body pose,106,5.9
+No body pose,107,6.48
+No body pose,108,6.43
+No body pose,109,6.4
+No body pose,110,6.46
+No body pose,111,6.34
+No body pose,112,6.47
+No body pose,113,6.42
+No body pose,114,6.58
+No body pose,115,6.73
+No body pose,116,6.87
+No body pose,117,6.59
+No body pose,118,6.41
+No body pose,119,6.85
+No body pose,120,6.85
+No body pose,121,6.52
+No body pose,122,6.61
+No body pose,123,6.51
+No body pose,124,6.51
+No body pose,125,6.87
+No body pose,126,6.73
+No body pose,127,6.76
+No body pose,128,7.22
+No body pose,129,7.09
+No body pose,130,6.94
+No body pose,131,6.46
+No body pose,132,6.95
+No body pose,133,6.92
+No body pose,134,6.54
+No body pose,135,7.18
+No body pose,136,6.94
+No body pose,137,7.03
+No body pose,138,7.03
+No body pose,139,7.11
+No body pose,140,7.23
+No body pose,141,7.15
+No body pose,142,7.44
+No body pose,143,7.38
+No body pose,144,6.89
+No body pose,145,7.38
+No body pose,146,7.51
+No body pose,147,7.14
+No body pose,148,7.26
+No body pose,149,7.09
+No body pose,150,7.86
+No body pose,151,7.75
+No body pose,152,7.52
+No body pose,153,7.39
+No body pose,154,7.66
+No body pose,155,7.74
+No body pose,156,7.82
+No body pose,157,8.72
+No body pose,158,7.62
+No body pose,159,8.1
+No body pose,160,7.73
+No body pose,161,8.48
+No body pose,162,7.98
+No body pose,163,9.14
+No body pose,164,8.71
+No body pose,165,8.9
+No body pose,166,9.59
+No body pose,167,9.12
+No body pose,168,9.24
+No body pose,169,9.22
+No body pose,170,9.89
+No body pose,171,9.02
+No body pose,172,9.56
+No body pose,173,9.46
+No body pose,174,9.93
+No body pose,175,9.28
+No body pose,176,9.63
+No body pose,177,10.0
+No body pose,178,9.54
+No body pose,179,10.65
+No body pose,180,11.37
+No body pose,181,10.58
+No body pose,182,11.56
+No body pose,183,11.2
+No body pose,184,11.94
+No body pose,185,12.76
+No body pose,186,11.38
+No body pose,187,12.51
+No body pose,188,12.79
+No body pose,189,13.6
+No body pose,190,14.13
+No body pose,191,15.44
+No body pose,192,13.92
+No body pose,193,16.82
+No body pose,194,14.74
+No body pose,195,16.81
+No body pose,196,15.77
+No body pose,197,15.63
+No body pose,198,16.19
+No body pose,199,15.63
+No body pose,200,17.58
+No body pose,201,18.05
+No body pose,202,16.61
+No body pose,203,17.4
+No body pose,204,18.83
+No body pose,205,17.52
+No body pose,206,17.13
+No body pose,207,21.32
+No body pose,208,19.42
+No body pose,209,19.81
+No body pose,210,18.98
+No body pose,211,20.59
+No body pose,212,19.91
+No body pose,213,19.93
+No body pose,214,20.95
+No body pose,215,22.57
+No body pose,216,21.18
+No body pose,217,21.21
+No body pose,218,22.75
+No body pose,219,23.66
+No body pose,220,24.09
+No body pose,221,21.66
+No body pose,222,21.83
+No body pose,223,24.79
+No body pose,224,23.98
+No body pose,225,25.29
+No body pose,226,22.82
+No body pose,227,24.69
+No body pose,228,25.37
+No body pose,229,24.82
+No body pose,230,25.65
+No body pose,231,24.62
+No body pose,232,26.34
+No body pose,233,25.15
+No body pose,234,28.73
+No body pose,235,24.71
+No body pose,236,25.6
+No body pose,237,25.3
+No body pose,238,27.81
+No body pose,239,27.92
+No body pose,240,27.9
+No body pose,241,26.94
+No body pose,242,26.45
+No body pose,243,29.2
+No body pose,244,25.85
+No body pose,245,29.0
+No body pose,246,28.3
+No body pose,247,29.29
+No body pose,248,28.85
+No body pose,249,30.77
+No body pose,250,27.64
+No body pose,251,28.61
+No body pose,252,29.67
+No body pose,253,29.54
+No body pose,254,27.78
+No body pose,255,28.89
+No body pose,256,28.62
+No body pose,257,31.19
+No body pose,258,30.97
+No body pose,259,31.71
+No body pose,260,29.94
+No body pose,261,32.64
+No body pose,262,31.07
+No body pose,263,31.37
+No body pose,264,31.84
+No body pose,265,33.44
+No body pose,266,31.25
+No body pose,267,32.51
+No body pose,268,30.88
+No body pose,269,27.92
+No body pose,270,34.48
+No body pose,271,34.46
+No body pose,272,34.72
+No body pose,273,31.52
+No body pose,274,33.39
+No body pose,275,31.83
+No body pose,276,31.58
+No body pose,277,30.94
+No body pose,278,31.28
+No body pose,279,30.73
+No body pose,280,30.31
+No body pose,281,31.12
+No body pose,282,35.76
+No body pose,283,32.9
+No body pose,284,34.62
+No body pose,285,33.97
+No body pose,286,33.03
+No body pose,287,30.69
+No body pose,288,34.59
+No body pose,289,33.54
+No body pose,290,35.72
+No body pose,291,32.01
+No body pose,292,34.73
+No body pose,293,30.19
+No body pose,294,30.5
+No body pose,295,30.7
+No body pose,296,35.67
+No body pose,297,30.46
+No body pose,298,34.21
+No body pose,299,31.88
+No body pose,300,33.81
+No body pose,301,34.94
+No body pose,302,31.01
+No body pose,303,32.2
+No body pose,304,33.4
+No body pose,305,36.19
+No body pose,306,35.05
+No body pose,307,33.55
+No body pose,308,34.67
+No body pose,309,35.97
+No body pose,310,35.6
+No body pose,311,36.43
+No body pose,312,34.46
+No body pose,313,35.09
+No body pose,314,35.19
+No body pose,315,32.06
+No body pose,316,34.73
+No body pose,317,35.39
+No body pose,318,30.53
+No body pose,319,34.72
+No body pose,320,33.0
+No body pose,321,32.92
+No body pose,322,33.86
+No body pose,323,37.91
+No body pose,324,36.68
+No body pose,325,32.79
+No body pose,326,37.26
+No body pose,327,33.87
+No body pose,328,35.28
+No body pose,329,37.7
+No body pose,330,36.2
+No body pose,331,36.2
+No body pose,332,35.03
+No body pose,333,33.19
+No body pose,334,35.65
+No body pose,335,35.38
+No body pose,336,37.81
+No body pose,337,34.54
+No body pose,338,37.69
+No body pose,339,35.37
+No body pose,340,35.41
+No body pose,341,35.83
+No body pose,342,37.46
+No body pose,343,41.13
+No body pose,344,35.48
+No body pose,345,35.93
+No body pose,346,32.9
+No body pose,347,38.21
+No body pose,348,34.54
+No body pose,349,36.34
+No body pose,350,33.31
+No body pose,351,34.57
+No body pose,352,36.41
+No body pose,353,35.21
+No body pose,354,36.87
+No body pose,355,41.03
+No body pose,356,37.93
+No body pose,357,36.12
+No body pose,358,35.83
+No body pose,359,37.17
+No body pose,360,37.02
+No body pose,361,36.1
+No body pose,362,35.8
+No body pose,363,39.26
+No body pose,364,35.35
+No body pose,365,39.23
+No body pose,366,33.87
+No body pose,367,34.64
+No body pose,368,35.05
+No body pose,369,40.3
+No body pose,370,38.69
+No body pose,371,36.63
+No body pose,372,38.03
+No body pose,373,34.35
+No body pose,374,34.85
+No body pose,375,35.4
+No body pose,376,36.07
+No body pose,377,35.62
+No body pose,378,39.29
+No body pose,379,38.1
+No body pose,380,36.84
+No body pose,381,35.52
+No body pose,382,39.1
+No body pose,383,38.41
+No body pose,384,37.38
+No body pose,385,34.29
+No body pose,386,35.17
+No body pose,387,33.41
+No body pose,388,40.53
+No body pose,389,38.41
+No body pose,390,38.15
+No body pose,391,39.31
+No body pose,392,37.06
+No body pose,393,38.01
+No body pose,394,36.41
+No body pose,395,39.79
+No body pose,396,42.2
+No body pose,397,37.56
+No body pose,398,36.63
+No body pose,399,37.46
+No body pose,400,38.94
+No body pose,401,35.53
+No body pose,402,42.43
+No body pose,403,35.82
+No body pose,404,36.5
+No body pose,405,38.19
+No body pose,406,38.74
+No body pose,407,38.88
+No body pose,408,39.08
+No body pose,409,37.67
+No body pose,410,38.77
+No body pose,411,40.34
+No body pose,412,41.88
+No body pose,413,38.47
+No body pose,414,38.51
+No body pose,415,38.53
+No body pose,416,37.41
+No body pose,417,38.58
+No body pose,418,41.07
+No body pose,419,39.24
+No body pose,420,39.85
+No body pose,421,35.72
+No body pose,422,37.54
+No body pose,423,43.17
+No body pose,424,43.4
+No body pose,425,41.36
+No body pose,426,40.7
+No body pose,427,38.76
+No body pose,428,38.48
+No body pose,429,39.44
+No body pose,430,43.04
+No body pose,431,38.67
+No body pose,432,37.05
+No body pose,433,39.39
+No body pose,434,40.24
+No body pose,435,43.02
+No body pose,436,36.48
+No body pose,437,40.18
+No body pose,438,36.64
+No body pose,439,42.19
+No body pose,440,42.37
+No body pose,441,40.46
+No body pose,442,40.58
+No body pose,443,44.26
+No body pose,444,40.13
+No body pose,445,41.22
+No body pose,446,40.66
+No body pose,447,41.34
+No body pose,448,36.46
+No body pose,449,42.43
+No body pose,450,42.12
+No body pose,451,40.33
+No body pose,452,41.52
+No body pose,453,44.37
+No body pose,454,46.4
+No body pose,455,44.45
+No body pose,456,41.71
+No body pose,457,43.87
+No body pose,458,44.33
+No body pose,459,44.96
+No body pose,460,40.84
+No body pose,461,40.09
+No body pose,462,44.96
+No body pose,463,43.13
+No body pose,464,42.68
+No body pose,465,44.19
+No body pose,466,43.03
+No body pose,467,44.52
+No body pose,468,42.74
+No body pose,469,43.35
+No body pose,470,43.41
+No body pose,471,42.63
+No body pose,472,41.88
+No body pose,473,46.38
+No body pose,474,44.54
+No body pose,475,44.98
+No body pose,476,43.16
+No body pose,477,39.14
+No body pose,478,42.04
+No body pose,479,42.0
+No body pose,480,42.61
+No body pose,481,42.03
+No body pose,482,45.71
+No body pose,483,44.71
+No body pose,484,44.16
+No body pose,485,40.68
+No body pose,486,45.89
+No body pose,487,43.72
+No body pose,488,45.85
+No body pose,489,47.22
+No body pose,490,41.1
+No body pose,491,46.39
+No body pose,492,48.11
+No body pose,493,46.9
+No body pose,494,46.35
+No body pose,495,47.48
+No body pose,496,46.88
+No body pose,497,43.06
+No body pose,498,53.23
+No body pose,499,45.99
+No body pose,500,49.53
+No body pose,501,46.73
+No body pose,502,48.64
+No body pose,503,44.32
+No body pose,504,46.19
+No body pose,505,46.41
+No body pose,506,48.53
+No body pose,507,48.36
+No body pose,508,45.29
+No body pose,509,47.02
+No body pose,510,49.01
+No body pose,511,46.35
+No body pose,512,44.02
+No body pose,513,51.17
+No body pose,514,48.22
+No body pose,515,49.98
+No body pose,516,52.2
+No body pose,517,49.5
+No body pose,518,43.08
+No body pose,519,45.16
+No body pose,520,47.91
+No body pose,521,48.76
+No body pose,522,45.48
+No body pose,523,47.43
+No body pose,524,45.31
+No body pose,525,47.2
+No body pose,526,50.62
+No body pose,527,52.75
+No body pose,528,46.4
+No body pose,529,47.68
+No body pose,530,48.52
+No body pose,531,48.17
+No body pose,532,46.72
+No body pose,533,51.59
+No body pose,534,47.65
+No body pose,535,51.42
+No body pose,536,57.13
+No body pose,537,51.21
+No body pose,538,55.44
+No body pose,539,56.67
+No body pose,540,55.96
+No body pose,541,51.52
+No body pose,542,56.19
+No body pose,543,52.27
+No body pose,544,53.67
+No body pose,545,53.29
+No body pose,546,51.79
+No body pose,547,50.95
+No body pose,548,55.69
+No body pose,549,51.24
+No body pose,550,55.55
+No body pose,551,51.94
+No body pose,552,52.18
+No body pose,553,46.58
+No body pose,554,48.87
+No body pose,555,55.64
+No body pose,556,49.17
+No body pose,557,51.36
+No body pose,558,48.92
+No body pose,559,52.67
+No body pose,560,55.34
+No body pose,561,54.77
+No body pose,562,55.43
+No body pose,563,54.88
+No body pose,564,53.09
+No body pose,565,60.4
+No body pose,566,51.14
+No body pose,567,50.74
+No body pose,568,52.98
+No body pose,569,55.17
+No body pose,570,51.25
+No body pose,571,46.46
+No body pose,572,54.95
+No body pose,573,59.2
+No body pose,574,56.54
+No body pose,575,57.52
+No body pose,576,56.66
+No body pose,577,56.43
+No body pose,578,55.83
+No body pose,579,50.84
+No body pose,580,57.19
+No body pose,581,56.02
+No body pose,582,57.03
+No body pose,583,55.57
+No body pose,584,56.42
+No body pose,585,58.89
+No body pose,586,56.9
+No body pose,587,59.24
+No body pose,588,55.17
+No body pose,589,48.29
+No body pose,590,52.64
+No body pose,591,55.3
+No body pose,592,57.66
+No body pose,593,54.2
+No body pose,594,64.27
+No body pose,595,61.3
+No body pose,596,60.2
+No body pose,597,56.83
+No body pose,598,57.83
+No body pose,599,60.86
+No body pose,600,57.28
+No body pose,601,55.97
+No body pose,602,59.92
+No body pose,603,57.57
+No body pose,604,57.01
+No body pose,605,56.38
+No body pose,606,65.52
+No body pose,607,58.28
+No body pose,608,53.93
+No body pose,609,61.15
+No body pose,610,52.73
+No body pose,611,53.94
+No body pose,612,67.83
+No body pose,613,58.61
+No body pose,614,67.13
+No body pose,615,68.09
+No body pose,616,60.71
+No body pose,617,68.52
+No body pose,618,57.77
+No body pose,619,62.54
+No body pose,620,65.48
+No body pose,621,62.07
+No body pose,622,60.92
+No body pose,623,67.19
+No body pose,624,61.89
+No body pose,625,61.88
+No body pose,626,56.59
+No body pose,627,60.55
+No body pose,628,58.02
+No body pose,629,71.81
+No body pose,630,60.79
+No body pose,631,59.4
+No body pose,632,59.19
+No body pose,633,67.06
+No body pose,634,59.31
+No body pose,635,65.83
+No body pose,636,63.82
+No body pose,637,62.55
+No body pose,638,67.57
+No body pose,639,66.15
+No body pose,640,66.88
+No body pose,641,58.39
+No body pose,642,64.33
+No body pose,643,61.38
+No body pose,644,59.63
+No body pose,645,65.31
+No body pose,646,64.83
+No body pose,647,67.45
+No body pose,648,62.7
+No body pose,649,64.58
+No body pose,650,72.87
+No body pose,651,65.24
+No body pose,652,66.2
+No body pose,653,69.57
+No body pose,654,66.53
+No body pose,655,66.9
+No body pose,656,60.85
+No body pose,657,64.42
+No body pose,658,66.23
+No body pose,659,67.88
+No body pose,660,78.49
+No body pose,661,63.53
+No body pose,662,68.34
+No body pose,663,68.4
+No body pose,664,66.21
+No body pose,665,77.16
+No body pose,666,73.24
+No body pose,667,63.29
+No body pose,668,61.49
+No body pose,669,67.19
+No body pose,670,61.62
+No body pose,671,59.94
+No body pose,672,61.69
+No body pose,673,68.81
+No body pose,674,79.96
+No body pose,675,68.03
+No body pose,676,75.24
+No body pose,677,79.33
+No body pose,678,73.95
+No body pose,679,67.38
+No body pose,680,73.11
+No body pose,681,76.68
+No body pose,682,71.33
+No body pose,683,72.88
+No body pose,684,64.79
+No body pose,685,68.16
+No body pose,686,67.54
+No body pose,687,69.26
+No body pose,688,74.52
+No body pose,689,84.7
+No body pose,690,80.31
+No body pose,691,75.38
+No body pose,692,78.16
+No body pose,693,85.5
+No body pose,694,65.42
+No body pose,695,80.17
+No body pose,696,70.49
+No body pose,697,75.45
+No body pose,698,61.63
+No body pose,699,76.53
+No body pose,700,74.72
+No body pose,701,72.5
+No body pose,702,82.29
+No body pose,703,88.99
+No body pose,704,82.29
+No body pose,705,71.29
+No body pose,706,66.63
+No body pose,707,84.47
+No body pose,708,77.71
+No body pose,709,69.41
+No body pose,710,66.75
+No body pose,711,64.47
+No body pose,712,78.83
+No body pose,713,75.18
+No body pose,714,85.53
+No body pose,715,76.89
+No body pose,716,74.63
+No body pose,717,74.55
+No body pose,718,73.76
+No body pose,719,79.41
+No body pose,720,83.06
+No body pose,721,81.24
+No body pose,722,75.37
+No body pose,723,79.14
+No body pose,724,76.9
+No body pose,725,77.78
+No body pose,726,66.92
+No body pose,727,95.6
+No body pose,728,75.55
+No body pose,729,80.48
+No body pose,730,77.33
+No body pose,731,81.12
+No body pose,732,82.23
+No body pose,733,89.16
+No body pose,734,68.24
+No body pose,735,81.89
+No body pose,736,89.11
+No body pose,737,85.39
+No body pose,738,83.11
+No body pose,739,82.46
+No body pose,740,96.83
+No body pose,741,87.04
+No body pose,742,91.65
+No body pose,743,77.43
+No body pose,744,99.05
+No body pose,745,84.54
+No body pose,746,73.13
+No body pose,747,95.99
+No body pose,748,82.05
+No body pose,749,78.07
+No body pose,750,88.71
+No body pose,751,86.88
+No body pose,752,90.55
+No body pose,753,89.21
+No body pose,754,86.36
+No body pose,755,82.32
+No body pose,756,91.99
+No body pose,757,92.09
+No body pose,758,83.0
+No body pose,759,81.68
+No body pose,760,102.26
+No body pose,761,91.04
+No body pose,762,83.45
+No body pose,763,92.31
+No body pose,764,86.9
+No body pose,765,90.44
+No body pose,766,99.64
+No body pose,767,91.28
+No body pose,768,98.65
+No body pose,769,93.73
+No body pose,770,92.85
+No body pose,771,79.17
+No body pose,772,95.38
+No body pose,773,93.93
+No body pose,774,85.21
+No body pose,775,88.6
+No body pose,776,89.9
+No body pose,777,88.04
+No body pose,778,91.99
+No body pose,779,105.35
+No body pose,780,98.89
+No body pose,781,101.18
+No body pose,782,83.15
+No body pose,783,99.81
+No body pose,784,108.43
+No body pose,785,86.47
+No body pose,786,108.04
+No body pose,787,90.09
+No body pose,788,87.55
+No body pose,789,89.03
+No body pose,790,104.15
+No body pose,791,87.04
+No body pose,792,127.62
+No body pose,793,95.64
+No body pose,794,86.95
+No body pose,795,98.81
+No body pose,796,95.87
+No body pose,797,87.58
+No body pose,798,101.4
+No body pose,799,100.14
+No body pose,800,80.34
+No body pose,801,94.3
+No body pose,802,105.55
+No body pose,803,93.88
+No body pose,804,95.97
+No body pose,805,93.94
+No body pose,806,89.39
+No body pose,807,97.22
+No body pose,808,102.29
+No body pose,809,105.86
+No body pose,810,98.22
+No body pose,811,118.8
+No body pose,812,112.38
+No body pose,813,108.93
+No body pose,814,105.25
+No body pose,815,105.46
+No body pose,816,102.06
+No body pose,817,109.1
+No body pose,818,114.6
+No body pose,819,87.48
+No body pose,820,114.81
+No body pose,821,91.6
+No body pose,822,103.27
+No body pose,823,96.09
+No body pose,824,102.57
+No body pose,825,127.72
+No body pose,826,100.01
+No body pose,827,97.05
+No body pose,828,109.84
+No body pose,829,117.62
+No body pose,830,118.11
+No body pose,831,107.41
+No body pose,832,97.68
+No body pose,833,120.28
+No body pose,834,98.68
+No body pose,835,121.95
+No body pose,836,113.82
+No body pose,837,96.35
+No body pose,838,116.51
+No body pose,839,100.5
+No body pose,840,113.81
+No body pose,841,115.47
+No body pose,842,111.89
+No body pose,843,123.36
+No body pose,844,117.19
+No body pose,845,137.92
+No body pose,846,101.61
+No body pose,847,110.45
+No body pose,848,110.02
+No body pose,849,125.83
+No body pose,850,123.41
+No body pose,851,127.26
+No body pose,852,119.31
+No body pose,853,119.7
+No body pose,854,110.96
+No body pose,855,143.9
+No body pose,856,115.26
+No body pose,857,129.83
+No body pose,858,101.55
+No body pose,859,119.58
+No body pose,860,106.23
+No body pose,861,149.33
+No body pose,862,123.08
+No body pose,863,115.63
+No body pose,864,100.52
+No body pose,865,126.49
+No body pose,866,105.27
+No body pose,867,116.74
+No body pose,868,115.39
+No body pose,869,115.26
+No body pose,870,112.27
+No body pose,871,137.83
+No body pose,872,119.98
+No body pose,873,139.0
+No body pose,874,130.67
+No body pose,875,139.05
+No body pose,876,128.47
+No body pose,877,110.17
+No body pose,878,111.73
+No body pose,879,141.84
+No body pose,880,139.23
+No body pose,881,106.51
+No body pose,882,129.18
+No body pose,883,138.67
+No body pose,884,120.66
+No body pose,885,120.71
+No body pose,886,136.74
+No body pose,887,130.4
+No body pose,888,142.89
+No body pose,889,126.58
+No body pose,890,134.14
+No body pose,891,100.54
+No body pose,892,138.35
+No body pose,893,125.7
+No body pose,894,132.95
+No body pose,895,123.76
+No body pose,896,115.01
+No body pose,897,116.96
+No body pose,898,126.21
+No body pose,899,115.75
+No body pose,900,127.6
+No body pose,901,109.09
+No body pose,902,147.42
+No body pose,903,109.74
+No body pose,904,121.83
+No body pose,905,130.45
+No body pose,906,139.13
+No body pose,907,128.31
+No body pose,908,124.7
+No body pose,909,123.92
+No body pose,910,162.06
+No body pose,911,138.12
+No body pose,912,115.21
+No body pose,913,106.64
+No body pose,914,136.27
+No body pose,915,131.22
+No body pose,916,122.44
+No body pose,917,131.81
+No body pose,918,134.15
+No body pose,919,134.65
+No body pose,920,123.94
+No body pose,921,115.94
+No body pose,922,128.18
+No body pose,923,133.28
+No body pose,924,145.97
+No body pose,925,145.75
+No body pose,926,145.65
+No body pose,927,134.24
+No body pose,928,151.4
+No body pose,929,139.1
+No body pose,930,150.32
+No body pose,931,125.52
+No body pose,932,123.84
+No body pose,933,128.04
+No body pose,934,156.36
+No body pose,935,132.83
+No body pose,936,140.5
+No body pose,937,127.86
+No body pose,938,129.7
+No body pose,939,135.76
+No body pose,940,147.9
+No body pose,941,140.43
+No body pose,942,116.16
+No body pose,943,129.79
+No body pose,944,127.83
+No body pose,945,152.24
+No body pose,946,147.14
+No body pose,947,133.27
+No body pose,948,158.62
+No body pose,949,156.4
+No body pose,950,146.61
+No body pose,951,115.56
+No body pose,952,149.15
+No body pose,953,140.99
+No body pose,954,129.41
+No body pose,955,122.06
+No body pose,956,157.92
+No body pose,957,158.97
+No body pose,958,155.24
+No body pose,959,138.35
+No body pose,960,114.1
+No body pose,961,120.35
+No body pose,962,154.15
+No body pose,963,129.89
+No body pose,964,136.06
+No body pose,965,135.59
+No body pose,966,131.57
+No body pose,967,122.07
+No body pose,968,117.0
+No body pose,969,126.27
+No body pose,970,149.73
+No body pose,971,130.86
+No body pose,972,132.14
+No body pose,973,182.53
+No body pose,974,155.58
+No body pose,975,150.41
+No body pose,976,137.76
+No body pose,977,144.37
+No body pose,978,165.6
+No body pose,979,145.52
+No body pose,980,149.38
+No body pose,981,144.48
+No body pose,982,140.14
+No body pose,983,156.42
+No body pose,984,133.48
+No body pose,985,142.53
+No body pose,986,140.08
+No body pose,987,148.55
+No body pose,988,154.07
+No body pose,989,132.89
+No body pose,990,136.19
+No body pose,991,166.09
+No body pose,992,137.53
+No body pose,993,143.92
+No body pose,994,135.16
+No body pose,995,124.41
+No body pose,996,140.55
+No body pose,997,132.96
+No body pose,998,138.51
+No body pose,999,138.91
+No velocity,0,8.24
+No velocity,1,9.1
+No velocity,2,8.08
+No velocity,3,8.3
+No velocity,4,8.39
+No velocity,5,8.17
+No velocity,6,7.86
+No velocity,7,7.83
+No velocity,8,7.34
+No velocity,9,8.0
+No velocity,10,7.67
+No velocity,11,7.15
+No velocity,12,6.67
+No velocity,13,7.09
+No velocity,14,7.78
+No velocity,15,6.97
+No velocity,16,6.56
+No velocity,17,6.28
+No velocity,18,7.67
+No velocity,19,7.05
+No velocity,20,7.04
+No velocity,21,7.39
+No velocity,22,7.18
+No velocity,23,7.27
+No velocity,24,6.87
+No velocity,25,6.99
+No velocity,26,6.51
+No velocity,27,6.62
+No velocity,28,6.67
+No velocity,29,5.91
+No velocity,30,6.58
+No velocity,31,6.46
+No velocity,32,6.29
+No velocity,33,6.29
+No velocity,34,6.25
+No velocity,35,6.51
+No velocity,36,6.24
+No velocity,37,6.43
+No velocity,38,6.56
+No velocity,39,5.95
+No velocity,40,6.06
+No velocity,41,6.3
+No velocity,42,5.78
+No velocity,43,6.43
+No velocity,44,5.93
+No velocity,45,6.25
+No velocity,46,6.16
+No velocity,47,6.27
+No velocity,48,6.11
+No velocity,49,5.9
+No velocity,50,6.22
+No velocity,51,6.19
+No velocity,52,5.91
+No velocity,53,5.85
+No velocity,54,6.15
+No velocity,55,6.09
+No velocity,56,6.05
+No velocity,57,6.03
+No velocity,58,5.99
+No velocity,59,6.2
+No velocity,60,6.52
+No velocity,61,6.3
+No velocity,62,6.31
+No velocity,63,6.27
+No velocity,64,6.14
+No velocity,65,6.63
+No velocity,66,6.3
+No velocity,67,6.52
+No velocity,68,6.54
+No velocity,69,6.11
+No velocity,70,6.17
+No velocity,71,6.52
+No velocity,72,6.29
+No velocity,73,6.04
+No velocity,74,6.1
+No velocity,75,6.46
+No velocity,76,6.18
+No velocity,77,6.32
+No velocity,78,6.68
+No velocity,79,6.33
+No velocity,80,6.6
+No velocity,81,6.63
+No velocity,82,6.78
+No velocity,83,6.27
+No velocity,84,6.89
+No velocity,85,6.67
+No velocity,86,6.63
+No velocity,87,6.43
+No velocity,88,6.63
+No velocity,89,6.77
+No velocity,90,6.98
+No velocity,91,6.93
+No velocity,92,6.83
+No velocity,93,6.39
+No velocity,94,6.7
+No velocity,95,7.06
+No velocity,96,7.22
+No velocity,97,6.97
+No velocity,98,6.69
+No velocity,99,6.98
+No velocity,100,7.0
+No velocity,101,6.97
+No velocity,102,7.33
+No velocity,103,7.11
+No velocity,104,7.01
+No velocity,105,6.92
+No velocity,106,7.07
+No velocity,107,6.96
+No velocity,108,6.91
+No velocity,109,7.41
+No velocity,110,7.05
+No velocity,111,6.94
+No velocity,112,7.51
+No velocity,113,7.64
+No velocity,114,7.47
+No velocity,115,7.32
+No velocity,116,7.1
+No velocity,117,7.59
+No velocity,118,7.66
+No velocity,119,7.95
+No velocity,120,7.96
+No velocity,121,7.77
+No velocity,122,8.12
+No velocity,123,7.68
+No velocity,124,7.4
+No velocity,125,7.65
+No velocity,126,8.32
+No velocity,127,7.91
+No velocity,128,8.0
+No velocity,129,7.88
+No velocity,130,8.4
+No velocity,131,8.36
+No velocity,132,7.92
+No velocity,133,8.17
+No velocity,134,8.64
+No velocity,135,8.42
+No velocity,136,8.22
+No velocity,137,9.0
+No velocity,138,9.09
+No velocity,139,8.5
+No velocity,140,9.25
+No velocity,141,8.99
+No velocity,142,9.1
+No velocity,143,9.5
+No velocity,144,10.02
+No velocity,145,9.96
+No velocity,146,10.18
+No velocity,147,9.53
+No velocity,148,9.91
+No velocity,149,10.4
+No velocity,150,10.23
+No velocity,151,10.69
+No velocity,152,10.7
+No velocity,153,11.06
+No velocity,154,11.38
+No velocity,155,11.19
+No velocity,156,11.44
+No velocity,157,12.21
+No velocity,158,12.75
+No velocity,159,13.08
+No velocity,160,13.1
+No velocity,161,14.35
+No velocity,162,14.49
+No velocity,163,14.76
+No velocity,164,14.77
+No velocity,165,15.31
+No velocity,166,15.44
+No velocity,167,15.5
+No velocity,168,16.88
+No velocity,169,17.38
+No velocity,170,16.79
+No velocity,171,18.74
+No velocity,172,17.32
+No velocity,173,20.55
+No velocity,174,18.72
+No velocity,175,18.92
+No velocity,176,19.48
+No velocity,177,19.73
+No velocity,178,19.05
+No velocity,179,20.71
+No velocity,180,19.38
+No velocity,181,21.39
+No velocity,182,20.72
+No velocity,183,21.21
+No velocity,184,21.93
+No velocity,185,22.42
+No velocity,186,23.71
+No velocity,187,22.27
+No velocity,188,22.88
+No velocity,189,21.26
+No velocity,190,20.79
+No velocity,191,21.16
+No velocity,192,22.92
+No velocity,193,23.97
+No velocity,194,22.16
+No velocity,195,25.94
+No velocity,196,23.77
+No velocity,197,24.39
+No velocity,198,24.84
+No velocity,199,25.53
+No velocity,200,25.18
+No velocity,201,23.98
+No velocity,202,26.14
+No velocity,203,27.46
+No velocity,204,27.14
+No velocity,205,26.27
+No velocity,206,29.36
+No velocity,207,27.12
+No velocity,208,30.06
+No velocity,209,28.09
+No velocity,210,27.14
+No velocity,211,27.98
+No velocity,212,27.13
+No velocity,213,27.74
+No velocity,214,27.33
+No velocity,215,30.27
+No velocity,216,28.79
+No velocity,217,28.57
+No velocity,218,30.88
+No velocity,219,30.13
+No velocity,220,34.71
+No velocity,221,28.02
+No velocity,222,29.94
+No velocity,223,31.97
+No velocity,224,32.28
+No velocity,225,31.49
+No velocity,226,30.45
+No velocity,227,30.77
+No velocity,228,31.96
+No velocity,229,32.7
+No velocity,230,29.69
+No velocity,231,32.97
+No velocity,232,28.42
+No velocity,233,35.55
+No velocity,234,31.73
+No velocity,235,32.29
+No velocity,236,31.44
+No velocity,237,30.65
+No velocity,238,31.75
+No velocity,239,29.38
+No velocity,240,34.51
+No velocity,241,32.54
+No velocity,242,34.14
+No velocity,243,35.84
+No velocity,244,32.66
+No velocity,245,33.92
+No velocity,246,33.64
+No velocity,247,33.04
+No velocity,248,36.06
+No velocity,249,33.37
+No velocity,250,31.62
+No velocity,251,32.39
+No velocity,252,36.21
+No velocity,253,33.45
+No velocity,254,31.2
+No velocity,255,32.89
+No velocity,256,36.62
+No velocity,257,32.66
+No velocity,258,36.07
+No velocity,259,36.38
+No velocity,260,36.24
+No velocity,261,35.21
+No velocity,262,35.21
+No velocity,263,38.38
+No velocity,264,33.72
+No velocity,265,33.21
+No velocity,266,35.05
+No velocity,267,33.12
+No velocity,268,33.81
+No velocity,269,34.99
+No velocity,270,36.96
+No velocity,271,35.42
+No velocity,272,38.06
+No velocity,273,38.31
+No velocity,274,34.74
+No velocity,275,35.41
+No velocity,276,36.52
+No velocity,277,35.83
+No velocity,278,39.96
+No velocity,279,38.19
+No velocity,280,35.34
+No velocity,281,35.84
+No velocity,282,38.54
+No velocity,283,35.68
+No velocity,284,35.71
+No velocity,285,37.9
+No velocity,286,35.23
+No velocity,287,38.25
+No velocity,288,37.57
+No velocity,289,35.02
+No velocity,290,37.27
+No velocity,291,36.2
+No velocity,292,35.18
+No velocity,293,36.22
+No velocity,294,36.72
+No velocity,295,38.16
+No velocity,296,38.0
+No velocity,297,35.55
+No velocity,298,37.25
+No velocity,299,37.9
+No velocity,300,39.97
+No velocity,301,37.97
+No velocity,302,38.46
+No velocity,303,39.48
+No velocity,304,38.83
+No velocity,305,36.51
+No velocity,306,40.13
+No velocity,307,40.44
+No velocity,308,37.19
+No velocity,309,40.52
+No velocity,310,37.86
+No velocity,311,38.84
+No velocity,312,38.04
+No velocity,313,37.97
+No velocity,314,38.95
+No velocity,315,37.75
+No velocity,316,37.98
+No velocity,317,39.39
+No velocity,318,37.31
+No velocity,319,39.92
+No velocity,320,39.54
+No velocity,321,38.21
+No velocity,322,40.45
+No velocity,323,39.87
+No velocity,324,38.98
+No velocity,325,40.49
+No velocity,326,38.56
+No velocity,327,40.08
+No velocity,328,40.0
+No velocity,329,39.29
+No velocity,330,39.61
+No velocity,331,40.1
+No velocity,332,41.55
+No velocity,333,36.2
+No velocity,334,38.57
+No velocity,335,41.6
+No velocity,336,41.38
+No velocity,337,36.93
+No velocity,338,41.12
+No velocity,339,39.94
+No velocity,340,39.6
+No velocity,341,41.56
+No velocity,342,39.3
+No velocity,343,39.53
+No velocity,344,39.8
+No velocity,345,40.18
+No velocity,346,41.27
+No velocity,347,40.3
+No velocity,348,43.42
+No velocity,349,41.04
+No velocity,350,41.47
+No velocity,351,43.51
+No velocity,352,39.75
+No velocity,353,40.84
+No velocity,354,41.17
+No velocity,355,38.42
+No velocity,356,40.35
+No velocity,357,40.63
+No velocity,358,43.92
+No velocity,359,40.66
+No velocity,360,43.47
+No velocity,361,39.36
+No velocity,362,41.84
+No velocity,363,39.47
+No velocity,364,44.74
+No velocity,365,44.02
+No velocity,366,40.89
+No velocity,367,44.4
+No velocity,368,40.0
+No velocity,369,39.67
+No velocity,370,43.54
+No velocity,371,45.65
+No velocity,372,43.24
+No velocity,373,41.15
+No velocity,374,41.84
+No velocity,375,43.47
+No velocity,376,46.58
+No velocity,377,48.47
+No velocity,378,44.19
+No velocity,379,43.24
+No velocity,380,41.66
+No velocity,381,44.05
+No velocity,382,45.71
+No velocity,383,43.7
+No velocity,384,44.11
+No velocity,385,41.91
+No velocity,386,44.1
+No velocity,387,40.65
+No velocity,388,42.24
+No velocity,389,47.07
+No velocity,390,41.68
+No velocity,391,42.82
+No velocity,392,48.9
+No velocity,393,45.37
+No velocity,394,45.94
+No velocity,395,43.6
+No velocity,396,42.73
+No velocity,397,45.49
+No velocity,398,47.32
+No velocity,399,43.5
+No velocity,400,43.21
+No velocity,401,45.72
+No velocity,402,44.32
+No velocity,403,45.3
+No velocity,404,47.63
+No velocity,405,44.82
+No velocity,406,46.89
+No velocity,407,45.35
+No velocity,408,44.67
+No velocity,409,46.07
+No velocity,410,47.83
+No velocity,411,46.46
+No velocity,412,47.33
+No velocity,413,44.48
+No velocity,414,46.15
+No velocity,415,42.38
+No velocity,416,44.13
+No velocity,417,47.49
+No velocity,418,48.66
+No velocity,419,44.24
+No velocity,420,45.64
+No velocity,421,47.01
+No velocity,422,47.9
+No velocity,423,46.79
+No velocity,424,46.18
+No velocity,425,44.45
+No velocity,426,49.94
+No velocity,427,43.83
+No velocity,428,45.12
+No velocity,429,45.98
+No velocity,430,45.93
+No velocity,431,43.15
+No velocity,432,47.92
+No velocity,433,45.2
+No velocity,434,43.3
+No velocity,435,49.22
+No velocity,436,43.3
+No velocity,437,48.28
+No velocity,438,50.14
+No velocity,439,47.44
+No velocity,440,45.46
+No velocity,441,47.21
+No velocity,442,50.29
+No velocity,443,48.48
+No velocity,444,48.43
+No velocity,445,47.57
+No velocity,446,50.11
+No velocity,447,49.03
+No velocity,448,45.81
+No velocity,449,51.06
+No velocity,450,49.12
+No velocity,451,51.4
+No velocity,452,44.36
+No velocity,453,50.17
+No velocity,454,48.68
+No velocity,455,46.29
+No velocity,456,46.99
+No velocity,457,50.75
+No velocity,458,46.8
+No velocity,459,48.96
+No velocity,460,46.68
+No velocity,461,49.57
+No velocity,462,49.56
+No velocity,463,49.56
+No velocity,464,50.42
+No velocity,465,52.15
+No velocity,466,49.5
+No velocity,467,50.32
+No velocity,468,46.79
+No velocity,469,53.39
+No velocity,470,51.51
+No velocity,471,48.1
+No velocity,472,54.11
+No velocity,473,52.32
+No velocity,474,47.48
+No velocity,475,48.2
+No velocity,476,47.6
+No velocity,477,54.84
+No velocity,478,46.83
+No velocity,479,47.9
+No velocity,480,58.94
+No velocity,481,52.7
+No velocity,482,54.74
+No velocity,483,52.38
+No velocity,484,51.01
+No velocity,485,47.98
+No velocity,486,53.39
+No velocity,487,49.78
+No velocity,488,51.56
+No velocity,489,52.17
+No velocity,490,51.93
+No velocity,491,49.92
+No velocity,492,52.96
+No velocity,493,54.9
+No velocity,494,48.68
+No velocity,495,51.71
+No velocity,496,49.04
+No velocity,497,56.06
+No velocity,498,48.93
+No velocity,499,48.23
+No velocity,500,54.49
+No velocity,501,51.62
+No velocity,502,51.35
+No velocity,503,52.43
+No velocity,504,56.22
+No velocity,505,50.96
+No velocity,506,48.68
+No velocity,507,51.31
+No velocity,508,56.86
+No velocity,509,56.01
+No velocity,510,56.42
+No velocity,511,52.5
+No velocity,512,55.99
+No velocity,513,54.67
+No velocity,514,49.66
+No velocity,515,59.81
+No velocity,516,59.2
+No velocity,517,61.41
+No velocity,518,58.85
+No velocity,519,50.64
+No velocity,520,56.67
+No velocity,521,50.63
+No velocity,522,60.77
+No velocity,523,54.74
+No velocity,524,59.7
+No velocity,525,53.82
+No velocity,526,61.61
+No velocity,527,54.25
+No velocity,528,64.58
+No velocity,529,52.16
+No velocity,530,57.02
+No velocity,531,62.36
+No velocity,532,57.84
+No velocity,533,59.91
+No velocity,534,61.37
+No velocity,535,61.37
+No velocity,536,57.47
+No velocity,537,54.98
+No velocity,538,65.82
+No velocity,539,61.05
+No velocity,540,56.08
+No velocity,541,61.58
+No velocity,542,53.73
+No velocity,543,69.85
+No velocity,544,57.55
+No velocity,545,58.2
+No velocity,546,64.93
+No velocity,547,59.59
+No velocity,548,63.17
+No velocity,549,62.48
+No velocity,550,62.92
+No velocity,551,64.89
+No velocity,552,56.96
+No velocity,553,62.27
+No velocity,554,73.15
+No velocity,555,63.98
+No velocity,556,60.01
+No velocity,557,64.01
+No velocity,558,60.42
+No velocity,559,63.55
+No velocity,560,66.21
+No velocity,561,65.25
+No velocity,562,71.54
+No velocity,563,67.36
+No velocity,564,64.17
+No velocity,565,62.97
+No velocity,566,63.24
+No velocity,567,68.67
+No velocity,568,68.16
+No velocity,569,58.77
+No velocity,570,77.54
+No velocity,571,66.7
+No velocity,572,73.49
+No velocity,573,69.08
+No velocity,574,68.74
+No velocity,575,69.65
+No velocity,576,66.83
+No velocity,577,72.23
+No velocity,578,71.96
+No velocity,579,65.63
+No velocity,580,65.06
+No velocity,581,65.7
+No velocity,582,65.79
+No velocity,583,77.61
+No velocity,584,75.35
+No velocity,585,73.28
+No velocity,586,69.42
+No velocity,587,62.92
+No velocity,588,69.41
+No velocity,589,80.62
+No velocity,590,72.09
+No velocity,591,67.22
+No velocity,592,71.17
+No velocity,593,75.47
+No velocity,594,69.27
+No velocity,595,67.3
+No velocity,596,71.3
+No velocity,597,65.91
+No velocity,598,75.67
+No velocity,599,74.98
+No velocity,600,73.28
+No velocity,601,73.91
+No velocity,602,73.03
+No velocity,603,76.27
+No velocity,604,77.18
+No velocity,605,78.16
+No velocity,606,80.53
+No velocity,607,79.55
+No velocity,608,71.98
+No velocity,609,76.53
+No velocity,610,73.78
+No velocity,611,81.43
+No velocity,612,68.12
+No velocity,613,88.85
+No velocity,614,77.98
+No velocity,615,76.45
+No velocity,616,79.91
+No velocity,617,87.37
+No velocity,618,90.37
+No velocity,619,83.91
+No velocity,620,83.79
+No velocity,621,77.2
+No velocity,622,89.14
+No velocity,623,81.68
+No velocity,624,88.76
+No velocity,625,89.49
+No velocity,626,79.72
+No velocity,627,79.04
+No velocity,628,88.89
+No velocity,629,87.86
+No velocity,630,85.06
+No velocity,631,81.98
+No velocity,632,91.26
+No velocity,633,77.93
+No velocity,634,105.93
+No velocity,635,93.38
+No velocity,636,91.93
+No velocity,637,82.68
+No velocity,638,80.9
+No velocity,639,96.26
+No velocity,640,93.08
+No velocity,641,91.14
+No velocity,642,87.91
+No velocity,643,90.62
+No velocity,644,95.3
+No velocity,645,87.77
+No velocity,646,97.68
+No velocity,647,89.67
+No velocity,648,99.23
+No velocity,649,89.02
+No velocity,650,89.9
+No velocity,651,104.56
+No velocity,652,101.43
+No velocity,653,96.2
+No velocity,654,102.55
+No velocity,655,101.91
+No velocity,656,92.3
+No velocity,657,91.75
+No velocity,658,119.58
+No velocity,659,96.63
+No velocity,660,96.35
+No velocity,661,94.14
+No velocity,662,103.31
+No velocity,663,93.61
+No velocity,664,111.27
+No velocity,665,115.33
+No velocity,666,81.12
+No velocity,667,106.06
+No velocity,668,99.18
+No velocity,669,99.59
+No velocity,670,104.3
+No velocity,671,99.57
+No velocity,672,93.44
+No velocity,673,90.46
+No velocity,674,103.94
+No velocity,675,90.61
+No velocity,676,122.82
+No velocity,677,113.94
+No velocity,678,95.86
+No velocity,679,95.5
+No velocity,680,109.5
+No velocity,681,100.64
+No velocity,682,91.79
+No velocity,683,115.11
+No velocity,684,98.32
+No velocity,685,117.18
+No velocity,686,128.64
+No velocity,687,112.2
+No velocity,688,123.89
+No velocity,689,111.41
+No velocity,690,116.27
+No velocity,691,114.06
+No velocity,692,100.93
+No velocity,693,124.6
+No velocity,694,121.56
+No velocity,695,108.44
+No velocity,696,118.35
+No velocity,697,103.81
+No velocity,698,110.02
+No velocity,699,115.85
+No velocity,700,110.36
+No velocity,701,118.76
+No velocity,702,109.14
+No velocity,703,112.87
+No velocity,704,105.73
+No velocity,705,123.82
+No velocity,706,131.2
+No velocity,707,125.69
+No velocity,708,123.76
+No velocity,709,112.47
+No velocity,710,117.4
+No velocity,711,117.27
+No velocity,712,126.03
+No velocity,713,116.25
+No velocity,714,135.88
+No velocity,715,126.67
+No velocity,716,121.45
+No velocity,717,118.06
+No velocity,718,124.31
+No velocity,719,127.1
+No velocity,720,114.68
+No velocity,721,120.09
+No velocity,722,140.72
+No velocity,723,128.74
+No velocity,724,124.04
+No velocity,725,116.09
+No velocity,726,155.29
+No velocity,727,135.53
+No velocity,728,128.5
+No velocity,729,145.88
+No velocity,730,129.13
+No velocity,731,128.26
+No velocity,732,119.67
+No velocity,733,115.6
+No velocity,734,155.84
+No velocity,735,144.01
+No velocity,736,136.29
+No velocity,737,125.47
+No velocity,738,143.47
+No velocity,739,140.81
+No velocity,740,148.75
+No velocity,741,126.17
+No velocity,742,136.48
+No velocity,743,116.39
+No velocity,744,131.64
+No velocity,745,142.32
+No velocity,746,126.14
+No velocity,747,136.64
+No velocity,748,142.39
+No velocity,749,130.94
+No velocity,750,136.38
+No velocity,751,121.35
+No velocity,752,150.07
+No velocity,753,116.4
+No velocity,754,143.78
+No velocity,755,148.05
+No velocity,756,127.83
+No velocity,757,141.54
+No velocity,758,153.92
+No velocity,759,138.79
+No velocity,760,142.44
+No velocity,761,141.16
+No velocity,762,145.38
+No velocity,763,122.21
+No velocity,764,142.11
+No velocity,765,152.28
+No velocity,766,151.89
+No velocity,767,126.71
+No velocity,768,146.57
+No velocity,769,156.36
+No velocity,770,152.84
+No velocity,771,132.73
+No velocity,772,159.23
+No velocity,773,123.68
+No velocity,774,159.47
+No velocity,775,145.38
+No velocity,776,178.1
+No velocity,777,168.68
+No velocity,778,138.1
+No velocity,779,172.02
+No velocity,780,116.91
+No velocity,781,157.37
+No velocity,782,134.31
+No velocity,783,153.28
+No velocity,784,170.16
+No velocity,785,143.15
+No velocity,786,172.86
+No velocity,787,161.11
+No velocity,788,161.43
+No velocity,789,155.16
+No velocity,790,150.08
+No velocity,791,160.42
+No velocity,792,154.67
+No velocity,793,142.58
+No velocity,794,160.02
+No velocity,795,134.44
+No velocity,796,159.09
+No velocity,797,149.92
+No velocity,798,187.05
+No velocity,799,170.69
+No velocity,800,171.9
+No velocity,801,173.18
+No velocity,802,150.48
+No velocity,803,160.99
+No velocity,804,160.56
+No velocity,805,193.0
+No velocity,806,166.91
+No velocity,807,127.28
+No velocity,808,137.67
+No velocity,809,177.92
+No velocity,810,142.41
+No velocity,811,168.45
+No velocity,812,175.08
+No velocity,813,155.98
+No velocity,814,161.56
+No velocity,815,168.97
+No velocity,816,166.38
+No velocity,817,167.97
+No velocity,818,157.19
+No velocity,819,173.02
+No velocity,820,171.64
+No velocity,821,163.85
+No velocity,822,168.36
+No velocity,823,161.73
+No velocity,824,156.42
+No velocity,825,181.17
+No velocity,826,176.23
+No velocity,827,166.01
+No velocity,828,191.48
+No velocity,829,198.39
+No velocity,830,161.32
+No velocity,831,181.38
+No velocity,832,148.78
+No velocity,833,200.77
+No velocity,834,180.9
+No velocity,835,158.98
+No velocity,836,172.07
+No velocity,837,151.59
+No velocity,838,177.76
+No velocity,839,160.4
+No velocity,840,185.87
+No velocity,841,184.68
+No velocity,842,159.98
+No velocity,843,181.52
+No velocity,844,165.32
+No velocity,845,163.81
+No velocity,846,163.98
+No velocity,847,199.13
+No velocity,848,188.59
+No velocity,849,173.99
+No velocity,850,179.98
+No velocity,851,215.01
+No velocity,852,184.47
+No velocity,853,177.62
+No velocity,854,157.69
+No velocity,855,175.98
+No velocity,856,156.29
+No velocity,857,157.21
+No velocity,858,167.13
+No velocity,859,163.83
+No velocity,860,170.4
+No velocity,861,190.07
+No velocity,862,173.56
+No velocity,863,194.24
+No velocity,864,166.71
+No velocity,865,243.82
+No velocity,866,149.58
+No velocity,867,175.32
+No velocity,868,197.33
+No velocity,869,168.16
+No velocity,870,182.49
+No velocity,871,175.73
+No velocity,872,173.38
+No velocity,873,199.13
+No velocity,874,171.36
+No velocity,875,181.38
+No velocity,876,195.25
+No velocity,877,203.49
+No velocity,878,174.92
+No velocity,879,200.58
+No velocity,880,184.26
+No velocity,881,191.26
+No velocity,882,197.0
+No velocity,883,214.56
+No velocity,884,196.97
+No velocity,885,230.28
+No velocity,886,211.33
+No velocity,887,202.15
+No velocity,888,195.99
+No velocity,889,181.47
+No velocity,890,196.26
+No velocity,891,194.87
+No velocity,892,203.57
+No velocity,893,182.79
+No velocity,894,189.3
+No velocity,895,210.08
+No velocity,896,190.71
+No velocity,897,202.54
+No velocity,898,186.47
+No velocity,899,170.45
+No velocity,900,229.16
+No velocity,901,207.08
+No velocity,902,204.64
+No velocity,903,214.41
+No velocity,904,172.73
+No velocity,905,196.05
+No velocity,906,201.14
+No velocity,907,187.75
+No velocity,908,208.02
+No velocity,909,173.03
+No velocity,910,179.85
+No velocity,911,190.79
+No velocity,912,187.48
+No velocity,913,206.64
+No velocity,914,178.66
+No velocity,915,220.46
+No velocity,916,175.71
+No velocity,917,181.33
+No velocity,918,185.16
+No velocity,919,227.92
+No velocity,920,208.36
+No velocity,921,234.42
+No velocity,922,201.4
+No velocity,923,159.22
+No velocity,924,157.67
+No velocity,925,212.22
+No velocity,926,198.37
+No velocity,927,193.55
+No velocity,928,209.05
+No velocity,929,225.7
+No velocity,930,193.72
+No velocity,931,196.17
+No velocity,932,216.41
+No velocity,933,205.62
+No velocity,934,217.69
+No velocity,935,185.53
+No velocity,936,207.13
+No velocity,937,196.5
+No velocity,938,207.3
+No velocity,939,210.06
+No velocity,940,186.11
+No velocity,941,159.05
+No velocity,942,182.04
+No velocity,943,197.22
+No velocity,944,196.18
+No velocity,945,190.24
+No velocity,946,196.46
+No velocity,947,188.07
+No velocity,948,203.07
+No velocity,949,212.06
+No velocity,950,203.53
+No velocity,951,205.96
+No velocity,952,185.28
+No velocity,953,177.45
+No velocity,954,210.82
+No velocity,955,246.13
+No velocity,956,207.96
+No velocity,957,175.53
+No velocity,958,235.03
+No velocity,959,178.71
+No velocity,960,201.64
+No velocity,961,204.01
+No velocity,962,177.46
+No velocity,963,199.17
+No velocity,964,224.06
+No velocity,965,182.25
+No velocity,966,238.56
+No velocity,967,192.78
+No velocity,968,196.16
+No velocity,969,222.82
+No velocity,970,194.95
+No velocity,971,194.25
+No velocity,972,182.16
+No velocity,973,190.06
+No velocity,974,219.64
+No velocity,975,188.76
+No velocity,976,230.6
+No velocity,977,204.58
+No velocity,978,189.19
+No velocity,979,210.22
+No velocity,980,210.86
+No velocity,981,185.49
+No velocity,982,210.11
+No velocity,983,209.41
+No velocity,984,230.22
+No velocity,985,195.12
+No velocity,986,215.67
+No velocity,987,175.84
+No velocity,988,189.1
+No velocity,989,171.44
+No velocity,990,206.16
+No velocity,991,211.97
+No velocity,992,208.74
+No velocity,993,201.77
+No velocity,994,204.98
+No velocity,995,178.28
+No velocity,996,184.82
+No velocity,997,214.9
+No velocity,998,183.48
+No velocity,999,218.25
+No action rate,0,8.24
+No action rate,1,9.05
+No action rate,2,7.24
+No action rate,3,8.44
+No action rate,4,8.1
+No action rate,5,7.95
+No action rate,6,8.98
+No action rate,7,8.58
+No action rate,8,7.67
+No action rate,9,7.71
+No action rate,10,7.64
+No action rate,11,8.78
+No action rate,12,8.72
+No action rate,13,8.66
+No action rate,14,8.61
+No action rate,15,9.53
+No action rate,16,8.83
+No action rate,17,9.0
+No action rate,18,8.29
+No action rate,19,9.17
+No action rate,20,8.04
+No action rate,21,9.76
+No action rate,22,9.36
+No action rate,23,9.28
+No action rate,24,9.54
+No action rate,25,8.7
+No action rate,26,10.78
+No action rate,27,10.8
+No action rate,28,9.68
+No action rate,29,9.28
+No action rate,30,10.17
+No action rate,31,11.28
+No action rate,32,12.22
+No action rate,33,12.66
+No action rate,34,12.37
+No action rate,35,13.42
+No action rate,36,12.3
+No action rate,37,13.57
+No action rate,38,13.62
+No action rate,39,14.55
+No action rate,40,13.72
+No action rate,41,15.96
+No action rate,42,16.75
+No action rate,43,17.16
+No action rate,44,17.32
+No action rate,45,18.55
+No action rate,46,19.09
+No action rate,47,20.28
+No action rate,48,19.81
+No action rate,49,20.35
+No action rate,50,21.28
+No action rate,51,23.52
+No action rate,52,24.93
+No action rate,53,22.77
+No action rate,54,23.08
+No action rate,55,23.19
+No action rate,56,23.6
+No action rate,57,26.52
+No action rate,58,26.09
+No action rate,59,24.77
+No action rate,60,27.59
+No action rate,61,27.15
+No action rate,62,28.61
+No action rate,63,27.44
+No action rate,64,28.27
+No action rate,65,31.05
+No action rate,66,28.05
+No action rate,67,30.17
+No action rate,68,29.67
+No action rate,69,32.23
+No action rate,70,32.94
+No action rate,71,29.24
+No action rate,72,31.25
+No action rate,73,30.73
+No action rate,74,28.95
+No action rate,75,32.66
+No action rate,76,29.88
+No action rate,77,30.34
+No action rate,78,31.74
+No action rate,79,31.99
+No action rate,80,32.63
+No action rate,81,32.99
+No action rate,82,32.34
+No action rate,83,32.25
+No action rate,84,32.03
+No action rate,85,32.43
+No action rate,86,35.72
+No action rate,87,35.46
+No action rate,88,35.9
+No action rate,89,34.49
+No action rate,90,34.79
+No action rate,91,35.59
+No action rate,92,34.45
+No action rate,93,34.72
+No action rate,94,34.43
+No action rate,95,33.26
+No action rate,96,34.65
+No action rate,97,36.68
+No action rate,98,36.92
+No action rate,99,36.04
+No action rate,100,35.91
+No action rate,101,35.97
+No action rate,102,36.03
+No action rate,103,36.09
+No action rate,104,37.68
+No action rate,105,38.18
+No action rate,106,36.79
+No action rate,107,36.39
+No action rate,108,38.14
+No action rate,109,39.56
+No action rate,110,39.21
+No action rate,111,39.23
+No action rate,112,37.35
+No action rate,113,38.49
+No action rate,114,37.81
+No action rate,115,37.15
+No action rate,116,39.35
+No action rate,117,37.16
+No action rate,118,41.76
+No action rate,119,42.68
+No action rate,120,40.11
+No action rate,121,40.13
+No action rate,122,40.72
+No action rate,123,38.99
+No action rate,124,37.73
+No action rate,125,39.79
+No action rate,126,40.5
+No action rate,127,41.06
+No action rate,128,39.03
+No action rate,129,37.56
+No action rate,130,38.16
+No action rate,131,43.05
+No action rate,132,41.4
+No action rate,133,40.81
+No action rate,134,38.48
+No action rate,135,43.88
+No action rate,136,43.29
+No action rate,137,40.79
+No action rate,138,40.23
+No action rate,139,42.62
+No action rate,140,41.73
+No action rate,141,42.31
+No action rate,142,41.99
+No action rate,143,41.32
+No action rate,144,42.81
+No action rate,145,43.53
+No action rate,146,44.09
+No action rate,147,42.73
+No action rate,148,42.79
+No action rate,149,41.67
+No action rate,150,43.04
+No action rate,151,45.53
+No action rate,152,44.59
+No action rate,153,43.9
+No action rate,154,43.9
+No action rate,155,42.32
+No action rate,156,43.07
+No action rate,157,46.37
+No action rate,158,47.42
+No action rate,159,44.96
+No action rate,160,46.24
+No action rate,161,42.35
+No action rate,162,48.63
+No action rate,163,45.37
+No action rate,164,46.49
+No action rate,165,44.1
+No action rate,166,48.71
+No action rate,167,44.8
+No action rate,168,47.94
+No action rate,169,42.67
+No action rate,170,48.16
+No action rate,171,50.13
+No action rate,172,45.88
+No action rate,173,50.71
+No action rate,174,50.45
+No action rate,175,47.96
+No action rate,176,48.68
+No action rate,177,46.95
+No action rate,178,47.92
+No action rate,179,51.38
+No action rate,180,49.63
+No action rate,181,53.7
+No action rate,182,52.05
+No action rate,183,52.38
+No action rate,184,52.68
+No action rate,185,50.64
+No action rate,186,55.58
+No action rate,187,53.7
+No action rate,188,54.13
+No action rate,189,54.2
+No action rate,190,57.42
+No action rate,191,49.65
+No action rate,192,55.62
+No action rate,193,57.95
+No action rate,194,58.94
+No action rate,195,53.1
+No action rate,196,52.37
+No action rate,197,58.22
+No action rate,198,59.54
+No action rate,199,56.26
+No action rate,200,59.25
+No action rate,201,59.63
+No action rate,202,54.21
+No action rate,203,54.34
+No action rate,204,58.89
+No action rate,205,55.98
+No action rate,206,62.99
+No action rate,207,60.73
+No action rate,208,64.31
+No action rate,209,64.18
+No action rate,210,56.18
+No action rate,211,59.67
+No action rate,212,74.19
+No action rate,213,63.68
+No action rate,214,62.85
+No action rate,215,56.23
+No action rate,216,69.67
+No action rate,217,66.94
+No action rate,218,63.99
+No action rate,219,66.41
+No action rate,220,68.22
+No action rate,221,74.66
+No action rate,222,66.36
+No action rate,223,64.8
+No action rate,224,73.23
+No action rate,225,74.87
+No action rate,226,69.42
+No action rate,227,68.2
+No action rate,228,84.26
+No action rate,229,71.06
+No action rate,230,72.86
+No action rate,231,75.7
+No action rate,232,69.93
+No action rate,233,72.96
+No action rate,234,66.6
+No action rate,235,70.55
+No action rate,236,82.02
+No action rate,237,80.63
+No action rate,238,76.69
+No action rate,239,77.94
+No action rate,240,77.27
+No action rate,241,85.75
+No action rate,242,77.35
+No action rate,243,83.73
+No action rate,244,88.25
+No action rate,245,83.3
+No action rate,246,84.04
+No action rate,247,91.17
+No action rate,248,93.96
+No action rate,249,80.91
+No action rate,250,98.16
+No action rate,251,93.34
+No action rate,252,92.3
+No action rate,253,90.14
+No action rate,254,88.29
+No action rate,255,102.09
+No action rate,256,104.99
+No action rate,257,96.3
+No action rate,258,106.31
+No action rate,259,111.73
+No action rate,260,96.89
+No action rate,261,110.35
+No action rate,262,112.11
+No action rate,263,109.12
+No action rate,264,107.74
+No action rate,265,96.72
+No action rate,266,101.93
+No action rate,267,100.12
+No action rate,268,111.7
+No action rate,269,118.93
+No action rate,270,123.67
+No action rate,271,111.32
+No action rate,272,117.3
+No action rate,273,124.52
+No action rate,274,131.73
+No action rate,275,109.08
+No action rate,276,138.06
+No action rate,277,129.89
+No action rate,278,115.26
+No action rate,279,113.43
+No action rate,280,128.76
+No action rate,281,174.73
+No action rate,282,131.23
+No action rate,283,118.98
+No action rate,284,147.94
+No action rate,285,154.43
+No action rate,286,139.25
+No action rate,287,187.81
+No action rate,288,185.4
+No action rate,289,165.25
+No action rate,290,160.48
+No action rate,291,186.51
+No action rate,292,179.05
+No action rate,293,153.02
+No action rate,294,172.13
+No action rate,295,146.96
+No action rate,296,201.49
+No action rate,297,190.62
+No action rate,298,173.2
+No action rate,299,194.06
+No action rate,300,180.38
+No action rate,301,205.1
+No action rate,302,206.15
+No action rate,303,182.47
+No action rate,304,224.85
+No action rate,305,212.02
+No action rate,306,192.6
+No action rate,307,181.8
+No action rate,308,224.72
+No action rate,309,244.09
+No action rate,310,234.4
+No action rate,311,202.26
+No action rate,312,206.33
+No action rate,313,237.58
+No action rate,314,207.65
+No action rate,315,224.79
+No action rate,316,232.66
+No action rate,317,248.59
+No action rate,318,249.98
+No action rate,319,266.71
+No action rate,320,242.57
+No action rate,321,231.11
+No action rate,322,206.09
+No action rate,323,248.05
+No action rate,324,268.52
+No action rate,325,262.79
+No action rate,326,292.7
+No action rate,327,225.09
+No action rate,328,252.28
+No action rate,329,281.19
+No action rate,330,270.95
+No action rate,331,258.17
+No action rate,332,260.83
+No action rate,333,273.09
+No action rate,334,242.62
+No action rate,335,272.35
+No action rate,336,294.4
+No action rate,337,258.84
+No action rate,338,307.49
+No action rate,339,339.36
+No action rate,340,278.69
+No action rate,341,292.13
+No action rate,342,286.14
+No action rate,343,272.77
+No action rate,344,328.5
+No action rate,345,324.34
+No action rate,346,326.91
+No action rate,347,301.75
+No action rate,348,316.99
+No action rate,349,310.16
+No action rate,350,312.02
+No action rate,351,311.25
+No action rate,352,278.29
+No action rate,353,292.52
+No action rate,354,257.48
+No action rate,355,294.96
+No action rate,356,292.49
+No action rate,357,320.31
+No action rate,358,323.07
+No action rate,359,334.19
+No action rate,360,324.72
+No action rate,361,315.62
+No action rate,362,327.26
+No action rate,363,328.83
+No action rate,364,314.73
+No action rate,365,354.34
+No action rate,366,364.91
+No action rate,367,299.4
+No action rate,368,329.94
+No action rate,369,321.98
+No action rate,370,327.79
+No action rate,371,358.25
+No action rate,372,336.33
+No action rate,373,329.93
+No action rate,374,353.95
+No action rate,375,346.94
+No action rate,376,346.2
+No action rate,377,342.41
+No action rate,378,368.46
+No action rate,379,350.16
+No action rate,380,367.81
+No action rate,381,354.33
+No action rate,382,374.7
+No action rate,383,389.03
+No action rate,384,359.24
+No action rate,385,343.14
+No action rate,386,376.39
+No action rate,387,338.17
+No action rate,388,371.65
+No action rate,389,370.19
+No action rate,390,352.45
+No action rate,391,391.49
+No action rate,392,345.83
+No action rate,393,373.53
+No action rate,394,345.3
+No action rate,395,356.55
+No action rate,396,377.89
+No action rate,397,372.59
+No action rate,398,378.21
+No action rate,399,403.93
+No action rate,400,375.68
+No action rate,401,375.93
+No action rate,402,373.9
+No action rate,403,375.87
+No action rate,404,397.13
+No action rate,405,369.52
+No action rate,406,357.68
+No action rate,407,369.49
+No action rate,408,392.4
+No action rate,409,363.71
+No action rate,410,368.93
+No action rate,411,354.25
+No action rate,412,386.46
+No action rate,413,378.07
+No action rate,414,424.16
+No action rate,415,399.44
+No action rate,416,377.9
+No action rate,417,361.29
+No action rate,418,409.98
+No action rate,419,433.05
+No action rate,420,376.78
+No action rate,421,387.29
+No action rate,422,394.54
+No action rate,423,404.33
+No action rate,424,397.4
+No action rate,425,402.49
+No action rate,426,391.63
+No action rate,427,374.28
+No action rate,428,383.71
+No action rate,429,398.12
+No action rate,430,411.61
+No action rate,431,400.25
+No action rate,432,377.24
+No action rate,433,435.29
+No action rate,434,398.56
+No action rate,435,387.61
+No action rate,436,398.69
+No action rate,437,405.89
+No action rate,438,388.61
+No action rate,439,372.24
+No action rate,440,398.05
+No action rate,441,402.52
+No action rate,442,410.46
+No action rate,443,397.74
+No action rate,444,422.08
+No action rate,445,418.9
+No action rate,446,405.06
+No action rate,447,407.37
+No action rate,448,395.46
+No action rate,449,410.05
+No action rate,450,400.19
+No action rate,451,406.63
+No action rate,452,397.02
+No action rate,453,414.85
+No action rate,454,410.98
+No action rate,455,420.54
+No action rate,456,398.2
+No action rate,457,418.75
+No action rate,458,413.29
+No action rate,459,415.37
+No action rate,460,405.29
+No action rate,461,397.43
+No action rate,462,426.29
+No action rate,463,395.74
+No action rate,464,413.98
+No action rate,465,452.6
+No action rate,466,417.99
+No action rate,467,431.99
+No action rate,468,408.88
+No action rate,469,404.42
+No action rate,470,415.91
+No action rate,471,421.87
+No action rate,472,420.08
+No action rate,473,390.45
+No action rate,474,430.9
+No action rate,475,425.04
+No action rate,476,416.48
+No action rate,477,394.71
+No action rate,478,416.84
+No action rate,479,401.55
+No action rate,480,430.51
+No action rate,481,406.28
+No action rate,482,432.06
+No action rate,483,432.51
+No action rate,484,391.43
+No action rate,485,429.04
+No action rate,486,426.79
+No action rate,487,433.73
+No action rate,488,438.12
+No action rate,489,400.2
+No action rate,490,428.3
+No action rate,491,404.06
+No action rate,492,396.58
+No action rate,493,420.89
+No action rate,494,429.17
+No action rate,495,426.65
+No action rate,496,391.4
+No action rate,497,393.88
+No action rate,498,402.07
+No action rate,499,409.32
+No action rate,500,438.15
+No action rate,501,438.19
+No action rate,502,427.88
+No action rate,503,435.02
+No action rate,504,421.24
+No action rate,505,437.88
+No action rate,506,433.2
+No action rate,507,436.87
+No action rate,508,443.16
+No action rate,509,422.7
+No action rate,510,426.83
+No action rate,511,450.63
+No action rate,512,417.89
+No action rate,513,428.95
+No action rate,514,446.77
+No action rate,515,437.62
+No action rate,516,420.57
+No action rate,517,411.53
+No action rate,518,411.18
+No action rate,519,422.03
+No action rate,520,406.89
+No action rate,521,426.57
+No action rate,522,412.84
+No action rate,523,426.2
+No action rate,524,439.17
+No action rate,525,418.25
+No action rate,526,419.02
+No action rate,527,438.63
+No action rate,528,404.35
+No action rate,529,428.98
+No action rate,530,449.01
+No action rate,531,441.71
+No action rate,532,453.37
+No action rate,533,384.1
+No action rate,534,429.9
+No action rate,535,435.76
+No action rate,536,426.44
+No action rate,537,445.49
+No action rate,538,451.08
+No action rate,539,424.16
+No action rate,540,420.8
+No action rate,541,437.3
+No action rate,542,437.94
+No action rate,543,428.43
+No action rate,544,452.07
+No action rate,545,421.59
+No action rate,546,400.07
+No action rate,547,413.21
+No action rate,548,418.61
+No action rate,549,455.81
+No action rate,550,431.93
+No action rate,551,427.65
+No action rate,552,421.38
+No action rate,553,429.59
+No action rate,554,456.19
+No action rate,555,420.91
+No action rate,556,426.73
+No action rate,557,414.43
+No action rate,558,434.23
+No action rate,559,458.95
+No action rate,560,413.56
+No action rate,561,436.07
+No action rate,562,428.14
+No action rate,563,441.9
+No action rate,564,428.76
+No action rate,565,427.98
+No action rate,566,451.87
+No action rate,567,414.92
+No action rate,568,433.82
+No action rate,569,437.3
+No action rate,570,427.36
+No action rate,571,441.03
+No action rate,572,434.94
+No action rate,573,430.96
+No action rate,574,424.37
+No action rate,575,419.79
+No action rate,576,451.7
+No action rate,577,421.37
+No action rate,578,416.2
+No action rate,579,454.26
+No action rate,580,418.75
+No action rate,581,426.77
+No action rate,582,447.66
+No action rate,583,433.56
+No action rate,584,431.86
+No action rate,585,462.14
+No action rate,586,447.23
+No action rate,587,419.08
+No action rate,588,430.66
+No action rate,589,407.34
+No action rate,590,444.57
+No action rate,591,436.08
+No action rate,592,427.9
+No action rate,593,429.88
+No action rate,594,432.42
+No action rate,595,444.36
+No action rate,596,431.13
+No action rate,597,441.47
+No action rate,598,441.39
+No action rate,599,448.04
+No action rate,600,468.2
+No action rate,601,433.06
+No action rate,602,435.13
+No action rate,603,442.37
+No action rate,604,436.01
+No action rate,605,443.76
+No action rate,606,440.4
+No action rate,607,447.42
+No action rate,608,417.81
+No action rate,609,433.07
+No action rate,610,452.28
+No action rate,611,447.93
+No action rate,612,414.33
+No action rate,613,449.58
+No action rate,614,431.94
+No action rate,615,448.38
+No action rate,616,456.05
+No action rate,617,439.61
+No action rate,618,421.02
+No action rate,619,436.05
+No action rate,620,447.61
+No action rate,621,437.53
+No action rate,622,447.51
+No action rate,623,443.14
+No action rate,624,440.43
+No action rate,625,463.58
+No action rate,626,432.54
+No action rate,627,453.43
+No action rate,628,435.28
+No action rate,629,407.65
+No action rate,630,428.83
+No action rate,631,448.07
+No action rate,632,445.25
+No action rate,633,424.51
+No action rate,634,431.72
+No action rate,635,461.37
+No action rate,636,446.17
+No action rate,637,454.06
+No action rate,638,456.56
+No action rate,639,451.73
+No action rate,640,434.98
+No action rate,641,441.43
+No action rate,642,422.33
+No action rate,643,439.09
+No action rate,644,422.24
+No action rate,645,446.23
+No action rate,646,459.57
+No action rate,647,436.87
+No action rate,648,434.74
+No action rate,649,444.49
+No action rate,650,438.19
+No action rate,651,436.84
+No action rate,652,439.15
+No action rate,653,438.21
+No action rate,654,451.13
+No action rate,655,455.24
+No action rate,656,452.73
+No action rate,657,449.68
+No action rate,658,431.08
+No action rate,659,444.35
+No action rate,660,422.98
+No action rate,661,458.92
+No action rate,662,446.27
+No action rate,663,458.49
+No action rate,664,449.92
+No action rate,665,435.11
+No action rate,666,448.46
+No action rate,667,469.66
+No action rate,668,459.49
+No action rate,669,463.91
+No action rate,670,466.16
+No action rate,671,436.37
+No action rate,672,460.98
+No action rate,673,459.42
+No action rate,674,425.17
+No action rate,675,427.75
+No action rate,676,445.46
+No action rate,677,439.99
+No action rate,678,450.53
+No action rate,679,436.61
+No action rate,680,435.1
+No action rate,681,459.97
+No action rate,682,452.78
+No action rate,683,458.32
+No action rate,684,442.85
+No action rate,685,435.01
+No action rate,686,452.44
+No action rate,687,448.38
+No action rate,688,463.31
+No action rate,689,453.08
+No action rate,690,451.33
+No action rate,691,448.29
+No action rate,692,470.34
+No action rate,693,444.29
+No action rate,694,463.71
+No action rate,695,452.06
+No action rate,696,441.77
+No action rate,697,420.37
+No action rate,698,452.66
+No action rate,699,442.94
+No action rate,700,450.49
+No action rate,701,446.14
+No action rate,702,456.54
+No action rate,703,418.83
+No action rate,704,462.61
+No action rate,705,444.7
+No action rate,706,439.81
+No action rate,707,449.55
+No action rate,708,456.16
+No action rate,709,457.57
+No action rate,710,461.27
+No action rate,711,444.71
+No action rate,712,439.95
+No action rate,713,449.34
+No action rate,714,449.46
+No action rate,715,452.63
+No action rate,716,447.75
+No action rate,717,456.83
+No action rate,718,455.42
+No action rate,719,466.8
+No action rate,720,433.59
+No action rate,721,450.52
+No action rate,722,467.17
+No action rate,723,451.24
+No action rate,724,442.64
+No action rate,725,454.09
+No action rate,726,469.74
+No action rate,727,437.62
+No action rate,728,467.58
+No action rate,729,457.96
+No action rate,730,462.79
+No action rate,731,464.42
+No action rate,732,441.31
+No action rate,733,469.1
+No action rate,734,442.07
+No action rate,735,444.25
+No action rate,736,468.05
+No action rate,737,435.4
+No action rate,738,455.68
+No action rate,739,438.96
+No action rate,740,465.93
+No action rate,741,455.33
+No action rate,742,446.97
+No action rate,743,456.23
+No action rate,744,444.82
+No action rate,745,476.46
+No action rate,746,457.71
+No action rate,747,448.81
+No action rate,748,427.53
+No action rate,749,443.71
+No action rate,750,437.16
+No action rate,751,447.01
+No action rate,752,453.14
+No action rate,753,461.61
+No action rate,754,475.91
+No action rate,755,466.83
+No action rate,756,452.57
+No action rate,757,454.89
+No action rate,758,453.51
+No action rate,759,466.12
+No action rate,760,457.11
+No action rate,761,458.14
+No action rate,762,463.54
+No action rate,763,453.75
+No action rate,764,431.57
+No action rate,765,463.24
+No action rate,766,454.4
+No action rate,767,456.51
+No action rate,768,460.24
+No action rate,769,442.85
+No action rate,770,445.58
+No action rate,771,459.95
+No action rate,772,459.12
+No action rate,773,447.14
+No action rate,774,469.47
+No action rate,775,458.89
+No action rate,776,468.69
+No action rate,777,478.36
+No action rate,778,461.14
+No action rate,779,475.86
+No action rate,780,468.09
+No action rate,781,442.99
+No action rate,782,450.97
+No action rate,783,449.95
+No action rate,784,448.48
+No action rate,785,457.78
+No action rate,786,453.18
+No action rate,787,451.61
+No action rate,788,457.0
+No action rate,789,481.61
+No action rate,790,467.56
+No action rate,791,459.86
+No action rate,792,466.56
+No action rate,793,462.65
+No action rate,794,461.72
+No action rate,795,453.81
+No action rate,796,442.8
+No action rate,797,453.93
+No action rate,798,432.22
+No action rate,799,451.55
+No action rate,800,465.6
+No action rate,801,472.18
+No action rate,802,471.6
+No action rate,803,462.92
+No action rate,804,458.12
+No action rate,805,463.77
+No action rate,806,455.97
+No action rate,807,443.57
+No action rate,808,452.75
+No action rate,809,452.99
+No action rate,810,456.45
+No action rate,811,455.03
+No action rate,812,437.06
+No action rate,813,458.79
+No action rate,814,468.22
+No action rate,815,457.46
+No action rate,816,469.01
+No action rate,817,456.86
+No action rate,818,443.43
+No action rate,819,480.42
+No action rate,820,452.73
+No action rate,821,455.41
+No action rate,822,445.2
+No action rate,823,452.46
+No action rate,824,448.72
+No action rate,825,437.91
+No action rate,826,458.88
+No action rate,827,452.24
+No action rate,828,465.88
+No action rate,829,456.72
+No action rate,830,450.44
+No action rate,831,472.54
+No action rate,832,452.37
+No action rate,833,484.82
+No action rate,834,451.7
+No action rate,835,482.48
+No action rate,836,430.85
+No action rate,837,440.44
+No action rate,838,477.07
+No action rate,839,455.39
+No action rate,840,471.84
+No action rate,841,458.53
+No action rate,842,456.16
+No action rate,843,473.41
+No action rate,844,462.71
+No action rate,845,452.48
+No action rate,846,451.32
+No action rate,847,477.57
+No action rate,848,470.41
+No action rate,849,447.32
+No action rate,850,465.91
+No action rate,851,462.81
+No action rate,852,462.18
+No action rate,853,460.27
+No action rate,854,482.41
+No action rate,855,452.29
+No action rate,856,470.01
+No action rate,857,465.32
+No action rate,858,466.05
+No action rate,859,460.63
+No action rate,860,443.35
+No action rate,861,461.11
+No action rate,862,455.46
+No action rate,863,462.67
+No action rate,864,464.73
+No action rate,865,460.18
+No action rate,866,464.45
+No action rate,867,440.92
+No action rate,868,464.64
+No action rate,869,456.97
+No action rate,870,431.81
+No action rate,871,453.28
+No action rate,872,465.8
+No action rate,873,463.74
+No action rate,874,457.39
+No action rate,875,442.03
+No action rate,876,461.21
+No action rate,877,475.54
+No action rate,878,446.57
+No action rate,879,440.54
+No action rate,880,472.2
+No action rate,881,452.83
+No action rate,882,452.88
+No action rate,883,453.3
+No action rate,884,469.2
+No action rate,885,471.77
+No action rate,886,467.19
+No action rate,887,462.4
+No action rate,888,447.44
+No action rate,889,462.9
+No action rate,890,464.65
+No action rate,891,480.8
+No action rate,892,454.5
+No action rate,893,462.95
+No action rate,894,467.71
+No action rate,895,457.64
+No action rate,896,473.17
+No action rate,897,472.74
+No action rate,898,442.85
+No action rate,899,455.02
+No action rate,900,460.85
+No action rate,901,444.51
+No action rate,902,461.49
+No action rate,903,468.81
+No action rate,904,478.55
+No action rate,905,480.14
+No action rate,906,476.36
+No action rate,907,454.04
+No action rate,908,471.52
+No action rate,909,448.61
+No action rate,910,447.22
+No action rate,911,465.83
+No action rate,912,459.58
+No action rate,913,455.09
+No action rate,914,455.11
+No action rate,915,482.51
+No action rate,916,469.16
+No action rate,917,450.96
+No action rate,918,475.82
+No action rate,919,461.53
+No action rate,920,463.21
+No action rate,921,459.96
+No action rate,922,467.53
+No action rate,923,467.94
+No action rate,924,449.73
+No action rate,925,472.42
+No action rate,926,468.5
+No action rate,927,464.91
+No action rate,928,470.06
+No action rate,929,470.02
+No action rate,930,463.85
+No action rate,931,476.53
+No action rate,932,468.01
+No action rate,933,460.72
+No action rate,934,463.78
+No action rate,935,469.88
+No action rate,936,463.52
+No action rate,937,471.76
+No action rate,938,466.31
+No action rate,939,465.75
+No action rate,940,464.83
+No action rate,941,484.04
+No action rate,942,487.2
+No action rate,943,461.88
+No action rate,944,474.89
+No action rate,945,455.55
+No action rate,946,467.12
+No action rate,947,458.83
+No action rate,948,449.97
+No action rate,949,468.37
+No action rate,950,476.12
+No action rate,951,457.22
+No action rate,952,464.51
+No action rate,953,483.64
+No action rate,954,442.76
+No action rate,955,458.5
+No action rate,956,438.64
+No action rate,957,460.79
+No action rate,958,465.81
+No action rate,959,483.42
+No action rate,960,466.76
+No action rate,961,451.77
+No action rate,962,463.85
+No action rate,963,488.12
+No action rate,964,454.13
+No action rate,965,461.77
+No action rate,966,456.12
+No action rate,967,475.67
+No action rate,968,458.9
+No action rate,969,456.24
+No action rate,970,471.64
+No action rate,971,480.78
+No action rate,972,472.93
+No action rate,973,464.45
+No action rate,974,472.01
+No action rate,975,471.26
+No action rate,976,449.54
+No action rate,977,444.98
+No action rate,978,476.6
+No action rate,979,451.53
+No action rate,980,469.08
+No action rate,981,481.97
+No action rate,982,469.54
+No action rate,983,460.14
+No action rate,984,471.66
+No action rate,985,456.21
+No action rate,986,463.71
+No action rate,987,464.54
+No action rate,988,474.26
+No action rate,989,469.25
+No action rate,990,471.01
+No action rate,991,448.89
+No action rate,992,458.73
+No action rate,993,482.61
+No action rate,994,474.16
+No action rate,995,468.18
+No action rate,996,452.36
+No action rate,997,471.12
+No action rate,998,464.62
+No action rate,999,477.2
+No joint limit,0,8.25
+No joint limit,1,9.34
+No joint limit,2,6.79
+No joint limit,3,7.98
+No joint limit,4,7.11
+No joint limit,5,7.52
+No joint limit,6,8.4
+No joint limit,7,9.07
+No joint limit,8,7.5
+No joint limit,9,7.6
+No joint limit,10,8.08
+No joint limit,11,7.18
+No joint limit,12,7.63
+No joint limit,13,7.55
+No joint limit,14,7.59
+No joint limit,15,6.84
+No joint limit,16,7.26
+No joint limit,17,6.81
+No joint limit,18,7.78
+No joint limit,19,6.97
+No joint limit,20,6.52
+No joint limit,21,7.51
+No joint limit,22,7.2
+No joint limit,23,6.93
+No joint limit,24,7.64
+No joint limit,25,6.48
+No joint limit,26,7.34
+No joint limit,27,6.26
+No joint limit,28,6.89
+No joint limit,29,6.8
+No joint limit,30,6.94
+No joint limit,31,6.73
+No joint limit,32,6.65
+No joint limit,33,6.32
+No joint limit,34,6.17
+No joint limit,35,6.8
+No joint limit,36,6.62
+No joint limit,37,6.01
+No joint limit,38,6.21
+No joint limit,39,6.26
+No joint limit,40,6.26
+No joint limit,41,6.37
+No joint limit,42,6.23
+No joint limit,43,6.04
+No joint limit,44,6.58
+No joint limit,45,6.56
+No joint limit,46,6.72
+No joint limit,47,6.11
+No joint limit,48,6.58
+No joint limit,49,6.26
+No joint limit,50,6.18
+No joint limit,51,6.63
+No joint limit,52,6.16
+No joint limit,53,6.39
+No joint limit,54,6.38
+No joint limit,55,6.44
+No joint limit,56,6.68
+No joint limit,57,6.32
+No joint limit,58,6.42
+No joint limit,59,6.71
+No joint limit,60,6.45
+No joint limit,61,6.41
+No joint limit,62,6.45
+No joint limit,63,6.31
+No joint limit,64,6.53
+No joint limit,65,6.77
+No joint limit,66,7.15
+No joint limit,67,6.54
+No joint limit,68,6.57
+No joint limit,69,6.65
+No joint limit,70,6.54
+No joint limit,71,6.58
+No joint limit,72,6.97
+No joint limit,73,6.36
+No joint limit,74,6.58
+No joint limit,75,6.75
+No joint limit,76,6.84
+No joint limit,77,6.41
+No joint limit,78,6.97
+No joint limit,79,6.9
+No joint limit,80,6.84
+No joint limit,81,6.99
+No joint limit,82,7.08
+No joint limit,83,6.72
+No joint limit,84,7.0
+No joint limit,85,6.93
+No joint limit,86,6.76
+No joint limit,87,7.66
+No joint limit,88,7.39
+No joint limit,89,7.48
+No joint limit,90,7.66
+No joint limit,91,8.34
+No joint limit,92,7.63
+No joint limit,93,7.38
+No joint limit,94,8.04
+No joint limit,95,8.08
+No joint limit,96,7.91
+No joint limit,97,7.75
+No joint limit,98,8.25
+No joint limit,99,8.27
+No joint limit,100,9.16
+No joint limit,101,7.94
+No joint limit,102,8.32
+No joint limit,103,8.75
+No joint limit,104,9.01
+No joint limit,105,8.82
+No joint limit,106,8.82
+No joint limit,107,9.4
+No joint limit,108,9.74
+No joint limit,109,10.13
+No joint limit,110,10.07
+No joint limit,111,9.72
+No joint limit,112,10.03
+No joint limit,113,10.27
+No joint limit,114,10.38
+No joint limit,115,11.46
+No joint limit,116,11.58
+No joint limit,117,11.18
+No joint limit,118,11.5
+No joint limit,119,11.75
+No joint limit,120,11.35
+No joint limit,121,11.73
+No joint limit,122,13.53
+No joint limit,123,12.99
+No joint limit,124,14.5
+No joint limit,125,16.01
+No joint limit,126,14.94
+No joint limit,127,15.27
+No joint limit,128,16.65
+No joint limit,129,16.52
+No joint limit,130,18.5
+No joint limit,131,17.84
+No joint limit,132,17.25
+No joint limit,133,17.72
+No joint limit,134,17.22
+No joint limit,135,20.37
+No joint limit,136,19.04
+No joint limit,137,19.04
+No joint limit,138,19.23
+No joint limit,139,19.68
+No joint limit,140,20.46
+No joint limit,141,19.28
+No joint limit,142,19.46
+No joint limit,143,20.62
+No joint limit,144,19.86
+No joint limit,145,19.67
+No joint limit,146,22.85
+No joint limit,147,20.84
+No joint limit,148,21.17
+No joint limit,149,23.06
+No joint limit,150,23.13
+No joint limit,151,23.51
+No joint limit,152,21.87
+No joint limit,153,24.56
+No joint limit,154,25.29
+No joint limit,155,23.47
+No joint limit,156,22.09
+No joint limit,157,23.82
+No joint limit,158,24.52
+No joint limit,159,24.01
+No joint limit,160,24.55
+No joint limit,161,28.45
+No joint limit,162,25.36
+No joint limit,163,27.51
+No joint limit,164,25.72
+No joint limit,165,27.48
+No joint limit,166,26.46
+No joint limit,167,24.95
+No joint limit,168,26.81
+No joint limit,169,29.05
+No joint limit,170,27.74
+No joint limit,171,26.53
+No joint limit,172,25.43
+No joint limit,173,28.79
+No joint limit,174,28.29
+No joint limit,175,28.31
+No joint limit,176,29.63
+No joint limit,177,27.86
+No joint limit,178,27.86
+No joint limit,179,27.03
+No joint limit,180,27.38
+No joint limit,181,28.81
+No joint limit,182,30.21
+No joint limit,183,27.04
+No joint limit,184,31.05
+No joint limit,185,30.66
+No joint limit,186,31.84
+No joint limit,187,29.36
+No joint limit,188,29.86
+No joint limit,189,28.7
+No joint limit,190,31.0
+No joint limit,191,31.8
+No joint limit,192,31.57
+No joint limit,193,32.49
+No joint limit,194,34.29
+No joint limit,195,32.77
+No joint limit,196,33.19
+No joint limit,197,37.44
+No joint limit,198,33.13
+No joint limit,199,33.96
+No joint limit,200,32.3
+No joint limit,201,34.49
+No joint limit,202,33.34
+No joint limit,203,33.27
+No joint limit,204,31.29
+No joint limit,205,33.25
+No joint limit,206,36.47
+No joint limit,207,36.62
+No joint limit,208,32.3
+No joint limit,209,34.17
+No joint limit,210,31.55
+No joint limit,211,36.32
+No joint limit,212,34.17
+No joint limit,213,34.45
+No joint limit,214,33.93
+No joint limit,215,35.2
+No joint limit,216,34.12
+No joint limit,217,37.49
+No joint limit,218,33.6
+No joint limit,219,35.64
+No joint limit,220,34.26
+No joint limit,221,34.32
+No joint limit,222,33.43
+No joint limit,223,35.73
+No joint limit,224,37.65
+No joint limit,225,38.42
+No joint limit,226,38.44
+No joint limit,227,36.07
+No joint limit,228,37.49
+No joint limit,229,35.07
+No joint limit,230,37.04
+No joint limit,231,37.9
+No joint limit,232,35.41
+No joint limit,233,39.15
+No joint limit,234,38.77
+No joint limit,235,37.36
+No joint limit,236,35.74
+No joint limit,237,34.81
+No joint limit,238,39.47
+No joint limit,239,36.72
+No joint limit,240,37.93
+No joint limit,241,36.69
+No joint limit,242,33.87
+No joint limit,243,39.63
+No joint limit,244,37.09
+No joint limit,245,35.94
+No joint limit,246,37.85
+No joint limit,247,42.49
+No joint limit,248,40.27
+No joint limit,249,37.69
+No joint limit,250,41.97
+No joint limit,251,37.65
+No joint limit,252,40.29
+No joint limit,253,36.12
+No joint limit,254,40.62
+No joint limit,255,40.31
+No joint limit,256,39.01
+No joint limit,257,39.1
+No joint limit,258,42.35
+No joint limit,259,39.85
+No joint limit,260,36.73
+No joint limit,261,37.82
+No joint limit,262,39.75
+No joint limit,263,41.15
+No joint limit,264,38.41
+No joint limit,265,40.46
+No joint limit,266,36.96
+No joint limit,267,41.79
+No joint limit,268,38.83
+No joint limit,269,40.38
+No joint limit,270,37.98
+No joint limit,271,41.99
+No joint limit,272,39.56
+No joint limit,273,39.12
+No joint limit,274,38.59
+No joint limit,275,38.5
+No joint limit,276,38.63
+No joint limit,277,39.25
+No joint limit,278,38.18
+No joint limit,279,38.18
+No joint limit,280,40.96
+No joint limit,281,43.15
+No joint limit,282,42.5
+No joint limit,283,41.7
+No joint limit,284,40.49
+No joint limit,285,40.23
+No joint limit,286,42.38
+No joint limit,287,43.76
+No joint limit,288,42.39
+No joint limit,289,42.33
+No joint limit,290,45.89
+No joint limit,291,39.97
+No joint limit,292,42.38
+No joint limit,293,39.8
+No joint limit,294,45.79
+No joint limit,295,45.55
+No joint limit,296,41.24
+No joint limit,297,41.11
+No joint limit,298,39.15
+No joint limit,299,44.45
+No joint limit,300,42.85
+No joint limit,301,41.94
+No joint limit,302,42.23
+No joint limit,303,43.49
+No joint limit,304,44.29
+No joint limit,305,42.87
+No joint limit,306,43.64
+No joint limit,307,44.79
+No joint limit,308,42.88
+No joint limit,309,42.74
+No joint limit,310,45.6
+No joint limit,311,46.24
+No joint limit,312,45.29
+No joint limit,313,41.79
+No joint limit,314,42.07
+No joint limit,315,39.95
+No joint limit,316,44.08
+No joint limit,317,42.92
+No joint limit,318,45.15
+No joint limit,319,40.99
+No joint limit,320,48.59
+No joint limit,321,44.41
+No joint limit,322,44.61
+No joint limit,323,47.86
+No joint limit,324,43.01
+No joint limit,325,43.54
+No joint limit,326,46.51
+No joint limit,327,43.67
+No joint limit,328,44.85
+No joint limit,329,46.06
+No joint limit,330,48.0
+No joint limit,331,44.86
+No joint limit,332,45.88
+No joint limit,333,43.0
+No joint limit,334,41.1
+No joint limit,335,41.24
+No joint limit,336,49.41
+No joint limit,337,47.26
+No joint limit,338,45.14
+No joint limit,339,46.08
+No joint limit,340,48.48
+No joint limit,341,44.46
+No joint limit,342,48.79
+No joint limit,343,44.16
+No joint limit,344,47.01
+No joint limit,345,42.07
+No joint limit,346,46.81
+No joint limit,347,48.81
+No joint limit,348,52.0
+No joint limit,349,49.5
+No joint limit,350,45.15
+No joint limit,351,47.83
+No joint limit,352,48.81
+No joint limit,353,46.88
+No joint limit,354,43.77
+No joint limit,355,44.37
+No joint limit,356,47.01
+No joint limit,357,50.83
+No joint limit,358,52.44
+No joint limit,359,45.81
+No joint limit,360,43.87
+No joint limit,361,47.7
+No joint limit,362,46.73
+No joint limit,363,48.73
+No joint limit,364,49.45
+No joint limit,365,46.93
+No joint limit,366,48.08
+No joint limit,367,44.88
+No joint limit,368,46.9
+No joint limit,369,48.62
+No joint limit,370,49.04
+No joint limit,371,46.76
+No joint limit,372,46.96
+No joint limit,373,46.15
+No joint limit,374,47.34
+No joint limit,375,45.3
+No joint limit,376,47.49
+No joint limit,377,53.19
+No joint limit,378,46.12
+No joint limit,379,48.7
+No joint limit,380,50.64
+No joint limit,381,48.86
+No joint limit,382,46.76
+No joint limit,383,48.03
+No joint limit,384,47.32
+No joint limit,385,44.21
+No joint limit,386,50.18
+No joint limit,387,49.0
+No joint limit,388,48.62
+No joint limit,389,48.9
+No joint limit,390,50.27
+No joint limit,391,47.23
+No joint limit,392,50.63
+No joint limit,393,47.6
+No joint limit,394,48.92
+No joint limit,395,46.75
+No joint limit,396,49.51
+No joint limit,397,52.04
+No joint limit,398,53.93
+No joint limit,399,48.32
+No joint limit,400,48.03
+No joint limit,401,52.19
+No joint limit,402,50.97
+No joint limit,403,47.48
+No joint limit,404,52.79
+No joint limit,405,52.88
+No joint limit,406,51.63
+No joint limit,407,53.59
+No joint limit,408,51.14
+No joint limit,409,52.7
+No joint limit,410,51.03
+No joint limit,411,57.31
+No joint limit,412,58.73
+No joint limit,413,53.91
+No joint limit,414,49.51
+No joint limit,415,56.23
+No joint limit,416,50.0
+No joint limit,417,52.99
+No joint limit,418,55.98
+No joint limit,419,50.1
+No joint limit,420,53.8
+No joint limit,421,50.37
+No joint limit,422,54.31
+No joint limit,423,53.72
+No joint limit,424,53.48
+No joint limit,425,52.02
+No joint limit,426,52.2
+No joint limit,427,52.82
+No joint limit,428,55.09
+No joint limit,429,53.2
+No joint limit,430,63.01
+No joint limit,431,55.82
+No joint limit,432,54.48
+No joint limit,433,53.35
+No joint limit,434,55.51
+No joint limit,435,58.79
+No joint limit,436,54.79
+No joint limit,437,54.9
+No joint limit,438,57.68
+No joint limit,439,51.48
+No joint limit,440,57.54
+No joint limit,441,54.07
+No joint limit,442,52.55
+No joint limit,443,56.93
+No joint limit,444,57.1
+No joint limit,445,51.87
+No joint limit,446,50.52
+No joint limit,447,59.58
+No joint limit,448,60.15
+No joint limit,449,54.96
+No joint limit,450,55.42
+No joint limit,451,51.94
+No joint limit,452,60.58
+No joint limit,453,54.91
+No joint limit,454,52.57
+No joint limit,455,55.54
+No joint limit,456,52.36
+No joint limit,457,65.51
+No joint limit,458,54.12
+No joint limit,459,58.64
+No joint limit,460,52.5
+No joint limit,461,55.02
+No joint limit,462,58.33
+No joint limit,463,58.26
+No joint limit,464,61.05
+No joint limit,465,56.33
+No joint limit,466,63.17
+No joint limit,467,56.16
+No joint limit,468,59.85
+No joint limit,469,58.2
+No joint limit,470,57.04
+No joint limit,471,61.23
+No joint limit,472,56.61
+No joint limit,473,56.44
+No joint limit,474,57.67
+No joint limit,475,61.19
+No joint limit,476,62.98
+No joint limit,477,65.68
+No joint limit,478,60.18
+No joint limit,479,56.03
+No joint limit,480,62.8
+No joint limit,481,56.78
+No joint limit,482,64.91
+No joint limit,483,64.49
+No joint limit,484,66.18
+No joint limit,485,54.14
+No joint limit,486,62.42
+No joint limit,487,59.0
+No joint limit,488,59.04
+No joint limit,489,62.26
+No joint limit,490,63.13
+No joint limit,491,69.68
+No joint limit,492,60.51
+No joint limit,493,71.36
+No joint limit,494,66.3
+No joint limit,495,68.77
+No joint limit,496,66.35
+No joint limit,497,63.87
+No joint limit,498,64.39
+No joint limit,499,64.58
+No joint limit,500,67.2
+No joint limit,501,69.47
+No joint limit,502,66.16
+No joint limit,503,67.44
+No joint limit,504,59.42
+No joint limit,505,63.07
+No joint limit,506,73.68
+No joint limit,507,69.43
+No joint limit,508,66.02
+No joint limit,509,68.88
+No joint limit,510,69.61
+No joint limit,511,72.08
+No joint limit,512,78.64
+No joint limit,513,76.39
+No joint limit,514,65.18
+No joint limit,515,68.07
+No joint limit,516,74.59
+No joint limit,517,70.29
+No joint limit,518,73.3
+No joint limit,519,67.08
+No joint limit,520,67.64
+No joint limit,521,69.8
+No joint limit,522,71.15
+No joint limit,523,67.65
+No joint limit,524,67.39
+No joint limit,525,69.48
+No joint limit,526,66.5
+No joint limit,527,77.67
+No joint limit,528,71.19
+No joint limit,529,68.93
+No joint limit,530,72.78
+No joint limit,531,64.73
+No joint limit,532,79.35
+No joint limit,533,77.2
+No joint limit,534,80.41
+No joint limit,535,74.17
+No joint limit,536,66.14
+No joint limit,537,74.07
+No joint limit,538,73.77
+No joint limit,539,82.59
+No joint limit,540,72.54
+No joint limit,541,75.9
+No joint limit,542,80.61
+No joint limit,543,68.17
+No joint limit,544,76.94
+No joint limit,545,73.14
+No joint limit,546,74.79
+No joint limit,547,67.75
+No joint limit,548,71.52
+No joint limit,549,72.3
+No joint limit,550,70.69
+No joint limit,551,82.97
+No joint limit,552,83.46
+No joint limit,553,76.34
+No joint limit,554,70.26
+No joint limit,555,82.52
+No joint limit,556,79.17
+No joint limit,557,85.64
+No joint limit,558,85.73
+No joint limit,559,81.4
+No joint limit,560,82.3
+No joint limit,561,79.53
+No joint limit,562,77.8
+No joint limit,563,86.9
+No joint limit,564,79.33
+No joint limit,565,79.82
+No joint limit,566,78.24
+No joint limit,567,97.65
+No joint limit,568,90.92
+No joint limit,569,93.74
+No joint limit,570,82.47
+No joint limit,571,96.98
+No joint limit,572,83.25
+No joint limit,573,96.25
+No joint limit,574,83.34
+No joint limit,575,86.2
+No joint limit,576,81.1
+No joint limit,577,84.89
+No joint limit,578,94.21
+No joint limit,579,75.32
+No joint limit,580,81.88
+No joint limit,581,87.66
+No joint limit,582,80.39
+No joint limit,583,86.88
+No joint limit,584,101.51
+No joint limit,585,96.34
+No joint limit,586,95.83
+No joint limit,587,87.61
+No joint limit,588,111.46
+No joint limit,589,82.41
+No joint limit,590,89.19
+No joint limit,591,88.18
+No joint limit,592,101.33
+No joint limit,593,93.99
+No joint limit,594,107.41
+No joint limit,595,102.01
+No joint limit,596,111.55
+No joint limit,597,102.03
+No joint limit,598,93.19
+No joint limit,599,98.44
+No joint limit,600,89.18
+No joint limit,601,97.42
+No joint limit,602,107.59
+No joint limit,603,91.14
+No joint limit,604,109.06
+No joint limit,605,83.34
+No joint limit,606,104.44
+No joint limit,607,106.88
+No joint limit,608,95.64
+No joint limit,609,95.58
+No joint limit,610,109.71
+No joint limit,611,100.94
+No joint limit,612,104.17
+No joint limit,613,115.9
+No joint limit,614,98.75
+No joint limit,615,103.08
+No joint limit,616,97.34
+No joint limit,617,96.31
+No joint limit,618,95.04
+No joint limit,619,111.2
+No joint limit,620,110.77
+No joint limit,621,120.84
+No joint limit,622,97.6
+No joint limit,623,114.13
+No joint limit,624,121.21
+No joint limit,625,99.77
+No joint limit,626,113.99
+No joint limit,627,141.56
+No joint limit,628,104.68
+No joint limit,629,138.8
+No joint limit,630,109.37
+No joint limit,631,103.31
+No joint limit,632,128.14
+No joint limit,633,116.21
+No joint limit,634,113.21
+No joint limit,635,132.41
+No joint limit,636,110.47
+No joint limit,637,109.52
+No joint limit,638,118.98
+No joint limit,639,100.92
+No joint limit,640,117.14
+No joint limit,641,120.22
+No joint limit,642,140.67
+No joint limit,643,109.96
+No joint limit,644,118.94
+No joint limit,645,110.38
+No joint limit,646,129.78
+No joint limit,647,106.0
+No joint limit,648,136.82
+No joint limit,649,152.31
+No joint limit,650,128.16
+No joint limit,651,121.19
+No joint limit,652,102.35
+No joint limit,653,137.0
+No joint limit,654,122.68
+No joint limit,655,117.93
+No joint limit,656,133.49
+No joint limit,657,121.08
+No joint limit,658,122.86
+No joint limit,659,128.19
+No joint limit,660,132.35
+No joint limit,661,116.63
+No joint limit,662,145.73
+No joint limit,663,137.04
+No joint limit,664,129.79
+No joint limit,665,120.22
+No joint limit,666,128.35
+No joint limit,667,121.93
+No joint limit,668,132.03
+No joint limit,669,120.09
+No joint limit,670,144.6
+No joint limit,671,140.9
+No joint limit,672,139.59
+No joint limit,673,133.15
+No joint limit,674,111.84
+No joint limit,675,140.62
+No joint limit,676,140.65
+No joint limit,677,155.92
+No joint limit,678,142.58
+No joint limit,679,140.1
+No joint limit,680,146.61
+No joint limit,681,145.7
+No joint limit,682,154.2
+No joint limit,683,151.2
+No joint limit,684,119.9
+No joint limit,685,123.66
+No joint limit,686,149.56
+No joint limit,687,168.22
+No joint limit,688,138.32
+No joint limit,689,176.64
+No joint limit,690,145.59
+No joint limit,691,156.68
+No joint limit,692,133.75
+No joint limit,693,134.38
+No joint limit,694,138.05
+No joint limit,695,150.56
+No joint limit,696,138.8
+No joint limit,697,144.02
+No joint limit,698,165.39
+No joint limit,699,121.67
+No joint limit,700,143.72
+No joint limit,701,168.76
+No joint limit,702,159.56
+No joint limit,703,153.22
+No joint limit,704,144.09
+No joint limit,705,134.48
+No joint limit,706,150.6
+No joint limit,707,158.6
+No joint limit,708,126.97
+No joint limit,709,144.86
+No joint limit,710,163.68
+No joint limit,711,147.8
+No joint limit,712,158.13
+No joint limit,713,153.3
+No joint limit,714,172.87
+No joint limit,715,140.27
+No joint limit,716,160.36
+No joint limit,717,163.82
+No joint limit,718,165.51
+No joint limit,719,153.38
+No joint limit,720,136.85
+No joint limit,721,175.4
+No joint limit,722,138.0
+No joint limit,723,149.25
+No joint limit,724,159.31
+No joint limit,725,138.96
+No joint limit,726,156.17
+No joint limit,727,179.06
+No joint limit,728,151.71
+No joint limit,729,159.57
+No joint limit,730,163.4
+No joint limit,731,175.05
+No joint limit,732,155.51
+No joint limit,733,164.86
+No joint limit,734,170.1
+No joint limit,735,152.85
+No joint limit,736,164.92
+No joint limit,737,149.98
+No joint limit,738,166.03
+No joint limit,739,154.5
+No joint limit,740,173.01
+No joint limit,741,160.0
+No joint limit,742,186.64
+No joint limit,743,174.97
+No joint limit,744,173.43
+No joint limit,745,173.07
+No joint limit,746,179.83
+No joint limit,747,156.91
+No joint limit,748,169.82
+No joint limit,749,179.89
+No joint limit,750,177.59
+No joint limit,751,170.85
+No joint limit,752,195.21
+No joint limit,753,178.93
+No joint limit,754,181.52
+No joint limit,755,178.01
+No joint limit,756,178.71
+No joint limit,757,144.34
+No joint limit,758,201.34
+No joint limit,759,152.13
+No joint limit,760,206.91
+No joint limit,761,147.58
+No joint limit,762,187.73
+No joint limit,763,196.93
+No joint limit,764,164.27
+No joint limit,765,197.64
+No joint limit,766,192.4
+No joint limit,767,195.13
+No joint limit,768,162.22
+No joint limit,769,164.91
+No joint limit,770,188.7
+No joint limit,771,191.66
+No joint limit,772,179.74
+No joint limit,773,178.7
+No joint limit,774,187.4
+No joint limit,775,175.28
+No joint limit,776,185.98
+No joint limit,777,193.72
+No joint limit,778,157.43
+No joint limit,779,210.4
+No joint limit,780,202.59
+No joint limit,781,178.94
+No joint limit,782,180.21
+No joint limit,783,186.52
+No joint limit,784,193.93
+No joint limit,785,182.23
+No joint limit,786,166.65
+No joint limit,787,213.12
+No joint limit,788,159.94
+No joint limit,789,188.63
+No joint limit,790,193.83
+No joint limit,791,185.24
+No joint limit,792,206.98
+No joint limit,793,171.37
+No joint limit,794,177.2
+No joint limit,795,225.44
+No joint limit,796,170.97
+No joint limit,797,169.08
+No joint limit,798,182.23
+No joint limit,799,196.97
+No joint limit,800,190.76
+No joint limit,801,192.91
+No joint limit,802,180.27
+No joint limit,803,190.79
+No joint limit,804,176.69
+No joint limit,805,194.11
+No joint limit,806,171.61
+No joint limit,807,198.94
+No joint limit,808,195.65
+No joint limit,809,196.44
+No joint limit,810,193.15
+No joint limit,811,209.65
+No joint limit,812,199.58
+No joint limit,813,161.62
+No joint limit,814,213.69
+No joint limit,815,167.91
+No joint limit,816,215.39
+No joint limit,817,192.62
+No joint limit,818,177.14
+No joint limit,819,188.71
+No joint limit,820,193.29
+No joint limit,821,155.73
+No joint limit,822,178.72
+No joint limit,823,210.06
+No joint limit,824,189.87
+No joint limit,825,203.57
+No joint limit,826,194.27
+No joint limit,827,187.84
+No joint limit,828,196.16
+No joint limit,829,196.96
+No joint limit,830,189.01
+No joint limit,831,213.69
+No joint limit,832,235.3
+No joint limit,833,183.74
+No joint limit,834,189.84
+No joint limit,835,194.39
+No joint limit,836,200.49
+No joint limit,837,174.36
+No joint limit,838,175.28
+No joint limit,839,213.39
+No joint limit,840,205.32
+No joint limit,841,198.42
+No joint limit,842,196.72
+No joint limit,843,216.97
+No joint limit,844,223.0
+No joint limit,845,182.29
+No joint limit,846,194.08
+No joint limit,847,184.98
+No joint limit,848,190.34
+No joint limit,849,173.34
+No joint limit,850,184.41
+No joint limit,851,195.54
+No joint limit,852,176.79
+No joint limit,853,207.55
+No joint limit,854,183.7
+No joint limit,855,210.07
+No joint limit,856,199.2
+No joint limit,857,202.93
+No joint limit,858,188.05
+No joint limit,859,210.17
+No joint limit,860,212.92
+No joint limit,861,196.62
+No joint limit,862,197.52
+No joint limit,863,201.91
+No joint limit,864,182.45
+No joint limit,865,185.51
+No joint limit,866,193.66
+No joint limit,867,207.95
+No joint limit,868,173.19
+No joint limit,869,223.79
+No joint limit,870,155.37
+No joint limit,871,204.55
+No joint limit,872,181.4
+No joint limit,873,220.34
+No joint limit,874,194.25
+No joint limit,875,165.72
+No joint limit,876,210.66
+No joint limit,877,201.27
+No joint limit,878,216.94
+No joint limit,879,201.61
+No joint limit,880,230.53
+No joint limit,881,202.27
+No joint limit,882,234.87
+No joint limit,883,195.36
+No joint limit,884,193.81
+No joint limit,885,191.84
+No joint limit,886,199.76
+No joint limit,887,231.99
+No joint limit,888,213.6
+No joint limit,889,198.88
+No joint limit,890,196.04
+No joint limit,891,192.62
+No joint limit,892,213.96
+No joint limit,893,199.31
+No joint limit,894,184.45
+No joint limit,895,215.11
+No joint limit,896,177.49
+No joint limit,897,219.93
+No joint limit,898,219.89
+No joint limit,899,204.26
+No joint limit,900,189.66
+No joint limit,901,180.07
+No joint limit,902,206.35
+No joint limit,903,197.9
+No joint limit,904,192.07
+No joint limit,905,195.78
+No joint limit,906,245.48
+No joint limit,907,237.48
+No joint limit,908,221.7
+No joint limit,909,209.98
+No joint limit,910,187.08
+No joint limit,911,206.75
+No joint limit,912,201.98
+No joint limit,913,193.62
+No joint limit,914,235.61
+No joint limit,915,185.46
+No joint limit,916,203.36
+No joint limit,917,181.43
+No joint limit,918,177.2
+No joint limit,919,224.9
+No joint limit,920,190.33
+No joint limit,921,196.44
+No joint limit,922,226.84
+No joint limit,923,197.53
+No joint limit,924,198.75
+No joint limit,925,188.23
+No joint limit,926,186.79
+No joint limit,927,180.89
+No joint limit,928,203.31
+No joint limit,929,192.66
+No joint limit,930,199.36
+No joint limit,931,200.27
+No joint limit,932,208.06
+No joint limit,933,203.19
+No joint limit,934,222.76
+No joint limit,935,182.21
+No joint limit,936,182.48
+No joint limit,937,187.87
+No joint limit,938,197.97
+No joint limit,939,209.97
+No joint limit,940,191.56
+No joint limit,941,226.11
+No joint limit,942,219.53
+No joint limit,943,199.81
+No joint limit,944,212.03
+No joint limit,945,224.09
+No joint limit,946,198.66
+No joint limit,947,210.81
+No joint limit,948,212.97
+No joint limit,949,198.35
+No joint limit,950,244.58
+No joint limit,951,217.05
+No joint limit,952,224.92
+No joint limit,953,188.66
+No joint limit,954,184.4
+No joint limit,955,192.96
+No joint limit,956,203.35
+No joint limit,957,201.28
+No joint limit,958,220.59
+No joint limit,959,196.77
+No joint limit,960,193.8
+No joint limit,961,235.32
+No joint limit,962,217.81
+No joint limit,963,205.6
+No joint limit,964,235.66
+No joint limit,965,170.5
+No joint limit,966,175.19
+No joint limit,967,193.58
+No joint limit,968,221.24
+No joint limit,969,215.44
+No joint limit,970,193.17
+No joint limit,971,185.16
+No joint limit,972,179.97
+No joint limit,973,205.42
+No joint limit,974,218.17
+No joint limit,975,193.05
+No joint limit,976,203.46
+No joint limit,977,235.83
+No joint limit,978,226.74
+No joint limit,979,198.34
+No joint limit,980,194.24
+No joint limit,981,215.7
+No joint limit,982,214.33
+No joint limit,983,252.21
+No joint limit,984,201.21
+No joint limit,985,213.34
+No joint limit,986,209.1
+No joint limit,987,225.85
+No joint limit,988,214.44
+No joint limit,989,202.34
+No joint limit,990,216.72
+No joint limit,991,205.7
+No joint limit,992,195.69
+No joint limit,993,179.38
+No joint limit,994,215.42
+No joint limit,995,241.09
+No joint limit,996,195.12
+No joint limit,997,201.69
+No joint limit,998,196.87
+No joint limit,999,201.45
+No self collision,0,8.25
+No self collision,1,8.16
+No self collision,2,8.34
+No self collision,3,8.7
+No self collision,4,8.57
+No self collision,5,7.93
+No self collision,6,8.04
+No self collision,7,8.65
+No self collision,8,7.96
+No self collision,9,7.2
+No self collision,10,7.5
+No self collision,11,7.25
+No self collision,12,7.09
+No self collision,13,7.68
+No self collision,14,7.7
+No self collision,15,6.53
+No self collision,16,6.81
+No self collision,17,7.16
+No self collision,18,6.37
+No self collision,19,7.02
+No self collision,20,6.49
+No self collision,21,6.38
+No self collision,22,6.65
+No self collision,23,6.65
+No self collision,24,6.21
+No self collision,25,6.16
+No self collision,26,6.35
+No self collision,27,6.05
+No self collision,28,6.09
+No self collision,29,6.23
+No self collision,30,6.06
+No self collision,31,6.08
+No self collision,32,6.25
+No self collision,33,5.9
+No self collision,34,6.04
+No self collision,35,6.18
+No self collision,36,6.24
+No self collision,37,6.07
+No self collision,38,6.01
+No self collision,39,5.72
+No self collision,40,6.1
+No self collision,41,6.13
+No self collision,42,6.18
+No self collision,43,6.31
+No self collision,44,6.35
+No self collision,45,6.27
+No self collision,46,6.17
+No self collision,47,6.55
+No self collision,48,6.53
+No self collision,49,6.44
+No self collision,50,6.77
+No self collision,51,6.51
+No self collision,52,6.35
+No self collision,53,6.58
+No self collision,54,6.82
+No self collision,55,6.53
+No self collision,56,6.29
+No self collision,57,6.46
+No self collision,58,6.71
+No self collision,59,6.69
+No self collision,60,7.35
+No self collision,61,6.96
+No self collision,62,7.29
+No self collision,63,7.65
+No self collision,64,7.35
+No self collision,65,7.54
+No self collision,66,7.72
+No self collision,67,8.09
+No self collision,68,7.45
+No self collision,69,8.05
+No self collision,70,7.62
+No self collision,71,9.12
+No self collision,72,8.97
+No self collision,73,8.96
+No self collision,74,8.65
+No self collision,75,8.44
+No self collision,76,8.87
+No self collision,77,9.35
+No self collision,78,9.57
+No self collision,79,9.17
+No self collision,80,9.82
+No self collision,81,11.1
+No self collision,82,11.75
+No self collision,83,11.24
+No self collision,84,10.82
+No self collision,85,11.61
+No self collision,86,12.25
+No self collision,87,12.96
+No self collision,88,12.09
+No self collision,89,12.47
+No self collision,90,13.34
+No self collision,91,12.75
+No self collision,92,15.17
+No self collision,93,14.11
+No self collision,94,15.46
+No self collision,95,14.34
+No self collision,96,15.45
+No self collision,97,17.02
+No self collision,98,16.76
+No self collision,99,18.22
+No self collision,100,14.65
+No self collision,101,17.24
+No self collision,102,17.58
+No self collision,103,17.2
+No self collision,104,17.38
+No self collision,105,17.72
+No self collision,106,21.76
+No self collision,107,22.25
+No self collision,108,19.38
+No self collision,109,20.65
+No self collision,110,22.29
+No self collision,111,23.58
+No self collision,112,24.04
+No self collision,113,22.76
+No self collision,114,23.8
+No self collision,115,23.72
+No self collision,116,26.2
+No self collision,117,23.97
+No self collision,118,25.99
+No self collision,119,24.47
+No self collision,120,25.63
+No self collision,121,26.25
+No self collision,122,24.66
+No self collision,123,26.13
+No self collision,124,27.31
+No self collision,125,28.29
+No self collision,126,29.22
+No self collision,127,28.23
+No self collision,128,27.74
+No self collision,129,28.3
+No self collision,130,30.76
+No self collision,131,29.76
+No self collision,132,30.58
+No self collision,133,28.29
+No self collision,134,29.41
+No self collision,135,32.12
+No self collision,136,29.21
+No self collision,137,32.92
+No self collision,138,34.41
+No self collision,139,31.8
+No self collision,140,31.82
+No self collision,141,31.2
+No self collision,142,33.27
+No self collision,143,33.22
+No self collision,144,32.57
+No self collision,145,34.54
+No self collision,146,33.03
+No self collision,147,36.09
+No self collision,148,33.54
+No self collision,149,35.34
+No self collision,150,34.3
+No self collision,151,33.9
+No self collision,152,31.66
+No self collision,153,32.51
+No self collision,154,36.24
+No self collision,155,37.67
+No self collision,156,36.09
+No self collision,157,32.85
+No self collision,158,36.61
+No self collision,159,34.54
+No self collision,160,36.8
+No self collision,161,37.48
+No self collision,162,33.55
+No self collision,163,33.23
+No self collision,164,36.75
+No self collision,165,36.64
+No self collision,166,38.65
+No self collision,167,37.07
+No self collision,168,37.17
+No self collision,169,37.96
+No self collision,170,36.49
+No self collision,171,36.9
+No self collision,172,37.05
+No self collision,173,35.49
+No self collision,174,34.75
+No self collision,175,35.8
+No self collision,176,38.29
+No self collision,177,37.26
+No self collision,178,40.11
+No self collision,179,39.13
+No self collision,180,38.96
+No self collision,181,39.25
+No self collision,182,36.95
+No self collision,183,37.96
+No self collision,184,37.26
+No self collision,185,38.16
+No self collision,186,39.5
+No self collision,187,40.21
+No self collision,188,39.44
+No self collision,189,37.44
+No self collision,190,38.81
+No self collision,191,43.16
+No self collision,192,40.88
+No self collision,193,41.13
+No self collision,194,40.27
+No self collision,195,36.97
+No self collision,196,40.0
+No self collision,197,42.24
+No self collision,198,37.7
+No self collision,199,38.64
+No self collision,200,41.12
+No self collision,201,40.45
+No self collision,202,38.57
+No self collision,203,39.15
+No self collision,204,40.15
+No self collision,205,39.27
+No self collision,206,42.35
+No self collision,207,43.78
+No self collision,208,43.22
+No self collision,209,43.32
+No self collision,210,42.5
+No self collision,211,41.17
+No self collision,212,42.4
+No self collision,213,40.27
+No self collision,214,38.39
+No self collision,215,40.62
+No self collision,216,41.7
+No self collision,217,41.93
+No self collision,218,46.49
+No self collision,219,41.9
+No self collision,220,43.16
+No self collision,221,38.48
+No self collision,222,43.08
+No self collision,223,43.05
+No self collision,224,41.53
+No self collision,225,41.73
+No self collision,226,41.52
+No self collision,227,42.71
+No self collision,228,42.74
+No self collision,229,43.12
+No self collision,230,43.81
+No self collision,231,40.14
+No self collision,232,43.32
+No self collision,233,42.42
+No self collision,234,46.64
+No self collision,235,45.76
+No self collision,236,44.3
+No self collision,237,41.82
+No self collision,238,42.16
+No self collision,239,42.39
+No self collision,240,47.26
+No self collision,241,44.79
+No self collision,242,47.1
+No self collision,243,46.92
+No self collision,244,45.57
+No self collision,245,43.27
+No self collision,246,43.01
+No self collision,247,45.66
+No self collision,248,42.73
+No self collision,249,43.82
+No self collision,250,43.37
+No self collision,251,48.99
+No self collision,252,42.73
+No self collision,253,41.9
+No self collision,254,44.44
+No self collision,255,43.59
+No self collision,256,45.8
+No self collision,257,47.75
+No self collision,258,46.7
+No self collision,259,43.76
+No self collision,260,45.5
+No self collision,261,43.07
+No self collision,262,45.54
+No self collision,263,45.45
+No self collision,264,45.53
+No self collision,265,42.77
+No self collision,266,43.17
+No self collision,267,46.85
+No self collision,268,50.31
+No self collision,269,45.34
+No self collision,270,44.57
+No self collision,271,46.32
+No self collision,272,45.65
+No self collision,273,48.64
+No self collision,274,48.32
+No self collision,275,42.87
+No self collision,276,48.25
+No self collision,277,44.57
+No self collision,278,48.01
+No self collision,279,48.88
+No self collision,280,43.76
+No self collision,281,46.42
+No self collision,282,42.12
+No self collision,283,46.99
+No self collision,284,48.67
+No self collision,285,47.81
+No self collision,286,46.06
+No self collision,287,47.27
+No self collision,288,49.17
+No self collision,289,46.07
+No self collision,290,48.23
+No self collision,291,49.31
+No self collision,292,44.23
+No self collision,293,44.06
+No self collision,294,45.1
+No self collision,295,49.05
+No self collision,296,46.69
+No self collision,297,50.63
+No self collision,298,52.46
+No self collision,299,47.37
+No self collision,300,46.88
+No self collision,301,49.17
+No self collision,302,48.21
+No self collision,303,47.77
+No self collision,304,48.54
+No self collision,305,52.01
+No self collision,306,50.85
+No self collision,307,50.61
+No self collision,308,52.36
+No self collision,309,50.98
+No self collision,310,50.18
+No self collision,311,52.02
+No self collision,312,49.24
+No self collision,313,44.07
+No self collision,314,52.78
+No self collision,315,47.76
+No self collision,316,50.16
+No self collision,317,51.53
+No self collision,318,48.05
+No self collision,319,50.87
+No self collision,320,46.98
+No self collision,321,51.37
+No self collision,322,51.65
+No self collision,323,51.43
+No self collision,324,48.06
+No self collision,325,51.56
+No self collision,326,48.05
+No self collision,327,51.84
+No self collision,328,50.79
+No self collision,329,56.34
+No self collision,330,49.6
+No self collision,331,52.58
+No self collision,332,50.52
+No self collision,333,49.81
+No self collision,334,52.91
+No self collision,335,56.09
+No self collision,336,54.14
+No self collision,337,49.32
+No self collision,338,49.51
+No self collision,339,47.96
+No self collision,340,50.5
+No self collision,341,51.52
+No self collision,342,49.03
+No self collision,343,54.02
+No self collision,344,51.19
+No self collision,345,55.86
+No self collision,346,58.56
+No self collision,347,51.35
+No self collision,348,55.65
+No self collision,349,50.38
+No self collision,350,51.75
+No self collision,351,51.64
+No self collision,352,53.22
+No self collision,353,54.32
+No self collision,354,54.62
+No self collision,355,64.19
+No self collision,356,53.87
+No self collision,357,57.63
+No self collision,358,50.87
+No self collision,359,55.22
+No self collision,360,49.96
+No self collision,361,56.04
+No self collision,362,58.97
+No self collision,363,47.52
+No self collision,364,54.56
+No self collision,365,50.92
+No self collision,366,49.96
+No self collision,367,55.26
+No self collision,368,54.68
+No self collision,369,54.17
+No self collision,370,54.76
+No self collision,371,53.39
+No self collision,372,57.57
+No self collision,373,55.92
+No self collision,374,56.31
+No self collision,375,53.0
+No self collision,376,52.59
+No self collision,377,59.51
+No self collision,378,50.47
+No self collision,379,54.02
+No self collision,380,57.22
+No self collision,381,51.05
+No self collision,382,51.16
+No self collision,383,57.73
+No self collision,384,55.37
+No self collision,385,55.68
+No self collision,386,54.74
+No self collision,387,54.83
+No self collision,388,55.23
+No self collision,389,51.59
+No self collision,390,60.74
+No self collision,391,53.3
+No self collision,392,53.55
+No self collision,393,57.84
+No self collision,394,60.27
+No self collision,395,57.56
+No self collision,396,55.99
+No self collision,397,55.23
+No self collision,398,51.06
+No self collision,399,59.06
+No self collision,400,60.95
+No self collision,401,58.43
+No self collision,402,58.59
+No self collision,403,60.43
+No self collision,404,63.98
+No self collision,405,60.98
+No self collision,406,61.35
+No self collision,407,56.74
+No self collision,408,62.28
+No self collision,409,54.09
+No self collision,410,54.35
+No self collision,411,60.77
+No self collision,412,57.42
+No self collision,413,61.52
+No self collision,414,65.87
+No self collision,415,61.96
+No self collision,416,56.75
+No self collision,417,62.33
+No self collision,418,63.04
+No self collision,419,60.98
+No self collision,420,66.66
+No self collision,421,68.68
+No self collision,422,65.33
+No self collision,423,61.92
+No self collision,424,65.78
+No self collision,425,61.71
+No self collision,426,69.11
+No self collision,427,66.98
+No self collision,428,65.78
+No self collision,429,62.28
+No self collision,430,58.15
+No self collision,431,66.45
+No self collision,432,65.99
+No self collision,433,58.93
+No self collision,434,66.91
+No self collision,435,63.4
+No self collision,436,68.95
+No self collision,437,75.36
+No self collision,438,74.98
+No self collision,439,64.72
+No self collision,440,70.46
+No self collision,441,74.43
+No self collision,442,66.89
+No self collision,443,70.65
+No self collision,444,69.84
+No self collision,445,69.59
+No self collision,446,65.88
+No self collision,447,69.02
+No self collision,448,74.35
+No self collision,449,75.89
+No self collision,450,72.93
+No self collision,451,72.31
+No self collision,452,74.57
+No self collision,453,66.7
+No self collision,454,78.92
+No self collision,455,73.51
+No self collision,456,83.02
+No self collision,457,76.61
+No self collision,458,77.42
+No self collision,459,75.54
+No self collision,460,71.41
+No self collision,461,74.14
+No self collision,462,70.16
+No self collision,463,68.18
+No self collision,464,83.26
+No self collision,465,76.09
+No self collision,466,77.01
+No self collision,467,92.62
+No self collision,468,91.15
+No self collision,469,83.61
+No self collision,470,86.62
+No self collision,471,78.44
+No self collision,472,91.93
+No self collision,473,84.93
+No self collision,474,83.73
+No self collision,475,86.33
+No self collision,476,84.48
+No self collision,477,86.76
+No self collision,478,86.87
+No self collision,479,76.31
+No self collision,480,86.78
+No self collision,481,80.63
+No self collision,482,81.58
+No self collision,483,78.48
+No self collision,484,78.47
+No self collision,485,89.51
+No self collision,486,86.89
+No self collision,487,92.42
+No self collision,488,96.97
+No self collision,489,85.84
+No self collision,490,93.96
+No self collision,491,81.74
+No self collision,492,87.04
+No self collision,493,82.51
+No self collision,494,85.41
+No self collision,495,87.66
+No self collision,496,86.71
+No self collision,497,94.11
+No self collision,498,85.8
+No self collision,499,92.05
+No self collision,500,92.99
+No self collision,501,98.25
+No self collision,502,88.48
+No self collision,503,116.24
+No self collision,504,102.79
+No self collision,505,94.45
+No self collision,506,90.37
+No self collision,507,103.22
+No self collision,508,87.42
+No self collision,509,107.76
+No self collision,510,104.17
+No self collision,511,88.61
+No self collision,512,91.22
+No self collision,513,93.39
+No self collision,514,115.51
+No self collision,515,106.03
+No self collision,516,111.76
+No self collision,517,112.35
+No self collision,518,87.33
+No self collision,519,98.54
+No self collision,520,111.64
+No self collision,521,107.22
+No self collision,522,124.95
+No self collision,523,107.77
+No self collision,524,101.49
+No self collision,525,97.92
+No self collision,526,116.96
+No self collision,527,119.27
+No self collision,528,98.24
+No self collision,529,106.61
+No self collision,530,115.99
+No self collision,531,113.83
+No self collision,532,114.42
+No self collision,533,110.16
+No self collision,534,146.73
+No self collision,535,135.37
+No self collision,536,120.51
+No self collision,537,116.19
+No self collision,538,123.6
+No self collision,539,113.95
+No self collision,540,105.85
+No self collision,541,118.41
+No self collision,542,126.01
+No self collision,543,106.07
+No self collision,544,115.65
+No self collision,545,127.86
+No self collision,546,112.62
+No self collision,547,116.19
+No self collision,548,114.93
+No self collision,549,117.2
+No self collision,550,128.53
+No self collision,551,119.96
+No self collision,552,127.2
+No self collision,553,118.64
+No self collision,554,129.17
+No self collision,555,132.66
+No self collision,556,128.67
+No self collision,557,129.86
+No self collision,558,117.96
+No self collision,559,139.58
+No self collision,560,108.61
+No self collision,561,133.08
+No self collision,562,136.57
+No self collision,563,142.08
+No self collision,564,134.86
+No self collision,565,132.29
+No self collision,566,121.53
+No self collision,567,150.72
+No self collision,568,119.68
+No self collision,569,138.36
+No self collision,570,127.97
+No self collision,571,120.57
+No self collision,572,141.61
+No self collision,573,122.17
+No self collision,574,143.73
+No self collision,575,124.01
+No self collision,576,142.27
+No self collision,577,146.73
+No self collision,578,130.36
+No self collision,579,133.69
+No self collision,580,148.35
+No self collision,581,141.31
+No self collision,582,159.09
+No self collision,583,138.38
+No self collision,584,136.64
+No self collision,585,152.06
+No self collision,586,142.35
+No self collision,587,147.27
+No self collision,588,155.62
+No self collision,589,168.56
+No self collision,590,163.51
+No self collision,591,151.48
+No self collision,592,158.51
+No self collision,593,139.88
+No self collision,594,166.2
+No self collision,595,137.71
+No self collision,596,145.65
+No self collision,597,158.94
+No self collision,598,163.54
+No self collision,599,148.0
+No self collision,600,177.52
+No self collision,601,163.35
+No self collision,602,168.11
+No self collision,603,175.95
+No self collision,604,174.87
+No self collision,605,176.86
+No self collision,606,170.31
+No self collision,607,140.53
+No self collision,608,169.96
+No self collision,609,196.84
+No self collision,610,167.1
+No self collision,611,174.52
+No self collision,612,161.8
+No self collision,613,141.78
+No self collision,614,167.09
+No self collision,615,171.78
+No self collision,616,183.24
+No self collision,617,177.79
+No self collision,618,167.5
+No self collision,619,203.18
+No self collision,620,173.99
+No self collision,621,185.17
+No self collision,622,188.13
+No self collision,623,179.25
+No self collision,624,202.7
+No self collision,625,179.38
+No self collision,626,191.83
+No self collision,627,201.05
+No self collision,628,193.28
+No self collision,629,190.34
+No self collision,630,199.3
+No self collision,631,194.3
+No self collision,632,204.09
+No self collision,633,189.72
+No self collision,634,192.58
+No self collision,635,168.45
+No self collision,636,210.85
+No self collision,637,202.35
+No self collision,638,198.92
+No self collision,639,204.5
+No self collision,640,201.82
+No self collision,641,189.36
+No self collision,642,206.75
+No self collision,643,218.35
+No self collision,644,174.27
+No self collision,645,193.41
+No self collision,646,206.93
+No self collision,647,205.06
+No self collision,648,187.73
+No self collision,649,194.2
+No self collision,650,188.41
+No self collision,651,209.29
+No self collision,652,185.98
+No self collision,653,194.99
+No self collision,654,225.39
+No self collision,655,201.97
+No self collision,656,213.17
+No self collision,657,210.03
+No self collision,658,185.97
+No self collision,659,209.77
+No self collision,660,199.52
+No self collision,661,196.89
+No self collision,662,193.05
+No self collision,663,190.65
+No self collision,664,171.44
+No self collision,665,239.76
+No self collision,666,227.49
+No self collision,667,198.2
+No self collision,668,203.87
+No self collision,669,183.38
+No self collision,670,217.6
+No self collision,671,221.87
+No self collision,672,210.57
+No self collision,673,207.87
+No self collision,674,216.13
+No self collision,675,186.77
+No self collision,676,207.35
+No self collision,677,183.18
+No self collision,678,227.43
+No self collision,679,206.29
+No self collision,680,207.07
+No self collision,681,204.18
+No self collision,682,218.37
+No self collision,683,234.34
+No self collision,684,202.52
+No self collision,685,231.43
+No self collision,686,226.52
+No self collision,687,221.51
+No self collision,688,217.51
+No self collision,689,237.25
+No self collision,690,231.45
+No self collision,691,205.68
+No self collision,692,213.64
+No self collision,693,184.41
+No self collision,694,256.04
+No self collision,695,217.69
+No self collision,696,224.63
+No self collision,697,240.04
+No self collision,698,203.35
+No self collision,699,223.1
+No self collision,700,233.56
+No self collision,701,229.44
+No self collision,702,182.09
+No self collision,703,198.85
+No self collision,704,213.31
+No self collision,705,243.88
+No self collision,706,220.07
+No self collision,707,212.45
+No self collision,708,245.84
+No self collision,709,183.83
+No self collision,710,224.76
+No self collision,711,228.82
+No self collision,712,230.08
+No self collision,713,206.4
+No self collision,714,222.41
+No self collision,715,231.51
+No self collision,716,231.73
+No self collision,717,221.41
+No self collision,718,238.56
+No self collision,719,206.39
+No self collision,720,222.81
+No self collision,721,240.22
+No self collision,722,221.15
+No self collision,723,229.93
+No self collision,724,238.87
+No self collision,725,184.38
+No self collision,726,247.38
+No self collision,727,245.24
+No self collision,728,224.64
+No self collision,729,204.83
+No self collision,730,259.58
+No self collision,731,211.04
+No self collision,732,222.95
+No self collision,733,242.48
+No self collision,734,232.31
+No self collision,735,225.97
+No self collision,736,223.99
+No self collision,737,236.34
+No self collision,738,207.51
+No self collision,739,249.59
+No self collision,740,227.27
+No self collision,741,243.17
+No self collision,742,243.33
+No self collision,743,245.3
+No self collision,744,241.82
+No self collision,745,238.67
+No self collision,746,235.77
+No self collision,747,224.19
+No self collision,748,229.15
+No self collision,749,231.16
+No self collision,750,243.66
+No self collision,751,225.49
+No self collision,752,232.61
+No self collision,753,226.59
+No self collision,754,227.43
+No self collision,755,222.7
+No self collision,756,238.52
+No self collision,757,221.22
+No self collision,758,253.57
+No self collision,759,254.43
+No self collision,760,238.01
+No self collision,761,223.14
+No self collision,762,207.55
+No self collision,763,235.26
+No self collision,764,247.57
+No self collision,765,225.54
+No self collision,766,265.09
+No self collision,767,245.2
+No self collision,768,204.88
+No self collision,769,200.81
+No self collision,770,250.29
+No self collision,771,212.26
+No self collision,772,208.34
+No self collision,773,209.49
+No self collision,774,261.05
+No self collision,775,237.62
+No self collision,776,233.7
+No self collision,777,228.01
+No self collision,778,256.31
+No self collision,779,225.19
+No self collision,780,228.63
+No self collision,781,257.39
+No self collision,782,218.27
+No self collision,783,211.62
+No self collision,784,235.17
+No self collision,785,228.29
+No self collision,786,223.17
+No self collision,787,253.58
+No self collision,788,232.46
+No self collision,789,242.35
+No self collision,790,228.58
+No self collision,791,231.68
+No self collision,792,250.35
+No self collision,793,232.65
+No self collision,794,223.71
+No self collision,795,238.31
+No self collision,796,235.4
+No self collision,797,227.65
+No self collision,798,215.5
+No self collision,799,235.74
+No self collision,800,224.94
+No self collision,801,235.58
+No self collision,802,244.68
+No self collision,803,244.34
+No self collision,804,228.36
+No self collision,805,231.07
+No self collision,806,207.83
+No self collision,807,268.81
+No self collision,808,208.64
+No self collision,809,216.59
+No self collision,810,231.76
+No self collision,811,255.41
+No self collision,812,253.38
+No self collision,813,222.55
+No self collision,814,241.9
+No self collision,815,249.11
+No self collision,816,228.27
+No self collision,817,220.6
+No self collision,818,244.64
+No self collision,819,250.88
+No self collision,820,237.81
+No self collision,821,267.92
+No self collision,822,260.45
+No self collision,823,263.39
+No self collision,824,264.6
+No self collision,825,284.49
+No self collision,826,246.43
+No self collision,827,271.24
+No self collision,828,230.39
+No self collision,829,238.09
+No self collision,830,255.88
+No self collision,831,258.47
+No self collision,832,250.41
+No self collision,833,239.96
+No self collision,834,246.25
+No self collision,835,238.12
+No self collision,836,264.86
+No self collision,837,232.02
+No self collision,838,204.78
+No self collision,839,278.2
+No self collision,840,217.88
+No self collision,841,244.2
+No self collision,842,217.79
+No self collision,843,241.57
+No self collision,844,239.34
+No self collision,845,229.14
+No self collision,846,284.33
+No self collision,847,277.46
+No self collision,848,272.03
+No self collision,849,259.99
+No self collision,850,238.01
+No self collision,851,250.39
+No self collision,852,230.9
+No self collision,853,241.0
+No self collision,854,255.46
+No self collision,855,258.92
+No self collision,856,243.22
+No self collision,857,240.39
+No self collision,858,265.93
+No self collision,859,261.14
+No self collision,860,233.22
+No self collision,861,228.59
+No self collision,862,231.36
+No self collision,863,278.36
+No self collision,864,273.27
+No self collision,865,242.67
+No self collision,866,265.77
+No self collision,867,251.93
+No self collision,868,224.35
+No self collision,869,253.55
+No self collision,870,255.57
+No self collision,871,219.81
+No self collision,872,269.81
+No self collision,873,262.41
+No self collision,874,220.43
+No self collision,875,215.12
+No self collision,876,238.12
+No self collision,877,263.1
+No self collision,878,251.36
+No self collision,879,282.31
+No self collision,880,251.69
+No self collision,881,244.37
+No self collision,882,245.46
+No self collision,883,246.69
+No self collision,884,224.79
+No self collision,885,283.55
+No self collision,886,243.88
+No self collision,887,274.26
+No self collision,888,266.09
+No self collision,889,264.72
+No self collision,890,272.56
+No self collision,891,247.12
+No self collision,892,236.66
+No self collision,893,256.08
+No self collision,894,239.89
+No self collision,895,280.55
+No self collision,896,227.17
+No self collision,897,253.44
+No self collision,898,241.29
+No self collision,899,250.39
+No self collision,900,258.84
+No self collision,901,235.24
+No self collision,902,213.65
+No self collision,903,259.24
+No self collision,904,243.36
+No self collision,905,259.99
+No self collision,906,259.05
+No self collision,907,245.07
+No self collision,908,271.62
+No self collision,909,267.26
+No self collision,910,255.25
+No self collision,911,254.3
+No self collision,912,247.71
+No self collision,913,275.03
+No self collision,914,246.31
+No self collision,915,251.36
+No self collision,916,257.15
+No self collision,917,265.08
+No self collision,918,241.14
+No self collision,919,270.18
+No self collision,920,258.88
+No self collision,921,273.93
+No self collision,922,291.16
+No self collision,923,288.95
+No self collision,924,230.8
+No self collision,925,242.05
+No self collision,926,258.4
+No self collision,927,285.93
+No self collision,928,281.78
+No self collision,929,209.77
+No self collision,930,232.49
+No self collision,931,249.09
+No self collision,932,263.04
+No self collision,933,256.6
+No self collision,934,265.32
+No self collision,935,296.34
+No self collision,936,264.9
+No self collision,937,258.37
+No self collision,938,269.81
+No self collision,939,257.98
+No self collision,940,276.6
+No self collision,941,258.18
+No self collision,942,244.45
+No self collision,943,251.05
+No self collision,944,271.34
+No self collision,945,239.11
+No self collision,946,252.61
+No self collision,947,312.65
+No self collision,948,249.08
+No self collision,949,269.35
+No self collision,950,272.17
+No self collision,951,230.33
+No self collision,952,244.11
+No self collision,953,257.8
+No self collision,954,300.24
+No self collision,955,272.08
+No self collision,956,275.33
+No self collision,957,252.38
+No self collision,958,264.64
+No self collision,959,275.47
+No self collision,960,288.61
+No self collision,961,241.25
+No self collision,962,262.56
+No self collision,963,286.19
+No self collision,964,278.63
+No self collision,965,283.35
+No self collision,966,254.25
+No self collision,967,243.61
+No self collision,968,287.4
+No self collision,969,274.97
+No self collision,970,267.77
+No self collision,971,275.8
+No self collision,972,279.52
+No self collision,973,296.98
+No self collision,974,252.68
+No self collision,975,274.31
+No self collision,976,248.51
+No self collision,977,278.08
+No self collision,978,333.28
+No self collision,979,305.15
+No self collision,980,293.07
+No self collision,981,291.82
+No self collision,982,292.83
+No self collision,983,287.19
+No self collision,984,284.03
+No self collision,985,304.05
+No self collision,986,247.72
+No self collision,987,239.03
+No self collision,988,263.11
+No self collision,989,295.87
+No self collision,990,283.2
+No self collision,991,263.71
+No self collision,992,290.31
+No self collision,993,296.43
+No self collision,994,255.69
+No self collision,995,304.43
+No self collision,996,245.84
+No self collision,997,288.01
+No self collision,998,246.12
+No self collision,999,295.05

@@ -1,0 +1,1 @@
+Basic IK/smoke_follow_camera_basic_ik_pure: PKL exists but no matching original motion file was found; excluded from fair comparison.

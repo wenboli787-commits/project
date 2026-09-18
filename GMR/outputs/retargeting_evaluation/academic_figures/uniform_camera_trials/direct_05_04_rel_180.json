@@ -1,0 +1,16 @@
+{
+  "robot_xml": "assets/unitree_g1/g1_mocap_29dof.xml",
+  "pkl_path": "outputs/final results/pkl direct/05_04_poses_unitree_g1_direct_mapping_gmr_motion_processing.pkl",
+  "frame_index": 180,
+  "resolution": [
+    1280,
+    960
+  ],
+  "camera_distance": 3.2,
+  "relative_azimuth": 180.0,
+  "camera_elevation": -12.0,
+  "lookat_z_offset": 0.15,
+  "heading_normalized": true,
+  "root_yaw_degrees": -117.96993607742027,
+  "effective_camera_azimuth": 62.03006392257973
+}

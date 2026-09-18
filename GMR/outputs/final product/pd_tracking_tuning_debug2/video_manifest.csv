@@ -1,0 +1,2 @@
+motion_name,video_path,success,failure_reason
+08_01_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2492 < 0.25; duration completed ratio too low: 0.6324 < 0.9

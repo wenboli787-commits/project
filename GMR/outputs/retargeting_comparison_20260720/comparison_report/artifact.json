@@ -1,0 +1,1453 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Direct Mapping、Basic IK 与 GMR 重定向比较",
+    "description": "九个配对动作的三方法技术比较，包含平均表、归一化折线、逐动作明细和独立物理审计。",
+    "generatedAt": "2026-07-20T16:02:22Z",
+    "filters": [],
+    "cards": [],
+    "charts": [
+      {
+        "id": "normalized_profile_chart",
+        "title": "Average relative performance profile",
+        "subtitle": "Nine paired motions; 0–100 within-method-set normalization, higher is better",
+        "type": "line",
+        "intent": "custom",
+        "dataset": "normalized_profile",
+        "sourceId": "normalized_profile_sql",
+        "valueFormat": "number",
+        "palette": {
+          "kind": "categorical"
+        },
+        "legend": {
+          "position": "bottom",
+          "title": "Method"
+        },
+        "labels": {
+          "values": "endpoints"
+        },
+        "comparisonContext": {
+          "normalization": "Per metric: 100 * (worst - value) / (worst - best)",
+          "unit": "relative score",
+          "grain": "method x metric over nine paired motions",
+          "semanticFamily": "lower-is-better quality metrics"
+        },
+        "encodings": {
+          "x": {
+            "field": "metric",
+            "type": "nominal",
+            "label": "Metric"
+          },
+          "y": {
+            "field": "relative_score",
+            "type": "quantitative",
+            "label": "Relative score (higher is better)"
+          },
+          "color": {
+            "field": "method",
+            "type": "nominal",
+            "label": "Method"
+          },
+          "tooltip": [
+            {
+              "field": "raw_value",
+              "type": "quantitative",
+              "label": "Raw value"
+            },
+            {
+              "field": "unit",
+              "type": "nominal",
+              "label": "Unit"
+            },
+            {
+              "field": "basis",
+              "type": "nominal",
+              "label": "Aggregation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "motion_win_chart",
+        "title": "Per-motion lowest-value counts",
+        "subtitle": "Nine paired motions per metric; a win is metric-specific, not an overall verdict",
+        "type": "bar",
+        "intent": "comparison",
+        "dataset": "win_counts",
+        "sourceId": "win_counts_sql",
+        "palette": {
+          "kind": "categorical"
+        },
+        "legend": {
+          "position": "bottom",
+          "title": "Method"
+        },
+        "encodings": {
+          "x": {
+            "field": "metric",
+            "type": "nominal",
+            "label": "Metric"
+          },
+          "y": {
+            "field": "motion_wins",
+            "type": "quantitative",
+            "label": "Motions with lowest value"
+          },
+          "color": {
+            "field": "method",
+            "type": "nominal",
+            "label": "Method"
+          },
+          "tooltip": [
+            {
+              "field": "reliability",
+              "type": "nominal",
+              "label": "Metric status"
+            },
+            {
+              "field": "motion_count",
+              "type": "quantitative",
+              "label": "Motion count"
+            }
+          ]
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "average_table",
+        "title": "Nine-motion average comparison",
+        "subtitle": "Equal motion weight; all displayed quality metrics are lower-is-better",
+        "dataset": "average_metrics",
+        "sourceId": "average_metrics_sql",
+        "defaultSort": {
+          "field": "relative_mpjpe_cm",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "method",
+            "label": "Method",
+            "type": "text"
+          },
+          {
+            "field": "root_position_error_cm",
+            "label": "Root error (cm)",
+            "format": "number"
+          },
+          {
+            "field": "relative_mpjpe_cm",
+            "label": "MPJPE (cm)",
+            "format": "number"
+          },
+          {
+            "field": "end_effector_error_cm",
+            "label": "EE error (cm)",
+            "format": "number"
+          },
+          {
+            "field": "joint_limit_frame_ratio_gt_0p1deg_percent",
+            "label": "Joint-limit frames >0.1° (%)",
+            "format": "number"
+          },
+          {
+            "field": "valid_contact_sliding_cm_s",
+            "label": "Valid sliding (cm/s)",
+            "format": "number"
+          },
+          {
+            "field": "ground_penetration_frame_ratio_gt_5mm_percent",
+            "label": "Ground penetration >5 mm (%)",
+            "format": "number"
+          },
+          {
+            "field": "mujoco_self_collision_frame_ratio_percent",
+            "label": "MuJoCo collision proxy (%)",
+            "format": "number"
+          },
+          {
+            "field": "mean_joint_jerk_rad_s3",
+            "label": "Mean jerk (rad/s³)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "audit_table",
+        "title": "Audited physical-validity metrics",
+        "subtitle": "Joint tolerance 0.1°, ground penetration tolerance 5 mm, contact range includes a lower bound",
+        "dataset": "average_metrics",
+        "sourceId": "average_metrics_sql",
+        "defaultSort": {
+          "field": "ground_penetration_frame_ratio_gt_5mm_percent",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "method",
+            "label": "Method",
+            "type": "text"
+          },
+          {
+            "field": "joint_limit_frame_ratio_gt_0p1deg_percent",
+            "label": "Joint-limit frames (%)",
+            "format": "number"
+          },
+          {
+            "field": "joint_limit_frame_ratio_gt_5deg_percent",
+            "label": "Frames >5° over limit (%)",
+            "format": "number"
+          },
+          {
+            "field": "valid_contact_sample_ratio_percent",
+            "label": "Valid contact samples (%)",
+            "format": "number"
+          },
+          {
+            "field": "valid_contact_sliding_cm_s",
+            "label": "Valid-contact sliding (cm/s)",
+            "format": "number"
+          },
+          {
+            "field": "ground_penetration_frame_ratio_gt_5mm_percent",
+            "label": "Frames penetrating >5 mm (%)",
+            "format": "number"
+          },
+          {
+            "field": "deep_penetration_counted_as_contact_percent",
+            "label": "Invalid current contacts (%)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "per_motion_table",
+        "title": "Per-motion main metrics",
+        "subtitle": "27 paired motion–method rows; current-rule physical metrics retain the evaluator's definitions",
+        "dataset": "per_motion_metrics",
+        "sourceId": "per_motion_metrics_sql",
+        "defaultSort": {
+          "field": "motion",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "motion",
+            "label": "Motion",
+            "type": "text"
+          },
+          {
+            "field": "method",
+            "label": "Method",
+            "type": "text"
+          },
+          {
+            "field": "root_position_error_cm",
+            "label": "Root error (cm)",
+            "format": "number"
+          },
+          {
+            "field": "relative_mpjpe_cm",
+            "label": "MPJPE (cm)",
+            "format": "number"
+          },
+          {
+            "field": "end_effector_error_cm",
+            "label": "EE error (cm)",
+            "format": "number"
+          },
+          {
+            "field": "zero_tol_joint_limit_frame_ratio_percent",
+            "label": "Zero-tol limit frames (%)",
+            "format": "number"
+          },
+          {
+            "field": "current_penetration_frame_ratio_percent",
+            "label": "Current penetration frames (%)",
+            "format": "number"
+          },
+          {
+            "field": "mujoco_self_collision_frame_ratio_percent",
+            "label": "MuJoCo collision proxy (%)",
+            "format": "number"
+          },
+          {
+            "field": "mean_joint_jerk_rad_s3",
+            "label": "Mean jerk (rad/s³)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "direct_collision_table",
+        "title": "Direct Mapping visible-mesh collision audit",
+        "subtitle": "A frame is positive when at least one audited geometry pair overlaps by more than 1 mm",
+        "dataset": "direct_collision_audit",
+        "sourceId": "direct_collision_sql",
+        "defaultSort": {
+          "field": "motion",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "motion",
+            "label": "Motion",
+            "type": "text"
+          },
+          {
+            "field": "current_contact_proxy_frame_ratio_percent",
+            "label": "MuJoCo proxy (%)",
+            "format": "number"
+          },
+          {
+            "field": "visual_mesh_nonparent_gt1mm_frame_ratio_percent",
+            "label": "Visible non-parent overlap (%)",
+            "format": "number"
+          },
+          {
+            "field": "visual_mesh_nonlocal_gt1mm_frame_ratio_percent",
+            "label": "Visible non-local overlap (%)",
+            "format": "number"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "average_metrics_sql",
+        "label": "Nine-motion average metrics query",
+        "path": "outputs/retargeting_comparison_20260720/comparison_report/queries/report_queries.sql"
+      },
+      {
+        "id": "normalized_profile_sql",
+        "label": "Normalized average profile query",
+        "path": "outputs/retargeting_comparison_20260720/comparison_report/queries/report_queries.sql"
+      },
+      {
+        "id": "per_motion_metrics_sql",
+        "label": "Per-motion comparison query",
+        "path": "outputs/retargeting_comparison_20260720/comparison_report/queries/report_queries.sql"
+      },
+      {
+        "id": "win_counts_sql",
+        "label": "Per-motion lowest-value count query",
+        "path": "outputs/retargeting_comparison_20260720/comparison_report/queries/report_queries.sql"
+      },
+      {
+        "id": "direct_collision_sql",
+        "label": "Direct Mapping visible-mesh collision audit query",
+        "path": "outputs/retargeting_comparison_20260720/comparison_report/queries/report_queries.sql"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# Direct Mapping、Basic IK 与 GMR 重定向比较"
+      },
+      {
+        "id": "technical_summary",
+        "type": "markdown",
+        "body": "## 技术摘要\n\n- **Basic IK 的姿态误差最低，但物理合法性失败。** 9 个动作的相对 MPJPE 和末端误差均由 Basic IK 最低，但审计后关节超限帧率为 100%。\n- **GMR 的关节限制和 MuJoCo 碰撞代理最好，但穿地最严重。** 零容差误报在 0.1° 容差下消失；穿地超过 5 mm 的帧率仍最高。\n- **Direct Mapping 的轨迹、穿地和 jerk 更稳。** 其根轨迹误差、穿地率和平均关节 jerk 最低，但可见网格穿模不能由 MuJoCo 碰撞代理完整反映。\n- **没有单一总冠军。** 下面的归一化折线只呈现相对指标轮廓，不执行加权汇总排名。"
+      },
+      {
+        "id": "key_findings",
+        "type": "markdown",
+        "body": "## 主要平均结果揭示明显的质量权衡\n\n平均表以动作等权。Basic IK 优先满足姿态位置目标，却以极端关节超限和更高 jerk 为代价；GMR 强约束关节范围和碰撞代理，却没有解决垂直放置与穿地；Direct Mapping 在轨迹和时间连续性上更稳，但可见网格重叠问题严重。因此，任何“最好方法”结论都必须先指定应用权重，并把物理合法性作为硬门槛而不是可补偿分数。",
+        "sourceId": "average_metrics_sql"
+      },
+      {
+        "id": "average_table_block",
+        "type": "table",
+        "tableId": "average_table"
+      },
+      {
+        "id": "profile_explanation",
+        "type": "markdown",
+        "body": "## 平均相对表现折线图\n\n每个指标先在三种方法之间按“越低越好”做 0–100 min-max 归一化：该指标最好者为 100，最差者为 0。横轴是指标类别而不是时间，折线用于观察方法的性能轮廓；它不表示连续趋势，也不是总分。"
+      },
+      {
+        "id": "profile_chart_block",
+        "type": "chart",
+        "chartId": "normalized_profile_chart"
+      },
+      {
+        "id": "wins_explanation",
+        "type": "markdown",
+        "body": "## 各动作指标胜出次数\n\n该图用于确认平均值是否由少数动作驱动。姿态误差由 Basic IK 在全部 9 个动作中最低；其他指标呈现不同权衡。受旧接触与碰撞定义影响的项目标记为 caveat，不能单独决定排名。"
+      },
+      {
+        "id": "motion_win_chart_block",
+        "type": "chart",
+        "chartId": "motion_win_chart"
+      },
+      {
+        "id": "audit_explanation",
+        "type": "markdown",
+        "body": "## 物理指标必须联合解读\n\n有效接触滑动不能脱离有效接触样本比例和穿地率单独排名。GMR 的有效接触滑动较低，但其有效接触样本比例很低、穿地率很高；Basic IK 的姿态误差最低，却在所有动作中持续超出关节范围。",
+        "sourceId": "average_metrics_sql"
+      },
+      {
+        "id": "audit_table_block",
+        "type": "table",
+        "tableId": "audit_table"
+      },
+      {
+        "id": "collision_explanation",
+        "type": "markdown",
+        "body": "## Direct Mapping 的可见穿模与碰撞代理不一致\n\nDirect Mapping 的“每帧至少一组非父子可见几何体重叠”达到 100%。这不等于 100% 体积穿透，但证明当前仅基于 collision geoms 的 MuJoCo 接触率不能完整代表用户看到的穿模。",
+        "sourceId": "direct_collision_sql"
+      },
+      {
+        "id": "direct_collision_table_block",
+        "type": "table",
+        "tableId": "direct_collision_table"
+      },
+      {
+        "id": "per_motion_intro",
+        "type": "markdown",
+        "body": "## 逐动作精确结果\n\n下表保留全部 27 个配对样本，便于追踪平均值、异常动作和方法差异。"
+      },
+      {
+        "id": "per_motion_table_block",
+        "type": "table",
+        "tableId": "per_motion_table"
+      },
+      {
+        "id": "scope",
+        "type": "markdown",
+        "body": "## 范围、基准和指标定义\n\n- 数据范围：相同的 9 个参考动作与三种方法输出，共 27 个动作–方法样本。\n- 聚合基准：主评估指标先按动作计算，再对 9 个动作等权平均；审计表按其明确标注的宏平均或帧加权口径汇总。\n- 方向：报告内所有误差、比例、速度和 jerk 指标均为越低越好。\n- 姿态基准：参考动作经过公共关节映射、根节点对齐和每动作固定尺度后计算。\n- 物理基准：G1 MJCF/XML 的关节范围与碰撞体，以及世界坐标地面 z=0；明显穿地阈值为 5 mm，关节超限容差为 0.1°。"
+      },
+      {
+        "id": "methodology",
+        "type": "markdown",
+        "body": "## 方法\n\n在 Ubuntu-22.04 / WSL2 中用同一配置重新运行三方法评估，禁用 DTW，统一到 30 FPS，并要求完整动作配对。随后用独立审计重新计算关节容差、有效脚部接触、穿地和 Direct 可见网格重叠。平均值采用每动作等权；逐动作胜出次数只统计对应指标的最小值，不跨指标加权。"
+      },
+      {
+        "id": "limitations",
+        "type": "markdown",
+        "body": "## 限制、鲁棒性与解释边界\n\n- MuJoCo 自碰撞仍是 collision-geom 代理；visual-only 部件可能被漏检。\n- 归一化折线只在这三种方法内部缩放，会放大相对差异，不能跨数据集比较。\n- 有效接触滑动受接触样本比例影响，必须与穿地和接触覆盖率联合阅读。\n- MPJPE 是形态归一化后的动作相似度代理，不是机器人关节角真值。\n- 测试套件有 1 项因 Basic IK 旧文件名失败；正式评估的动作发现和 27 条结果完整。"
+      },
+      {
+        "id": "next_steps",
+        "type": "markdown",
+        "body": "## 推荐下一步\n\n1. 把关节超限、明显穿地和严重可见穿模设为硬性不合格门槛。\n2. 修复足部接触下界和 visual-mesh 碰撞评估后，重新生成最终排名。\n3. 若需要单一选择，先明确姿态保真、机器人可执行性、接触质量和时间平滑性的业务权重，再做敏感性分析。"
+      },
+      {
+        "id": "further_questions",
+        "type": "markdown",
+        "body": "## 仍需回答的问题\n\n- 最终用途更重视动作外观、真实机器人可执行性，还是控制稳定性？\n- 是否允许方法在评估前做统一的地面高度校正？\n- 可见网格重叠应按“任意重叠帧率”、穿透深度，还是部件白名单定义硬门槛？"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-20T16:02:22Z",
+    "status": "ready",
+    "datasets": {
+      "average_metrics": [
+        {
+          "method": "Direct Mapping",
+          "root_position_error_cm": 108.02401,
+          "relative_mpjpe_cm": 20.82674,
+          "end_effector_error_cm": 35.092873,
+          "zero_tol_joint_limit_frame_ratio_percent": 44.708343,
+          "current_contact_sliding_cm_s": 32.741855,
+          "current_penetration_frame_ratio_percent": 42.578967,
+          "mujoco_self_collision_frame_ratio_percent": 29.468585,
+          "mean_joint_jerk_rad_s3": 68.144617,
+          "motion_count": 9,
+          "joint_limit_frame_ratio_gt_0p1deg_percent": 44.441019,
+          "joint_limit_frame_ratio_gt_5deg_percent": 31.585946,
+          "maximum_joint_limit_excess_deg_audit": 26.402787,
+          "ground_penetration_frame_ratio_gt_5mm_percent": 42.480738,
+          "maximum_ground_penetration_cm": 5.504674,
+          "valid_contact_sample_ratio_percent": 37.261036,
+          "deep_penetration_counted_as_contact_percent": 22.004691,
+          "valid_contact_sliding_cm_s": 19.320518
+        },
+        {
+          "method": "Basic IK",
+          "root_position_error_cm": 114.986194,
+          "relative_mpjpe_cm": 18.906948,
+          "end_effector_error_cm": 28.182827,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 25.087171,
+          "current_penetration_frame_ratio_percent": 84.213091,
+          "mujoco_self_collision_frame_ratio_percent": 70.199051,
+          "mean_joint_jerk_rad_s3": 213.822355,
+          "motion_count": 9,
+          "joint_limit_frame_ratio_gt_0p1deg_percent": 100.0,
+          "joint_limit_frame_ratio_gt_5deg_percent": 99.935023,
+          "maximum_joint_limit_excess_deg_audit": 725.494352,
+          "ground_penetration_frame_ratio_gt_5mm_percent": 84.25146,
+          "maximum_ground_penetration_cm": 6.048357,
+          "valid_contact_sample_ratio_percent": 14.03473,
+          "deep_penetration_counted_as_contact_percent": 58.016566,
+          "valid_contact_sliding_cm_s": 8.517009
+        },
+        {
+          "method": "GMR",
+          "root_position_error_cm": 128.856953,
+          "relative_mpjpe_cm": 19.938756,
+          "end_effector_error_cm": 30.794702,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.170004,
+          "current_contact_sliding_cm_s": 25.599734,
+          "current_penetration_frame_ratio_percent": 92.908665,
+          "mujoco_self_collision_frame_ratio_percent": 6.198244,
+          "mean_joint_jerk_rad_s3": 76.083371,
+          "motion_count": 9,
+          "joint_limit_frame_ratio_gt_0p1deg_percent": 0.0,
+          "joint_limit_frame_ratio_gt_5deg_percent": 0.0,
+          "maximum_joint_limit_excess_deg_audit": 0.0,
+          "ground_penetration_frame_ratio_gt_5mm_percent": 92.856344,
+          "maximum_ground_penetration_cm": 6.970761,
+          "valid_contact_sample_ratio_percent": 11.02905,
+          "deep_penetration_counted_as_contact_percent": 63.255697,
+          "valid_contact_sliding_cm_s": 3.155336
+        }
+      ],
+      "normalized_profile": [
+        {
+          "metric_order": 0,
+          "metric": "Root path",
+          "metric_label": "Root position error",
+          "method": "Direct Mapping",
+          "relative_score": 100.0,
+          "raw_value": 108.02401,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 0,
+          "metric": "Root path",
+          "metric_label": "Root position error",
+          "method": "Basic IK",
+          "relative_score": 66.580892,
+          "raw_value": 114.986194,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 0,
+          "metric": "Root path",
+          "metric_label": "Root position error",
+          "method": "GMR",
+          "relative_score": 0.0,
+          "raw_value": 128.856953,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 1,
+          "metric": "MPJPE",
+          "metric_label": "Root-relative MPJPE",
+          "method": "Direct Mapping",
+          "relative_score": 0.0,
+          "raw_value": 20.82674,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 1,
+          "metric": "MPJPE",
+          "metric_label": "Root-relative MPJPE",
+          "method": "Basic IK",
+          "relative_score": 100.0,
+          "raw_value": 18.906948,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 1,
+          "metric": "MPJPE",
+          "metric_label": "Root-relative MPJPE",
+          "method": "GMR",
+          "relative_score": 46.254167,
+          "raw_value": 19.938756,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 2,
+          "metric": "End effector",
+          "metric_label": "End-effector error",
+          "method": "Direct Mapping",
+          "relative_score": 0.0,
+          "raw_value": 35.092873,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 2,
+          "metric": "End effector",
+          "metric_label": "End-effector error",
+          "method": "Basic IK",
+          "relative_score": 100.0,
+          "raw_value": 28.182827,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 2,
+          "metric": "End effector",
+          "metric_label": "End-effector error",
+          "method": "GMR",
+          "relative_score": 62.20178,
+          "raw_value": 30.794702,
+          "unit": "cm",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 3,
+          "metric": "Joint limits",
+          "metric_label": "Joint-limit frames >0.1 deg",
+          "method": "Direct Mapping",
+          "relative_score": 55.558981,
+          "raw_value": 44.441019,
+          "unit": "%",
+          "basis": "audit macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 3,
+          "metric": "Joint limits",
+          "metric_label": "Joint-limit frames >0.1 deg",
+          "method": "Basic IK",
+          "relative_score": 0.0,
+          "raw_value": 100.0,
+          "unit": "%",
+          "basis": "audit macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 3,
+          "metric": "Joint limits",
+          "metric_label": "Joint-limit frames >0.1 deg",
+          "method": "GMR",
+          "relative_score": 100.0,
+          "raw_value": 0.0,
+          "unit": "%",
+          "basis": "audit macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 4,
+          "metric": "Foot sliding",
+          "metric_label": "Valid-contact foot sliding",
+          "method": "Direct Mapping",
+          "relative_score": 0.0,
+          "raw_value": 19.320518,
+          "unit": "cm/s",
+          "basis": "audit aggregate",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 4,
+          "metric": "Foot sliding",
+          "metric_label": "Valid-contact foot sliding",
+          "method": "Basic IK",
+          "relative_score": 66.831966,
+          "raw_value": 8.517009,
+          "unit": "cm/s",
+          "basis": "audit aggregate",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 4,
+          "metric": "Foot sliding",
+          "metric_label": "Valid-contact foot sliding",
+          "method": "GMR",
+          "relative_score": 100.0,
+          "raw_value": 3.155336,
+          "unit": "cm/s",
+          "basis": "audit aggregate",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 5,
+          "metric": "Ground penetration",
+          "metric_label": "Frames penetrating ground >5 mm",
+          "method": "Direct Mapping",
+          "relative_score": 100.0,
+          "raw_value": 42.480738,
+          "unit": "%",
+          "basis": "audit frame-weighted aggregate",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 5,
+          "metric": "Ground penetration",
+          "metric_label": "Frames penetrating ground >5 mm",
+          "method": "Basic IK",
+          "relative_score": 17.081451,
+          "raw_value": 84.25146,
+          "unit": "%",
+          "basis": "audit frame-weighted aggregate",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 5,
+          "metric": "Ground penetration",
+          "metric_label": "Frames penetrating ground >5 mm",
+          "method": "GMR",
+          "relative_score": 0.0,
+          "raw_value": 92.856344,
+          "unit": "%",
+          "basis": "audit frame-weighted aggregate",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 6,
+          "metric": "Collision proxy",
+          "metric_label": "MuJoCo self-collision proxy",
+          "method": "Direct Mapping",
+          "relative_score": 63.640551,
+          "raw_value": 29.468585,
+          "unit": "%",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 6,
+          "metric": "Collision proxy",
+          "metric_label": "MuJoCo self-collision proxy",
+          "method": "Basic IK",
+          "relative_score": 0.0,
+          "raw_value": 70.199051,
+          "unit": "%",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 6,
+          "metric": "Collision proxy",
+          "metric_label": "MuJoCo self-collision proxy",
+          "method": "GMR",
+          "relative_score": 100.0,
+          "raw_value": 6.198244,
+          "unit": "%",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 7,
+          "metric": "Joint jerk",
+          "metric_label": "Mean absolute joint jerk",
+          "method": "Direct Mapping",
+          "relative_score": 100.0,
+          "raw_value": 68.144617,
+          "unit": "rad/s^3",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 7,
+          "metric": "Joint jerk",
+          "metric_label": "Mean absolute joint jerk",
+          "method": "Basic IK",
+          "relative_score": 0.0,
+          "raw_value": 213.822355,
+          "unit": "rad/s^3",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        },
+        {
+          "metric_order": 7,
+          "metric": "Joint jerk",
+          "metric_label": "Mean absolute joint jerk",
+          "method": "GMR",
+          "relative_score": 94.550469,
+          "raw_value": 76.083371,
+          "unit": "rad/s^3",
+          "basis": "9-motion macro mean",
+          "direction": "lower is better"
+        }
+      ],
+      "per_motion_metrics": [
+        {
+          "motion": "05_04",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 90.715906,
+          "relative_mpjpe_cm": 27.437678,
+          "end_effector_error_cm": 47.215988,
+          "zero_tol_joint_limit_frame_ratio_percent": 71.47651,
+          "current_contact_sliding_cm_s": 15.992621,
+          "current_penetration_frame_ratio_percent": 55.369128,
+          "mujoco_self_collision_frame_ratio_percent": 48.657718,
+          "mean_joint_jerk_rad_s3": 95.457077
+        },
+        {
+          "motion": "05_04",
+          "method": "Basic IK",
+          "root_position_error_cm": 85.242757,
+          "relative_mpjpe_cm": 26.059354,
+          "end_effector_error_cm": 45.008862,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 33.091741,
+          "current_penetration_frame_ratio_percent": 85.57047,
+          "mujoco_self_collision_frame_ratio_percent": 34.563758,
+          "mean_joint_jerk_rad_s3": 505.973082
+        },
+        {
+          "motion": "05_04",
+          "method": "GMR",
+          "root_position_error_cm": 88.133294,
+          "relative_mpjpe_cm": 26.468949,
+          "end_effector_error_cm": 45.030253,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.671141,
+          "current_contact_sliding_cm_s": 18.278682,
+          "current_penetration_frame_ratio_percent": 98.993289,
+          "mujoco_self_collision_frame_ratio_percent": 2.348993,
+          "mean_joint_jerk_rad_s3": 121.432054
+        },
+        {
+          "motion": "111_23",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 70.036724,
+          "relative_mpjpe_cm": 20.388079,
+          "end_effector_error_cm": 35.164527,
+          "zero_tol_joint_limit_frame_ratio_percent": 76.868327,
+          "current_contact_sliding_cm_s": 65.596442,
+          "current_penetration_frame_ratio_percent": 41.992883,
+          "mujoco_self_collision_frame_ratio_percent": 22.419929,
+          "mean_joint_jerk_rad_s3": 109.426599
+        },
+        {
+          "motion": "111_23",
+          "method": "Basic IK",
+          "root_position_error_cm": 165.683976,
+          "relative_mpjpe_cm": 17.799823,
+          "end_effector_error_cm": 26.50088,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 41.257019,
+          "current_penetration_frame_ratio_percent": 69.75089,
+          "mujoco_self_collision_frame_ratio_percent": 82.562278,
+          "mean_joint_jerk_rad_s3": 145.595303
+        },
+        {
+          "motion": "111_23",
+          "method": "GMR",
+          "root_position_error_cm": 176.424829,
+          "relative_mpjpe_cm": 18.634271,
+          "end_effector_error_cm": 28.899752,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.0,
+          "current_contact_sliding_cm_s": 54.56394,
+          "current_penetration_frame_ratio_percent": 97.864769,
+          "mujoco_self_collision_frame_ratio_percent": 9.252669,
+          "mean_joint_jerk_rad_s3": 115.879738
+        },
+        {
+          "motion": "113_20",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 147.593694,
+          "relative_mpjpe_cm": 19.188833,
+          "end_effector_error_cm": 31.936754,
+          "zero_tol_joint_limit_frame_ratio_percent": 12.742382,
+          "current_contact_sliding_cm_s": 53.091716,
+          "current_penetration_frame_ratio_percent": 9.695291,
+          "mujoco_self_collision_frame_ratio_percent": 0.554017,
+          "mean_joint_jerk_rad_s3": 73.768151
+        },
+        {
+          "motion": "113_20",
+          "method": "Basic IK",
+          "root_position_error_cm": 62.388342,
+          "relative_mpjpe_cm": 15.858375,
+          "end_effector_error_cm": 22.498498,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 16.878929,
+          "current_penetration_frame_ratio_percent": 28.254848,
+          "mujoco_self_collision_frame_ratio_percent": 93.905817,
+          "mean_joint_jerk_rad_s3": 121.843113
+        },
+        {
+          "motion": "113_20",
+          "method": "GMR",
+          "root_position_error_cm": 176.273801,
+          "relative_mpjpe_cm": 17.360359,
+          "end_effector_error_cm": 26.215014,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.554017,
+          "current_contact_sliding_cm_s": 22.736489,
+          "current_penetration_frame_ratio_percent": 70.083102,
+          "mujoco_self_collision_frame_ratio_percent": 19.113573,
+          "mean_joint_jerk_rad_s3": 85.463434
+        },
+        {
+          "motion": "113_21",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 0.980908,
+          "relative_mpjpe_cm": 17.19873,
+          "end_effector_error_cm": 27.15721,
+          "zero_tol_joint_limit_frame_ratio_percent": 20.294118,
+          "current_contact_sliding_cm_s": 32.709416,
+          "current_penetration_frame_ratio_percent": 97.352941,
+          "mujoco_self_collision_frame_ratio_percent": 32.058824,
+          "mean_joint_jerk_rad_s3": 9.983738
+        },
+        {
+          "motion": "113_21",
+          "method": "Basic IK",
+          "root_position_error_cm": 6.270653,
+          "relative_mpjpe_cm": 14.663576,
+          "end_effector_error_cm": 18.182637,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 7.636955,
+          "current_penetration_frame_ratio_percent": 100.0,
+          "mujoco_self_collision_frame_ratio_percent": 100.0,
+          "mean_joint_jerk_rad_s3": 55.874648
+        },
+        {
+          "motion": "113_21",
+          "method": "GMR",
+          "root_position_error_cm": 8.302682,
+          "relative_mpjpe_cm": 15.993888,
+          "end_effector_error_cm": 22.265209,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.0,
+          "current_contact_sliding_cm_s": 2.701066,
+          "current_penetration_frame_ratio_percent": 100.0,
+          "mujoco_self_collision_frame_ratio_percent": 9.705882,
+          "mean_joint_jerk_rad_s3": 9.897541
+        },
+        {
+          "motion": "114_15",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 137.387264,
+          "relative_mpjpe_cm": 20.292104,
+          "end_effector_error_cm": 34.576637,
+          "zero_tol_joint_limit_frame_ratio_percent": 81.449275,
+          "current_contact_sliding_cm_s": 67.216296,
+          "current_penetration_frame_ratio_percent": 15.652174,
+          "mujoco_self_collision_frame_ratio_percent": 68.405797,
+          "mean_joint_jerk_rad_s3": 61.272562
+        },
+        {
+          "motion": "114_15",
+          "method": "Basic IK",
+          "root_position_error_cm": 170.8322,
+          "relative_mpjpe_cm": 18.265756,
+          "end_effector_error_cm": 26.503925,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 52.078206,
+          "current_penetration_frame_ratio_percent": 99.42029,
+          "mujoco_self_collision_frame_ratio_percent": 49.275362,
+          "mean_joint_jerk_rad_s3": 272.634573
+        },
+        {
+          "motion": "114_15",
+          "method": "GMR",
+          "root_position_error_cm": 126.498235,
+          "relative_mpjpe_cm": 18.975262,
+          "end_effector_error_cm": 27.837654,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.0,
+          "current_contact_sliding_cm_s": 52.558842,
+          "current_penetration_frame_ratio_percent": 100.0,
+          "mujoco_self_collision_frame_ratio_percent": 0.0,
+          "mean_joint_jerk_rad_s3": 68.977473
+        },
+        {
+          "motion": "124_11",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 223.383547,
+          "relative_mpjpe_cm": 20.679463,
+          "end_effector_error_cm": 31.768998,
+          "zero_tol_joint_limit_frame_ratio_percent": 25.0,
+          "current_contact_sliding_cm_s": 3.927459,
+          "current_penetration_frame_ratio_percent": 48.790323,
+          "mujoco_self_collision_frame_ratio_percent": 6.854839,
+          "mean_joint_jerk_rad_s3": 106.788937
+        },
+        {
+          "motion": "124_11",
+          "method": "Basic IK",
+          "root_position_error_cm": 214.316857,
+          "relative_mpjpe_cm": 18.738509,
+          "end_effector_error_cm": 25.542765,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 13.018263,
+          "current_penetration_frame_ratio_percent": 84.677419,
+          "mujoco_self_collision_frame_ratio_percent": 70.967742,
+          "mean_joint_jerk_rad_s3": 199.99465
+        },
+        {
+          "motion": "124_11",
+          "method": "GMR",
+          "root_position_error_cm": 225.752488,
+          "relative_mpjpe_cm": 20.042887,
+          "end_effector_error_cm": 28.403485,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.0,
+          "current_contact_sliding_cm_s": 3.904387,
+          "current_penetration_frame_ratio_percent": 83.870968,
+          "mujoco_self_collision_frame_ratio_percent": 8.870968,
+          "mean_joint_jerk_rad_s3": 110.238458
+        },
+        {
+          "motion": "135_04",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 171.645318,
+          "relative_mpjpe_cm": 25.22643,
+          "end_effector_error_cm": 45.035281,
+          "zero_tol_joint_limit_frame_ratio_percent": 39.329268,
+          "current_contact_sliding_cm_s": 22.401196,
+          "current_penetration_frame_ratio_percent": 35.670732,
+          "mujoco_self_collision_frame_ratio_percent": 11.890244,
+          "mean_joint_jerk_rad_s3": 79.658672
+        },
+        {
+          "motion": "135_04",
+          "method": "Basic IK",
+          "root_position_error_cm": 185.405985,
+          "relative_mpjpe_cm": 24.539493,
+          "end_effector_error_cm": 40.342365,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 17.662751,
+          "current_penetration_frame_ratio_percent": 95.731707,
+          "mujoco_self_collision_frame_ratio_percent": 20.731707,
+          "mean_joint_jerk_rad_s3": 334.740859
+        },
+        {
+          "motion": "135_04",
+          "method": "GMR",
+          "root_position_error_cm": 227.075506,
+          "relative_mpjpe_cm": 25.417132,
+          "end_effector_error_cm": 42.482736,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.304878,
+          "current_contact_sliding_cm_s": 12.411957,
+          "current_penetration_frame_ratio_percent": 85.670732,
+          "mujoco_self_collision_frame_ratio_percent": 0.0,
+          "mean_joint_jerk_rad_s3": 90.454584
+        },
+        {
+          "motion": "47_01",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 129.662615,
+          "relative_mpjpe_cm": 19.366019,
+          "end_effector_error_cm": 33.193483,
+          "zero_tol_joint_limit_frame_ratio_percent": 56.097561,
+          "current_contact_sliding_cm_s": 12.689027,
+          "current_penetration_frame_ratio_percent": 12.804878,
+          "mujoco_self_collision_frame_ratio_percent": 57.317073,
+          "mean_joint_jerk_rad_s3": 63.020481
+        },
+        {
+          "motion": "47_01",
+          "method": "Basic IK",
+          "root_position_error_cm": 136.459606,
+          "relative_mpjpe_cm": 17.403174,
+          "end_effector_error_cm": 25.633846,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 38.332327,
+          "current_penetration_frame_ratio_percent": 94.512195,
+          "mujoco_self_collision_frame_ratio_percent": 93.902439,
+          "mean_joint_jerk_rad_s3": 169.597963
+        },
+        {
+          "motion": "47_01",
+          "method": "GMR",
+          "root_position_error_cm": 123.057066,
+          "relative_mpjpe_cm": 18.880149,
+          "end_effector_error_cm": 29.682881,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.0,
+          "current_contact_sliding_cm_s": 51.498958,
+          "current_penetration_frame_ratio_percent": 99.695122,
+          "mujoco_self_collision_frame_ratio_percent": 0.609756,
+          "mean_joint_jerk_rad_s3": 61.544816
+        },
+        {
+          "motion": "76_10",
+          "method": "Direct Mapping",
+          "root_position_error_cm": 0.810114,
+          "relative_mpjpe_cm": 17.66332,
+          "end_effector_error_cm": 29.786975,
+          "zero_tol_joint_limit_frame_ratio_percent": 19.117647,
+          "current_contact_sliding_cm_s": 21.052526,
+          "current_penetration_frame_ratio_percent": 65.882353,
+          "mujoco_self_collision_frame_ratio_percent": 17.058824,
+          "mean_joint_jerk_rad_s3": 13.925331
+        },
+        {
+          "motion": "76_10",
+          "method": "Basic IK",
+          "root_position_error_cm": 8.275367,
+          "relative_mpjpe_cm": 16.834475,
+          "end_effector_error_cm": 23.431671,
+          "zero_tol_joint_limit_frame_ratio_percent": 100.0,
+          "current_contact_sliding_cm_s": 5.828344,
+          "current_penetration_frame_ratio_percent": 100.0,
+          "mujoco_self_collision_frame_ratio_percent": 85.882353,
+          "mean_joint_jerk_rad_s3": 118.147008
+        },
+        {
+          "motion": "76_10",
+          "method": "GMR",
+          "root_position_error_cm": 8.194679,
+          "relative_mpjpe_cm": 17.675906,
+          "end_effector_error_cm": 26.335331,
+          "zero_tol_joint_limit_frame_ratio_percent": 0.0,
+          "current_contact_sliding_cm_s": 11.743286,
+          "current_penetration_frame_ratio_percent": 100.0,
+          "mujoco_self_collision_frame_ratio_percent": 5.882353,
+          "mean_joint_jerk_rad_s3": 20.862236
+        }
+      ],
+      "win_counts": [
+        {
+          "metric_order": 0,
+          "metric": "Root path error",
+          "method": "Direct Mapping",
+          "motion_wins": 4,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 0,
+          "metric": "Root path error",
+          "method": "Basic IK",
+          "motion_wins": 3,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 0,
+          "metric": "Root path error",
+          "method": "GMR",
+          "motion_wins": 2,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 1,
+          "metric": "Root-relative MPJPE",
+          "method": "Direct Mapping",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 1,
+          "metric": "Root-relative MPJPE",
+          "method": "Basic IK",
+          "motion_wins": 9,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 1,
+          "metric": "Root-relative MPJPE",
+          "method": "GMR",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 2,
+          "metric": "End-effector error",
+          "method": "Direct Mapping",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 2,
+          "metric": "End-effector error",
+          "method": "Basic IK",
+          "motion_wins": 9,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 2,
+          "metric": "End-effector error",
+          "method": "GMR",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 3,
+          "metric": "Joint-limit frames (zero tolerance)",
+          "method": "Direct Mapping",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 3,
+          "metric": "Joint-limit frames (zero tolerance)",
+          "method": "Basic IK",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 3,
+          "metric": "Joint-limit frames (zero tolerance)",
+          "method": "GMR",
+          "motion_wins": 9,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 4,
+          "metric": "Foot sliding (current contact rule)",
+          "method": "Direct Mapping",
+          "motion_wins": 2,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 4,
+          "metric": "Foot sliding (current contact rule)",
+          "method": "Basic IK",
+          "motion_wins": 4,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 4,
+          "metric": "Foot sliding (current contact rule)",
+          "method": "GMR",
+          "motion_wins": 3,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 5,
+          "metric": "Ground penetration (current rule)",
+          "method": "Direct Mapping",
+          "motion_wins": 9,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 5,
+          "metric": "Ground penetration (current rule)",
+          "method": "Basic IK",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 5,
+          "metric": "Ground penetration (current rule)",
+          "method": "GMR",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 6,
+          "metric": "MuJoCo self-collision proxy",
+          "method": "Direct Mapping",
+          "motion_wins": 2,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 6,
+          "metric": "MuJoCo self-collision proxy",
+          "method": "Basic IK",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 6,
+          "metric": "MuJoCo self-collision proxy",
+          "method": "GMR",
+          "motion_wins": 7,
+          "motion_count": 9,
+          "reliability": "caveat"
+        },
+        {
+          "metric_order": 7,
+          "metric": "Mean absolute joint jerk",
+          "method": "Direct Mapping",
+          "motion_wins": 7,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 7,
+          "metric": "Mean absolute joint jerk",
+          "method": "Basic IK",
+          "motion_wins": 0,
+          "motion_count": 9,
+          "reliability": "primary"
+        },
+        {
+          "metric_order": 7,
+          "metric": "Mean absolute joint jerk",
+          "method": "GMR",
+          "motion_wins": 2,
+          "motion_count": 9,
+          "reliability": "primary"
+        }
+      ],
+      "direct_collision_audit": [
+        {
+          "motion": "05_04",
+          "frames": 300,
+          "current_contact_proxy_frame_ratio_percent": 49.0,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 51.0
+        },
+        {
+          "motion": "111_23",
+          "frames": 283,
+          "current_contact_proxy_frame_ratio_percent": 22.614841,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 19.434629
+        },
+        {
+          "motion": "113_20",
+          "frames": 362,
+          "current_contact_proxy_frame_ratio_percent": 0.552486,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 0.552486
+        },
+        {
+          "motion": "113_21",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 31.871345,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 23.976608
+        },
+        {
+          "motion": "114_15",
+          "frames": 346,
+          "current_contact_proxy_frame_ratio_percent": 68.49711,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 69.075145
+        },
+        {
+          "motion": "124_11",
+          "frames": 250,
+          "current_contact_proxy_frame_ratio_percent": 6.8,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 6.4
+        },
+        {
+          "motion": "135_04",
+          "frames": 329,
+          "current_contact_proxy_frame_ratio_percent": 11.854103,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 9.726444
+        },
+        {
+          "motion": "47_01",
+          "frames": 330,
+          "current_contact_proxy_frame_ratio_percent": 57.575758,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 49.69697
+        },
+        {
+          "motion": "76_10",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 16.959064,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 16.374269
+        }
+      ]
+    },
+    "accessIssues": []
+  },
+  "sources": [
+    {
+      "id": "average_metrics_sql",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM average_metrics\nORDER BY CASE method\n  WHEN 'Direct Mapping' THEN 1\n  WHEN 'Basic IK' THEN 2\n  WHEN 'GMR' THEN 3\nEND",
+        "description": "Selects the paired macro averages joined to independent physical-validity audits.",
+        "executed_at": "2026-07-20T16:02:22Z",
+        "tables_used": [
+          "average_metrics"
+        ],
+        "filters": {
+          "population": "Nine motion IDs present in all three methods",
+          "method_order": "Direct Mapping, Basic IK, GMR"
+        }
+      }
+    },
+    {
+      "id": "normalized_profile_sql",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM normalized_profile\nORDER BY metric_order,\n  CASE method\n    WHEN 'Direct Mapping' THEN 1\n    WHEN 'Basic IK' THEN 2\n    WHEN 'GMR' THEN 3\n  END",
+        "description": "Selects the lower-is-better, per-metric min-max profile used by the average line chart.",
+        "executed_at": "2026-07-20T16:02:22Z",
+        "tables_used": [
+          "normalized_profile"
+        ],
+        "filters": {
+          "population": "Nine motion IDs present in all three methods",
+          "method_order": "Direct Mapping, Basic IK, GMR"
+        }
+      }
+    },
+    {
+      "id": "per_motion_metrics_sql",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM per_motion_metrics\nORDER BY motion,\n  CASE method\n    WHEN 'Direct Mapping' THEN 1\n    WHEN 'Basic IK' THEN 2\n    WHEN 'GMR' THEN 3\n  END",
+        "description": "Selects all 27 paired motion-method rows in deterministic order.",
+        "executed_at": "2026-07-20T16:02:22Z",
+        "tables_used": [
+          "per_motion_metrics"
+        ],
+        "filters": {
+          "population": "Nine motion IDs present in all three methods",
+          "method_order": "Direct Mapping, Basic IK, GMR"
+        }
+      }
+    },
+    {
+      "id": "win_counts_sql",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM win_counts\nORDER BY metric_order,\n  CASE method\n    WHEN 'Direct Mapping' THEN 1\n    WHEN 'Basic IK' THEN 2\n    WHEN 'GMR' THEN 3\n  END",
+        "description": "Selects metric-specific motion win counts for the grouped comparison chart.",
+        "executed_at": "2026-07-20T16:02:22Z",
+        "tables_used": [
+          "win_counts"
+        ],
+        "filters": {
+          "population": "Nine motion IDs present in all three methods",
+          "method_order": "Direct Mapping, Basic IK, GMR"
+        }
+      }
+    },
+    {
+      "id": "direct_collision_sql",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM direct_collision_audit ORDER BY motion",
+        "description": "Selects the nine-motion Direct Mapping visual-geometry overlap audit.",
+        "executed_at": "2026-07-20T16:02:22Z",
+        "tables_used": [
+          "direct_collision_audit"
+        ],
+        "filters": {
+          "population": "Nine motion IDs present in all three methods",
+          "method_order": "Direct Mapping, Basic IK, GMR"
+        }
+      }
+    }
+  ]
+}

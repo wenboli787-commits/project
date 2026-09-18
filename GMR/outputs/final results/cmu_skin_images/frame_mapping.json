@@ -1,0 +1,53 @@
+[
+  {
+    "motion_name": "05_04",
+    "source_file": "/mnt/d/GMR_WORK/use mode/05_04_poses.npz",
+    "num_frames": 1199,
+    "fps": 120.0,
+    "selection_mode": "normalized_time",
+    "requested_time": null,
+    "requested_normalized_time": 0.25,
+    "requested_frame": 300,
+    "actual_frame": 300,
+    "actual_time": 2.5,
+    "clipped": false,
+    "view": "perspective",
+    "output_image": "/mnt/d/GMR_WORK/GMR/outputs/final results/cmu_skin_images/05_04/05_04_nt_0.250_frame_300_perspective.png",
+    "status": "success",
+    "error_message": ""
+  },
+  {
+    "motion_name": "05_04",
+    "source_file": "/mnt/d/GMR_WORK/use mode/05_04_poses.npz",
+    "num_frames": 1199,
+    "fps": 120.0,
+    "selection_mode": "normalized_time",
+    "requested_time": null,
+    "requested_normalized_time": 0.5,
+    "requested_frame": 599,
+    "actual_frame": 599,
+    "actual_time": 4.991666666666666,
+    "clipped": false,
+    "view": "perspective",
+    "output_image": "/mnt/d/GMR_WORK/GMR/outputs/final results/cmu_skin_images/05_04/05_04_nt_0.500_frame_599_perspective.png",
+    "status": "success",
+    "error_message": ""
+  },
+  {
+    "motion_name": "05_04",
+    "source_file": "/mnt/d/GMR_WORK/use mode/05_04_poses.npz",
+    "num_frames": 1199,
+    "fps": 120.0,
+    "selection_mode": "normalized_time",
+    "requested_time": null,
+    "requested_normalized_time": 0.75,
+    "requested_frame": 898,
+    "actual_frame": 898,
+    "actual_time": 7.483333333333333,
+    "clipped": false,
+    "view": "perspective",
+    "output_image": "/mnt/d/GMR_WORK/GMR/outputs/final results/cmu_skin_images/05_04/05_04_nt_0.750_frame_898_perspective.png",
+    "status": "success",
+    "error_message": ""
+  }
+]

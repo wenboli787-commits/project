@@ -1,0 +1,1040 @@
+{
+  "run_path": "wenboli787-university-of-glasgow/mjlab/p5jxr34o",
+  "run_id": "p5jxr34o",
+  "run_name": "2026-07-05_11-16-21",
+  "state": "finished",
+  "url": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/p5jxr34o",
+  "history_row_count": 1000,
+  "all_key_count": 43,
+  "interesting_key_count": 27,
+  "interesting_keys": {
+    "Episode_Reward/action_rate_l2": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.43293023109436035,
+      "in_summary": true
+    },
+    "Episode_Reward/joint_limit": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.01855604723095894,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_ang_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.11854180693626404,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_lin_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.2709425985813141,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_ori": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.1607557237148285,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.4054168164730072,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_global_root_ori": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.18911433219909668,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_global_root_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.09465888142585754,
+      "in_summary": true
+    },
+    "Episode_Reward/self_collisions": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.010424932464957237,
+      "in_summary": true
+    },
+    "Episode_Termination/anchor_ori": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0,
+      "in_summary": true
+    },
+    "Episode_Termination/anchor_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.0833333730697632,
+      "in_summary": true
+    },
+    "Episode_Termination/ee_body_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 13.25,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_ang_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 2.2118611335754395,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_lin_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.3980821371078491,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.5355699062347412,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_rot": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.3031938672065735,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_ang_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 4.5641326904296875,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_lin_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.4459260702133179,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.17272734642028809,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_rot": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.6294527053833008,
+      "in_summary": true
+    },
+    "Metrics/motion/error_joint_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.9736531972885132,
+      "in_summary": true
+    },
+    "Metrics/motion/error_joint_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 15.57734489440918,
+      "in_summary": true
+    },
+    "Metrics/motion/sampling_entropy": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.7268778085708618,
+      "in_summary": true
+    },
+    "Metrics/motion/sampling_top1_bin": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.6000000238418579,
+      "in_summary": true
+    },
+    "Metrics/motion/sampling_top1_prob": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.3432152271270752,
+      "in_summary": true
+    },
+    "Policy/mean_std": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.4011666774749756,
+      "in_summary": true
+    },
+    "Train/mean_reward": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 7.0713821083307264,
+      "in_summary": true
+    }
+  },
+  "all_keys": {
+    "Episode_Reward/action_rate_l2": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.43293023109436035,
+      "in_summary": true
+    },
+    "Episode_Reward/joint_limit": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.01855604723095894,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_ang_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.11854180693626404,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_lin_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.2709425985813141,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_ori": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.1607557237148285,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_body_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.4054168164730072,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_global_root_ori": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.18911433219909668,
+      "in_summary": true
+    },
+    "Episode_Reward/motion_global_root_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.09465888142585754,
+      "in_summary": true
+    },
+    "Episode_Reward/self_collisions": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.010424932464957237,
+      "in_summary": true
+    },
+    "Episode_Termination/anchor_ori": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0,
+      "in_summary": true
+    },
+    "Episode_Termination/anchor_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.0833333730697632,
+      "in_summary": true
+    },
+    "Episode_Termination/ee_body_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 13.25,
+      "in_summary": true
+    },
+    "Episode_Termination/time_out": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 3.2083334922790527,
+      "in_summary": true
+    },
+    "Loss/entropy": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 14.313967514038087,
+      "in_summary": true
+    },
+    "Loss/learning_rate": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.00011390625000000003,
+      "in_summary": true
+    },
+    "Loss/surrogate": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": -0.010244041006080807,
+      "in_summary": true
+    },
+    "Loss/value": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.07393221706151962,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_ang_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 2.2118611335754395,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_lin_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.3980821371078491,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.5355699062347412,
+      "in_summary": true
+    },
+    "Metrics/motion/error_anchor_rot": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.3031938672065735,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_ang_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 4.5641326904296875,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_lin_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.4459260702133179,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.17272734642028809,
+      "in_summary": true
+    },
+    "Metrics/motion/error_body_rot": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.6294527053833008,
+      "in_summary": true
+    },
+    "Metrics/motion/error_joint_pos": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.9736531972885132,
+      "in_summary": true
+    },
+    "Metrics/motion/error_joint_vel": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 15.57734489440918,
+      "in_summary": true
+    },
+    "Metrics/motion/sampling_entropy": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.7268778085708618,
+      "in_summary": true
+    },
+    "Metrics/motion/sampling_top1_bin": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.6000000238418579,
+      "in_summary": true
+    },
+    "Metrics/motion/sampling_top1_prob": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.3432152271270752,
+      "in_summary": true
+    },
+    "Perf/collection_time": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 8.532090663909912,
+      "in_summary": true
+    },
+    "Perf/learning_time": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1.2172327041625977,
+      "in_summary": true
+    },
+    "Perf/total_fps": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 10083,
+      "in_summary": true
+    },
+    "Policy/mean_std": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 0.4011666774749756,
+      "in_summary": true
+    },
+    "Train/mean_episode_length": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 207.96,
+      "in_summary": true
+    },
+    "Train/mean_reward": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 7.0713821083307264,
+      "in_summary": true
+    },
+    "_runtime": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 9943.876082137,
+      "in_summary": true
+    },
+    "_step": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 999,
+      "in_summary": true
+    },
+    "_timestamp": {
+      "non_null_rows": 1000,
+      "first_step": 0,
+      "last_step": 999,
+      "last_seen_value": 1783256534.94306,
+      "in_summary": true
+    },
+    "_wandb": {
+      "non_null_rows": 0,
+      "first_step": null,
+      "last_step": null,
+      "last_seen_value": null,
+      "in_summary": true
+    },
+    "keys": {
+      "non_null_rows": 0,
+      "first_step": null,
+      "last_step": null,
+      "last_seen_value": null,
+      "in_summary": false
+    },
+    "lastStep": {
+      "non_null_rows": 0,
+      "first_step": null,
+      "last_step": null,
+      "last_seen_value": null,
+      "in_summary": false
+    },
+    "sets": {
+      "non_null_rows": 0,
+      "first_step": null,
+      "last_step": null,
+      "last_seen_value": null,
+      "in_summary": false
+    }
+  },
+  "historyKeys_attr": {
+    "keys": {
+      "Episode_Reward/action_rate_l2": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": -0.4329302310943603
+      },
+      "Episode_Reward/joint_limit": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": -0.01855604723095894
+      },
+      "Episode_Reward/motion_body_ang_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.11854180693626404
+      },
+      "Episode_Reward/motion_body_lin_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.2709425985813141
+      },
+      "Episode_Reward/motion_body_ori": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.1607557237148285
+      },
+      "Episode_Reward/motion_body_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.4054168164730072
+      },
+      "Episode_Reward/motion_global_root_ori": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.18911433219909668
+      },
+      "Episode_Reward/motion_global_root_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.09465888142585754
+      },
+      "Episode_Reward/self_collisions": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": -0.010424932464957236
+      },
+      "Episode_Termination/anchor_ori": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0
+      },
+      "Episode_Termination/anchor_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 1.0833333730697632
+      },
+      "Episode_Termination/ee_body_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 13.25
+      },
+      "Episode_Termination/time_out": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 3.2083334922790527
+      },
+      "Loss/entropy": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 14.313967514038088
+      },
+      "Loss/learning_rate": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.00011390625000000003
+      },
+      "Loss/surrogate": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": -0.010244041006080808
+      },
+      "Loss/value": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.07393221706151962
+      },
+      "Metrics/motion/error_anchor_ang_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 2.2118611335754395
+      },
+      "Metrics/motion/error_anchor_lin_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 1.3980821371078491
+      },
+      "Metrics/motion/error_anchor_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.5355699062347412
+      },
+      "Metrics/motion/error_anchor_rot": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.3031938672065735
+      },
+      "Metrics/motion/error_body_ang_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 4.5641326904296875
+      },
+      "Metrics/motion/error_body_lin_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 1.445926070213318
+      },
+      "Metrics/motion/error_body_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.17272734642028809
+      },
+      "Metrics/motion/error_body_rot": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.6294527053833008
+      },
+      "Metrics/motion/error_joint_pos": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 1.9736531972885132
+      },
+      "Metrics/motion/error_joint_vel": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 15.57734489440918
+      },
+      "Metrics/motion/sampling_entropy": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.7268778085708618
+      },
+      "Metrics/motion/sampling_top1_bin": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.6000000238418579
+      },
+      "Metrics/motion/sampling_top1_prob": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.3432152271270752
+      },
+      "Perf/collection_time": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 8.532090663909912
+      },
+      "Perf/learning_time": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 1.2172327041625977
+      },
+      "Perf/total_fps": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 10083
+      },
+      "Policy/mean_std": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 0.4011666774749756
+      },
+      "Train/mean_episode_length": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 207.96
+      },
+      "Train/mean_reward": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "previousValue": 7.0713821083307264
+      },
+      "_runtime": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "monotonic": true,
+        "previousValue": 9943.876082137
+      },
+      "_step": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "monotonic": true,
+        "previousValue": 999
+      },
+      "_timestamp": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1000
+          }
+        ],
+        "monotonic": true,
+        "previousValue": 1783256534.94306
+      },
+      "system/cpu": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/disk./.usageGB": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/disk./.usagePercent": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/disk.sdd.in": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/disk.sdd.out": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.enforcedPowerLimitWatts": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.gpu": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.memory": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.memoryAllocated": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.memoryAllocatedBytes": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.memoryClock": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.powerPercent": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.powerWatts": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.smClock": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/gpu.0.temp": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/memory_percent": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/network.recv": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/network.sent": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/proc.cpu.threads": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/proc.memory.availableMB": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/proc.memory.percent": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      },
+      "system/proc.memory.rssMB": {
+        "typeCounts": [
+          {
+            "type": "number",
+            "count": 1324
+          }
+        ]
+      }
+    },
+    "lastStep": 999,
+    "sets": []
+  }
+}

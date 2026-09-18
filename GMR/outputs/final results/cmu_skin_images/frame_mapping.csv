@@ -1,0 +1,4 @@
+﻿motion_name,source_file,num_frames,fps,selection_mode,requested_time,requested_normalized_time,requested_frame,actual_frame,actual_time,clipped,view,output_image,status,error_message
+05_04,/mnt/d/GMR_WORK/use mode/05_04_poses.npz,1199,120.0,normalized_time,,0.25,300,300,2.5,False,perspective,/mnt/d/GMR_WORK/GMR/outputs/final results/cmu_skin_images/05_04/05_04_nt_0.250_frame_300_perspective.png,success,
+05_04,/mnt/d/GMR_WORK/use mode/05_04_poses.npz,1199,120.0,normalized_time,,0.5,599,599,4.991666666666666,False,perspective,/mnt/d/GMR_WORK/GMR/outputs/final results/cmu_skin_images/05_04/05_04_nt_0.500_frame_599_perspective.png,success,
+05_04,/mnt/d/GMR_WORK/use mode/05_04_poses.npz,1199,120.0,normalized_time,,0.75,898,898,7.483333333333333,False,perspective,/mnt/d/GMR_WORK/GMR/outputs/final results/cmu_skin_images/05_04/05_04_nt_0.750_frame_898_perspective.png,success,

@@ -1,0 +1,31 @@
+{
+  "overall_status": "PASS",
+  "data_source": "W&B run.scan_history, one metric per call",
+  "run_paths": {
+    "Full": "wenboli787-university-of-glasgow/mjlab/p5jxr34o",
+    "No global root": "wenboli787-university-of-glasgow/mjlab/09yrh4qp",
+    "No body pose": "wenboli787-university-of-glasgow/mjlab/y84gf3sj",
+    "No velocity": "wenboli787-university-of-glasgow/mjlab/6rlspqk0",
+    "No action rate": "wenboli787-university-of-glasgow/mjlab/p6vbd18i",
+    "No joint limit": "wenboli787-university-of-glasgow/mjlab/6gq87ju7",
+    "No self collision": "wenboli787-university-of-glasgow/mjlab/q2l4sxxn"
+  },
+  "run_urls": {
+    "Full": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/p5jxr34o",
+    "No global root": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/09yrh4qp",
+    "No body pose": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/y84gf3sj",
+    "No velocity": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/6rlspqk0",
+    "No action rate": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/p6vbd18i",
+    "No joint limit": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/6gq87ju7",
+    "No self collision": "https://wandb.ai/wenboli787-university-of-glasgow/mjlab/runs/q2l4sxxn"
+  },
+  "tracking_metric_semantics": "Metrics/motion/error_* are terminal/reset-step command errors emitted by CommandTerm.reset; they are not Episode_Metrics episode-mean errors.",
+  "penalty_metric_semantics": "Episode_Reward/* are weighted, dt-scaled, episodically accumulated reward-term contributions; they are not raw physical costs.",
+  "configuration_derived_zeros": [],
+  "expected_missing_scan_profiles": [],
+  "actual_missing_scan_profiles": [],
+  "unexpected_missing": [],
+  "tracking_final_window_failures": [],
+  "single_seed": 42,
+  "significance_tests": "Not performed"
+}

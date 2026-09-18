@@ -1,0 +1,2 @@
+motion_name,source_motion_pkl,output_pkl,video_path,video_error,success,failure_reason
+08_05_unitree_g1_gmr.pkl,outputs/final product/pkl/08_05_unitree_g1_gmr.pkl,outputs/final product/pkl PD tracking debug/08_05_unitree_g1_gmr_pd_tracking.pkl,outputs/final product/videos PD tracking/08_05_pd_tracking.mp4,,False,root height below threshold: 0.2499 < 0.25; duration completed ratio too low: 0.3092 < 0.9

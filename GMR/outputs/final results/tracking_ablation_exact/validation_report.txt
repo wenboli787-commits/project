@@ -1,0 +1,51 @@
+Tracking reward ablation exact-data validation report
+=====================================================
+Generated (UTC): 2026-07-23T19:35:55.528940+00:00
+Overall status: FAIL
+Errors: 9
+Warnings: 0
+
+Method
+------
+W&B run.scan_history, one metric per call
+Last 100 non-null records per run and metric
+One run per configuration. Temporal SD describes final-window iteration-to-iteration variation and is not cross-seed SD. No significance tests were performed.
+
+Episode timing
+--------------
+Full: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+No global root: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+No body pose: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+No velocity: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+No action rate: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+No joint limit: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+No self collision: episode_length_s=10, timestep=0.005, decimation=4, max_episode_length=500
+
+Run checks
+----------
+Full: run=p5jxr34o, state=finished, max_step=999, configured_iterations=1000, complete=True
+No global root: run=09yrh4qp, state=finished, max_step=999, configured_iterations=1000, complete=True
+No body pose: run=y84gf3sj, state=finished, max_step=999, configured_iterations=1000, complete=True
+No velocity: run=6rlspqk0, state=finished, max_step=999, configured_iterations=1000, complete=True
+No action rate: run=p6vbd18i, state=finished, max_step=999, configured_iterations=1000, complete=True
+No joint limit: run=6gq87ju7, state=finished, max_step=999, configured_iterations=1000, complete=True
+No self collision: run=q2l4sxxn, state=finished, max_step=999, configured_iterations=1000, complete=True
+
+Issues
+------
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/root_position_error.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/root_orientation_error.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/body_position_error.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/body_orientation_error.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/body_linear_velocity_error.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/body_angular_velocity_error.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/action_rate_l2_raw.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/joint_limit_raw.
+[ERROR] required_metric: Full: required metric missing: Episode_Metrics/self_collision_raw.
+
+Interpretation guardrails
+-------------------------
+- Time-out event share is not a strict success rate.
+- Mean reward is not used to rank policies with different rewards.
+- Reward components are not presented as unlogged physical errors.
+- Single-seed temporal SD is not a cross-seed standard deviation.

@@ -1,0 +1,64 @@
+﻿metric,raw_rows,non_null_rows,duplicate_steps,first_step,last_step,Configuration,Run ID
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,Full,p5jxr34o
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,Full,p5jxr34o
+Metrics/motion/error_body_pos,1000,1000,0,0,999,Full,p5jxr34o
+Metrics/motion/error_body_rot,1000,1000,0,0,999,Full,p5jxr34o
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,Full,p5jxr34o
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,Full,p5jxr34o
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,Full,p5jxr34o
+Episode_Reward/joint_limit,1000,1000,0,0,999,Full,p5jxr34o
+Episode_Reward/self_collisions,1000,1000,0,0,999,Full,p5jxr34o
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,No global root,09yrh4qp
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,No global root,09yrh4qp
+Metrics/motion/error_body_pos,1000,1000,0,0,999,No global root,09yrh4qp
+Metrics/motion/error_body_rot,1000,1000,0,0,999,No global root,09yrh4qp
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,No global root,09yrh4qp
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,No global root,09yrh4qp
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,No global root,09yrh4qp
+Episode_Reward/joint_limit,1000,1000,0,0,999,No global root,09yrh4qp
+Episode_Reward/self_collisions,1000,1000,0,0,999,No global root,09yrh4qp
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,No body pose,y84gf3sj
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,No body pose,y84gf3sj
+Metrics/motion/error_body_pos,1000,1000,0,0,999,No body pose,y84gf3sj
+Metrics/motion/error_body_rot,1000,1000,0,0,999,No body pose,y84gf3sj
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,No body pose,y84gf3sj
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,No body pose,y84gf3sj
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,No body pose,y84gf3sj
+Episode_Reward/joint_limit,1000,1000,0,0,999,No body pose,y84gf3sj
+Episode_Reward/self_collisions,1000,1000,0,0,999,No body pose,y84gf3sj
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,No velocity,6rlspqk0
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,No velocity,6rlspqk0
+Metrics/motion/error_body_pos,1000,1000,0,0,999,No velocity,6rlspqk0
+Metrics/motion/error_body_rot,1000,1000,0,0,999,No velocity,6rlspqk0
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,No velocity,6rlspqk0
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,No velocity,6rlspqk0
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,No velocity,6rlspqk0
+Episode_Reward/joint_limit,1000,1000,0,0,999,No velocity,6rlspqk0
+Episode_Reward/self_collisions,1000,1000,0,0,999,No velocity,6rlspqk0
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,No action rate,p6vbd18i
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,No action rate,p6vbd18i
+Metrics/motion/error_body_pos,1000,1000,0,0,999,No action rate,p6vbd18i
+Metrics/motion/error_body_rot,1000,1000,0,0,999,No action rate,p6vbd18i
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,No action rate,p6vbd18i
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,No action rate,p6vbd18i
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,No action rate,p6vbd18i
+Episode_Reward/joint_limit,1000,1000,0,0,999,No action rate,p6vbd18i
+Episode_Reward/self_collisions,1000,1000,0,0,999,No action rate,p6vbd18i
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,No joint limit,6gq87ju7
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,No joint limit,6gq87ju7
+Metrics/motion/error_body_pos,1000,1000,0,0,999,No joint limit,6gq87ju7
+Metrics/motion/error_body_rot,1000,1000,0,0,999,No joint limit,6gq87ju7
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,No joint limit,6gq87ju7
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,No joint limit,6gq87ju7
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,No joint limit,6gq87ju7
+Episode_Reward/joint_limit,1000,1000,0,0,999,No joint limit,6gq87ju7
+Episode_Reward/self_collisions,1000,1000,0,0,999,No joint limit,6gq87ju7
+Metrics/motion/error_anchor_pos,1000,1000,0,0,999,No self collision,q2l4sxxn
+Metrics/motion/error_anchor_rot,1000,1000,0,0,999,No self collision,q2l4sxxn
+Metrics/motion/error_body_pos,1000,1000,0,0,999,No self collision,q2l4sxxn
+Metrics/motion/error_body_rot,1000,1000,0,0,999,No self collision,q2l4sxxn
+Metrics/motion/error_body_lin_vel,1000,1000,0,0,999,No self collision,q2l4sxxn
+Metrics/motion/error_body_ang_vel,1000,1000,0,0,999,No self collision,q2l4sxxn
+Episode_Reward/action_rate_l2,1000,1000,0,0,999,No self collision,q2l4sxxn
+Episode_Reward/joint_limit,1000,1000,0,0,999,No self collision,q2l4sxxn
+Episode_Reward/self_collisions,1000,1000,0,0,999,No self collision,q2l4sxxn

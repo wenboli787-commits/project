@@ -1,0 +1,8 @@
+method,failure_reason,count
+Basic IK,severe_foot_penetration,6
+Basic IK,severe_self_collision,9
+Direct Mapping,joint_limit_violation,9
+Direct Mapping,severe_foot_penetration,3
+Direct Mapping,severe_self_collision,8
+GMR,severe_foot_penetration,3
+GMR,severe_self_collision,2

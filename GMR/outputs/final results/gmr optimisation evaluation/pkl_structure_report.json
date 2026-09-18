@@ -1,0 +1,393 @@
+{
+  "pkl_type": "dict",
+  "keys": [
+    "actuator_names",
+    "body_names",
+    "body_pos",
+    "body_quat",
+    "contacts",
+    "dof_joint_names",
+    "dof_pos",
+    "dt",
+    "duration",
+    "error_message",
+    "fall",
+    "foot_names",
+    "foot_pos",
+    "fps",
+    "joint_names",
+    "joint_range",
+    "link_body_list",
+    "local_body_pos",
+    "method",
+    "motion_name",
+    "nq",
+    "num_frames",
+    "nv",
+    "pkl_schema_version",
+    "qpos",
+    "qpos_dim",
+    "qvel",
+    "robot",
+    "robot_joint_names",
+    "robot_xml",
+    "root_pos",
+    "root_quat",
+    "root_rot",
+    "self_collision",
+    "site_names",
+    "source_motion_file",
+    "success",
+    "terminated",
+    "warnings"
+  ],
+  "fields": {
+    "pkl_schema_version": {
+      "type": "str",
+      "value": "retarget_eval_v1"
+    },
+    "motion_name": {
+      "type": "str",
+      "value": "05_04_poses"
+    },
+    "method": {
+      "type": "str",
+      "value": "gmr"
+    },
+    "robot": {
+      "type": "str",
+      "value": "unitree_g1"
+    },
+    "source_motion_file": {
+      "type": "str",
+      "value": "/mnt/d/GMR_WORK/use mode/05_04_poses.npz"
+    },
+    "robot_xml": {
+      "type": "str",
+      "value": "/mnt/d/GMR_WORK/GMR/general_motion_retargeting/../assets/unitree_g1/g1_mocap_29dof.xml"
+    },
+    "fps": {
+      "type": "float",
+      "value": 29.924937447873226
+    },
+    "dt": {
+      "type": "float",
+      "value": 0.033416945373467115
+    },
+    "num_frames": {
+      "type": "int",
+      "value": 298
+    },
+    "duration": {
+      "type": "float",
+      "value": 9.9582497212932
+    },
+    "qpos": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        36
+      ],
+      "dtype": "float64",
+      "min": -2.4026218850913983,
+      "max": 2.2515,
+      "mean": 0.05640348804162995
+    },
+    "qvel": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        35
+      ],
+      "dtype": "float64",
+      "min": -24.810116238706406,
+      "max": 27.091690762770536,
+      "mean": -0.009533745534172564
+    },
+    "qpos_dim": {
+      "type": "int",
+      "value": 36
+    },
+    "nq": {
+      "type": "int",
+      "value": 36
+    },
+    "nv": {
+      "type": "int",
+      "value": 35
+    },
+    "root_pos": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        3
+      ],
+      "dtype": "float64",
+      "min": -0.29972350593322394,
+      "max": 1.410274769111712,
+      "mean": 0.4658022634327471
+    },
+    "root_quat": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        4
+      ],
+      "dtype": "float64",
+      "min": -0.9954166714053727,
+      "max": 0.9954687492420397,
+      "mean": 0.1120129605255568
+    },
+    "root_rot": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        4
+      ],
+      "dtype": "float64",
+      "min": -0.9954166714053727,
+      "max": 0.9954687492420397,
+      "mean": 0.1120129605255568
+    },
+    "dof_pos": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        29
+      ],
+      "dtype": "float64",
+      "min": -2.4026218850913983,
+      "max": 2.2515,
+      "mean": 0.006381618520627924
+    },
+    "joint_names": {
+      "type": "list",
+      "length": 36,
+      "sample": [
+        "pelvis_x",
+        "pelvis_y",
+        "pelvis_z",
+        "pelvis_qw",
+        "pelvis_qx",
+        "pelvis_qy",
+        "pelvis_qz",
+        "left_hip_pitch_joint"
+      ]
+    },
+    "robot_joint_names": {
+      "type": "list",
+      "length": 30,
+      "sample": [
+        "pelvis",
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint"
+      ]
+    },
+    "dof_joint_names": {
+      "type": "list",
+      "length": 29,
+      "sample": [
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint",
+        "right_hip_roll_joint"
+      ]
+    },
+    "body_names": {
+      "type": "list",
+      "length": 39,
+      "sample": [
+        "world",
+        "pelvis",
+        "left_hip_pitch_link",
+        "left_hip_roll_link",
+        "left_hip_yaw_link",
+        "left_knee_link",
+        "left_ankle_pitch_link",
+        "left_ankle_roll_link"
+      ]
+    },
+    "body_pos": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        39,
+        3
+      ],
+      "dtype": "float64",
+      "min": -0.7021891682060989,
+      "max": 1.8123677206519029,
+      "mean": 0.43189970191595095
+    },
+    "body_quat": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        39,
+        4
+      ],
+      "dtype": "float64",
+      "min": -0.99968902867744,
+      "max": 1.0,
+      "mean": 0.07464176282045089
+    },
+    "local_body_pos": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        39,
+        3
+      ],
+      "dtype": "float64",
+      "min": -0.825808840361092,
+      "max": 0.759321650932368,
+      "mean": 0.001169659774894766
+    },
+    "link_body_list": {
+      "type": "list",
+      "length": 39,
+      "sample": [
+        "world",
+        "pelvis",
+        "left_hip_pitch_link",
+        "left_hip_roll_link",
+        "left_hip_yaw_link",
+        "left_knee_link",
+        "left_ankle_pitch_link",
+        "left_ankle_roll_link"
+      ]
+    },
+    "site_names": {
+      "type": "list",
+      "length": 2,
+      "sample": [
+        "imu_in_pelvis",
+        "imu_in_torso"
+      ]
+    },
+    "actuator_names": {
+      "type": "list",
+      "length": 29,
+      "sample": [
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint",
+        "right_hip_roll_joint"
+      ]
+    },
+    "joint_range": {
+      "type": "dict",
+      "length": 30,
+      "keys_sample": [
+        "pelvis",
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint"
+      ]
+    },
+    "foot_pos": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        2,
+        3
+      ],
+      "dtype": "float64",
+      "min": -0.49449679229851934,
+      "max": 1.480943171889221,
+      "mean": 0.20747786630076936
+    },
+    "foot_names": {
+      "type": "list",
+      "length": 2,
+      "sample": [
+        "left_toe_link",
+        "right_toe_link"
+      ]
+    },
+    "contacts": {
+      "type": "ndarray",
+      "shape": [
+        298,
+        2
+      ],
+      "dtype": "bool",
+      "min": null,
+      "max": null,
+      "mean": null
+    },
+    "self_collision": {
+      "type": "ndarray",
+      "shape": [
+        298
+      ],
+      "dtype": "bool",
+      "min": null,
+      "max": null,
+      "mean": null
+    },
+    "terminated": {
+      "type": "ndarray",
+      "shape": [
+        298
+      ],
+      "dtype": "bool",
+      "min": null,
+      "max": null,
+      "mean": null
+    },
+    "fall": {
+      "type": "ndarray",
+      "shape": [
+        298
+      ],
+      "dtype": "bool",
+      "min": null,
+      "max": null,
+      "mean": null
+    },
+    "success": {
+      "type": "bool",
+      "value": true
+    },
+    "error_message": {
+      "type": "str",
+      "value": ""
+    },
+    "warnings": {
+      "type": "list",
+      "length": 1,
+      "sample": [
+        "video_path: /mnt/d/GMR_WORK/GMR/outputs/final results/video gmr/05_04_poses_unitree_g1_gmr.mp4"
+      ]
+    }
+  },
+  "identified_fields": {
+    "qpos": "qpos",
+    "dof_pos": "dof_pos",
+    "root_position": "root_pos",
+    "root_rotation": "root_quat",
+    "body_positions": "body_pos",
+    "body_names": "body_names",
+    "fps": "fps"
+  },
+  "warnings": [],
+  "input_pkl": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl gmr/05_04_poses_unitree_g1_gmr.pkl"
+}

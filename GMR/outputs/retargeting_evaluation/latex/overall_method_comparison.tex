@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Quantitative comparison of the three motion-retargeting methods. Bold and underlined values denote the best and second-best means, respectively.}
+\label{tab:retargeting_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\hline
+Metric & Direct Mapping & Basic IK & GMR \\
+\hline
+Root-relative MPBPE (m) $\downarrow$ & 0.9104 & \underline{0.5674} & \textbf{0.3288} \\
+End-effector error (m) $\downarrow$ & 0.7944 & \underline{0.3328} & \textbf{0.1589} \\
+Foot sliding (m) $\downarrow$ & 3.5564 & \textbf{2.6467} & \underline{2.7308} \\
+Ground penetration (m) $\downarrow$ & \textbf{0.0550} & \underline{0.0604} & 0.0696 \\
+Self-collision ratio (ratio) $\downarrow$ & \underline{0.1947} & 0.6055 & \textbf{0.0287} \\
+Joint-limit violation ratio (ratio) $\downarrow$ & \underline{0.4471} & 0.9986 & \textbf{0.0017} \\
+RMS joint jerk (rad/s^3) $\downarrow$ & \textbf{236.2134} & 1385.2174 & \underline{267.4938} \\
+\hline
+\end{tabular}%
+}
+\end{table*}

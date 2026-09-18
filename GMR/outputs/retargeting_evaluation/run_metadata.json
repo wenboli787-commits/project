@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-07-22T17:55:32.166123+00:00",
+  "tool": "evaluation.retargeting_comparison.compare_retargeting_methods",
+  "config_path": "/mnt/d/GMR_WORK/GMR/evaluation/retargeting_comparison/config.yaml",
+  "source_motion_directory": "/mnt/d/GMR_WORK/use mode",
+  "method_directories": {
+    "direct_mapping": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl direct",
+    "basic_ik": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl Basic IK",
+    "gmr": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl gmr"
+  },
+  "mujoco_xml": "/mnt/d/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml",
+  "output_directory": "/mnt/d/GMR_WORK/GMR/outputs/retargeting_evaluation",
+  "evaluation_fps": 30.0,
+  "random_seed": 20260722,
+  "motion_names": [
+    "05_04",
+    "111_23",
+    "113_20",
+    "113_21",
+    "114_15",
+    "124_11",
+    "135_04",
+    "47_01",
+    "76_10"
+  ],
+  "motion_method_rows": 27,
+  "complete_three_method_matches": 9,
+  "metric_definitions": {
+    "body_position_alignment": "first-frame horizontal translation and heading only; no per-frame realignment",
+    "scale_normalisation": "one constant scale per motion",
+    "foot_contact_mask": "foot height and vertical velocity thresholds from config",
+    "self_collision": "MuJoCo collision-geometry contact proxy, excluding configured adjacent pairs",
+    "joint_limit_violation": "strict numerical comparison to model limits with zero tolerance"
+  }
+}

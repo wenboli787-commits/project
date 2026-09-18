@@ -1,0 +1,25 @@
+metric_order,metric,metric_label,method,relative_score,raw_value,unit,basis,direction
+0,Root path,Root position error,Direct Mapping,100.0,108.02400998815028,cm,9-motion macro mean,lower is better
+0,Root path,Root position error,Basic IK,66.58089192562684,114.98619384783973,cm,9-motion macro mean,lower is better
+0,Root path,Root position error,GMR,0.0,128.85695335754042,cm,9-motion macro mean,lower is better
+1,MPJPE,Root-relative MPJPE,Direct Mapping,0.0,20.82673954589809,cm,9-motion macro mean,lower is better
+1,MPJPE,Root-relative MPJPE,Basic IK,100.00000000000001,18.906948267066426,cm,9-motion macro mean,lower is better
+1,MPJPE,Root-relative MPJPE,GMR,46.25416703026126,19.938756081154903,cm,9-motion macro mean,lower is better
+2,End effector,End-effector error,Direct Mapping,0.0,35.09287266153924,cm,9-motion macro mean,lower is better
+2,End effector,End-effector error,Basic IK,100.0,28.182827476547956,cm,9-motion macro mean,lower is better
+2,End effector,End-effector error,GMR,62.20178019234538,30.794701544379215,cm,9-motion macro mean,lower is better
+3,Joint limits,Joint-limit frames >0.1 deg,Direct Mapping,55.558981232708014,44.44101876729199,%,audit macro mean,lower is better
+3,Joint limits,Joint-limit frames >0.1 deg,Basic IK,0.0,100.0,%,audit macro mean,lower is better
+3,Joint limits,Joint-limit frames >0.1 deg,GMR,100.0,0.0,%,audit macro mean,lower is better
+4,Foot sliding,Valid-contact foot sliding,Direct Mapping,0.0,19.320518010065157,cm/s,audit aggregate,lower is better
+4,Foot sliding,Valid-contact foot sliding,Basic IK,66.83196595867116,8.517008935371086,cm/s,audit aggregate,lower is better
+4,Foot sliding,Valid-contact foot sliding,GMR,100.0,3.1553357956515438,cm/s,audit aggregate,lower is better
+5,Ground penetration,Frames penetrating ground >5 mm,Direct Mapping,100.0,42.48073751237489,%,audit frame-weighted aggregate,lower is better
+5,Ground penetration,Frames penetrating ground >5 mm,Basic IK,17.08145132222858,84.25145967030645,%,audit frame-weighted aggregate,lower is better
+5,Ground penetration,Frames penetrating ground >5 mm,GMR,0.0,92.8563444471467,%,audit frame-weighted aggregate,lower is better
+6,Collision proxy,MuJoCo self-collision proxy,Direct Mapping,63.640550644697214,29.468584834449743,%,9-motion macro mean,lower is better
+6,Collision proxy,MuJoCo self-collision proxy,Basic IK,0.0,70.1990507423125,%,9-motion macro mean,lower is better
+6,Collision proxy,MuJoCo self-collision proxy,GMR,100.0,6.198243874283649,%,9-motion macro mean,lower is better
+7,Joint jerk,Mean absolute joint jerk,Direct Mapping,100.0,68.14461651162058,rad/s^3,9-motion macro mean,lower is better
+7,Joint jerk,Mean absolute joint jerk,Basic IK,0.0,213.82235543127626,rad/s^3,9-motion macro mean,lower is better
+7,Joint jerk,Mean absolute joint jerk,GMR,94.55046864366199,76.08337057325147,rad/s^3,9-motion macro mean,lower is better

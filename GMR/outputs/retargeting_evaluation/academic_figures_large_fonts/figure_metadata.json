@@ -1,0 +1,45 @@
+{
+  "source": "D:\\GMR_WORK\\GMR\\outputs\\retargeting_evaluation\\per_motion_metrics.csv",
+  "methods": [
+    "direct_mapping",
+    "basic_ik",
+    "gmr"
+  ],
+  "motion_count": 9,
+  "bootstrap": {
+    "iterations": 20000,
+    "confidence": 0.95,
+    "seed_base": 20260722
+  },
+  "qualitative_frames": {
+    "05_04": 180,
+    "135_04": 99
+  },
+  "qualitative_camera": {
+    "resolution": [
+      1280,
+      960
+    ],
+    "camera_distance": 3.2,
+    "world_azimuth_degrees": 180.0,
+    "camera_elevation_degrees": -12.0,
+    "canonical_root_position": [
+      0.0,
+      0.0,
+      0.72
+    ],
+    "fixed_camera_lookat": [
+      0.0,
+      0.0,
+      0.87
+    ],
+    "lookat_z_offset": 0.15,
+    "root_pose_normalized": true
+  },
+  "figures": [
+    "figure_motion_preservation.png",
+    "figure_physical_plausibility.png",
+    "figure_temporal_consistency.png",
+    "figure_same_frame_comparison.png"
+  ]
+}

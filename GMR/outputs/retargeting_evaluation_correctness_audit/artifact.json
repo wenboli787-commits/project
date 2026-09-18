@@ -1,0 +1,1558 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "重定向评估程序正确性审计",
+    "description": "Direct Mapping、Basic IK 与 GMR 的 Ubuntu 独立重算与指标定义审计。",
+    "generatedAt": "2026-07-15T14:54:05.037009+00:00",
+    "cards": [
+      {
+        "id": "card_visual",
+        "dataset": "headline",
+        "sourceId": "src_collision",
+        "description": "Direct 的视觉网格非父子相交帧比例，阈值 1 mm。",
+        "metrics": [
+          {
+            "label": "Direct 视觉穿模",
+            "field": "direct_visual_penetration"
+          }
+        ]
+      },
+      {
+        "id": "card_proxy",
+        "dataset": "headline",
+        "sourceId": "src_collision",
+        "description": "当前程序实际统计的碰撞代理体 contact 帧比例。",
+        "metrics": [
+          {
+            "label": "Direct contact 代理",
+            "field": "direct_contact_proxy"
+          }
+        ]
+      },
+      {
+        "id": "card_basic_limit",
+        "dataset": "headline",
+        "sourceId": "src_limits",
+        "description": "Basic IK 在超限阈值提高到 5° 后仍然越限的帧比例。",
+        "metrics": [
+          {
+            "label": "Basic 越限 >5°",
+            "field": "basic_limit_gt5deg"
+          }
+        ]
+      },
+      {
+        "id": "card_gmr_contact",
+        "dataset": "headline",
+        "sourceId": "src_ground",
+        "description": "GMR 足部严重穿地但仍被当前脚滑逻辑判为接触的样本比例。",
+        "metrics": [
+          {
+            "label": "GMR 无效接触",
+            "field": "gmr_invalid_contact"
+          }
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_collision",
+        "title": "Direct Mapping：视觉穿模与碰撞代理体覆盖并不相同",
+        "subtitle": "视觉非父子网格相交为 100%；非局部定义排除近邻和中立姿态重叠。",
+        "intent": "comparison",
+        "question": "为什么肉眼看到 100% 穿模，而当前报告只有约 30%？",
+        "rationale": "按动作并列三种碰撞定义，直接展示指标覆盖差异。",
+        "type": "bar",
+        "dataset": "collision_chart",
+        "sourceId": "src_collision",
+        "valueFormat": "number",
+        "unit": "%",
+        "layout": "full",
+        "encodings": {
+          "x": {
+            "field": "motion",
+            "type": "nominal",
+            "label": "动作"
+          },
+          "y": {
+            "field": "frame_ratio_percent",
+            "type": "quantitative",
+            "format": "number",
+            "label": "发生相交的帧比例",
+            "unit": "%"
+          },
+          "color": {
+            "field": "series_label",
+            "type": "nominal",
+            "label": "检测定义"
+          },
+          "tooltip": [
+            {
+              "field": "motion",
+              "type": "nominal",
+              "label": "动作"
+            },
+            {
+              "field": "series_label",
+              "type": "nominal",
+              "label": "检测定义"
+            },
+            {
+              "field": "frame_ratio_percent",
+              "type": "quantitative",
+              "format": "number",
+              "label": "发生相交的帧比例",
+              "unit": "%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "chart_limits",
+        "title": "关节越限对容差的敏感性",
+        "subtitle": "GMR 的非零值是浮点边界噪声；Basic IK 的大幅越限在 5° 阈值下仍存在。",
+        "intent": "comparison",
+        "question": "哪些越限是真实的，哪些是零容差误报？",
+        "rationale": "比较同一方法在 0°、0.1° 和 5° 阈值下的帧比例。",
+        "type": "bar",
+        "dataset": "limits_chart",
+        "sourceId": "src_limits",
+        "valueFormat": "number",
+        "unit": "%",
+        "layout": "full",
+        "encodings": {
+          "x": {
+            "field": "method",
+            "type": "nominal",
+            "label": "方法"
+          },
+          "y": {
+            "field": "frame_ratio_percent",
+            "type": "quantitative",
+            "format": "number",
+            "label": "越限帧比例",
+            "unit": "%"
+          },
+          "color": {
+            "field": "series_label",
+            "type": "nominal",
+            "label": "容差"
+          },
+          "tooltip": [
+            {
+              "field": "method",
+              "type": "nominal",
+              "label": "方法"
+            },
+            {
+              "field": "series_label",
+              "type": "nominal",
+              "label": "容差"
+            },
+            {
+              "field": "frame_ratio_percent",
+              "type": "quantitative",
+              "format": "number",
+              "label": "越限帧比例",
+              "unit": "%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "chart_contact",
+        "title": "穿地与无效接触会扭曲脚滑结论",
+        "subtitle": "GMR 的低脚滑同时伴随最高的严重穿地误接触比例和最低的有效接触覆盖率。",
+        "intent": "comparison",
+        "question": "当前脚滑排名是否建立在有效接触上？",
+        "rationale": "同时展示超过 5 mm 穿地、无效接触和有效接触覆盖率。",
+        "type": "bar",
+        "dataset": "ground_chart",
+        "sourceId": "src_ground",
+        "valueFormat": "number",
+        "unit": "%",
+        "layout": "full",
+        "encodings": {
+          "x": {
+            "field": "method",
+            "type": "nominal",
+            "label": "方法"
+          },
+          "y": {
+            "field": "sample_or_frame_ratio_percent",
+            "type": "quantitative",
+            "format": "number",
+            "label": "样本或帧比例",
+            "unit": "%"
+          },
+          "color": {
+            "field": "series_label",
+            "type": "nominal",
+            "label": "质量指标"
+          },
+          "tooltip": [
+            {
+              "field": "method",
+              "type": "nominal",
+              "label": "方法"
+            },
+            {
+              "field": "series_label",
+              "type": "nominal",
+              "label": "质量指标"
+            },
+            {
+              "field": "sample_or_frame_ratio_percent",
+              "type": "quantitative",
+              "format": "number",
+              "label": "样本或帧比例",
+              "unit": "%"
+            }
+          ]
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_issues",
+        "title": "需要修复的评估问题",
+        "subtitle": "P0 会直接改变结论；P1/P2 会造成误报、固定偏差或不可解释排名。",
+        "dataset": "issues",
+        "sourceId": "src_issues",
+        "defaultSort": {
+          "field": "priority",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "priority",
+            "label": "优先级",
+            "type": "text"
+          },
+          {
+            "field": "area",
+            "label": "指标",
+            "type": "text"
+          },
+          {
+            "field": "verdict",
+            "label": "判定",
+            "type": "text"
+          },
+          {
+            "field": "evidence",
+            "label": "证据",
+            "type": "text"
+          },
+          {
+            "field": "action",
+            "label": "建议修复",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "table_ground",
+        "title": "地面、接触与脚滑敏感性",
+        "subtitle": "单位：比例为%，穿透为 cm，滑动为 cm/s；9 动作宏平均。",
+        "dataset": "ground",
+        "sourceId": "src_ground",
+        "defaultSort": {
+          "field": "deep_penetration_counted_as_contact_percent",
+          "direction": "desc"
+        },
+        "density": "dense",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "method",
+            "label": "方法",
+            "type": "text"
+          },
+          {
+            "field": "penetration_frame_ratio_percent_gt_5mm",
+            "label": "穿地 >5mm (%)",
+            "format": "number"
+          },
+          {
+            "field": "maximum_ground_penetration_cm",
+            "label": "最大穿地宏均值 (cm)",
+            "format": "number"
+          },
+          {
+            "field": "valid_contact_sample_ratio_percent",
+            "label": "有效接触 (%)",
+            "format": "number"
+          },
+          {
+            "field": "deep_penetration_counted_as_contact_percent",
+            "label": "无效接触 (%)",
+            "format": "number"
+          },
+          {
+            "field": "current_sliding_cm_s",
+            "label": "当前脚滑 (cm/s)",
+            "format": "number"
+          },
+          {
+            "field": "valid_contact_sliding_cm_s",
+            "label": "加下界后脚滑 (cm/s)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "table_scale",
+        "title": "尺度归一化审计",
+        "subtitle": "当前高度依赖动作前 30 帧；零姿态 joint scale 是动作无关基线。",
+        "dataset": "scale",
+        "sourceId": "src_scale",
+        "defaultSort": {
+          "field": "current_vs_neutral_joint_scale_difference_percent",
+          "direction": "desc"
+        },
+        "density": "dense",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "motion",
+            "label": "动作",
+            "type": "text"
+          },
+          {
+            "field": "gender",
+            "label": "性别",
+            "type": "text"
+          },
+          {
+            "field": "beta0",
+            "label": "beta0",
+            "format": "number"
+          },
+          {
+            "field": "current_scale",
+            "label": "当前 scale",
+            "format": "number"
+          },
+          {
+            "field": "neutral_joint_scale",
+            "label": "零姿态 joint scale",
+            "format": "number"
+          },
+          {
+            "field": "current_vs_neutral_joint_scale_difference_percent",
+            "label": "差异 (%)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "table_method",
+        "title": "推荐评估流程与验收",
+        "subtitle": "修复后重新跑完 9 个动作，并按这些条件决定指标是否可排名。",
+        "dataset": "method_rules",
+        "sourceId": "src_method",
+        "defaultSort": {
+          "field": "stage",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "stage",
+            "label": "阶段",
+            "format": "number"
+          },
+          {
+            "field": "step",
+            "label": "步骤",
+            "type": "text"
+          },
+          {
+            "field": "requirement",
+            "label": "计算要求",
+            "type": "text"
+          },
+          {
+            "field": "acceptance",
+            "label": "验收标准",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_collision",
+        "label": "Direct visual/collision coverage audit",
+        "path": "outputs/retargeting_evaluation_correctness_audit/direct_collision_by_motion.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/direct_collision_by_motion.csv', header = true);",
+          "description": "MuJoCo signed-distance enumeration over visual geoms and independent contact-proxy counting.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "outputs/retargeting_evaluation_correctness_audit/direct_collision_by_motion.csv"
+          ],
+          "filters": [
+            "9 paired motion IDs",
+            "Direct Mapping, Basic IK, and GMR raw PKL files",
+            "Ubuntu/WSL2 independent recomputation"
+          ],
+          "metric_definitions": [
+            "Visual non-parent rate: frames with visual mesh signed distance < -1 mm after excluding direct parent-child bodies.",
+            "Visual non-local rate: additionally excludes graph distance <=2 and neutral-pose overlaps.",
+            "Current proxy rate: frames with production-style MuJoCo data.contact self-collision."
+          ]
+        }
+      },
+      {
+        "id": "src_limits",
+        "label": "Joint-limit tolerance audit",
+        "path": "outputs/retargeting_evaluation_correctness_audit/joint_limit_summary.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/joint_limit_summary.csv', header = true);",
+          "description": "Raw qpos compared independently with XML joint ranges over six tolerance levels.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "outputs/retargeting_evaluation_correctness_audit/joint_limit_summary.csv"
+          ],
+          "filters": [
+            "9 paired motion IDs",
+            "Direct Mapping, Basic IK, and GMR raw PKL files",
+            "Ubuntu/WSL2 independent recomputation"
+          ],
+          "metric_definitions": [
+            "Frame violation rate: percent of frames with any joint excess above the stated tolerance.",
+            "Excess: max(lower-q, q-upper, 0)."
+          ]
+        }
+      },
+      {
+        "id": "src_ground",
+        "label": "Ground/contact/sliding audit",
+        "path": "outputs/retargeting_evaluation_correctness_audit/ground_and_sliding_summary.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/ground_and_sliding_summary.csv', header = true);",
+          "description": "Foot support-sphere heights, MuJoCo floor contact, and contact-mask sensitivity recomputed from raw qpos.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "outputs/retargeting_evaluation_correctness_audit/ground_and_sliding_summary.csv"
+          ],
+          "filters": [
+            "9 paired motion IDs",
+            "Direct Mapping, Basic IK, and GMR raw PKL files",
+            "Ubuntu/WSL2 independent recomputation"
+          ],
+          "metric_definitions": [
+            "Deep invalid contact: foot sample below ground by more than 5 mm while current heuristic labels it contact.",
+            "Valid contact: -5 mm <= foot support height <= 40 mm and |vertical speed| <= 0.15 m/s.",
+            "Sliding cm/s: horizontal displacement during adjacent contact samples divided by total motion duration."
+          ]
+        }
+      },
+      {
+        "id": "src_scale",
+        "label": "SMPL-X scale audit",
+        "path": "outputs/retargeting_evaluation_correctness_audit/scale_audit.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/scale_audit.csv', header = true);",
+          "description": "Current pose-dependent heights compared with zero-pose SMPL-X joint and vertex extents.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "outputs/retargeting_evaluation_correctness_audit/scale_audit.csv"
+          ],
+          "filters": [
+            "9 paired motion IDs",
+            "Direct Mapping, Basic IK, and GMR raw PKL files",
+            "Ubuntu/WSL2 independent recomputation"
+          ],
+          "metric_definitions": [
+            "Current scale: robot keypoint height / first-30-frame posed reference height.",
+            "Neutral joint scale: robot keypoint height / zero-pose SMPL-X joint height."
+          ]
+        }
+      },
+      {
+        "id": "src_notebook",
+        "label": "Executed Ubuntu audit notebook",
+        "path": "evaluation/audit/retargeting_evaluation_correctness_audit.ipynb",
+        "query": {
+          "engine": "Python 3.10 / Ubuntu WSL2",
+          "language": "python",
+          "description": "Executed notebook containing reviewed intermediate tables, figures, and assertions.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "evaluation/audit/retargeting_evaluation_correctness_audit.ipynb"
+          ],
+          "filters": [
+            "9 paired motion IDs",
+            "Direct Mapping, Basic IK, and GMR raw PKL files",
+            "Ubuntu/WSL2 independent recomputation"
+          ],
+          "metric_definitions": [
+            "Final notebook assertion: AUDIT ASSERTIONS: PASS."
+          ]
+        }
+      },
+      {
+        "id": "src_issues",
+        "label": "Correctness issue classification",
+        "path": "outputs/retargeting_evaluation_correctness_audit/report_issues.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/report_issues.csv', header = true);",
+          "description": "Severity, evidence, and recommended fixes synthesized from the executed audit notebook.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "outputs/retargeting_evaluation_correctness_audit/report_issues.csv"
+          ],
+          "filters": [
+            "Reviewed Ubuntu audit snapshot"
+          ],
+          "metric_definitions": [
+            "Rows are the reviewed values stored in the cited CSV snapshot."
+          ]
+        }
+      },
+      {
+        "id": "src_method",
+        "label": "Recommended evaluation workflow",
+        "path": "outputs/retargeting_evaluation_correctness_audit/recommended_evaluation_method.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/recommended_evaluation_method.csv', header = true);",
+          "description": "Acceptance-oriented workflow derived from the audited metric definitions.",
+          "executed_at": "2026-07-15",
+          "tables_used": [
+            "outputs/retargeting_evaluation_correctness_audit/recommended_evaluation_method.csv"
+          ],
+          "filters": [
+            "Reviewed Ubuntu audit snapshot"
+          ],
+          "metric_definitions": [
+            "Rows are the reviewed values stored in the cited CSV snapshot."
+          ]
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# 重定向评估程序正确性审计"
+      },
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "body": "## Executive Summary\n\n当前程序可以稳定运行，但现有总排名不可信。Direct Mapping 的视觉网格非父子穿模在 9 个动作中均为 100%，而程序实际统计的碰撞代理体 contact 宏平均只有 29.5%；两者不是同一个指标。Basic IK 的 100% 大幅关节越限是真实的，GMR 的非零越限则是零容差浮点误报。脚滑指标把严重穿地当作有效接触，尤其 GMR 有 63.3% 足部样本因此被错误纳入。在修复碰撞语义、接触有效性、限位容差、尺度和 MPJPE 定义前，不应使用原 overall rank。"
+      },
+      {
+        "id": "headline_metrics",
+        "type": "metric-strip",
+        "cardIds": [
+          "card_visual",
+          "card_proxy",
+          "card_basic_limit",
+          "card_gmr_contact"
+        ]
+      },
+      {
+        "id": "collision_heading",
+        "type": "markdown",
+        "body": "## Direct 的 100% 穿模为什么被漏报\n\nXML 中有 35 个视觉专用几何体不参与 MuJoCo contact，左右 rubber hand 也没有碰撞几何体。因此视觉网格穿透不会必然出现在 data.contact。视觉 100% 还包含中立姿态已有的近邻重叠，所以公平比较必须并列报告视觉非父子、视觉非局部和物理代理 contact 三种明确定义。"
+      },
+      {
+        "id": "collision_chart_block",
+        "type": "chart",
+        "chartId": "chart_collision"
+      },
+      {
+        "id": "limits_heading",
+        "type": "markdown",
+        "body": "## 关节限位：Basic 结论保留，GMR 误报清零\n\nBasic IK 即使阈值提高到 5° 仍有 100% 帧越限，最大观测超限达到 1157.4°；GMR 的最大超限只有浮点量级，0.01° 后为 0%。限位实现必须加入数值容差。"
+      },
+      {
+        "id": "limits_chart_block",
+        "type": "chart",
+        "chartId": "chart_limits"
+      },
+      {
+        "id": "contact_heading",
+        "type": "markdown",
+        "body": "## 脚滑必须以有效接触为前提\n\n当前接触判定只有上界，没有地面以下的下界。GMR 看似脚滑最低，却同时具有最高的严重穿地误接触和最低的有效接触覆盖率。脚滑必须附接触覆盖率，并在覆盖不足时标记为不可用。"
+      },
+      {
+        "id": "contact_chart_block",
+        "type": "chart",
+        "chartId": "chart_contact"
+      },
+      {
+        "id": "ground_table_block",
+        "type": "table",
+        "tableId": "table_ground"
+      },
+      {
+        "id": "scale_heading",
+        "type": "markdown",
+        "body": "## 尺度和姿态指标需要固定定义\n\n参考身高不能依赖动作前 30 帧；相同 betas 必须得到相同 scale。Root-relative MPJPE 应排除去根后恒为 0 的 root，否则均值固定低估 6.67%。末端点也应保证参考 wrist 与机器人末端采用同一解剖含义。"
+      },
+      {
+        "id": "scale_table_block",
+        "type": "table",
+        "tableId": "table_scale"
+      },
+      {
+        "id": "verdict_heading",
+        "type": "markdown",
+        "body": "## 正确性判定与修复优先级\n\nP0 问题会直接改变方法优劣结论；P1/P2 会制造误报、固定偏差或不可解释的排名。"
+      },
+      {
+        "id": "issues_table_block",
+        "type": "table",
+        "tableId": "table_issues"
+      },
+      {
+        "id": "method_heading",
+        "type": "markdown",
+        "body": "## 推荐的重定向评估方法\n\n评估应先保证输入配对和动作无关尺度，再分别检查全局根轨迹、14 点去根姿态、末端误差、限位、地面穿透、有效接触脚滑、视觉穿模、物理碰撞和平滑性。汇总时同时给出动作宏平均和帧微平均，计数按秒归一，只有方向明确定义的指标参与排名。"
+      },
+      {
+        "id": "method_table_block",
+        "type": "table",
+        "tableId": "table_method"
+      },
+      {
+        "id": "repro_heading",
+        "type": "markdown",
+        "body": "## 复现与证据链\n\n在 Ubuntu/WSL 中执行：\n\n```bash\ncd /mnt/d/GMR_WORK/GMR\n/home/ubuntu/.venvs/gmr-eval/bin/python evaluation/audit/retargeting_evaluation_correctness_audit.py\n```\n\n可执行 Notebook：evaluation/audit/retargeting_evaluation_correctness_audit.ipynb。Notebook 已从头执行，最终断言为 AUDIT ASSERTIONS: PASS。"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-15T14:54:05.037009+00:00",
+    "status": "ready",
+    "datasets": {
+      "headline": [
+        {
+          "direct_visual_penetration": "100.0%",
+          "direct_contact_proxy": "29.5%",
+          "basic_limit_gt5deg": "100.0%",
+          "gmr_invalid_contact": "63.3%"
+        }
+      ],
+      "collision": [
+        {
+          "motion": "05_04",
+          "frames": 300,
+          "current_contact_proxy_frame_ratio_percent": 49.0,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 51.0
+        },
+        {
+          "motion": "111_23",
+          "frames": 283,
+          "current_contact_proxy_frame_ratio_percent": 22.6148409894,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 19.4346289753
+        },
+        {
+          "motion": "113_20",
+          "frames": 362,
+          "current_contact_proxy_frame_ratio_percent": 0.5524861878,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 0.5524861878
+        },
+        {
+          "motion": "113_21",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 31.8713450292,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 23.9766081871
+        },
+        {
+          "motion": "114_15",
+          "frames": 346,
+          "current_contact_proxy_frame_ratio_percent": 68.4971098266,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 69.0751445087
+        },
+        {
+          "motion": "124_11",
+          "frames": 250,
+          "current_contact_proxy_frame_ratio_percent": 6.8,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 6.4
+        },
+        {
+          "motion": "135_04",
+          "frames": 329,
+          "current_contact_proxy_frame_ratio_percent": 11.8541033435,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 9.726443769
+        },
+        {
+          "motion": "47_01",
+          "frames": 330,
+          "current_contact_proxy_frame_ratio_percent": 57.5757575758,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 49.696969697
+        },
+        {
+          "motion": "76_10",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 16.9590643275,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 16.3742690058
+        }
+      ],
+      "limits": [
+        {
+          "method": "Direct Mapping",
+          "frame_ratio_percent_gt_0p0deg": 44.7181322931,
+          "frame_ratio_percent_gt_0p1deg": 44.4410187673,
+          "frame_ratio_percent_gt_5p0deg": 31.5859457671,
+          "max_excess_deg": 26.4027868147
+        },
+        {
+          "method": "Basic IK",
+          "frame_ratio_percent_gt_0p0deg": 100.0,
+          "frame_ratio_percent_gt_0p1deg": 100.0,
+          "frame_ratio_percent_gt_5p0deg": 100.0,
+          "max_excess_deg": 599.2495966003
+        },
+        {
+          "method": "GMR",
+          "frame_ratio_percent_gt_0p0deg": 0.2072895643,
+          "frame_ratio_percent_gt_0p1deg": 0.0,
+          "frame_ratio_percent_gt_5p0deg": 0.0,
+          "max_excess_deg": 0.0
+        }
+      ],
+      "ground": [
+        {
+          "method": "Direct Mapping",
+          "penetration_frame_ratio_percent_gt_5mm": 42.4807375124,
+          "maximum_ground_penetration_cm": 5.5046744997,
+          "current_contact_sample_ratio_percent": 59.265726722,
+          "valid_contact_sample_ratio_percent": 37.2610358599,
+          "deep_penetration_counted_as_contact_percent": 22.0046908622,
+          "current_sliding_cm_s": 28.7533374078,
+          "valid_contact_sliding_cm_s": 19.3205180101
+        },
+        {
+          "method": "Basic IK",
+          "penetration_frame_ratio_percent_gt_5mm": 81.1786898733,
+          "maximum_ground_penetration_cm": 6.7816846265,
+          "current_contact_sample_ratio_percent": 73.2004161548,
+          "valid_contact_sample_ratio_percent": 23.0853263353,
+          "deep_penetration_counted_as_contact_percent": 50.1150898195,
+          "current_sliding_cm_s": 22.5483419349,
+          "valid_contact_sliding_cm_s": 7.0088209819
+        },
+        {
+          "method": "GMR",
+          "penetration_frame_ratio_percent_gt_5mm": 92.8563444471,
+          "maximum_ground_penetration_cm": 6.970761055,
+          "current_contact_sample_ratio_percent": 74.284747163,
+          "valid_contact_sample_ratio_percent": 11.0290498641,
+          "deep_penetration_counted_as_contact_percent": 63.255697299,
+          "current_sliding_cm_s": 15.4824572933,
+          "valid_contact_sliding_cm_s": 3.1553357957
+        }
+      ],
+      "scale": [
+        {
+          "motion": "05_04",
+          "gender": "female",
+          "beta0": 0.8946159482,
+          "current_pose_dependent_reference_height_m": 1.6049892902,
+          "neutral_joint_height_m": 1.6323244572,
+          "current_scale": 0.766898421,
+          "neutral_joint_scale": 0.7540558172,
+          "current_vs_neutral_joint_scale_difference_percent": 1.7031370301
+        },
+        {
+          "motion": "111_23",
+          "gender": "male",
+          "beta0": 0.9213041067,
+          "current_pose_dependent_reference_height_m": 1.6002509594,
+          "neutral_joint_height_m": 1.6354813576,
+          "current_scale": 0.7691692014,
+          "neutral_joint_scale": 0.7526002951,
+          "current_vs_neutral_joint_scale_difference_percent": 2.2015545731
+        },
+        {
+          "motion": "113_20",
+          "gender": "male",
+          "beta0": 0.9580636621,
+          "current_pose_dependent_reference_height_m": 1.6169724464,
+          "neutral_joint_height_m": 1.6300462484,
+          "current_scale": 0.7612150443,
+          "neutral_joint_scale": 0.7551097115,
+          "current_vs_neutral_joint_scale_difference_percent": 0.808535855
+        },
+        {
+          "motion": "113_21",
+          "gender": "male",
+          "beta0": 0.9580636621,
+          "current_pose_dependent_reference_height_m": 1.6032022238,
+          "neutral_joint_height_m": 1.6300462484,
+          "current_scale": 0.7677532717,
+          "neutral_joint_scale": 0.7551097115,
+          "current_vs_neutral_joint_scale_difference_percent": 1.6744004131
+        },
+        {
+          "motion": "114_15",
+          "gender": "female",
+          "beta0": 0.1225533336,
+          "current_pose_dependent_reference_height_m": 1.5278220177,
+          "neutral_joint_height_m": 1.5656049252,
+          "current_scale": 0.8056329456,
+          "neutral_joint_scale": 0.7861905214,
+          "current_vs_neutral_joint_scale_difference_percent": 2.472991425
+        },
+        {
+          "motion": "124_11",
+          "gender": "male",
+          "beta0": -0.3652102649,
+          "current_pose_dependent_reference_height_m": 1.6810469627,
+          "neutral_joint_height_m": 1.7099752426,
+          "current_scale": 0.7322006938,
+          "neutral_joint_scale": 0.7198137855,
+          "current_vs_neutral_joint_scale_difference_percent": 1.7208490017
+        },
+        {
+          "motion": "135_04",
+          "gender": "male",
+          "beta0": -0.5557806492,
+          "current_pose_dependent_reference_height_m": 1.6315760612,
+          "neutral_joint_height_m": 1.7319322824,
+          "current_scale": 0.7544016989,
+          "neutral_joint_scale": 0.7106881515,
+          "current_vs_neutral_joint_scale_difference_percent": 6.1508760506
+        },
+        {
+          "motion": "47_01",
+          "gender": "male",
+          "beta0": -0.447922945,
+          "current_pose_dependent_reference_height_m": 1.6565506458,
+          "neutral_joint_height_m": 1.7311075926,
+          "current_scale": 0.7430281444,
+          "neutral_joint_scale": 0.7110267194,
+          "current_vs_neutral_joint_scale_difference_percent": 4.5007345198
+        },
+        {
+          "motion": "76_10",
+          "gender": "female",
+          "beta0": -0.9491209388,
+          "current_pose_dependent_reference_height_m": 1.4594177008,
+          "neutral_joint_height_m": 1.4761734009,
+          "current_scale": 0.8433937397,
+          "neutral_joint_scale": 0.833820574,
+          "current_vs_neutral_joint_scale_difference_percent": 1.1481085986
+        }
+      ],
+      "issues": [
+        {
+          "priority": "P0",
+          "area": "视觉穿模/自碰撞",
+          "verdict": "指标错配",
+          "evidence": "Direct 视觉网格 100%，contact 代理仅 29.5%；35 个视觉专用几何体不参与 contact",
+          "action": "拆分视觉网格穿模与物理碰撞代理指标"
+        },
+        {
+          "priority": "P0",
+          "area": "脚滑",
+          "verdict": "不可用于排名",
+          "evidence": "严重穿地仍计为接触：Direct 22.0%、Basic 50.1%、GMR 63.3%",
+          "action": "增加 -5 mm 接触下界并显示有效接触覆盖率"
+        },
+        {
+          "priority": "P1",
+          "area": "关节限位",
+          "verdict": "零容差误报",
+          "evidence": "GMR 0° 容差为 0.207%，0.01° 后为 0%；Basic 在 5° 后仍为 100%",
+          "action": "使用 max(1e-6 rad, 0.01°) 容差"
+        },
+        {
+          "priority": "P1",
+          "area": "尺度归一化",
+          "verdict": "姿态依赖",
+          "evidence": "相同 betas 的 113_20 与 113_21 得到不同 scale",
+          "action": "使用 SMPL-X 零姿态关节或顶点身高"
+        },
+        {
+          "priority": "P2",
+          "area": "Root-relative MPJPE",
+          "verdict": "固定低估",
+          "evidence": "15 点均值包含去根后恒为 0 的 pelvis/root，低估 6.67%",
+          "action": "主指标改为 14 个非 root 关键点"
+        },
+        {
+          "priority": "P2",
+          "area": "碰撞事件与排名",
+          "verdict": "口径含糊",
+          "evidence": "统计体对 onset 而非碰撞帧，未按秒归一；数值列统一按越小越好排名",
+          "action": "同时报告帧比例和事件/秒，只对方向明确的指标排名"
+        }
+      ],
+      "method_rules": [
+        {
+          "stage": 1,
+          "step": "配对与时间轴",
+          "requirement": "9 个动作四份数据一一配对；共同时间区间；四元数 Slerp",
+          "acceptance": "无静默丢帧、缺失或 NaN"
+        },
+        {
+          "stage": 2,
+          "step": "尺度与姿态",
+          "requirement": "SMPL-X 零姿态尺度；MPJPE 排除 root；末端点解剖含义一致",
+          "acceptance": "相同 betas 在不同动作中 scale 完全相同"
+        },
+        {
+          "stage": 3,
+          "step": "限位与地面",
+          "requirement": "限位使用数值容差；穿地同时报告比例、P95 和最大值",
+          "acceptance": "GMR 浮点误报清零，Basic 大幅越限仍保留"
+        },
+        {
+          "stage": 4,
+          "step": "接触与脚滑",
+          "requirement": "接触具有上下界并结合竖直速度；脚滑附有效接触覆盖率",
+          "acceptance": "严重穿地计入接触比例为 0"
+        },
+        {
+          "stage": 5,
+          "step": "穿模与碰撞",
+          "requirement": "视觉网格、非局部视觉相交、物理代理 contact 分开报告",
+          "acceptance": "Direct 视觉非父子相交率复现 100%，手部覆盖状态可见"
+        },
+        {
+          "stage": 6,
+          "step": "汇总与排名",
+          "requirement": "宏平均与微平均并列；计数按秒；仅方向明确的指标排名",
+          "acceptance": "报告包含分布、覆盖率和不确定性，不再给出误导性总排名"
+        }
+      ],
+      "collision_chart": [
+        {
+          "motion": "05_04",
+          "frames": 300,
+          "current_contact_proxy_frame_ratio_percent": 49.0,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 51.0,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 49.0
+        },
+        {
+          "motion": "05_04",
+          "frames": 300,
+          "current_contact_proxy_frame_ratio_percent": 49.0,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 51.0,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "05_04",
+          "frames": 300,
+          "current_contact_proxy_frame_ratio_percent": 49.0,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 51.0,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 51.0
+        },
+        {
+          "motion": "111_23",
+          "frames": 283,
+          "current_contact_proxy_frame_ratio_percent": 22.6148409894,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 19.4346289753,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 22.6148409894
+        },
+        {
+          "motion": "111_23",
+          "frames": 283,
+          "current_contact_proxy_frame_ratio_percent": 22.6148409894,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 19.4346289753,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "111_23",
+          "frames": 283,
+          "current_contact_proxy_frame_ratio_percent": 22.6148409894,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 19.4346289753,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 19.4346289753
+        },
+        {
+          "motion": "113_20",
+          "frames": 362,
+          "current_contact_proxy_frame_ratio_percent": 0.5524861878,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 0.5524861878,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 0.5524861878
+        },
+        {
+          "motion": "113_20",
+          "frames": 362,
+          "current_contact_proxy_frame_ratio_percent": 0.5524861878,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 0.5524861878,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "113_20",
+          "frames": 362,
+          "current_contact_proxy_frame_ratio_percent": 0.5524861878,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 0.5524861878,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 0.5524861878
+        },
+        {
+          "motion": "113_21",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 31.8713450292,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 23.9766081871,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 31.8713450292
+        },
+        {
+          "motion": "113_21",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 31.8713450292,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 23.9766081871,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "113_21",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 31.8713450292,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 23.9766081871,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 23.9766081871
+        },
+        {
+          "motion": "114_15",
+          "frames": 346,
+          "current_contact_proxy_frame_ratio_percent": 68.4971098266,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 69.0751445087,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 68.4971098266
+        },
+        {
+          "motion": "114_15",
+          "frames": 346,
+          "current_contact_proxy_frame_ratio_percent": 68.4971098266,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 69.0751445087,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "114_15",
+          "frames": 346,
+          "current_contact_proxy_frame_ratio_percent": 68.4971098266,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 69.0751445087,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 69.0751445087
+        },
+        {
+          "motion": "124_11",
+          "frames": 250,
+          "current_contact_proxy_frame_ratio_percent": 6.8,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 6.4,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 6.8
+        },
+        {
+          "motion": "124_11",
+          "frames": 250,
+          "current_contact_proxy_frame_ratio_percent": 6.8,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 6.4,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "124_11",
+          "frames": 250,
+          "current_contact_proxy_frame_ratio_percent": 6.8,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 6.4,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 6.4
+        },
+        {
+          "motion": "135_04",
+          "frames": 329,
+          "current_contact_proxy_frame_ratio_percent": 11.8541033435,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 9.726443769,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 11.8541033435
+        },
+        {
+          "motion": "135_04",
+          "frames": 329,
+          "current_contact_proxy_frame_ratio_percent": 11.8541033435,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 9.726443769,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "135_04",
+          "frames": 329,
+          "current_contact_proxy_frame_ratio_percent": 11.8541033435,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 9.726443769,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 9.726443769
+        },
+        {
+          "motion": "47_01",
+          "frames": 330,
+          "current_contact_proxy_frame_ratio_percent": 57.5757575758,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 49.696969697,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 57.5757575758
+        },
+        {
+          "motion": "47_01",
+          "frames": 330,
+          "current_contact_proxy_frame_ratio_percent": 57.5757575758,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 49.696969697,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "47_01",
+          "frames": 330,
+          "current_contact_proxy_frame_ratio_percent": 57.5757575758,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 49.696969697,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 49.696969697
+        },
+        {
+          "motion": "76_10",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 16.9590643275,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 16.3742690058,
+          "series_label": "当前 contact 代理",
+          "frame_ratio_percent": 16.9590643275
+        },
+        {
+          "motion": "76_10",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 16.9590643275,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 16.3742690058,
+          "series_label": "视觉网格非父子",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "motion": "76_10",
+          "frames": 342,
+          "current_contact_proxy_frame_ratio_percent": 16.9590643275,
+          "visual_mesh_nonparent_gt1mm_frame_ratio_percent": 100.0,
+          "visual_mesh_nonlocal_gt1mm_frame_ratio_percent": 16.3742690058,
+          "series_label": "视觉网格非局部",
+          "frame_ratio_percent": 16.3742690058
+        }
+      ],
+      "limits_chart": [
+        {
+          "method": "Direct Mapping",
+          "frame_ratio_percent_gt_0p0deg": 44.7181322931,
+          "frame_ratio_percent_gt_0p1deg": 44.4410187673,
+          "frame_ratio_percent_gt_5p0deg": 31.5859457671,
+          "max_excess_deg": 26.4027868147,
+          "series_label": "阈值 0°",
+          "frame_ratio_percent": 44.7181322931
+        },
+        {
+          "method": "Direct Mapping",
+          "frame_ratio_percent_gt_0p0deg": 44.7181322931,
+          "frame_ratio_percent_gt_0p1deg": 44.4410187673,
+          "frame_ratio_percent_gt_5p0deg": 31.5859457671,
+          "max_excess_deg": 26.4027868147,
+          "series_label": "阈值 0.1°",
+          "frame_ratio_percent": 44.4410187673
+        },
+        {
+          "method": "Direct Mapping",
+          "frame_ratio_percent_gt_0p0deg": 44.7181322931,
+          "frame_ratio_percent_gt_0p1deg": 44.4410187673,
+          "frame_ratio_percent_gt_5p0deg": 31.5859457671,
+          "max_excess_deg": 26.4027868147,
+          "series_label": "阈值 5°",
+          "frame_ratio_percent": 31.5859457671
+        },
+        {
+          "method": "Basic IK",
+          "frame_ratio_percent_gt_0p0deg": 100.0,
+          "frame_ratio_percent_gt_0p1deg": 100.0,
+          "frame_ratio_percent_gt_5p0deg": 100.0,
+          "max_excess_deg": 599.2495966003,
+          "series_label": "阈值 0°",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "method": "Basic IK",
+          "frame_ratio_percent_gt_0p0deg": 100.0,
+          "frame_ratio_percent_gt_0p1deg": 100.0,
+          "frame_ratio_percent_gt_5p0deg": 100.0,
+          "max_excess_deg": 599.2495966003,
+          "series_label": "阈值 0.1°",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "method": "Basic IK",
+          "frame_ratio_percent_gt_0p0deg": 100.0,
+          "frame_ratio_percent_gt_0p1deg": 100.0,
+          "frame_ratio_percent_gt_5p0deg": 100.0,
+          "max_excess_deg": 599.2495966003,
+          "series_label": "阈值 5°",
+          "frame_ratio_percent": 100.0
+        },
+        {
+          "method": "GMR",
+          "frame_ratio_percent_gt_0p0deg": 0.2072895643,
+          "frame_ratio_percent_gt_0p1deg": 0.0,
+          "frame_ratio_percent_gt_5p0deg": 0.0,
+          "max_excess_deg": 0.0,
+          "series_label": "阈值 0°",
+          "frame_ratio_percent": 0.2072895643
+        },
+        {
+          "method": "GMR",
+          "frame_ratio_percent_gt_0p0deg": 0.2072895643,
+          "frame_ratio_percent_gt_0p1deg": 0.0,
+          "frame_ratio_percent_gt_5p0deg": 0.0,
+          "max_excess_deg": 0.0,
+          "series_label": "阈值 0.1°",
+          "frame_ratio_percent": 0.0
+        },
+        {
+          "method": "GMR",
+          "frame_ratio_percent_gt_0p0deg": 0.2072895643,
+          "frame_ratio_percent_gt_0p1deg": 0.0,
+          "frame_ratio_percent_gt_5p0deg": 0.0,
+          "max_excess_deg": 0.0,
+          "series_label": "阈值 5°",
+          "frame_ratio_percent": 0.0
+        }
+      ],
+      "ground_chart": [
+        {
+          "method": "Direct Mapping",
+          "penetration_frame_ratio_percent_gt_5mm": 42.4807375124,
+          "maximum_ground_penetration_cm": 5.5046744997,
+          "current_contact_sample_ratio_percent": 59.265726722,
+          "valid_contact_sample_ratio_percent": 37.2610358599,
+          "deep_penetration_counted_as_contact_percent": 22.0046908622,
+          "current_sliding_cm_s": 28.7533374078,
+          "valid_contact_sliding_cm_s": 19.3205180101,
+          "series_label": "穿地 >5 mm 帧比例",
+          "sample_or_frame_ratio_percent": 42.4807375124
+        },
+        {
+          "method": "Direct Mapping",
+          "penetration_frame_ratio_percent_gt_5mm": 42.4807375124,
+          "maximum_ground_penetration_cm": 5.5046744997,
+          "current_contact_sample_ratio_percent": 59.265726722,
+          "valid_contact_sample_ratio_percent": 37.2610358599,
+          "deep_penetration_counted_as_contact_percent": 22.0046908622,
+          "current_sliding_cm_s": 28.7533374078,
+          "valid_contact_sliding_cm_s": 19.3205180101,
+          "series_label": "严重穿地却计为接触",
+          "sample_or_frame_ratio_percent": 22.0046908622
+        },
+        {
+          "method": "Direct Mapping",
+          "penetration_frame_ratio_percent_gt_5mm": 42.4807375124,
+          "maximum_ground_penetration_cm": 5.5046744997,
+          "current_contact_sample_ratio_percent": 59.265726722,
+          "valid_contact_sample_ratio_percent": 37.2610358599,
+          "deep_penetration_counted_as_contact_percent": 22.0046908622,
+          "current_sliding_cm_s": 28.7533374078,
+          "valid_contact_sliding_cm_s": 19.3205180101,
+          "series_label": "有效接触覆盖率",
+          "sample_or_frame_ratio_percent": 37.2610358599
+        },
+        {
+          "method": "Basic IK",
+          "penetration_frame_ratio_percent_gt_5mm": 81.1786898733,
+          "maximum_ground_penetration_cm": 6.7816846265,
+          "current_contact_sample_ratio_percent": 73.2004161548,
+          "valid_contact_sample_ratio_percent": 23.0853263353,
+          "deep_penetration_counted_as_contact_percent": 50.1150898195,
+          "current_sliding_cm_s": 22.5483419349,
+          "valid_contact_sliding_cm_s": 7.0088209819,
+          "series_label": "穿地 >5 mm 帧比例",
+          "sample_or_frame_ratio_percent": 81.1786898733
+        },
+        {
+          "method": "Basic IK",
+          "penetration_frame_ratio_percent_gt_5mm": 81.1786898733,
+          "maximum_ground_penetration_cm": 6.7816846265,
+          "current_contact_sample_ratio_percent": 73.2004161548,
+          "valid_contact_sample_ratio_percent": 23.0853263353,
+          "deep_penetration_counted_as_contact_percent": 50.1150898195,
+          "current_sliding_cm_s": 22.5483419349,
+          "valid_contact_sliding_cm_s": 7.0088209819,
+          "series_label": "严重穿地却计为接触",
+          "sample_or_frame_ratio_percent": 50.1150898195
+        },
+        {
+          "method": "Basic IK",
+          "penetration_frame_ratio_percent_gt_5mm": 81.1786898733,
+          "maximum_ground_penetration_cm": 6.7816846265,
+          "current_contact_sample_ratio_percent": 73.2004161548,
+          "valid_contact_sample_ratio_percent": 23.0853263353,
+          "deep_penetration_counted_as_contact_percent": 50.1150898195,
+          "current_sliding_cm_s": 22.5483419349,
+          "valid_contact_sliding_cm_s": 7.0088209819,
+          "series_label": "有效接触覆盖率",
+          "sample_or_frame_ratio_percent": 23.0853263353
+        },
+        {
+          "method": "GMR",
+          "penetration_frame_ratio_percent_gt_5mm": 92.8563444471,
+          "maximum_ground_penetration_cm": 6.970761055,
+          "current_contact_sample_ratio_percent": 74.284747163,
+          "valid_contact_sample_ratio_percent": 11.0290498641,
+          "deep_penetration_counted_as_contact_percent": 63.255697299,
+          "current_sliding_cm_s": 15.4824572933,
+          "valid_contact_sliding_cm_s": 3.1553357957,
+          "series_label": "穿地 >5 mm 帧比例",
+          "sample_or_frame_ratio_percent": 92.8563444471
+        },
+        {
+          "method": "GMR",
+          "penetration_frame_ratio_percent_gt_5mm": 92.8563444471,
+          "maximum_ground_penetration_cm": 6.970761055,
+          "current_contact_sample_ratio_percent": 74.284747163,
+          "valid_contact_sample_ratio_percent": 11.0290498641,
+          "deep_penetration_counted_as_contact_percent": 63.255697299,
+          "current_sliding_cm_s": 15.4824572933,
+          "valid_contact_sliding_cm_s": 3.1553357957,
+          "series_label": "严重穿地却计为接触",
+          "sample_or_frame_ratio_percent": 63.255697299
+        },
+        {
+          "method": "GMR",
+          "penetration_frame_ratio_percent_gt_5mm": 92.8563444471,
+          "maximum_ground_penetration_cm": 6.970761055,
+          "current_contact_sample_ratio_percent": 74.284747163,
+          "valid_contact_sample_ratio_percent": 11.0290498641,
+          "deep_penetration_counted_as_contact_percent": 63.255697299,
+          "current_sliding_cm_s": 15.4824572933,
+          "valid_contact_sliding_cm_s": 3.1553357957,
+          "series_label": "有效接触覆盖率",
+          "sample_or_frame_ratio_percent": 11.0290498641
+        }
+      ]
+    },
+    "accessIssues": []
+  },
+  "sources": [
+    {
+      "id": "src_collision",
+      "label": "Direct visual/collision coverage audit",
+      "path": "outputs/retargeting_evaluation_correctness_audit/direct_collision_by_motion.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/direct_collision_by_motion.csv', header = true);",
+        "description": "MuJoCo signed-distance enumeration over visual geoms and independent contact-proxy counting.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "outputs/retargeting_evaluation_correctness_audit/direct_collision_by_motion.csv"
+        ],
+        "filters": [
+          "9 paired motion IDs",
+          "Direct Mapping, Basic IK, and GMR raw PKL files",
+          "Ubuntu/WSL2 independent recomputation"
+        ],
+        "metric_definitions": [
+          "Visual non-parent rate: frames with visual mesh signed distance < -1 mm after excluding direct parent-child bodies.",
+          "Visual non-local rate: additionally excludes graph distance <=2 and neutral-pose overlaps.",
+          "Current proxy rate: frames with production-style MuJoCo data.contact self-collision."
+        ]
+      }
+    },
+    {
+      "id": "src_limits",
+      "label": "Joint-limit tolerance audit",
+      "path": "outputs/retargeting_evaluation_correctness_audit/joint_limit_summary.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/joint_limit_summary.csv', header = true);",
+        "description": "Raw qpos compared independently with XML joint ranges over six tolerance levels.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "outputs/retargeting_evaluation_correctness_audit/joint_limit_summary.csv"
+        ],
+        "filters": [
+          "9 paired motion IDs",
+          "Direct Mapping, Basic IK, and GMR raw PKL files",
+          "Ubuntu/WSL2 independent recomputation"
+        ],
+        "metric_definitions": [
+          "Frame violation rate: percent of frames with any joint excess above the stated tolerance.",
+          "Excess: max(lower-q, q-upper, 0)."
+        ]
+      }
+    },
+    {
+      "id": "src_ground",
+      "label": "Ground/contact/sliding audit",
+      "path": "outputs/retargeting_evaluation_correctness_audit/ground_and_sliding_summary.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/ground_and_sliding_summary.csv', header = true);",
+        "description": "Foot support-sphere heights, MuJoCo floor contact, and contact-mask sensitivity recomputed from raw qpos.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "outputs/retargeting_evaluation_correctness_audit/ground_and_sliding_summary.csv"
+        ],
+        "filters": [
+          "9 paired motion IDs",
+          "Direct Mapping, Basic IK, and GMR raw PKL files",
+          "Ubuntu/WSL2 independent recomputation"
+        ],
+        "metric_definitions": [
+          "Deep invalid contact: foot sample below ground by more than 5 mm while current heuristic labels it contact.",
+          "Valid contact: -5 mm <= foot support height <= 40 mm and |vertical speed| <= 0.15 m/s.",
+          "Sliding cm/s: horizontal displacement during adjacent contact samples divided by total motion duration."
+        ]
+      }
+    },
+    {
+      "id": "src_scale",
+      "label": "SMPL-X scale audit",
+      "path": "outputs/retargeting_evaluation_correctness_audit/scale_audit.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/scale_audit.csv', header = true);",
+        "description": "Current pose-dependent heights compared with zero-pose SMPL-X joint and vertex extents.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "outputs/retargeting_evaluation_correctness_audit/scale_audit.csv"
+        ],
+        "filters": [
+          "9 paired motion IDs",
+          "Direct Mapping, Basic IK, and GMR raw PKL files",
+          "Ubuntu/WSL2 independent recomputation"
+        ],
+        "metric_definitions": [
+          "Current scale: robot keypoint height / first-30-frame posed reference height.",
+          "Neutral joint scale: robot keypoint height / zero-pose SMPL-X joint height."
+        ]
+      }
+    },
+    {
+      "id": "src_notebook",
+      "label": "Executed Ubuntu audit notebook",
+      "path": "evaluation/audit/retargeting_evaluation_correctness_audit.ipynb",
+      "query": {
+        "engine": "Python 3.10 / Ubuntu WSL2",
+        "language": "python",
+        "description": "Executed notebook containing reviewed intermediate tables, figures, and assertions.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "evaluation/audit/retargeting_evaluation_correctness_audit.ipynb"
+        ],
+        "filters": [
+          "9 paired motion IDs",
+          "Direct Mapping, Basic IK, and GMR raw PKL files",
+          "Ubuntu/WSL2 independent recomputation"
+        ],
+        "metric_definitions": [
+          "Final notebook assertion: AUDIT ASSERTIONS: PASS."
+        ]
+      }
+    },
+    {
+      "id": "src_issues",
+      "label": "Correctness issue classification",
+      "path": "outputs/retargeting_evaluation_correctness_audit/report_issues.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/report_issues.csv', header = true);",
+        "description": "Severity, evidence, and recommended fixes synthesized from the executed audit notebook.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "outputs/retargeting_evaluation_correctness_audit/report_issues.csv"
+        ],
+        "filters": [
+          "Reviewed Ubuntu audit snapshot"
+        ],
+        "metric_definitions": [
+          "Rows are the reviewed values stored in the cited CSV snapshot."
+        ]
+      }
+    },
+    {
+      "id": "src_method",
+      "label": "Recommended evaluation workflow",
+      "path": "outputs/retargeting_evaluation_correctness_audit/recommended_evaluation_method.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "sql": "SELECT * FROM read_csv_auto('outputs/retargeting_evaluation_correctness_audit/recommended_evaluation_method.csv', header = true);",
+        "description": "Acceptance-oriented workflow derived from the audited metric definitions.",
+        "executed_at": "2026-07-15",
+        "tables_used": [
+          "outputs/retargeting_evaluation_correctness_audit/recommended_evaluation_method.csv"
+        ],
+        "filters": [
+          "Reviewed Ubuntu audit snapshot"
+        ],
+        "metric_definitions": [
+          "Rows are the reviewed values stored in the cited CSV snapshot."
+        ]
+      }
+    }
+  ]
+}

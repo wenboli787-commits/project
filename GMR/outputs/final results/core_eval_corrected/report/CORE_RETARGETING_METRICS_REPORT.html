@@ -1,0 +1,38 @@
+<html><head><meta charset='utf-8'><title>Core Retargeting Metrics Report</title><style>body{font-family:Arial,sans-serif;margin:32px;line-height:1.45}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:4px 8px}th{background:#f2f2f2}</style></head><body><h1>Core Retargeting Metrics Report</h1>
+<p>Best method by overall score: **GMR**</p>
+<h2>Method Summary</h2>
+<h2>Per Motion Results</h2>
+<h2>Missing Files</h2>
+<p>No missing files.</p>
+<h2>Warnings</h2>
+<ul>
+<li>05_04: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>111_23: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>113_20: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>113_21: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>114_15: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>124_11: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>135_04: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>47_01: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+<li>76_10: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.</li>
+</ul>
+<h2>Metric Interpretation</h2>
+<ul>
+<li>`kinematic_success_rate`: qpos shape/finite values, completion, joint limits, foot penetration, self-collision, base height, and body tilt. It is not dynamic tracking success.</li>
+<li>`mpjpe_mean`: scale-normalized, root/yaw-aligned semantic keypoint error. Lower is better.</li>
+<li>`end_effector_error_mean`: mean error for left/right hands, left/right feet, and head. Lower is better.</li>
+<li>`joint_limit_violation_rate`: fraction of limited MuJoCo joints outside XML ranges. Lower is better.</li>
+<li>`foot_penetration_mean`: mean depth below ground based on MuJoCo foot geom lowest points when qpos/XML are available. Lower is better.</li>
+<li>`self_collision_frames`: frames with non-ground, non-adjacent MuJoCo contact pairs. Lower is better.</li>
+<li>`foot_sliding_total`: horizontal sliding while feet are near ground. Lower is better.</li>
+<li>`root_height_error_against_reference`: root height difference against reference keypoints when available. Lower is better.</li>
+<li>`joint_jerk_mean`: mean jerk from qpos joint coordinates. Lower is smoother.</li>
+<li>`overall_score`: weighted score from available normalized metrics only; unavailable metrics are not forced to zero.</li>
+</ul>
+<h2>Important Fairness Notes</h2>
+<ul>
+<li>The tool does not compare human joint angles directly with robot qpos.</li>
+<li>Similarity metrics use semantic keypoint trajectories after time alignment, root alignment, yaw alignment, and scale normalization.</li>
+<li>If original AMASS/SMPL NPZ files do not contain joints/keypoints, shared `source_body_pos` from PKL files is used as the human reference when available.</li>
+<li>Robot feasibility metrics are computed from robot qpos/body/foot/root data and the Unitree G1 MuJoCo XML.</li>
+</ul></body></html>

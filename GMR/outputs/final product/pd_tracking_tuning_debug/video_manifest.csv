@@ -1,0 +1,10 @@
+motion_name,video_path,success,failure_reason
+08_01_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2492 < 0.25; duration completed ratio too low: 0.6324 < 0.9
+08_04_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2496 < 0.25; duration completed ratio too low: 0.5425 < 0.9
+08_05_unitree_g1_gmr.pkl,,True,
+09_01_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2494 < 0.25; duration completed ratio too low: 0.5950 < 0.9
+09_12_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2495 < 0.25; duration completed ratio too low: 0.7725 < 0.9
+10_01_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2497 < 0.25; duration completed ratio too low: 0.6206 < 0.9
+13_01_unitree_g1_gmr.pkl,,True,
+13_11_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2494 < 0.25
+13_17_unitree_g1_gmr.pkl,,False,root height below threshold: 0.2497 < 0.25; duration completed ratio too low: 0.6900 < 0.9

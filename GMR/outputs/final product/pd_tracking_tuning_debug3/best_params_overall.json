@@ -1,0 +1,15 @@
+{
+  "kp": 80.0,
+  "kd": 3.0,
+  "torque_clip": 150.0,
+  "time_scale": 1.5,
+  "smooth_window": 5,
+  "target_blend": 0.8,
+  "root_height_offset": 0.05,
+  "extra_joint_damping": 0.3,
+  "ignore_actuator_ctrlrange": false,
+  "mode": "pd",
+  "root_mode": "free",
+  "success_rate": 0.0,
+  "mean_score": -3133.5704208747848
+}

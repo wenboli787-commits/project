@@ -1,0 +1,32 @@
+{
+  "status": "generated",
+  "evaluation_dir": "/mnt/d/GMR_WORK/GMR/outputs/retargeting_comparison_20260720",
+  "output_dir": "/mnt/d/GMR_WORK/GMR/outputs/retargeting_comparison_20260720/comparison_report",
+  "motion_ids": [
+    "05_04",
+    "111_23",
+    "113_20",
+    "113_21",
+    "114_15",
+    "124_11",
+    "135_04",
+    "47_01",
+    "76_10"
+  ],
+  "methods": [
+    "Direct Mapping",
+    "Basic IK",
+    "GMR"
+  ],
+  "paired_rows": 27,
+  "generated_at": "2026-07-20T16:02:22Z",
+  "artifacts": {
+    "average_table": "tables/average_main_metrics.csv",
+    "per_motion_table": "tables/per_motion_main_metrics.csv",
+    "normalized_profile": "tables/average_normalized_profile.csv",
+    "normalized_line_chart": "figures/average_normalized_profile_line.png",
+    "raw_average_line_chart": "figures/average_raw_small_multiples_line.png",
+    "markdown_report": "主要比较结果.md",
+    "canonical_report": "artifact.json"
+  }
+}

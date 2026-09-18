@@ -1,0 +1,2 @@
+motion_name,source_motion_pkl,output_pkl,video_path,video_error,success,failure_reason
+08_05_unitree_g1_gmr.pkl,outputs/final product/pkl/08_05_unitree_g1_gmr.pkl,outputs/final product/pd_tracking_tuning_refine_20260701/trial_pkls/stage3_free_00254_08_05_unitree_g1_gmr/08_05_unitree_g1_gmr_pd_tracking.pkl,,,False,root height below threshold: 0.2494 < 0.25; duration completed ratio too low: 0.2243 < 0.9

@@ -1,0 +1,4 @@
+method,expected_count,success_count,failure_count,missing_count,kinematic_success_rate
+Direct Mapping,9,0,9,0,0.0
+Basic IK,9,0,9,0,0.0
+GMR,9,4,5,0,0.4444444444444444

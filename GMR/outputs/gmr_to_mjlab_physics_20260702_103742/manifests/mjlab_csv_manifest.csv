@@ -1,0 +1,10 @@
+motion_name,source_pkl,output_csv,status
+08_01,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/08_01_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/08_01_gmr.csv,ok
+08_04,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/08_04_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/08_04_gmr.csv,ok
+08_05,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/08_05_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/08_05_gmr.csv,ok
+09_01,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/09_01_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/09_01_gmr.csv,ok
+09_12,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/09_12_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/09_12_gmr.csv,ok
+10_01,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/10_01_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/10_01_gmr.csv,ok
+13_01,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/13_01_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/13_01_gmr.csv,ok
+13_11,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/13_11_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/13_11_gmr.csv,ok
+13_17,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/gmr/pkl/13_17_poses_unitree_g1_gmr.pkl,/mnt/d/GMR_WORK/GMR/outputs/gmr_to_mjlab_physics_20260702_103742/mjlab/csv/13_17_gmr.csv,ok

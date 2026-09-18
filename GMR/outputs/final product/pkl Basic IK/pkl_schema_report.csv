@@ -1,0 +1,11 @@
+pkl_file,ok,schema_version,method,success,num_frames,nq,nv,qpos_shape,root_pos_shape,root_quat_shape,fps,dt,warnings_count,errors
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/08_01_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,70,36,35,70x36,70x3,70x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/08_04_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,121,36,35,121x36,121x3,121x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/08_05_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,75,36,35,75x36,75x3,75x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/09_01_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,37,36,35,37x36,37x3,37x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/09_12_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,480,36,35,480x36,480x3,480x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/10_01_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,201,36,35,201x36,201x3,201x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/13_01_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,579,36,35,579x36,579x3,579x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/13_11_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,104,36,35,104x36,104x3,104x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/13_17_poses_unitree_g1_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,1210,36,35,1210x36,1210x3,1210x4,30.0,0.03333333333333333,0,
+/mnt/d/GMR_WORK/GMR/outputs/final product/pkl Basic IK/smoke_follow_camera_basic_ik_pure.pkl,True,retarget_eval_v1,basic_ik,True,2,36,35,2x36,2x3,2x4,30.0,0.03333333333333333,0,

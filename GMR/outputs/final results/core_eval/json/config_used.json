@@ -1,0 +1,28 @@
+{
+  "original_root": "/mnt/d/GMR_WORK/use mode",
+  "direct_pkl_root": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl direct",
+  "ik_pkl_root": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl Basic IK",
+  "gmr_pkl_root": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl gmr",
+  "robot_xml": "/mnt/d/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml",
+  "output_dir": "/mnt/d/GMR_WORK/GMR/outputs/final results/core_eval",
+  "target_fps": 30.0,
+  "ground_height": 0.0,
+  "contact_threshold": 0.04,
+  "min_completion_ratio": 0.95,
+  "min_frames": 10,
+  "fall_root_height_threshold": 0.45,
+  "max_body_tilt_deg": 60.0,
+  "max_foot_penetration": 0.08,
+  "frame_jump_threshold_m": 0.35,
+  "qpos_joint_start": 7,
+  "score_weights": {
+    "success_rate_score": 0.2,
+    "mpjpe_score": 0.15,
+    "end_effector_score": 0.15,
+    "joint_limit_score": 0.15,
+    "foot_penetration_score": 0.1,
+    "foot_sliding_score": 0.1,
+    "stability_score": 0.1,
+    "smoothness_score": 0.05
+  }
+}

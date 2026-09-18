@@ -1,0 +1,30 @@
+{
+  "runtime": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "numpy": "2.2.6",
+    "mujoco": "3.10.0",
+    "torch": "2.13.0+cpu"
+  },
+  "collision_metadata": {
+    "visual_candidate_geom_pairs": 591,
+    "neutral_visual_body_pairs_penetrating_gt_1mm": 26,
+    "visual_only_geom_count": 35,
+    "rubber_hand_has_collision_geom": {
+      "left": false,
+      "right": false
+    }
+  },
+  "headline": {
+    "direct_visual_nonparent_penetration_macro_percent": 100.0,
+    "direct_current_contact_proxy_macro_percent": 29.524967475531323,
+    "direct_visual_nonlocal_macro_percent": 27.359616703414442,
+    "gmr_limit_ratio_tol0_percent": 0.20728956429723067,
+    "gmr_limit_ratio_tol0p1deg_percent": 0.0,
+    "invalid_contact_percent_by_method": {
+      "Direct Mapping": 22.00469086215589,
+      "Basic IK": 50.11508981952862,
+      "GMR": 63.25569729896941
+    }
+  }
+}

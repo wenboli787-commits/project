@@ -1,0 +1,25 @@
+metric_order,metric,method,motion_wins,motion_count,reliability
+0,Root path error,Direct Mapping,4,9,primary
+0,Root path error,Basic IK,3,9,primary
+0,Root path error,GMR,2,9,primary
+1,Root-relative MPJPE,Direct Mapping,0,9,primary
+1,Root-relative MPJPE,Basic IK,9,9,primary
+1,Root-relative MPJPE,GMR,0,9,primary
+2,End-effector error,Direct Mapping,0,9,primary
+2,End-effector error,Basic IK,9,9,primary
+2,End-effector error,GMR,0,9,primary
+3,Joint-limit frames (zero tolerance),Direct Mapping,0,9,caveat
+3,Joint-limit frames (zero tolerance),Basic IK,0,9,caveat
+3,Joint-limit frames (zero tolerance),GMR,9,9,caveat
+4,Foot sliding (current contact rule),Direct Mapping,2,9,caveat
+4,Foot sliding (current contact rule),Basic IK,4,9,caveat
+4,Foot sliding (current contact rule),GMR,3,9,caveat
+5,Ground penetration (current rule),Direct Mapping,9,9,caveat
+5,Ground penetration (current rule),Basic IK,0,9,caveat
+5,Ground penetration (current rule),GMR,0,9,caveat
+6,MuJoCo self-collision proxy,Direct Mapping,2,9,caveat
+6,MuJoCo self-collision proxy,Basic IK,0,9,caveat
+6,MuJoCo self-collision proxy,GMR,7,9,caveat
+7,Mean absolute joint jerk,Direct Mapping,7,9,primary
+7,Mean absolute joint jerk,Basic IK,0,9,primary
+7,Mean absolute joint jerk,GMR,2,9,primary

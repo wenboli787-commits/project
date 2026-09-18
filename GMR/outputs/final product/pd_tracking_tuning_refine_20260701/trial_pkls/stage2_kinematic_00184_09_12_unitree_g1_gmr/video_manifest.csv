@@ -1,0 +1,2 @@
+motion_name,source_motion_pkl,output_pkl,video_path,video_error,success,failure_reason
+09_12_unitree_g1_gmr.pkl,outputs/final product/pkl/09_12_unitree_g1_gmr.pkl,outputs/final product/pd_tracking_tuning_refine_20260701/trial_pkls/stage2_kinematic_00184_09_12_unitree_g1_gmr/09_12_unitree_g1_gmr_pd_tracking.pkl,,,True,

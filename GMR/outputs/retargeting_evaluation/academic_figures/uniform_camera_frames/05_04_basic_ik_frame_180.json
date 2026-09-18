@@ -1,0 +1,32 @@
+{
+  "robot_xml": "/mnt/d/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml",
+  "pkl_path": "/mnt/d/GMR_WORK/GMR/outputs/final results/pkl Basic IK/05_04_poses_unitree_g1_basic_ik_pure_unconstrained.pkl",
+  "frame_index": 180,
+  "resolution": [
+    1280,
+    960
+  ],
+  "camera_distance": 3.2,
+  "relative_azimuth": 180.0,
+  "camera_elevation": -12.0,
+  "lookat_z_offset": 0.15,
+  "render_root_position": [
+    0.0,
+    0.0,
+    0.72
+  ],
+  "render_root_yaw_degrees": -7.230036307439923e-15,
+  "canonical_root_position": [
+    0.0,
+    0.0,
+    0.72
+  ],
+  "fixed_camera_lookat": [
+    0.0,
+    0.0,
+    0.87
+  ],
+  "root_pose_normalized": true,
+  "root_yaw_degrees": -95.4504832604626,
+  "effective_camera_azimuth": 180.0
+}

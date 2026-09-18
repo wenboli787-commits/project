@@ -1,0 +1,26 @@
+--- git commit ---
+4675fc104bc1243d42e99f82a72fdbae21fd4167
+
+
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	motion.mp4
+	motions_npz/
+	train_08_01_gmr_video.log
+	train_08_05_debug.log
+	train_08_05_gmr.log
+	train_08_05_gmr_2000.log
+	train_09_01_1000.log
+	train_09_12_gmr.log
+	train_13_01_gmr.log
+	train_1_standing_gmr.csv_gmr.log
+	train_walk1_subject1_01.csv_gmr.log
+
+nothing added to commit but untracked files present (use "git add" to track) 
+
+
+--- git diff ---

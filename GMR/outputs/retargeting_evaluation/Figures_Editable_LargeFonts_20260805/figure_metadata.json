@@ -1,0 +1,30 @@
+{
+  "source": "/mnt/d/GMR_WORK/GMR/outputs/retargeting_evaluation/per_motion_metrics.csv",
+  "method_order": [
+    "direct_mapping",
+    "basic_ik",
+    "gmr"
+  ],
+  "motion_count": 9,
+  "figure_width_inches": 6.35,
+  "font_family": "Times New Roman",
+  "svg_text_editable": true,
+  "bootstrap": {
+    "iterations": 20000,
+    "confidence": 0.95,
+    "seed_base": 20260722
+  },
+  "qualitative_frames": {
+    "05_04": 180,
+    "135_04": 99
+  },
+  "qualitative_source_frames": "/mnt/d/GMR_WORK/GMR/outputs/retargeting_evaluation/academic_figures/uniform_camera_frames",
+  "unchanged_content": [
+    "data",
+    "labels",
+    "method_order",
+    "colours",
+    "camera",
+    "robot_pose"
+  ]
+}

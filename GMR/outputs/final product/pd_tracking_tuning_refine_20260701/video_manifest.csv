@@ -1,0 +1,10 @@
+motion_name,video_path,success,failure_reason
+08_01_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+08_04_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+08_05_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+09_01_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+09_12_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+10_01_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+13_01_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+13_11_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2
+13_17_unitree_g1_gmr.pkl,,False,final validation failed with returncode=2

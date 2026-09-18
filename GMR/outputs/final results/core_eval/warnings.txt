@@ -1,0 +1,9 @@
+05_04: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+111_23: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+113_20: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+113_21: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+114_15: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+124_11: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+135_04: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+47_01: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.
+76_10: NPZ appears to be AMASS/SMPL-style and has poses/trans but no joints/keypoints; SMPL model is required to compute human keypoints. The evaluator will use shared source_body_pos from PKL files when available.

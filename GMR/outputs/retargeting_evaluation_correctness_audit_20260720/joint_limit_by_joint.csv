@@ -1,0 +1,784 @@
+motion,method,joint,violating_frames_gt_0p1deg,max_excess_deg
+05_04,Direct Mapping,left_hip_pitch_joint,0,0.0
+05_04,Direct Mapping,left_hip_roll_joint,0,0.0
+05_04,Direct Mapping,left_hip_yaw_joint,0,0.0
+05_04,Direct Mapping,left_knee_joint,97,16.604622884134795
+05_04,Direct Mapping,left_ankle_pitch_joint,13,10.831235929680858
+05_04,Direct Mapping,left_ankle_roll_joint,98,29.590409999522684
+05_04,Direct Mapping,right_hip_pitch_joint,0,0.0
+05_04,Direct Mapping,right_hip_roll_joint,0,0.0
+05_04,Direct Mapping,right_hip_yaw_joint,0,0.0
+05_04,Direct Mapping,right_knee_joint,0,0.0
+05_04,Direct Mapping,right_ankle_pitch_joint,19,14.645750789522287
+05_04,Direct Mapping,right_ankle_roll_joint,40,26.524455120595057
+05_04,Direct Mapping,waist_yaw_joint,0,0.0
+05_04,Direct Mapping,waist_roll_joint,0,0.0
+05_04,Direct Mapping,waist_pitch_joint,26,27.740045038539346
+05_04,Direct Mapping,left_shoulder_pitch_joint,16,7.306703192969692
+05_04,Direct Mapping,left_shoulder_roll_joint,86,43.53454770659332
+05_04,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+05_04,Direct Mapping,left_elbow_joint,0,0.0
+05_04,Direct Mapping,left_wrist_roll_joint,0,0.0
+05_04,Direct Mapping,left_wrist_pitch_joint,0,0.0
+05_04,Direct Mapping,left_wrist_yaw_joint,0,0.0
+05_04,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+05_04,Direct Mapping,right_shoulder_roll_joint,67,28.418021705628668
+05_04,Direct Mapping,right_shoulder_yaw_joint,9,12.12031310285073
+05_04,Direct Mapping,right_elbow_joint,7,28.118807313220117
+05_04,Direct Mapping,right_wrist_roll_joint,0,0.0
+05_04,Direct Mapping,right_wrist_pitch_joint,0,0.0
+05_04,Direct Mapping,right_wrist_yaw_joint,0,0.0
+111_23,Direct Mapping,left_hip_pitch_joint,0,0.0
+111_23,Direct Mapping,left_hip_roll_joint,0,0.0
+111_23,Direct Mapping,left_hip_yaw_joint,0,0.0
+111_23,Direct Mapping,left_knee_joint,209,40.052512869700166
+111_23,Direct Mapping,left_ankle_pitch_joint,0,0.0
+111_23,Direct Mapping,left_ankle_roll_joint,0,0.0
+111_23,Direct Mapping,right_hip_pitch_joint,0,0.0
+111_23,Direct Mapping,right_hip_roll_joint,0,0.0
+111_23,Direct Mapping,right_hip_yaw_joint,0,0.0
+111_23,Direct Mapping,right_knee_joint,67,18.002522109988526
+111_23,Direct Mapping,right_ankle_pitch_joint,0,0.013679386323210184
+111_23,Direct Mapping,right_ankle_roll_joint,3,0.23731079296920177
+111_23,Direct Mapping,waist_yaw_joint,0,0.0
+111_23,Direct Mapping,waist_roll_joint,0,0.0
+111_23,Direct Mapping,waist_pitch_joint,0,0.0
+111_23,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+111_23,Direct Mapping,left_shoulder_roll_joint,0,0.0
+111_23,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+111_23,Direct Mapping,left_elbow_joint,0,0.0
+111_23,Direct Mapping,left_wrist_roll_joint,0,0.0
+111_23,Direct Mapping,left_wrist_pitch_joint,0,0.0
+111_23,Direct Mapping,left_wrist_yaw_joint,0,0.0
+111_23,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+111_23,Direct Mapping,right_shoulder_roll_joint,0,0.0
+111_23,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+111_23,Direct Mapping,right_elbow_joint,0,0.0
+111_23,Direct Mapping,right_wrist_roll_joint,0,0.0
+111_23,Direct Mapping,right_wrist_pitch_joint,0,0.0
+111_23,Direct Mapping,right_wrist_yaw_joint,0,0.0
+113_20,Direct Mapping,left_hip_pitch_joint,0,0.0
+113_20,Direct Mapping,left_hip_roll_joint,0,0.0
+113_20,Direct Mapping,left_hip_yaw_joint,0,0.0
+113_20,Direct Mapping,left_knee_joint,0,0.0
+113_20,Direct Mapping,left_ankle_pitch_joint,4,5.1099266548428455
+113_20,Direct Mapping,left_ankle_roll_joint,20,7.896162830210078
+113_20,Direct Mapping,right_hip_pitch_joint,0,0.0
+113_20,Direct Mapping,right_hip_roll_joint,0,0.0
+113_20,Direct Mapping,right_hip_yaw_joint,0,0.0
+113_20,Direct Mapping,right_knee_joint,0,0.0
+113_20,Direct Mapping,right_ankle_pitch_joint,22,16.497200063283728
+113_20,Direct Mapping,right_ankle_roll_joint,17,3.5255539872789763
+113_20,Direct Mapping,waist_yaw_joint,0,0.0
+113_20,Direct Mapping,waist_roll_joint,0,0.0
+113_20,Direct Mapping,waist_pitch_joint,0,0.0
+113_20,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+113_20,Direct Mapping,left_shoulder_roll_joint,0,0.0
+113_20,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+113_20,Direct Mapping,left_elbow_joint,0,0.0
+113_20,Direct Mapping,left_wrist_roll_joint,0,0.0
+113_20,Direct Mapping,left_wrist_pitch_joint,0,0.0
+113_20,Direct Mapping,left_wrist_yaw_joint,0,0.0
+113_20,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+113_20,Direct Mapping,right_shoulder_roll_joint,0,0.0
+113_20,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+113_20,Direct Mapping,right_elbow_joint,0,0.0
+113_20,Direct Mapping,right_wrist_roll_joint,0,0.0
+113_20,Direct Mapping,right_wrist_pitch_joint,0,0.0
+113_20,Direct Mapping,right_wrist_yaw_joint,0,0.0
+113_21,Direct Mapping,left_hip_pitch_joint,0,0.0
+113_21,Direct Mapping,left_hip_roll_joint,0,0.0
+113_21,Direct Mapping,left_hip_yaw_joint,0,0.0
+113_21,Direct Mapping,left_knee_joint,68,2.60721710858688
+113_21,Direct Mapping,left_ankle_pitch_joint,0,0.0
+113_21,Direct Mapping,left_ankle_roll_joint,0,0.0
+113_21,Direct Mapping,right_hip_pitch_joint,0,0.0
+113_21,Direct Mapping,right_hip_roll_joint,0,0.0
+113_21,Direct Mapping,right_hip_yaw_joint,0,0.0
+113_21,Direct Mapping,right_knee_joint,0,0.0
+113_21,Direct Mapping,right_ankle_pitch_joint,0,0.0
+113_21,Direct Mapping,right_ankle_roll_joint,0,0.0
+113_21,Direct Mapping,waist_yaw_joint,0,0.0
+113_21,Direct Mapping,waist_roll_joint,0,0.0
+113_21,Direct Mapping,waist_pitch_joint,0,0.0
+113_21,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+113_21,Direct Mapping,left_shoulder_roll_joint,0,0.0
+113_21,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+113_21,Direct Mapping,left_elbow_joint,0,0.0
+113_21,Direct Mapping,left_wrist_roll_joint,0,0.0
+113_21,Direct Mapping,left_wrist_pitch_joint,0,0.0
+113_21,Direct Mapping,left_wrist_yaw_joint,0,0.0
+113_21,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+113_21,Direct Mapping,right_shoulder_roll_joint,0,0.0
+113_21,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+113_21,Direct Mapping,right_elbow_joint,0,0.0
+113_21,Direct Mapping,right_wrist_roll_joint,0,0.0
+113_21,Direct Mapping,right_wrist_pitch_joint,0,0.0
+113_21,Direct Mapping,right_wrist_yaw_joint,0,0.0
+114_15,Direct Mapping,left_hip_pitch_joint,0,0.0
+114_15,Direct Mapping,left_hip_roll_joint,0,0.0
+114_15,Direct Mapping,left_hip_yaw_joint,0,0.0
+114_15,Direct Mapping,left_knee_joint,100,8.246090808376819
+114_15,Direct Mapping,left_ankle_pitch_joint,0,0.0
+114_15,Direct Mapping,left_ankle_roll_joint,0,0.0
+114_15,Direct Mapping,right_hip_pitch_joint,0,0.0
+114_15,Direct Mapping,right_hip_roll_joint,0,0.0
+114_15,Direct Mapping,right_hip_yaw_joint,0,0.0
+114_15,Direct Mapping,right_knee_joint,239,25.550913455943235
+114_15,Direct Mapping,right_ankle_pitch_joint,0,0.0
+114_15,Direct Mapping,right_ankle_roll_joint,0,0.0
+114_15,Direct Mapping,waist_yaw_joint,0,0.0
+114_15,Direct Mapping,waist_roll_joint,0,0.0
+114_15,Direct Mapping,waist_pitch_joint,0,0.0
+114_15,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+114_15,Direct Mapping,left_shoulder_roll_joint,0,0.0
+114_15,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+114_15,Direct Mapping,left_elbow_joint,0,0.0
+114_15,Direct Mapping,left_wrist_roll_joint,0,0.0
+114_15,Direct Mapping,left_wrist_pitch_joint,0,0.0
+114_15,Direct Mapping,left_wrist_yaw_joint,0,0.0
+114_15,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+114_15,Direct Mapping,right_shoulder_roll_joint,5,0.33288441420370257
+114_15,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+114_15,Direct Mapping,right_elbow_joint,0,0.0
+114_15,Direct Mapping,right_wrist_roll_joint,0,0.0
+114_15,Direct Mapping,right_wrist_pitch_joint,0,0.0
+114_15,Direct Mapping,right_wrist_yaw_joint,0,0.0
+124_11,Direct Mapping,left_hip_pitch_joint,0,0.0
+124_11,Direct Mapping,left_hip_roll_joint,0,0.0
+124_11,Direct Mapping,left_hip_yaw_joint,0,0.0
+124_11,Direct Mapping,left_knee_joint,0,0.0
+124_11,Direct Mapping,left_ankle_pitch_joint,21,17.545968419034455
+124_11,Direct Mapping,left_ankle_roll_joint,22,5.945519413458406
+124_11,Direct Mapping,right_hip_pitch_joint,0,0.0
+124_11,Direct Mapping,right_hip_roll_joint,0,0.0
+124_11,Direct Mapping,right_hip_yaw_joint,0,0.0
+124_11,Direct Mapping,right_knee_joint,14,1.7563410791060994
+124_11,Direct Mapping,right_ankle_pitch_joint,36,18.781793529376476
+124_11,Direct Mapping,right_ankle_roll_joint,0,0.09732439403996682
+124_11,Direct Mapping,waist_yaw_joint,0,0.0
+124_11,Direct Mapping,waist_roll_joint,0,0.0
+124_11,Direct Mapping,waist_pitch_joint,6,3.668997241226744
+124_11,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+124_11,Direct Mapping,left_shoulder_roll_joint,0,0.0
+124_11,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+124_11,Direct Mapping,left_elbow_joint,14,27.3589690794502
+124_11,Direct Mapping,left_wrist_roll_joint,0,0.0
+124_11,Direct Mapping,left_wrist_pitch_joint,0,0.0
+124_11,Direct Mapping,left_wrist_yaw_joint,0,0.0
+124_11,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+124_11,Direct Mapping,right_shoulder_roll_joint,0,0.0
+124_11,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+124_11,Direct Mapping,right_elbow_joint,17,35.46260783386262
+124_11,Direct Mapping,right_wrist_roll_joint,0,0.0
+124_11,Direct Mapping,right_wrist_pitch_joint,0,0.0
+124_11,Direct Mapping,right_wrist_yaw_joint,0,0.0
+135_04,Direct Mapping,left_hip_pitch_joint,0,0.0
+135_04,Direct Mapping,left_hip_roll_joint,0,0.0
+135_04,Direct Mapping,left_hip_yaw_joint,0,0.0
+135_04,Direct Mapping,left_knee_joint,2,0.3802318507942656
+135_04,Direct Mapping,left_ankle_pitch_joint,2,1.2856302566367692
+135_04,Direct Mapping,left_ankle_roll_joint,18,3.7403619605801
+135_04,Direct Mapping,right_hip_pitch_joint,9,14.279360153603289
+135_04,Direct Mapping,right_hip_roll_joint,0,0.0
+135_04,Direct Mapping,right_hip_yaw_joint,0,0.0
+135_04,Direct Mapping,right_knee_joint,0,0.0
+135_04,Direct Mapping,right_ankle_pitch_joint,7,21.489214948277713
+135_04,Direct Mapping,right_ankle_roll_joint,7,8.186345598738033
+135_04,Direct Mapping,waist_yaw_joint,0,0.0
+135_04,Direct Mapping,waist_roll_joint,0,0.0
+135_04,Direct Mapping,waist_pitch_joint,24,14.446494483647756
+135_04,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+135_04,Direct Mapping,left_shoulder_roll_joint,0,0.0
+135_04,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+135_04,Direct Mapping,left_elbow_joint,99,14.835475153304493
+135_04,Direct Mapping,left_wrist_roll_joint,0,0.0
+135_04,Direct Mapping,left_wrist_pitch_joint,0,0.0
+135_04,Direct Mapping,left_wrist_yaw_joint,0,0.0
+135_04,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+135_04,Direct Mapping,right_shoulder_roll_joint,0,0.0
+135_04,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+135_04,Direct Mapping,right_elbow_joint,21,20.358203466795086
+135_04,Direct Mapping,right_wrist_roll_joint,0,0.0
+135_04,Direct Mapping,right_wrist_pitch_joint,0,0.0
+135_04,Direct Mapping,right_wrist_yaw_joint,0,0.0
+47_01,Direct Mapping,left_hip_pitch_joint,0,0.0
+47_01,Direct Mapping,left_hip_roll_joint,0,0.0
+47_01,Direct Mapping,left_hip_yaw_joint,0,0.0
+47_01,Direct Mapping,left_knee_joint,100,12.99723986783972
+47_01,Direct Mapping,left_ankle_pitch_joint,0,0.0
+47_01,Direct Mapping,left_ankle_roll_joint,7,1.3239509423324152
+47_01,Direct Mapping,right_hip_pitch_joint,0,0.0
+47_01,Direct Mapping,right_hip_roll_joint,0,0.0
+47_01,Direct Mapping,right_hip_yaw_joint,0,0.0
+47_01,Direct Mapping,right_knee_joint,144,15.526004600830777
+47_01,Direct Mapping,right_ankle_pitch_joint,0,0.0
+47_01,Direct Mapping,right_ankle_roll_joint,0,0.0
+47_01,Direct Mapping,waist_yaw_joint,0,0.0
+47_01,Direct Mapping,waist_roll_joint,0,0.0
+47_01,Direct Mapping,waist_pitch_joint,0,0.0
+47_01,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+47_01,Direct Mapping,left_shoulder_roll_joint,0,0.0
+47_01,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+47_01,Direct Mapping,left_elbow_joint,0,0.0
+47_01,Direct Mapping,left_wrist_roll_joint,0,0.0
+47_01,Direct Mapping,left_wrist_pitch_joint,0,0.0
+47_01,Direct Mapping,left_wrist_yaw_joint,0,0.0
+47_01,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+47_01,Direct Mapping,right_shoulder_roll_joint,0,0.0
+47_01,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+47_01,Direct Mapping,right_elbow_joint,0,0.0
+47_01,Direct Mapping,right_wrist_roll_joint,0,0.0
+47_01,Direct Mapping,right_wrist_pitch_joint,0,0.0
+47_01,Direct Mapping,right_wrist_yaw_joint,0,0.0
+76_10,Direct Mapping,left_hip_pitch_joint,0,0.0
+76_10,Direct Mapping,left_hip_roll_joint,0,0.0
+76_10,Direct Mapping,left_hip_yaw_joint,0,0.0
+76_10,Direct Mapping,left_knee_joint,0,0.0
+76_10,Direct Mapping,left_ankle_pitch_joint,0,0.0
+76_10,Direct Mapping,left_ankle_roll_joint,0,0.0
+76_10,Direct Mapping,right_hip_pitch_joint,0,0.0
+76_10,Direct Mapping,right_hip_roll_joint,0,0.0
+76_10,Direct Mapping,right_hip_yaw_joint,0,0.0
+76_10,Direct Mapping,right_knee_joint,0,0.0
+76_10,Direct Mapping,right_ankle_pitch_joint,0,0.0
+76_10,Direct Mapping,right_ankle_roll_joint,0,0.0
+76_10,Direct Mapping,waist_yaw_joint,0,0.0
+76_10,Direct Mapping,waist_roll_joint,0,0.0
+76_10,Direct Mapping,waist_pitch_joint,0,0.0
+76_10,Direct Mapping,left_shoulder_pitch_joint,0,0.0
+76_10,Direct Mapping,left_shoulder_roll_joint,0,0.0
+76_10,Direct Mapping,left_shoulder_yaw_joint,0,0.0
+76_10,Direct Mapping,left_elbow_joint,65,36.904862745162035
+76_10,Direct Mapping,left_wrist_roll_joint,0,0.0
+76_10,Direct Mapping,left_wrist_pitch_joint,0,0.0
+76_10,Direct Mapping,left_wrist_yaw_joint,0,0.0
+76_10,Direct Mapping,right_shoulder_pitch_joint,0,0.0
+76_10,Direct Mapping,right_shoulder_roll_joint,0,0.0
+76_10,Direct Mapping,right_shoulder_yaw_joint,0,0.0
+76_10,Direct Mapping,right_elbow_joint,49,15.731813833013065
+76_10,Direct Mapping,right_wrist_roll_joint,0,0.0
+76_10,Direct Mapping,right_wrist_pitch_joint,0,0.0
+76_10,Direct Mapping,right_wrist_yaw_joint,0,0.0
+05_04,Basic IK,left_hip_pitch_joint,45,23.108370843677235
+05_04,Basic IK,left_hip_roll_joint,29,19.655176183679274
+05_04,Basic IK,left_hip_yaw_joint,24,40.54912085116304
+05_04,Basic IK,left_knee_joint,0,0.0
+05_04,Basic IK,left_ankle_pitch_joint,280,94.65164201182232
+05_04,Basic IK,left_ankle_roll_joint,149,121.0012593044935
+05_04,Basic IK,right_hip_pitch_joint,36,73.17795285355544
+05_04,Basic IK,right_hip_roll_joint,74,18.790776764045958
+05_04,Basic IK,right_hip_yaw_joint,173,27.31072544615087
+05_04,Basic IK,right_knee_joint,0,0.0
+05_04,Basic IK,right_ankle_pitch_joint,290,66.77876995662832
+05_04,Basic IK,right_ankle_roll_joint,288,333.71363069909745
+05_04,Basic IK,waist_yaw_joint,0,0.0
+05_04,Basic IK,waist_roll_joint,12,11.169165365103078
+05_04,Basic IK,waist_pitch_joint,279,52.547780652230955
+05_04,Basic IK,left_shoulder_pitch_joint,0,0.0
+05_04,Basic IK,left_shoulder_roll_joint,0,0.0
+05_04,Basic IK,left_shoulder_yaw_joint,11,15.518030065619625
+05_04,Basic IK,left_elbow_joint,0,0.0
+05_04,Basic IK,left_wrist_roll_joint,16,93.30980882336345
+05_04,Basic IK,left_wrist_pitch_joint,0,0.0
+05_04,Basic IK,left_wrist_yaw_joint,0,0.0
+05_04,Basic IK,right_shoulder_pitch_joint,0,0.0
+05_04,Basic IK,right_shoulder_roll_joint,0,0.0
+05_04,Basic IK,right_shoulder_yaw_joint,22,62.02261346195217
+05_04,Basic IK,right_elbow_joint,0,0.0
+05_04,Basic IK,right_wrist_roll_joint,142,410.60226177453495
+05_04,Basic IK,right_wrist_pitch_joint,0,0.0
+05_04,Basic IK,right_wrist_yaw_joint,0,0.0
+111_23,Basic IK,left_hip_pitch_joint,57,6.763518758801779
+111_23,Basic IK,left_hip_roll_joint,24,4.908340223120733
+111_23,Basic IK,left_hip_yaw_joint,0,0.0
+111_23,Basic IK,left_knee_joint,2,0.33041067609696595
+111_23,Basic IK,left_ankle_pitch_joint,196,124.91578420281057
+111_23,Basic IK,left_ankle_roll_joint,282,804.1993288427728
+111_23,Basic IK,right_hip_pitch_joint,29,4.773191487618617
+111_23,Basic IK,right_hip_roll_joint,32,5.601412764244638
+111_23,Basic IK,right_hip_yaw_joint,0,0.0
+111_23,Basic IK,right_knee_joint,0,0.0
+111_23,Basic IK,right_ankle_pitch_joint,283,103.33424826968933
+111_23,Basic IK,right_ankle_roll_joint,281,403.75532002438496
+111_23,Basic IK,waist_yaw_joint,0,0.0
+111_23,Basic IK,waist_roll_joint,22,8.532393157710095
+111_23,Basic IK,waist_pitch_joint,283,62.38005470642972
+111_23,Basic IK,left_shoulder_pitch_joint,0,0.0
+111_23,Basic IK,left_shoulder_roll_joint,0,0.0
+111_23,Basic IK,left_shoulder_yaw_joint,0,0.0
+111_23,Basic IK,left_elbow_joint,0,0.0
+111_23,Basic IK,left_wrist_roll_joint,163,106.2519302710968
+111_23,Basic IK,left_wrist_pitch_joint,0,0.0
+111_23,Basic IK,left_wrist_yaw_joint,0,0.0
+111_23,Basic IK,right_shoulder_pitch_joint,0,0.0
+111_23,Basic IK,right_shoulder_roll_joint,0,0.0
+111_23,Basic IK,right_shoulder_yaw_joint,0,0.0
+111_23,Basic IK,right_elbow_joint,0,0.0
+111_23,Basic IK,right_wrist_roll_joint,0,0.0
+111_23,Basic IK,right_wrist_pitch_joint,0,0.0
+111_23,Basic IK,right_wrist_yaw_joint,0,0.0
+113_20,Basic IK,left_hip_pitch_joint,57,22.288253518352363
+113_20,Basic IK,left_hip_roll_joint,97,17.740428712443165
+113_20,Basic IK,left_hip_yaw_joint,14,92.92248997603507
+113_20,Basic IK,left_knee_joint,14,32.84605574946391
+113_20,Basic IK,left_ankle_pitch_joint,231,118.26549024839926
+113_20,Basic IK,left_ankle_roll_joint,359,794.9789511387121
+113_20,Basic IK,right_hip_pitch_joint,90,32.68833357267906
+113_20,Basic IK,right_hip_roll_joint,54,12.702058985473082
+113_20,Basic IK,right_hip_yaw_joint,0,0.0
+113_20,Basic IK,right_knee_joint,0,0.0
+113_20,Basic IK,right_ankle_pitch_joint,330,120.06595828324333
+113_20,Basic IK,right_ankle_roll_joint,362,386.7165086286008
+113_20,Basic IK,waist_yaw_joint,0,0.0
+113_20,Basic IK,waist_roll_joint,3,10.468962255524533
+113_20,Basic IK,waist_pitch_joint,362,56.79878364754558
+113_20,Basic IK,left_shoulder_pitch_joint,0,0.0
+113_20,Basic IK,left_shoulder_roll_joint,0,0.0
+113_20,Basic IK,left_shoulder_yaw_joint,0,0.0
+113_20,Basic IK,left_elbow_joint,0,0.0
+113_20,Basic IK,left_wrist_roll_joint,0,0.0
+113_20,Basic IK,left_wrist_pitch_joint,0,0.0
+113_20,Basic IK,left_wrist_yaw_joint,0,0.0
+113_20,Basic IK,right_shoulder_pitch_joint,0,0.0
+113_20,Basic IK,right_shoulder_roll_joint,0,0.0
+113_20,Basic IK,right_shoulder_yaw_joint,0,0.0
+113_20,Basic IK,right_elbow_joint,0,0.0
+113_20,Basic IK,right_wrist_roll_joint,0,0.0
+113_20,Basic IK,right_wrist_pitch_joint,0,0.0
+113_20,Basic IK,right_wrist_yaw_joint,0,0.0
+113_21,Basic IK,left_hip_pitch_joint,0,0.0
+113_21,Basic IK,left_hip_roll_joint,0,0.0
+113_21,Basic IK,left_hip_yaw_joint,0,0.0
+113_21,Basic IK,left_knee_joint,0,0.0
+113_21,Basic IK,left_ankle_pitch_joint,158,13.722417174316051
+113_21,Basic IK,left_ankle_roll_joint,334,619.1740238146549
+113_21,Basic IK,right_hip_pitch_joint,75,1.6351249401452415
+113_21,Basic IK,right_hip_roll_joint,0,0.0
+113_21,Basic IK,right_hip_yaw_joint,0,0.0
+113_21,Basic IK,right_knee_joint,0,0.0
+113_21,Basic IK,right_ankle_pitch_joint,275,45.59931686456052
+113_21,Basic IK,right_ankle_roll_joint,342,264.84090234445245
+113_21,Basic IK,waist_yaw_joint,0,0.0
+113_21,Basic IK,waist_roll_joint,0,0.0
+113_21,Basic IK,waist_pitch_joint,342,54.48274655295958
+113_21,Basic IK,left_shoulder_pitch_joint,0,0.0
+113_21,Basic IK,left_shoulder_roll_joint,0,0.0
+113_21,Basic IK,left_shoulder_yaw_joint,0,0.0
+113_21,Basic IK,left_elbow_joint,0,0.0
+113_21,Basic IK,left_wrist_roll_joint,0,0.0
+113_21,Basic IK,left_wrist_pitch_joint,0,0.0
+113_21,Basic IK,left_wrist_yaw_joint,0,0.0
+113_21,Basic IK,right_shoulder_pitch_joint,0,0.0
+113_21,Basic IK,right_shoulder_roll_joint,0,0.0
+113_21,Basic IK,right_shoulder_yaw_joint,0,0.0
+113_21,Basic IK,right_elbow_joint,0,0.0
+113_21,Basic IK,right_wrist_roll_joint,0,0.0
+113_21,Basic IK,right_wrist_pitch_joint,0,0.0
+113_21,Basic IK,right_wrist_yaw_joint,0,0.0
+114_15,Basic IK,left_hip_pitch_joint,147,15.26408140226453
+114_15,Basic IK,left_hip_roll_joint,114,10.186739380349216
+114_15,Basic IK,left_hip_yaw_joint,0,0.0
+114_15,Basic IK,left_knee_joint,0,0.0
+114_15,Basic IK,left_ankle_pitch_joint,4,3.434540218711285
+114_15,Basic IK,left_ankle_roll_joint,342,619.8390296612694
+114_15,Basic IK,right_hip_pitch_joint,148,14.04107369773955
+114_15,Basic IK,right_hip_roll_joint,35,4.220795918456465
+114_15,Basic IK,right_hip_yaw_joint,0,0.0
+114_15,Basic IK,right_knee_joint,0,0.0
+114_15,Basic IK,right_ankle_pitch_joint,10,6.826007528133823
+114_15,Basic IK,right_ankle_roll_joint,345,624.7673952198696
+114_15,Basic IK,waist_yaw_joint,346,278.9034908717142
+114_15,Basic IK,waist_roll_joint,0,0.0
+114_15,Basic IK,waist_pitch_joint,346,69.73198569109537
+114_15,Basic IK,left_shoulder_pitch_joint,0,0.0
+114_15,Basic IK,left_shoulder_roll_joint,0,0.0
+114_15,Basic IK,left_shoulder_yaw_joint,0,0.0
+114_15,Basic IK,left_elbow_joint,0,0.0
+114_15,Basic IK,left_wrist_roll_joint,4,44.425121796480894
+114_15,Basic IK,left_wrist_pitch_joint,0,0.0
+114_15,Basic IK,left_wrist_yaw_joint,0,0.0
+114_15,Basic IK,right_shoulder_pitch_joint,0,0.0
+114_15,Basic IK,right_shoulder_roll_joint,0,0.0
+114_15,Basic IK,right_shoulder_yaw_joint,346,321.9509701093377
+114_15,Basic IK,right_elbow_joint,0,0.0
+114_15,Basic IK,right_wrist_roll_joint,4,14.279037656638705
+114_15,Basic IK,right_wrist_pitch_joint,0,0.0
+114_15,Basic IK,right_wrist_yaw_joint,0,0.0
+124_11,Basic IK,left_hip_pitch_joint,20,21.859945791395322
+124_11,Basic IK,left_hip_roll_joint,0,0.0
+124_11,Basic IK,left_hip_yaw_joint,58,88.51055229199616
+124_11,Basic IK,left_knee_joint,23,37.91563148731529
+124_11,Basic IK,left_ankle_pitch_joint,241,123.41794442560254
+124_11,Basic IK,left_ankle_roll_joint,132,439.3224976633688
+124_11,Basic IK,right_hip_pitch_joint,20,16.970175932309104
+124_11,Basic IK,right_hip_roll_joint,0,0.0
+124_11,Basic IK,right_hip_yaw_joint,50,20.202420347089394
+124_11,Basic IK,right_knee_joint,0,0.0
+124_11,Basic IK,right_ankle_pitch_joint,246,111.03969321015782
+124_11,Basic IK,right_ankle_roll_joint,124,342.6065597924739
+124_11,Basic IK,waist_yaw_joint,0,0.0
+124_11,Basic IK,waist_roll_joint,0,0.0
+124_11,Basic IK,waist_pitch_joint,211,35.169436567594225
+124_11,Basic IK,left_shoulder_pitch_joint,0,0.0
+124_11,Basic IK,left_shoulder_roll_joint,0,0.0
+124_11,Basic IK,left_shoulder_yaw_joint,0,0.0
+124_11,Basic IK,left_elbow_joint,0,0.0
+124_11,Basic IK,left_wrist_roll_joint,0,0.0
+124_11,Basic IK,left_wrist_pitch_joint,0,0.0
+124_11,Basic IK,left_wrist_yaw_joint,0,0.0
+124_11,Basic IK,right_shoulder_pitch_joint,0,0.0
+124_11,Basic IK,right_shoulder_roll_joint,0,0.0
+124_11,Basic IK,right_shoulder_yaw_joint,0,0.0
+124_11,Basic IK,right_elbow_joint,0,0.0
+124_11,Basic IK,right_wrist_roll_joint,0,0.0
+124_11,Basic IK,right_wrist_pitch_joint,62,272.69538015905675
+124_11,Basic IK,right_wrist_yaw_joint,0,0.0
+135_04,Basic IK,left_hip_pitch_joint,17,67.9547543317432
+135_04,Basic IK,left_hip_roll_joint,157,15.032068465608534
+135_04,Basic IK,left_hip_yaw_joint,216,121.39822664809952
+135_04,Basic IK,left_knee_joint,85,94.43596226607052
+135_04,Basic IK,left_ankle_pitch_joint,273,131.84115678263453
+135_04,Basic IK,left_ankle_roll_joint,263,84.81274964118806
+135_04,Basic IK,right_hip_pitch_joint,29,65.07377478781748
+135_04,Basic IK,right_hip_roll_joint,206,20.71601541732686
+135_04,Basic IK,right_hip_yaw_joint,68,138.53500091295024
+135_04,Basic IK,right_knee_joint,19,116.31887487515786
+135_04,Basic IK,right_ankle_pitch_joint,235,138.9558231410796
+135_04,Basic IK,right_ankle_roll_joint,327,1157.3968645996188
+135_04,Basic IK,waist_yaw_joint,0,0.0
+135_04,Basic IK,waist_roll_joint,1,1.2733110311544724
+135_04,Basic IK,waist_pitch_joint,142,42.60017120494716
+135_04,Basic IK,left_shoulder_pitch_joint,0,0.0
+135_04,Basic IK,left_shoulder_roll_joint,0,0.0
+135_04,Basic IK,left_shoulder_yaw_joint,0,0.0
+135_04,Basic IK,left_elbow_joint,0,0.0
+135_04,Basic IK,left_wrist_roll_joint,236,130.25031751792503
+135_04,Basic IK,left_wrist_pitch_joint,239,270.6605711849709
+135_04,Basic IK,left_wrist_yaw_joint,0,0.0
+135_04,Basic IK,right_shoulder_pitch_joint,0,0.0
+135_04,Basic IK,right_shoulder_roll_joint,0,0.0
+135_04,Basic IK,right_shoulder_yaw_joint,0,0.0
+135_04,Basic IK,right_elbow_joint,0,0.0
+135_04,Basic IK,right_wrist_roll_joint,1,8.195590463586191
+135_04,Basic IK,right_wrist_pitch_joint,0,0.0
+135_04,Basic IK,right_wrist_yaw_joint,0,0.0
+47_01,Basic IK,left_hip_pitch_joint,0,0.0
+47_01,Basic IK,left_hip_roll_joint,35,12.393280011733292
+47_01,Basic IK,left_hip_yaw_joint,140,88.4654647987139
+47_01,Basic IK,left_knee_joint,7,18.844643159502752
+47_01,Basic IK,left_ankle_pitch_joint,330,46.45374387800725
+47_01,Basic IK,left_ankle_roll_joint,225,55.236401257644246
+47_01,Basic IK,right_hip_pitch_joint,0,0.0
+47_01,Basic IK,right_hip_roll_joint,3,3.9633228954324893
+47_01,Basic IK,right_hip_yaw_joint,160,104.97123779017627
+47_01,Basic IK,right_knee_joint,27,27.511164691923415
+47_01,Basic IK,right_ankle_pitch_joint,330,42.48061664908805
+47_01,Basic IK,right_ankle_roll_joint,160,34.539074878249444
+47_01,Basic IK,waist_yaw_joint,0,0.0
+47_01,Basic IK,waist_roll_joint,0,0.0
+47_01,Basic IK,waist_pitch_joint,330,32.03119025803632
+47_01,Basic IK,left_shoulder_pitch_joint,0,0.0
+47_01,Basic IK,left_shoulder_roll_joint,0,0.0
+47_01,Basic IK,left_shoulder_yaw_joint,0,0.0
+47_01,Basic IK,left_elbow_joint,0,0.0
+47_01,Basic IK,left_wrist_roll_joint,0,0.0
+47_01,Basic IK,left_wrist_pitch_joint,0,0.0
+47_01,Basic IK,left_wrist_yaw_joint,0,0.0
+47_01,Basic IK,right_shoulder_pitch_joint,0,0.0
+47_01,Basic IK,right_shoulder_roll_joint,0,0.0
+47_01,Basic IK,right_shoulder_yaw_joint,0,0.0
+47_01,Basic IK,right_elbow_joint,0,0.0
+47_01,Basic IK,right_wrist_roll_joint,0,0.0
+47_01,Basic IK,right_wrist_pitch_joint,0,0.0
+47_01,Basic IK,right_wrist_yaw_joint,0,0.0
+76_10,Basic IK,left_hip_pitch_joint,235,12.977190273942831
+76_10,Basic IK,left_hip_roll_joint,38,7.033307356513049
+76_10,Basic IK,left_hip_yaw_joint,0,0.0
+76_10,Basic IK,left_knee_joint,0,0.0
+76_10,Basic IK,left_ankle_pitch_joint,0,0.0
+76_10,Basic IK,left_ankle_roll_joint,342,437.8338085592396
+76_10,Basic IK,right_hip_pitch_joint,182,10.502880397168747
+76_10,Basic IK,right_hip_roll_joint,0,0.0
+76_10,Basic IK,right_hip_yaw_joint,0,0.0
+76_10,Basic IK,right_knee_joint,0,0.0
+76_10,Basic IK,right_ankle_pitch_joint,0,0.0
+76_10,Basic IK,right_ankle_roll_joint,336,132.3082328466648
+76_10,Basic IK,waist_yaw_joint,0,0.0
+76_10,Basic IK,waist_roll_joint,0,0.0
+76_10,Basic IK,waist_pitch_joint,342,83.981826505344
+76_10,Basic IK,left_shoulder_pitch_joint,0,0.0
+76_10,Basic IK,left_shoulder_roll_joint,0,0.0
+76_10,Basic IK,left_shoulder_yaw_joint,0,0.0
+76_10,Basic IK,left_elbow_joint,0,0.0
+76_10,Basic IK,left_wrist_roll_joint,0,0.0
+76_10,Basic IK,left_wrist_pitch_joint,57,10.04075256559395
+76_10,Basic IK,left_wrist_yaw_joint,0,0.0
+76_10,Basic IK,right_shoulder_pitch_joint,0,0.0
+76_10,Basic IK,right_shoulder_roll_joint,0,0.0
+76_10,Basic IK,right_shoulder_yaw_joint,0,0.0
+76_10,Basic IK,right_elbow_joint,0,0.0
+76_10,Basic IK,right_wrist_roll_joint,0,0.0
+76_10,Basic IK,right_wrist_pitch_joint,0,0.0
+76_10,Basic IK,right_wrist_yaw_joint,0,0.0
+05_04,GMR,left_hip_pitch_joint,0,0.0
+05_04,GMR,left_hip_roll_joint,0,0.0
+05_04,GMR,left_hip_yaw_joint,0,0.0
+05_04,GMR,left_knee_joint,0,0.0
+05_04,GMR,left_ankle_pitch_joint,0,0.0
+05_04,GMR,left_ankle_roll_joint,0,3.1805546814635168e-15
+05_04,GMR,right_hip_pitch_joint,0,0.0
+05_04,GMR,right_hip_roll_joint,0,0.0
+05_04,GMR,right_hip_yaw_joint,0,0.0
+05_04,GMR,right_knee_joint,0,0.0
+05_04,GMR,right_ankle_pitch_joint,0,6.3611093629270335e-15
+05_04,GMR,right_ankle_roll_joint,0,3.1805546814635168e-15
+05_04,GMR,waist_yaw_joint,0,0.0
+05_04,GMR,waist_roll_joint,0,0.0
+05_04,GMR,waist_pitch_joint,0,0.0
+05_04,GMR,left_shoulder_pitch_joint,0,0.0
+05_04,GMR,left_shoulder_roll_joint,0,0.0
+05_04,GMR,left_shoulder_yaw_joint,0,0.0
+05_04,GMR,left_elbow_joint,0,0.0
+05_04,GMR,left_wrist_roll_joint,0,0.0
+05_04,GMR,left_wrist_pitch_joint,0,0.0
+05_04,GMR,left_wrist_yaw_joint,0,0.0
+05_04,GMR,right_shoulder_pitch_joint,0,0.0
+05_04,GMR,right_shoulder_roll_joint,0,0.0
+05_04,GMR,right_shoulder_yaw_joint,0,0.0
+05_04,GMR,right_elbow_joint,0,0.0
+05_04,GMR,right_wrist_roll_joint,0,0.0
+05_04,GMR,right_wrist_pitch_joint,0,0.0
+05_04,GMR,right_wrist_yaw_joint,0,0.0
+111_23,GMR,left_hip_pitch_joint,0,0.0
+111_23,GMR,left_hip_roll_joint,0,0.0
+111_23,GMR,left_hip_yaw_joint,0,0.0
+111_23,GMR,left_knee_joint,0,0.0
+111_23,GMR,left_ankle_pitch_joint,0,0.0
+111_23,GMR,left_ankle_roll_joint,0,0.0
+111_23,GMR,right_hip_pitch_joint,0,0.0
+111_23,GMR,right_hip_roll_joint,0,0.0
+111_23,GMR,right_hip_yaw_joint,0,0.0
+111_23,GMR,right_knee_joint,0,0.0
+111_23,GMR,right_ankle_pitch_joint,0,0.0
+111_23,GMR,right_ankle_roll_joint,0,0.0
+111_23,GMR,waist_yaw_joint,0,0.0
+111_23,GMR,waist_roll_joint,0,0.0
+111_23,GMR,waist_pitch_joint,0,0.0
+111_23,GMR,left_shoulder_pitch_joint,0,0.0
+111_23,GMR,left_shoulder_roll_joint,0,0.0
+111_23,GMR,left_shoulder_yaw_joint,0,0.0
+111_23,GMR,left_elbow_joint,0,0.0
+111_23,GMR,left_wrist_roll_joint,0,0.0
+111_23,GMR,left_wrist_pitch_joint,0,0.0
+111_23,GMR,left_wrist_yaw_joint,0,0.0
+111_23,GMR,right_shoulder_pitch_joint,0,0.0
+111_23,GMR,right_shoulder_roll_joint,0,0.0
+111_23,GMR,right_shoulder_yaw_joint,0,0.0
+111_23,GMR,right_elbow_joint,0,0.0
+111_23,GMR,right_wrist_roll_joint,0,0.0
+111_23,GMR,right_wrist_pitch_joint,0,0.0
+111_23,GMR,right_wrist_yaw_joint,0,0.0
+113_20,GMR,left_hip_pitch_joint,0,0.0
+113_20,GMR,left_hip_roll_joint,0,0.0
+113_20,GMR,left_hip_yaw_joint,0,0.0
+113_20,GMR,left_knee_joint,0,0.0
+113_20,GMR,left_ankle_pitch_joint,0,0.0
+113_20,GMR,left_ankle_roll_joint,0,3.1805546814635168e-15
+113_20,GMR,right_hip_pitch_joint,0,0.0
+113_20,GMR,right_hip_roll_joint,0,0.0
+113_20,GMR,right_hip_yaw_joint,0,0.0
+113_20,GMR,right_knee_joint,0,0.0
+113_20,GMR,right_ankle_pitch_joint,0,0.0
+113_20,GMR,right_ankle_roll_joint,0,3.1805546814635168e-15
+113_20,GMR,waist_yaw_joint,0,0.0
+113_20,GMR,waist_roll_joint,0,0.0
+113_20,GMR,waist_pitch_joint,0,0.0
+113_20,GMR,left_shoulder_pitch_joint,0,0.0
+113_20,GMR,left_shoulder_roll_joint,0,0.0
+113_20,GMR,left_shoulder_yaw_joint,0,0.0
+113_20,GMR,left_elbow_joint,0,0.0
+113_20,GMR,left_wrist_roll_joint,0,0.0
+113_20,GMR,left_wrist_pitch_joint,0,0.0
+113_20,GMR,left_wrist_yaw_joint,0,0.0
+113_20,GMR,right_shoulder_pitch_joint,0,0.0
+113_20,GMR,right_shoulder_roll_joint,0,0.0
+113_20,GMR,right_shoulder_yaw_joint,0,0.0
+113_20,GMR,right_elbow_joint,0,0.0
+113_20,GMR,right_wrist_roll_joint,0,0.0
+113_20,GMR,right_wrist_pitch_joint,0,0.0
+113_20,GMR,right_wrist_yaw_joint,0,0.0
+113_21,GMR,left_hip_pitch_joint,0,0.0
+113_21,GMR,left_hip_roll_joint,0,0.0
+113_21,GMR,left_hip_yaw_joint,0,0.0
+113_21,GMR,left_knee_joint,0,0.0
+113_21,GMR,left_ankle_pitch_joint,0,0.0
+113_21,GMR,left_ankle_roll_joint,0,0.0
+113_21,GMR,right_hip_pitch_joint,0,0.0
+113_21,GMR,right_hip_roll_joint,0,0.0
+113_21,GMR,right_hip_yaw_joint,0,0.0
+113_21,GMR,right_knee_joint,0,0.0
+113_21,GMR,right_ankle_pitch_joint,0,0.0
+113_21,GMR,right_ankle_roll_joint,0,0.0
+113_21,GMR,waist_yaw_joint,0,0.0
+113_21,GMR,waist_roll_joint,0,0.0
+113_21,GMR,waist_pitch_joint,0,0.0
+113_21,GMR,left_shoulder_pitch_joint,0,0.0
+113_21,GMR,left_shoulder_roll_joint,0,0.0
+113_21,GMR,left_shoulder_yaw_joint,0,0.0
+113_21,GMR,left_elbow_joint,0,0.0
+113_21,GMR,left_wrist_roll_joint,0,0.0
+113_21,GMR,left_wrist_pitch_joint,0,0.0
+113_21,GMR,left_wrist_yaw_joint,0,0.0
+113_21,GMR,right_shoulder_pitch_joint,0,0.0
+113_21,GMR,right_shoulder_roll_joint,0,0.0
+113_21,GMR,right_shoulder_yaw_joint,0,0.0
+113_21,GMR,right_elbow_joint,0,0.0
+113_21,GMR,right_wrist_roll_joint,0,0.0
+113_21,GMR,right_wrist_pitch_joint,0,0.0
+113_21,GMR,right_wrist_yaw_joint,0,0.0
+114_15,GMR,left_hip_pitch_joint,0,0.0
+114_15,GMR,left_hip_roll_joint,0,0.0
+114_15,GMR,left_hip_yaw_joint,0,0.0
+114_15,GMR,left_knee_joint,0,0.0
+114_15,GMR,left_ankle_pitch_joint,0,0.0
+114_15,GMR,left_ankle_roll_joint,0,0.0
+114_15,GMR,right_hip_pitch_joint,0,0.0
+114_15,GMR,right_hip_roll_joint,0,0.0
+114_15,GMR,right_hip_yaw_joint,0,0.0
+114_15,GMR,right_knee_joint,0,0.0
+114_15,GMR,right_ankle_pitch_joint,0,0.0
+114_15,GMR,right_ankle_roll_joint,0,0.0
+114_15,GMR,waist_yaw_joint,0,0.0
+114_15,GMR,waist_roll_joint,0,0.0
+114_15,GMR,waist_pitch_joint,0,0.0
+114_15,GMR,left_shoulder_pitch_joint,0,0.0
+114_15,GMR,left_shoulder_roll_joint,0,0.0
+114_15,GMR,left_shoulder_yaw_joint,0,0.0
+114_15,GMR,left_elbow_joint,0,0.0
+114_15,GMR,left_wrist_roll_joint,0,0.0
+114_15,GMR,left_wrist_pitch_joint,0,0.0
+114_15,GMR,left_wrist_yaw_joint,0,0.0
+114_15,GMR,right_shoulder_pitch_joint,0,0.0
+114_15,GMR,right_shoulder_roll_joint,0,0.0
+114_15,GMR,right_shoulder_yaw_joint,0,0.0
+114_15,GMR,right_elbow_joint,0,0.0
+114_15,GMR,right_wrist_roll_joint,0,0.0
+114_15,GMR,right_wrist_pitch_joint,0,0.0
+114_15,GMR,right_wrist_yaw_joint,0,0.0
+124_11,GMR,left_hip_pitch_joint,0,0.0
+124_11,GMR,left_hip_roll_joint,0,0.0
+124_11,GMR,left_hip_yaw_joint,0,0.0
+124_11,GMR,left_knee_joint,0,0.0
+124_11,GMR,left_ankle_pitch_joint,0,0.0
+124_11,GMR,left_ankle_roll_joint,0,0.0
+124_11,GMR,right_hip_pitch_joint,0,0.0
+124_11,GMR,right_hip_roll_joint,0,0.0
+124_11,GMR,right_hip_yaw_joint,0,0.0
+124_11,GMR,right_knee_joint,0,0.0
+124_11,GMR,right_ankle_pitch_joint,0,0.0
+124_11,GMR,right_ankle_roll_joint,0,0.0
+124_11,GMR,waist_yaw_joint,0,0.0
+124_11,GMR,waist_roll_joint,0,0.0
+124_11,GMR,waist_pitch_joint,0,0.0
+124_11,GMR,left_shoulder_pitch_joint,0,0.0
+124_11,GMR,left_shoulder_roll_joint,0,0.0
+124_11,GMR,left_shoulder_yaw_joint,0,0.0
+124_11,GMR,left_elbow_joint,0,0.0
+124_11,GMR,left_wrist_roll_joint,0,0.0
+124_11,GMR,left_wrist_pitch_joint,0,0.0
+124_11,GMR,left_wrist_yaw_joint,0,0.0
+124_11,GMR,right_shoulder_pitch_joint,0,0.0
+124_11,GMR,right_shoulder_roll_joint,0,0.0
+124_11,GMR,right_shoulder_yaw_joint,0,0.0
+124_11,GMR,right_elbow_joint,0,0.0
+124_11,GMR,right_wrist_roll_joint,0,0.0
+124_11,GMR,right_wrist_pitch_joint,0,0.0
+124_11,GMR,right_wrist_yaw_joint,0,0.0
+135_04,GMR,left_hip_pitch_joint,0,0.0
+135_04,GMR,left_hip_roll_joint,0,0.0
+135_04,GMR,left_hip_yaw_joint,0,0.0
+135_04,GMR,left_knee_joint,0,0.0
+135_04,GMR,left_ankle_pitch_joint,0,6.3611093629270335e-15
+135_04,GMR,left_ankle_roll_joint,0,0.0
+135_04,GMR,right_hip_pitch_joint,0,0.0
+135_04,GMR,right_hip_roll_joint,0,0.0
+135_04,GMR,right_hip_yaw_joint,0,0.0
+135_04,GMR,right_knee_joint,0,0.0
+135_04,GMR,right_ankle_pitch_joint,0,0.0
+135_04,GMR,right_ankle_roll_joint,0,0.0
+135_04,GMR,waist_yaw_joint,0,0.0
+135_04,GMR,waist_roll_joint,0,0.0
+135_04,GMR,waist_pitch_joint,0,0.0
+135_04,GMR,left_shoulder_pitch_joint,0,0.0
+135_04,GMR,left_shoulder_roll_joint,0,0.0
+135_04,GMR,left_shoulder_yaw_joint,0,0.0
+135_04,GMR,left_elbow_joint,0,0.0
+135_04,GMR,left_wrist_roll_joint,0,0.0
+135_04,GMR,left_wrist_pitch_joint,0,0.0
+135_04,GMR,left_wrist_yaw_joint,0,0.0
+135_04,GMR,right_shoulder_pitch_joint,0,0.0
+135_04,GMR,right_shoulder_roll_joint,0,0.0
+135_04,GMR,right_shoulder_yaw_joint,0,0.0
+135_04,GMR,right_elbow_joint,0,0.0
+135_04,GMR,right_wrist_roll_joint,0,0.0
+135_04,GMR,right_wrist_pitch_joint,0,0.0
+135_04,GMR,right_wrist_yaw_joint,0,0.0
+47_01,GMR,left_hip_pitch_joint,0,0.0
+47_01,GMR,left_hip_roll_joint,0,0.0
+47_01,GMR,left_hip_yaw_joint,0,0.0
+47_01,GMR,left_knee_joint,0,0.0
+47_01,GMR,left_ankle_pitch_joint,0,0.0
+47_01,GMR,left_ankle_roll_joint,0,0.0
+47_01,GMR,right_hip_pitch_joint,0,0.0
+47_01,GMR,right_hip_roll_joint,0,0.0
+47_01,GMR,right_hip_yaw_joint,0,0.0
+47_01,GMR,right_knee_joint,0,0.0
+47_01,GMR,right_ankle_pitch_joint,0,0.0
+47_01,GMR,right_ankle_roll_joint,0,0.0
+47_01,GMR,waist_yaw_joint,0,0.0
+47_01,GMR,waist_roll_joint,0,0.0
+47_01,GMR,waist_pitch_joint,0,0.0
+47_01,GMR,left_shoulder_pitch_joint,0,0.0
+47_01,GMR,left_shoulder_roll_joint,0,0.0
+47_01,GMR,left_shoulder_yaw_joint,0,0.0
+47_01,GMR,left_elbow_joint,0,0.0
+47_01,GMR,left_wrist_roll_joint,0,0.0
+47_01,GMR,left_wrist_pitch_joint,0,0.0
+47_01,GMR,left_wrist_yaw_joint,0,0.0
+47_01,GMR,right_shoulder_pitch_joint,0,0.0
+47_01,GMR,right_shoulder_roll_joint,0,0.0
+47_01,GMR,right_shoulder_yaw_joint,0,0.0
+47_01,GMR,right_elbow_joint,0,0.0
+47_01,GMR,right_wrist_roll_joint,0,0.0
+47_01,GMR,right_wrist_pitch_joint,0,0.0
+47_01,GMR,right_wrist_yaw_joint,0,0.0
+76_10,GMR,left_hip_pitch_joint,0,0.0
+76_10,GMR,left_hip_roll_joint,0,0.0
+76_10,GMR,left_hip_yaw_joint,0,0.0
+76_10,GMR,left_knee_joint,0,0.0
+76_10,GMR,left_ankle_pitch_joint,0,0.0
+76_10,GMR,left_ankle_roll_joint,0,0.0
+76_10,GMR,right_hip_pitch_joint,0,0.0
+76_10,GMR,right_hip_roll_joint,0,0.0
+76_10,GMR,right_hip_yaw_joint,0,0.0
+76_10,GMR,right_knee_joint,0,0.0
+76_10,GMR,right_ankle_pitch_joint,0,0.0
+76_10,GMR,right_ankle_roll_joint,0,0.0
+76_10,GMR,waist_yaw_joint,0,0.0
+76_10,GMR,waist_roll_joint,0,0.0
+76_10,GMR,waist_pitch_joint,0,0.0
+76_10,GMR,left_shoulder_pitch_joint,0,0.0
+76_10,GMR,left_shoulder_roll_joint,0,0.0
+76_10,GMR,left_shoulder_yaw_joint,0,0.0
+76_10,GMR,left_elbow_joint,0,0.0
+76_10,GMR,left_wrist_roll_joint,0,0.0
+76_10,GMR,left_wrist_pitch_joint,0,0.0
+76_10,GMR,left_wrist_yaw_joint,0,0.0
+76_10,GMR,right_shoulder_pitch_joint,0,0.0
+76_10,GMR,right_shoulder_roll_joint,0,0.0
+76_10,GMR,right_shoulder_yaw_joint,0,0.0
+76_10,GMR,right_elbow_joint,0,0.0
+76_10,GMR,right_wrist_roll_joint,0,0.0
+76_10,GMR,right_wrist_pitch_joint,0,0.0
+76_10,GMR,right_wrist_yaw_joint,0,0.0

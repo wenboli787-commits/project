@@ -1,0 +1,170 @@
+Method: direct_mapping
+File: /mnt/d/GMR_WORK/GMR/outputs/final results/pkl direct/05_04_poses_unitree_g1_direct_mapping_gmr_motion_processing.pkl
+Top-level type: dict
+Frames: 300
+FPS: 30.0
+Duration: 10.0
+Quaternion convention: wxyz for qpos[3:7] and root_quat (MuJoCo contract)
+NaN present: False
+Inf present: False
+Fields:
+  - pkl_schema_version: str('retarget_eval_v1')
+  - motion_name: str('05_04_poses')
+  - method: str('direct_mapping_with_gmr_motion_processing')
+  - motion_processing: str('same_as_gmr')
+  - robot: str('unitree_g1')
+  - source_motion_file: str('D:\\GMR_WORK\\use mode\\05_04_poses.npz')
+  - robot_xml: str('D:\\GMR_WORK\\GMR\\assets\\unitree_g1\\g1_mocap_29dof.xml')
+  - fps: float(30.0)
+  - dt: float(0.03333333333333333)
+  - num_frames: int(300)
+  - duration: float(10.0)
+  - qpos: numpy.ndarray(shape=(300, 36), dtype=float64, nan=False, inf=False)
+  - qvel: numpy.ndarray(shape=(300, 35), dtype=float64, nan=False, inf=False)
+  - qpos_dim: int(36)
+  - nq: int(36)
+  - nv: int(35)
+  - root_pos: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - root_quat: numpy.ndarray(shape=(300, 4), dtype=float64, nan=False, inf=False)
+  - joint_names: list(len=30, sample=['pelvis', 'left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint'])
+  - body_names: list(len=39, sample=['world', 'pelvis', 'left_hip_pitch_link', 'left_hip_roll_link', 'left_hip_yaw_link'])
+  - site_names: list(len=2, sample=['imu_in_pelvis', 'imu_in_torso'])
+  - actuator_names: list(len=29, sample=['left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint'])
+  - joint_range: dict(keys=['pelvis', 'left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint', 'left_ankle_roll_joint', 'right_hip_pitch_joint', 'right_hip_roll_joint', 'right_hip_yaw_joint', 'right_knee_joint', 'right_ankle_pitch_joint', 'right_ankle_roll_joint', 'waist_yaw_joint', 'waist_roll_joint', 'waist_pitch_joint', 'left_shoulder_pitch_joint', 'left_shoulder_roll_joint', 'left_shoulder_yaw_joint', 'left_elbow_joint', 'left_wrist_roll_joint', 'left_wrist_pitch_joint', 'left_wrist_yaw_joint', 'right_shoulder_pitch_joint', 'right_shoulder_roll_joint', 'right_shoulder_yaw_joint', 'right_elbow_joint', 'right_wrist_roll_joint', 'right_wrist_pitch_joint', 'right_wrist_yaw_joint'])
+  - success: bool(True)
+  - error_message: str('')
+  - warnings: list(len=0, sample=[])
+  - qpos_names: list(len=36, sample=['pelvis_x', 'pelvis_y', 'pelvis_z', 'pelvis_qw', 'pelvis_qx'])
+  - dof_joint_names: list(len=29, sample=['left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint'])
+  - joint_info: dict(keys=['pelvis', 'left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint', 'left_ankle_roll_joint', 'right_hip_pitch_joint', 'right_hip_roll_joint', 'right_hip_yaw_joint', 'right_knee_joint', 'right_ankle_pitch_joint', 'right_ankle_roll_joint', 'waist_yaw_joint', 'waist_roll_joint', 'waist_pitch_joint', 'left_shoulder_pitch_joint', 'left_shoulder_roll_joint', 'left_shoulder_yaw_joint', 'left_elbow_joint', 'left_wrist_roll_joint', 'left_wrist_pitch_joint', 'left_wrist_yaw_joint', 'right_shoulder_pitch_joint', 'right_shoulder_roll_joint', 'right_shoulder_yaw_joint', 'right_elbow_joint', 'right_wrist_roll_joint', 'right_wrist_pitch_joint', 'right_wrist_yaw_joint'])
+  - root_rot: numpy.ndarray(shape=(300, 4), dtype=float64, nan=False, inf=False)
+  - dof_pos: numpy.ndarray(shape=(300, 29), dtype=float64, nan=False, inf=False)
+  - body_pos: numpy.ndarray(shape=(300, 39, 3), dtype=float64, nan=False, inf=False)
+  - body_quat: numpy.ndarray(shape=(300, 39, 4), dtype=float64, nan=False, inf=False)
+  - site_pos: numpy.ndarray(shape=(300, 2, 3), dtype=float64, nan=False, inf=False)
+  - local_body_pos: numpy.ndarray(shape=(300, 39, 3), dtype=float64, nan=False, inf=False)
+  - link_body_list: list(len=39, sample=['world', 'pelvis', 'left_hip_pitch_link', 'left_hip_roll_link', 'left_hip_yaw_link'])
+  - foot_pos: numpy.ndarray(shape=(300, 2, 3), dtype=float64, nan=False, inf=False)
+  - foot_names: list(len=2, sample=['left_foot', 'right_foot'])
+  - contacts: numpy.ndarray(shape=(300, 2), dtype=bool)
+  - self_collision: numpy.ndarray(shape=(300,), dtype=bool)
+  - terminated: numpy.ndarray(shape=(300,), dtype=bool)
+  - fall: numpy.ndarray(shape=(300,), dtype=bool)
+  - source_body_names: list(len=14, sample=['pelvis', 'left_hip', 'right_hip', 'left_knee', 'right_knee'])
+  - source_body_pos: numpy.ndarray(shape=(300, 14, 3), dtype=float64, nan=False, inf=False)
+  - source_body_quat: numpy.ndarray(shape=(300, 14, 4), dtype=float64, nan=False, inf=False)
+  - source_key_body_pos: dict(keys=['left_foot', 'right_foot', 'left_hand', 'right_hand', 'left_knee', 'right_knee'])
+  - processed_motion_fps: float(30.0)
+  - processed_motion_num_frames: int(300)
+  - timestamps: numpy.ndarray(shape=(300,), dtype=float64, nan=False, inf=False)
+  - joint_mapping_table: list(len=29, sample=[{'robot_joint': 'left_hip_pitch_joint', 'qpos_addr': 7, 'human_body': 'left_hip', 'robot_body': 'left_hip_roll_link', 'axis': [0.0, 1.0, 0.0]}, {'robot_joint': 'left_hip_roll_joint', 'qpos_addr': 8, 'human_body': 'left_hip', 'robot_body': 'left_hip_roll_link', 'axis': [1.0, 0.0, 0.0]}, {'robot_joint': 'left_hip_yaw_joint', 'qpos_addr': 9, 'human_body': 'left_knee', 'robot_body': 'left_knee_link', 'axis': [0.0, 0.0, 1.0]}, {'robot_joint': 'left_knee_joint', 'qpos_addr': 10, 'human_body': 'left_knee', 'robot_body': 'left_knee_link', 'axis': [0.0, 1.0, 0.0]}, {'robot_joint': 'left_ankle_pitch_joint', 'qpos_addr': 11, 'human_body': 'left_foot', 'robot_body': 'left_toe_link', 'axis': [0.0, 1.0, 0.0]}])
+  - metadata: dict(keys=['method', 'motion_processing', 'robot', 'source_motion', 'source_format', 'src_human', 'source_metadata', 'raw_motion_fps', 'raw_motion_num_frames', 'processed_motion_fps', 'processed_motion_num_frames', 'processed_motion_checksum', 'processed_root_initial_pos', 'processed_root_initial_quat', 'motion_fps', 'initial_qpos_source', 'retargeting_dependency', 'frame_source', 'uses_gmr_retargeting', 'uses_retargeting_result', 'uses_gmr_frame', 'uses_basic_ik_frame', 'uses_gmr_retargeter', 'uses_basic_ik_retargeter', 'mapping_note', 'direct_gain', 'root_translation_gain', 'clip_joint_limits', 'mapped_joint_count', 'joint_mapping_table', 'pkl_schema_version', 'pkl_schema'])
+  - left_foot: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - right_foot: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - left_hand: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - right_hand: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - head: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - left_knee: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - right_knee: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - knee: dict(keys=['left', 'right'])
+
+========================================================================================
+
+Method: basic_ik
+File: /mnt/d/GMR_WORK/GMR/outputs/final results/pkl Basic IK/05_04_poses_unitree_g1_basic_ik_pure_unconstrained.pkl
+Top-level type: dict
+Frames: 300
+FPS: 30.0
+Duration: 10.0
+Quaternion convention: wxyz for qpos[3:7] and root_quat (MuJoCo contract)
+NaN present: False
+Inf present: False
+Fields:
+  - pkl_schema_version: str('retarget_eval_v1')
+  - motion_name: str('05_04_poses')
+  - method: str('basic_ik_pure_unconstrained')
+  - motion_processing: str('standalone_basic_loader_not_gmr')
+  - robot: str('unitree_g1')
+  - source_motion_file: str('/mnt/d/GMR_WORK/use mode/05_04_poses.npz')
+  - source_motion: str('/mnt/d/GMR_WORK/use mode/05_04_poses.npz')
+  - robot_xml: str('/mnt/d/GMR_WORK/GMR/assets/unitree_g1/g1_mocap_29dof.xml')
+  - fps: float(30.0)
+  - dt: float(0.03333333333333333)
+  - num_frames: int(300)
+  - duration: float(10.0)
+  - timestamps: numpy.ndarray(shape=(300,), dtype=float64, nan=False, inf=False)
+  - qpos: numpy.ndarray(shape=(300, 36), dtype=float64, nan=False, inf=False)
+  - qvel: numpy.ndarray(shape=(300, 35), dtype=float64, nan=False, inf=False)
+  - qpos_dim: int(36)
+  - nq: int(36)
+  - nv: int(35)
+  - root_pos: numpy.ndarray(shape=(300, 3), dtype=float64, nan=False, inf=False)
+  - root_rot: numpy.ndarray(shape=(300, 4), dtype=float64, nan=False, inf=False)
+  - root_quat: numpy.ndarray(shape=(300, 4), dtype=float64, nan=False, inf=False)
+  - joint_pos: numpy.ndarray(shape=(300, 15, 3), dtype=float64, nan=False, inf=False)
+  - target_joint_pos: numpy.ndarray(shape=(300, 15, 3), dtype=float64, nan=False, inf=False)
+  - keypoint_names: list(len=15, sample=['pelvis', 'left_hip', 'right_hip', 'left_knee', 'right_knee'])
+  - joint_names: list(len=36, sample=['pelvis_x', 'pelvis_y', 'pelvis_z', 'pelvis_qw', 'pelvis_qx'])
+  - body_names: list(len=39, sample=['world', 'pelvis', 'left_hip_pitch_link', 'left_hip_roll_link', 'left_hip_yaw_link'])
+  - site_names: list(len=2, sample=['imu_in_pelvis', 'imu_in_torso'])
+  - actuator_names: list(len=29, sample=['left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint'])
+  - joint_range: dict(keys=['pelvis', 'left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint', 'left_ankle_roll_joint', 'right_hip_pitch_joint', 'right_hip_roll_joint', 'right_hip_yaw_joint', 'right_knee_joint', 'right_ankle_pitch_joint', 'right_ankle_roll_joint', 'waist_yaw_joint', 'waist_roll_joint', 'waist_pitch_joint', 'left_shoulder_pitch_joint', 'left_shoulder_roll_joint', 'left_shoulder_yaw_joint', 'left_elbow_joint', 'left_wrist_roll_joint', 'left_wrist_pitch_joint', 'left_wrist_yaw_joint', 'right_shoulder_pitch_joint', 'right_shoulder_roll_joint', 'right_shoulder_yaw_joint', 'right_elbow_joint', 'right_wrist_roll_joint', 'right_wrist_pitch_joint', 'right_wrist_yaw_joint'])
+  - body_pos: numpy.ndarray(shape=(300, 39, 3), dtype=float64, nan=False, inf=False)
+  - body_quat: numpy.ndarray(shape=(300, 39, 4), dtype=float64, nan=False, inf=False)
+  - contacts: numpy.ndarray(shape=(300,), dtype=int64, nan=False, inf=False)
+  - self_collision: numpy.ndarray(shape=(300,), dtype=bool)
+  - success: bool(True)
+  - error_message: str('')
+  - metadata: dict(keys=['source', 'ik', 'uses_gmr', 'uses_gmr_motion_processing', 'uses_gmr_retargeting', 'uses_gmr_first_frame_seed', 'uses_other_retargeting_result'])
+
+========================================================================================
+
+Method: gmr
+File: /mnt/d/GMR_WORK/GMR/outputs/final results/pkl gmr/05_04_poses_unitree_g1_gmr.pkl
+Top-level type: dict
+Frames: 298
+FPS: 29.924937447873226
+Duration: 9.9582497212932
+Quaternion convention: wxyz for qpos[3:7] and root_quat (MuJoCo contract)
+NaN present: False
+Inf present: False
+Fields:
+  - pkl_schema_version: str('retarget_eval_v1')
+  - motion_name: str('05_04_poses')
+  - method: str('gmr')
+  - robot: str('unitree_g1')
+  - source_motion_file: str('/mnt/d/GMR_WORK/use mode/05_04_poses.npz')
+  - robot_xml: str('/mnt/d/GMR_WORK/GMR/general_motion_retargeting/../assets/unitree_g1/g1_mocap_29dof.xml')
+  - fps: float(29.924937447873226)
+  - dt: float(0.033416945373467115)
+  - num_frames: int(298)
+  - duration: float(9.9582497212932)
+  - qpos: numpy.ndarray(shape=(298, 36), dtype=float64, nan=False, inf=False)
+  - qvel: numpy.ndarray(shape=(298, 35), dtype=float64, nan=False, inf=False)
+  - qpos_dim: int(36)
+  - nq: int(36)
+  - nv: int(35)
+  - root_pos: numpy.ndarray(shape=(298, 3), dtype=float64, nan=False, inf=False)
+  - root_quat: numpy.ndarray(shape=(298, 4), dtype=float64, nan=False, inf=False)
+  - root_rot: numpy.ndarray(shape=(298, 4), dtype=float64, nan=False, inf=False)
+  - dof_pos: numpy.ndarray(shape=(298, 29), dtype=float64, nan=False, inf=False)
+  - joint_names: list(len=36, sample=['pelvis_x', 'pelvis_y', 'pelvis_z', 'pelvis_qw', 'pelvis_qx'])
+  - robot_joint_names: list(len=30, sample=['pelvis', 'left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint'])
+  - dof_joint_names: list(len=29, sample=['left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint'])
+  - body_names: list(len=39, sample=['world', 'pelvis', 'left_hip_pitch_link', 'left_hip_roll_link', 'left_hip_yaw_link'])
+  - body_pos: numpy.ndarray(shape=(298, 39, 3), dtype=float64, nan=False, inf=False)
+  - body_quat: numpy.ndarray(shape=(298, 39, 4), dtype=float64, nan=False, inf=False)
+  - local_body_pos: numpy.ndarray(shape=(298, 39, 3), dtype=float64, nan=False, inf=False)
+  - link_body_list: list(len=39, sample=['world', 'pelvis', 'left_hip_pitch_link', 'left_hip_roll_link', 'left_hip_yaw_link'])
+  - site_names: list(len=2, sample=['imu_in_pelvis', 'imu_in_torso'])
+  - actuator_names: list(len=29, sample=['left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint'])
+  - joint_range: dict(keys=['pelvis', 'left_hip_pitch_joint', 'left_hip_roll_joint', 'left_hip_yaw_joint', 'left_knee_joint', 'left_ankle_pitch_joint', 'left_ankle_roll_joint', 'right_hip_pitch_joint', 'right_hip_roll_joint', 'right_hip_yaw_joint', 'right_knee_joint', 'right_ankle_pitch_joint', 'right_ankle_roll_joint', 'waist_yaw_joint', 'waist_roll_joint', 'waist_pitch_joint', 'left_shoulder_pitch_joint', 'left_shoulder_roll_joint', 'left_shoulder_yaw_joint', 'left_elbow_joint', 'left_wrist_roll_joint', 'left_wrist_pitch_joint', 'left_wrist_yaw_joint', 'right_shoulder_pitch_joint', 'right_shoulder_roll_joint', 'right_shoulder_yaw_joint', 'right_elbow_joint', 'right_wrist_roll_joint', 'right_wrist_pitch_joint', 'right_wrist_yaw_joint'])
+  - foot_pos: numpy.ndarray(shape=(298, 2, 3), dtype=float64, nan=False, inf=False)
+  - foot_names: list(len=2, sample=['left_toe_link', 'right_toe_link'])
+  - contacts: numpy.ndarray(shape=(298, 2), dtype=bool)
+  - self_collision: numpy.ndarray(shape=(298,), dtype=bool)
+  - terminated: numpy.ndarray(shape=(298,), dtype=bool)
+  - fall: numpy.ndarray(shape=(298,), dtype=bool)
+  - success: bool(True)
+  - error_message: str('')
+  - warnings: list(len=1, sample=['video_path: /mnt/d/GMR_WORK/GMR/outputs/final results/video gmr/05_04_poses_unitree_g1_gmr.mp4'])
